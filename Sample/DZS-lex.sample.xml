@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="TEILex0.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="dzs"
-     xml:lang="sl"
-     type="lex-0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dzs" xml:lang="sl">
    <teiHeader xml:lang="sl">
       <fileDesc>
          <titleStmt>

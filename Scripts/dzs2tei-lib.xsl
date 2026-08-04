@@ -5,8 +5,8 @@
 		exclude-result-prefixes="tei"
 		version="2.0">
 
-  <!-- Punctuation that appears at end of element conent and should be moved out of the element -->
-  <xsl:variable name="punct-re">[,:.]</xsl:variable>
+  <!-- Punctuation that appears at end of element content and should be moved out of the element -->
+  <xsl:variable name="punct-re">[,:;.]</xsl:variable>
   
   <xsl:variable name="langs">
     <lang>afrikanško</lang>
