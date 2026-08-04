@@ -21,39 +21,39 @@
          <extent>XXXXX entries</extent>
          <publicationStmt>
             <publisher>CLARIN.SI</publisher>
-            <idno type="PID">http://hdl.handle.net/xxxxx/xxxx</idno>
+            <idno type="PID">http://hdl.handle.net/11356/xxxx</idno>
             <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0
-            International (CC BY 4.0)</licence>
+               <p xml:lang="sl">Avtorske pravice za to izdajo ureja licenca
+          <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+          Priznanje avtorstva-Deljenje pod enakimi pogoji 4.0 mednarodna licenca</ref>.</p>
+               <p xml:lang="en">This work is licenced under the licence
+          <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+          Attribution-ShareAlike 4.0 International</ref>.</p>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <listBibl type="dictionaries">
-               <biblStruct>
-                  <monogr>
-                     <author>Hmeljak, Kristina</author>
-                     <author>Erjavec, Tomaž</author>
-                     <author>Srdanović, Irena</author>
-                     <title>Japanese-Slovene Learner's Dictionary jaSlo</title>
-                     <idno type="PID">http://hdl.handle.net/11356/1050</idno>
-                     <imprint>
-                        <publisher>Faculty of Arts, University of Ljubljana</publisher>
-                        <distributor>CLARIN.SI</distributor>
-                        <date>2016</date>
-                     </imprint>
-                  </monogr>
-               </biblStruct>
-            </listBibl>
+            <biblStruct>
+               <monogr>
+                  <title>VELIKI splošni leksikon [Elektronski vir]</title>
+                  <idno type="ISBN">978-961-6474-90-0</idno>
+                  <idno type="COBISS.SI-ID">259150339</idno>
+                  <imprint>
+                     <publisher>Amebis, d.o.o.</publisher>
+                     <date>2025</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="sl">Slovene</language>
-            <language ident="en">English</language>
+            <language ident="sl">slovenščina</language>
+            <language ident="la">latinščina</language>
+            <language ident="en">angleščina</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc>
-         <change when="2026-08-02">
+      <revisionDesc xml:lang="en">
+         <change when="2026-08-04">
             <name>Tomaž Erjavec</name> First draft.</change>
       </revisionDesc>
    </teiHeader>

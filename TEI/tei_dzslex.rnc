@@ -10,7 +10,7 @@ namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 namespace xsl = "http://www.w3.org/1999/XSL/Transform"
 
-# Schema generated from ODD source 2026-08-02T16:29:20Z. 2026-08-02. 
+# Schema generated from ODD source 2026-08-04T11:19:53Z. 2026-08-02. 
 # TEI Edition: P5 Version 4.12.0a. Last updated on 27th July 2026, revision 497393620 
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/4.12.0a/ 
 #
@@ -1711,7 +1711,6 @@ tei_model.labelLike_sequenceOptionalRepeatable = tei_desc*, tei_label*
 tei_model.labelLike_sequenceRepeatable = tei_desc+, tei_label+
 tei_model.listLike =
   tei_list
-  | tei_table
   | tei_listOrg
   | tei_listEvent
   | tei_listPerson
@@ -1719,9 +1718,9 @@ tei_model.listLike =
   | tei_listRelation
   | tei_listObject
   | tei_listNym
+  | tei_table
 tei_model.listLike_alternation =
   tei_list
-  | tei_table
   | tei_listOrg
   | tei_listEvent
   | tei_listPerson
@@ -1729,46 +1728,47 @@ tei_model.listLike_alternation =
   | tei_listRelation
   | tei_listObject
   | tei_listNym
+  | tei_table
 tei_model.listLike_sequence =
   tei_list,
-  tei_table,
   tei_listOrg,
   tei_listEvent,
   tei_listPerson,
   tei_listPlace,
   tei_listRelation,
   tei_listObject,
-  tei_listNym
+  tei_listNym,
+  tei_table
 tei_model.listLike_sequenceOptional =
   tei_list?,
-  tei_table?,
   tei_listOrg?,
   tei_listEvent?,
   tei_listPerson?,
   tei_listPlace?,
   tei_listRelation?,
   tei_listObject?,
-  tei_listNym?
+  tei_listNym?,
+  tei_table?
 tei_model.listLike_sequenceOptionalRepeatable =
   tei_list*,
-  tei_table*,
   tei_listOrg*,
   tei_listEvent*,
   tei_listPerson*,
   tei_listPlace*,
   tei_listRelation*,
   tei_listObject*,
-  tei_listNym*
+  tei_listNym*,
+  tei_table*
 tei_model.listLike_sequenceRepeatable =
   tei_list+,
-  tei_table+,
   tei_listOrg+,
   tei_listEvent+,
   tei_listPerson+,
   tei_listPlace+,
   tei_listRelation+,
   tei_listObject+,
-  tei_listNym+
+  tei_listNym+,
+  tei_table+
 tei_model.noteLike = tei_note | tei_noteGrp
 tei_model.noteLike_alternation = tei_note | tei_noteGrp
 tei_model.noteLike_sequence = tei_note, tei_noteGrp
@@ -5659,113 +5659,6 @@ tei_back =
     tei_att.declaring.attributes,
     empty
   }
-tei_att.tableDecoration.attributes =
-  tei_att.tableDecoration.attribute.role,
-  tei_att.tableDecoration.attribute.rows,
-  tei_att.tableDecoration.attribute.cols
-tei_att.tableDecoration.attribute.role =
-  
-  ## (role) indicates the kind of information held in this cell or in each cell of this row.
-  ## Suggested values include: 1] label; 2] data
-  [ a:defaultValue = "data" ]
-  attribute role {
-    
-    ## labelling or descriptive information only.
-    "label"
-    | 
-      ## data values.
-      "data"
-    | xsd:token { pattern = "[^\p{C}\p{Z}]+" }
-  }?
-tei_att.tableDecoration.attribute.rows =
-  
-  ## (rows) indicates the number of rows occupied by this cell or row.
-  [ a:defaultValue = "1" ] attribute rows { xsd:nonNegativeInteger }?
-tei_att.tableDecoration.attribute.cols =
-  
-  ## (columns) indicates the number of columns occupied by this cell or row.
-  [ a:defaultValue = "1" ] attribute cols { xsd:nonNegativeInteger }?
-tei_table =
-  
-  ## (table) contains text displayed in tabular form, in rows and columns. [15.1.1. TEI Tables]
-  element table {
-    ((tei_model.headLike | tei_model.global)*,
-     ((tei_row, tei_model.global*)+
-      | (tei_model.graphicLike, tei_model.global*)+),
-     (tei_model.divBottom, tei_model.global*)*),
-    tei_att.global.attributes,
-    tei_att.cmc.attributes,
-    tei_att.typed.attributes,
-    
-    ## (rows) indicates the number of rows in the table.
-    attribute rows { xsd:nonNegativeInteger }?,
-    
-    ## (columns) indicates the number of columns in each row of the table.
-    attribute cols { xsd:nonNegativeInteger }?,
-    empty
-  }
-tei_row =
-  
-  ## (row) contains one row of a table. [15.1.1. TEI Tables]
-  element row {
-    tei_cell+,
-    tei_att.global.attributes,
-    tei_att.tableDecoration.attributes,
-    empty
-  }
-tei_cell =
-  
-  ## (cell) contains one cell of a table. [15.1.1. TEI Tables]
-  element cell {
-    tei_macro.specialPara,
-    tei_att.global.attributes,
-    tei_att.tableDecoration.attributes,
-    empty
-  }
-tei_formula =
-  
-  ## (formula) contains a mathematical or other formula. [15.2. Formulæ and Mathematical Expressions]
-  element formula {
-    (text | tei_model.graphicLike | tei_model.hiLike)*,
-    tei_att.global.attributes,
-    tei_att.cmc.attributes,
-    tei_att.notated.attributes,
-    empty
-  }
-tei_notatedMusic =
-  
-  ## encodes the presence of music notation in a text. [15.3. Notated Music in Written Text]
-  element notatedMusic {
-    (tei_model.labelLike | tei_model.ptrLike | tei_graphic | tei_seg)*,
-    tei_att.global.attributes,
-    tei_att.cmc.attributes,
-    tei_att.placement.attributes,
-    tei_att.typed.attributes,
-    empty
-  }
-tei_figure =
-  
-  ## (figure) groups elements representing or containing graphic information such as an illustration, formula, or figure. [15.4. Specific Elements for Graphic Images]
-  element figure {
-    (tei_model.headLike
-     | tei_model.common
-     | tei_figDesc
-     | tei_model.graphicLike
-     | tei_model.global
-     | tei_model.divBottom)*,
-    tei_att.global.attributes,
-    tei_att.cmc.attributes,
-    tei_att.placement.attributes,
-    tei_att.typed.attributes,
-    tei_att.written.attributes,
-    empty
-  }
-tei_figDesc =
-  
-  ## (description of figure) contains a brief prose description of the appearance or content of a graphic figure, for use when documenting an image without displaying it. [15.4. Specific Elements for Graphic Images]
-  element figDesc {
-    tei_macro.limitedContent, tei_att.global.attributes, empty
-  }
 tei_model.entryLike = tei_superEntry | tei_entry | tei_entryFree
 tei_att.entryLike.attributes =
   tei_att.entryLike.attribute.type, tei_att.typed.attribute.subtype
@@ -7720,6 +7613,113 @@ tei_listNym =
     tei_att.sortable.attributes,
     tei_att.typed.attributes,
     empty
+  }
+tei_att.tableDecoration.attributes =
+  tei_att.tableDecoration.attribute.role,
+  tei_att.tableDecoration.attribute.rows,
+  tei_att.tableDecoration.attribute.cols
+tei_att.tableDecoration.attribute.role =
+  
+  ## (role) indicates the kind of information held in this cell or in each cell of this row.
+  ## Suggested values include: 1] label; 2] data
+  [ a:defaultValue = "data" ]
+  attribute role {
+    
+    ## labelling or descriptive information only.
+    "label"
+    | 
+      ## data values.
+      "data"
+    | xsd:token { pattern = "[^\p{C}\p{Z}]+" }
+  }?
+tei_att.tableDecoration.attribute.rows =
+  
+  ## (rows) indicates the number of rows occupied by this cell or row.
+  [ a:defaultValue = "1" ] attribute rows { xsd:nonNegativeInteger }?
+tei_att.tableDecoration.attribute.cols =
+  
+  ## (columns) indicates the number of columns occupied by this cell or row.
+  [ a:defaultValue = "1" ] attribute cols { xsd:nonNegativeInteger }?
+tei_table =
+  
+  ## (table) contains text displayed in tabular form, in rows and columns. [15.1.1. TEI Tables]
+  element table {
+    ((tei_model.headLike | tei_model.global)*,
+     ((tei_row, tei_model.global*)+
+      | (tei_model.graphicLike, tei_model.global*)+),
+     (tei_model.divBottom, tei_model.global*)*),
+    tei_att.global.attributes,
+    tei_att.cmc.attributes,
+    tei_att.typed.attributes,
+    
+    ## (rows) indicates the number of rows in the table.
+    attribute rows { xsd:nonNegativeInteger }?,
+    
+    ## (columns) indicates the number of columns in each row of the table.
+    attribute cols { xsd:nonNegativeInteger }?,
+    empty
+  }
+tei_row =
+  
+  ## (row) contains one row of a table. [15.1.1. TEI Tables]
+  element row {
+    tei_cell+,
+    tei_att.global.attributes,
+    tei_att.tableDecoration.attributes,
+    empty
+  }
+tei_cell =
+  
+  ## (cell) contains one cell of a table. [15.1.1. TEI Tables]
+  element cell {
+    tei_macro.specialPara,
+    tei_att.global.attributes,
+    tei_att.tableDecoration.attributes,
+    empty
+  }
+tei_formula =
+  
+  ## (formula) contains a mathematical or other formula. [15.2. Formulæ and Mathematical Expressions]
+  element formula {
+    (text | tei_model.graphicLike | tei_model.hiLike)*,
+    tei_att.global.attributes,
+    tei_att.cmc.attributes,
+    tei_att.notated.attributes,
+    empty
+  }
+tei_notatedMusic =
+  
+  ## encodes the presence of music notation in a text. [15.3. Notated Music in Written Text]
+  element notatedMusic {
+    (tei_model.labelLike | tei_model.ptrLike | tei_graphic | tei_seg)*,
+    tei_att.global.attributes,
+    tei_att.cmc.attributes,
+    tei_att.placement.attributes,
+    tei_att.typed.attributes,
+    empty
+  }
+tei_figure =
+  
+  ## (figure) groups elements representing or containing graphic information such as an illustration, formula, or figure. [15.4. Specific Elements for Graphic Images]
+  element figure {
+    (tei_model.headLike
+     | tei_model.common
+     | tei_figDesc
+     | tei_model.graphicLike
+     | tei_model.global
+     | tei_model.divBottom)*,
+    tei_att.global.attributes,
+    tei_att.cmc.attributes,
+    tei_att.placement.attributes,
+    tei_att.typed.attributes,
+    tei_att.written.attributes,
+    empty
+  }
+tei_figDesc =
+  
+  ## (description of figure) contains a brief prose description of the appearance or content of a graphic figure, for use when documenting an image without displaying it. [15.4. Specific Elements for Graphic Images]
+  element figDesc {
+    tei_macro.limitedContent, tei_att.global.attributes, empty
   }
 tei_att.global.linking.attributes =
   tei_att.global.linking.attribute.corresp,

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:rng="http://relaxng.org/ns/structure/1.0" 
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:sch="http://purl.oclc.org/dsdl/schematron" 
+     xmlns:eg="http://www.tei-c.org/ns/Examples"
+     xmlns:egXML="http://www.tei-c.org/ns/Examples"
+     xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xml:lang="en" n="tei_clarin">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TEI schema for DZS Lexicon</title>
+        <author>Tomaž Erjavec, tomaz.erjavec@ijs.si</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>CLARIN.SI</publisher>
+        <date>2026-08-04</date>
+        <availability status="free">
+          <p>This file is freely available and you are hereby authorised to copy, modify, and redistribute it in any way without further reference or permissions.</p>
+        </availability>
+        <pubPlace>
+          <ref target="https://github.com/clarinsi/DZS-lex">https://github.com/clarinsi/DZS-lex</ref>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Made from scratch.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Slovenian Research Infrastructure for Language Resources and Tools <ref target="http://www-clarin.si/">CLARIN.SI</ref>.</p>
+      </projectDesc>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-08-04">Tomaž Erjavec: first draft.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main"><ref target="https://github.com/clarinsi/DZS-lex">TEI schema for the
+          Large General Lexicon of the DZS publishing house</ref></titlePart>
+        </docTitle>
+        <docDate>2026-08-02</docDate>
+        <docEdition>0.1</docEdition>
+      </titlePage>
+      <p></p>
+      <divGen type="toc"/>
+    </front>
+    
+    <body>
+      <div xml:id="sec-intro">
+        <head>Introduction</head>
+        
+        <p>This document gives the schema for the <ref
+        target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html">TEI</ref>
+        encoding of the digital edition of the
+        <ref target="https://sl.wikipedia.org/wiki/Veliki_splo%C5%A1ni_leksikon">Veliki splošni
+        leksikon DZS</ref> (Large General Lexicon of the DZS publishing house).</p>
+	
+	<p>This TEI customisation uses the dictionary module to model the lexicon.</p>
+
+      </div>
+    </body>
+    
+    <back>
+      <divGen type="subtoc"/>
+      <div xml:id="schema">
+        <head>Formal specification</head>
+	<schemaSpec ident="tei_dzslex" start="TEI" docLang="sl" prefix="tei_" xml:lang="sl">
+          <moduleRef key="core" except="binaryObject gb"/>
+          <moduleRef key="tei" except=""/>
+          <moduleRef key="header" except="handNote typeNote scriptNote"/>
+          <moduleRef key="textstructure"
+		     except="argument div1 div2 div3 div4 div5 div6 div7 epigraph"/>
+          <moduleRef key="dictionaries" except=""/>
+          <moduleRef key="namesdates" except=""/>
+          <moduleRef key="figures" except=""/>
+          <moduleRef key="linking" except=""/>
+          <moduleRef key="analysis" except="interp interpGrp"/>
+          <moduleRef key="gaiji" except=""/>
+	</schemaSpec>
+      </div>
+    </back>
+  </text>
+</TEI>
