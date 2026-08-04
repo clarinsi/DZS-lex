@@ -1,0 +1,4301 @@
+<!-- This sample of the DZS lexicon contain cca 1/1000 of the complete lexicon -->
+<DZS>
+   <XX>
+      <PO>
+         <N>00000100+01</N>
+         <T>P1</T>
+         <G>a, </G>
+         <A>1) </A>
+         <PODR>
+            <I>jezikoslovje:</I>
+         </PODR>
+         <KDE>prva črka slovenske abecede, </KDE>
+         <OPI>ustreza hebrejski alef in grški alfa.</OPI>
+         <GT/>
+         <SK>
+            <DX>00000100+01+01</DX>
+            <TS>GI</TS>
+            <OPS/>
+            <O>preglednica (črka)na str. 17!</O>
+         </SK>
+         <Z>Dušan Kos</Z>
+         <K>129</K>
+         <KR>1.1.3.4/2.1.1.1/1.2.1.3</KR>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>00000100+02</N>
+         <T>E10</T>
+         <G>a, </G>
+         <A>2) </A>
+         <PODR>
+            <I>merilna tehnika:</I>
+         </PODR>
+         <KDE>
+            <A0>1. </A0>oznaka za mersko enoto površine <KP>
+               <KK>00377200+00</KK>ar</KP>
+            <QQ>
+               <GQ>
+                  <T>E10</T>
+                  <G>a, </G>
+                  <PODR>
+                     <I>merilna tehnika:</I>
+                  </PODR>
+                  <K>503m</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>ar, </G>
+               <K>503m</K>
+               <KR/>
+               <KDE>
+                  <KAZ>merska enota</KAZ> za površino; </KDE>[OK]</QQ>; </KDE>
+         <OPI>1 a = 100 m<U>2</U>. </OPI>
+         <KDE>
+            <A0>2. </A0>oznaka za predpono <KP>
+               <KK>00470800+00</KK>ato-</KP>
+            <QQ>
+               <GQ>
+                  <T>E10</T>
+                  <G>a, </G>
+                  <PODR>
+                     <I>merilna tehnika:</I>
+                  </PODR>
+                  <K>503m</K>
+                  <KR/>
+               </GQ>
+               <T>P2</T>
+               <G>ato- </G>
+               <K>503m</K>
+               <KR/>
+               <KDE>predpona pri enotah, </KDE>[OK]</QQ> pri <KP>
+               <KK>04250900+00</KK>merskih enotah</KP>
+            <QQ>
+               <GQ>
+                  <T>E10</T>
+                  <G>a, </G>
+                  <PODR>
+                     <I>merilna tehnika:</I>
+                  </PODR>
+                  <K>503m</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>merske enote, </G>
+               <K>503m</K>
+               <KR/>
+               <KDE>enote za določanje fizikalnih količin, kot sta npr. čas, sila. </KDE>[OK]</QQ>
+         </KDE>
+         <OPI>(= 10<U>–18</U> = 1 trilijoninka).</OPI>
+         <GT/>
+         <Z>Sašo Avsec</Z>
+         <K>503m</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>00000100+03</N>
+         <W/>
+         <T>P</T>
+         <G>a, </G>
+         <A>3) </A>
+         <PODR>
+            <I>glasba:</I>
+         </PODR>
+         <KDE>šesta stopnja diatonične osnovne C-durove lestvice; </KDE>
+         <OPI>oznaka za trizvoke in tonske načine: a za a-mol, A za A-dur; kot uglaševalni ton a<U>1</U> (enočrtni a) od <LX>1939</LX> označevan s 440 Hz.</OPI>
+         <GT>
+            <KP>
+               <KK>01492900+00</KK>diatonika</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>a, </G>
+                  <PODR>
+                     <I>glasba:</I>
+                  </PODR>
+                  <K>141</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>diatonika </G>
+               <K>141</K>
+               <KR/>
+               <KDE>tonski sistem, </KDE>[OK]</QQ>; <KP>
+               <KK>03397300+00</KK>komorni ton</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>a, </G>
+                  <PODR>
+                     <I>glasba:</I>
+                  </PODR>
+                  <K>141</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>komorni ton, </G>
+               <K>141</K>
+               <KR/>
+               <KDE>uglaševalni ton a<U>1</U>, za katerega so <LX>1885</LX> določili 435 nihajev v sekundi, <LX>1939</LX> v Londonu pa 440.</KDE>[OK]</QQ>; <KP>
+               <KK>04755300+00</KK>notna pisava</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>a, </G>
+                  <PODR>
+                     <I>glasba:</I>
+                  </PODR>
+                  <K>141</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>notna pisava, </G>
+               <K>141</K>
+               <KR/>
+               <KDE>grafična predstavitev tonov in tonskih sosledij. </KDE>[OK]</QQ>
+         </GT>
+         <Z>Vera Gregorač</Z>
+         <K>141</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>00109700+00</N>
+         <T>G3</T>
+         <G>Aintree </G>
+         <FOR>[êjntri], </FOR>
+         <KDE>kraj v Veliki Britaniji, </KDE>
+         <OPI>v sv. Angliji, s. od Liverpoola; znan po konjskih dirkah za nagrado Grand National (najtežavnejše dirke čez zapreke na svetu).</OPI>
+         <GT/>
+         <Z>Veronika Rot</Z>
+         <K>139</K>
+         <KR>1.3.1.2.1</KR>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>00218800+00</N>
+         <T>E01</T>
+         <G>alternativno kmetijstvo, </G>
+         <KDE>
+            <KP>
+               <KK>00748400+00</KK>biotično kmetijstvo</KP>
+            <QQ>
+               <GQ>
+                  <T>E01</T>
+                  <G>alternativno kmetijstvo, </G>
+                  <K>452</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>biotično kmetijstvo </G>
+               <K>452</K>
+               <KR/>
+               <KDE>celota naravnih, </KDE>[OK]</QQ>.</KDE>
+         <OPI/>
+         <GT/>
+         <Z>Jože Maček</Z>
+         <K>452</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>00330900+00</N>
+         <T>E01</T>
+         <G>Anthribidae, </G>
+         <KDE>
+            <KP>
+               <KK>00349800+00</KK>antribide</KP>
+            <QQ>
+               <GQ>
+                  <T>E01</T>
+                  <G>Anthribidae, </G>
+                  <K>412z</K>
+                  <KR/>
+               </GQ>
+               <T>R</T>
+               <G>antribide </G>
+               <K>412z</K>
+               <KR/>
+               <KDE>družina hroščev, </KDE>[OK]</QQ>.</KDE>
+         <OPI/>
+         <GT/>
+         <Z>Ignac Sivec</Z>
+         <K>412z</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>00445100+00</N>
+         <T>R</T>
+         <G>Aspergillus </G>
+         <FOR>(<I>
+               <ES1>aspergilus</ES1>
+            </I>), </FOR>
+         <KDE>rod zelo razširjenih, </KDE>
+         <OPI>predvsem saprofitskih, redkeje parazitskih plesni (<KP>
+               <KK>00445200+00</KK>aspergiloza</KP>
+            <QQ>
+               <GQ>
+                  <T>R</T>
+                  <G>Aspergillus </G>
+                  <K>422g</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>aspergiloza </G>
+               <K>402</K>
+               <KR/>
+               <KDE>bolezen, ki jo povzroča gliva <KAZ>Aspergillus</KAZ>; </KDE>[Z]</QQ>, <KP>
+               <KK>04302200+00</KK>mikoze</KP>
+            <QQ>
+               <GQ>
+                  <T>R</T>
+                  <G>Aspergillus </G>
+                  <K>422g</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>mikoze </G>
+               <K>405</K>
+               <KR/>
+               <KDE>bolezni, ki jih povzročajo <KAZ>glive</KAZ>: </KDE>[OK]</QQ>). Nekatere vrste oblikujejo antibiotike, nekatere pa tudi zelo strupene in pogosto kancerogene snovi (<KP>
+               <KK>00078500+00</KK>aflatoksini</KP>
+            <QQ>
+               <GQ>
+                  <T>R</T>
+                  <G>Aspergillus </G>
+                  <K>422g</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>aflatoksini </G>
+               <K>405</K>
+               <KR/>
+               <KDE>zelo strupene in kancerogene snovi, </KDE>[Z]</QQ>, <KP>
+               <KK>04302100+00</KK>mikotoksini</KP>
+            <QQ>
+               <GQ>
+                  <T>R</T>
+                  <G>Aspergillus </G>
+                  <K>422g</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>mikotoksini </G>
+               <K>404</K>
+               <KR/>
+               <KDE>strupene snovi, </KDE>[Z]</QQ>).</OPI>
+         <GT/>
+         <SK>
+            <DX>00445100+00+01</DX>
+            <TS>SI</TS>
+            <OPS>
+               <B>Aspergillus</B> (<I>Aspergillus glaucus</I>) </OPS>
+            <O>(str. 341)</O>
+         </SK>
+         <Z>Alojz Ihan/Gabrijel Seljak</Z>
+         <K>422g</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>00560500+00</N>
+         <T>P</T>
+         <G>balistični odklon, </G>
+         <KDE>velikost prvega nihaja balističnega merilnega instrumenta, </KDE>
+         <OPI>ki ga poženemo s kratkim sunkom. Balistični galvanometer rabi za merjenje zelo kratkih tokovnih sunkov, balistično nihalo pa za merjenje hitrosti izstrelkov.</OPI>
+         <GT/>
+         <Z>Sašo Avsec</Z>
+         <K>503</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>00673600+00</N>
+         <T>BM</T>
+         <G>Bendida </G>
+         <FOR>(<I>
+               <LIME>Bendis</LIME>
+            </I>), </FOR>
+         <KDE>traška boginja lova, njen orgiastični kult so v Atenah uvedli v dobi <KP>
+               <KK>05186400+00</KK>Perikla</KP>
+            <QQ>
+               <GQ>
+                  <T>BM</T>
+                  <G>Bendida </G>
+                  <K>137a</K>
+                  <KR>1.2.1.3</KR>
+               </GQ>
+               <T>B</T>
+               <G>Perikles, </G>
+               <K>137a</K>
+               <KR>1.2.1.3</KR>
+               <KDE>atenski politik in državnik, </KDE>[OK]</QQ>.</KDE>
+         <OPI/>
+         <GT/>
+         <Z>Samo Krušič</Z>
+         <K>137a</K>
+         <KR>1.2.1.3</KR>
+      </PO>
+   </XX>
+   <XX>
+      <BI>
+         <N>00786100+99</N>
+         <T>BG</T>
+         <G>Blumhardt </G>
+         <FOR>[blúmhart], </FOR>
+         <KDE>nemška evangeličanska duhovnika:</KDE>
+         <OPIX>
+            <RPOX/>
+         </OPIX>
+         <GT/>
+         <Z>Ludvik Jošar</Z>
+         <K>144</K>
+         <KR>1.1.1.3</KR>
+      </BI>
+   </XX>
+   <XX>
+      <PO>
+         <N>00899500+00</N>
+         <T>E01</T>
+         <G>brezzobci, </G>
+         <KDE>
+            <KP>
+               <KK>06415600+00</KK>sočlenkarji</KP>
+            <QQ>
+               <GQ>
+                  <T>E01</T>
+                  <G>brezzobci, </G>
+                  <K>412s</K>
+                  <KR/>
+               </GQ>
+               <T>R</T>
+               <G>sočlenkarji </G>
+               <K>412r</K>
+               <KR/>
+               <KDE>skupna označitev za <KAZ>mravljinčarje</KAZ>, </KDE>[OK]</QQ>.</KDE>
+         <OPI/>
+         <GT/>
+         <Z>Marko Aljančič</Z>
+         <K>412s</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>01009800+00</N>
+         <T>G3</T>
+         <G>Cape Dorset </G>
+         <FOR>[kêjp dórset], </FOR>
+         <KDE>trgovsko in oskrbovalno središče v Kanadi, </KDE>
+         <OPI>na jz. obali <KP>
+               <KK>00536600+00</KK>Baffinovega otoka</KP>
+            <QQ>
+               <GQ>
+                  <T>G3</T>
+                  <G>Cape Dorset </G>
+                  <K>361</K>
+                  <KR>4.1.1</KR>
+               </GQ>
+               <T>G4O</T>
+               <G>Baffinov otok </G>
+               <K>361</K>
+               <KR>4.1.1</KR>
+               <KDE>največji otok v kanadskem arktičnem arhipelagu, </KDE>[OK]</QQ>; eskimsko naselje z ok. 600 preb.; v bližini pomembno arheološko najdišče t. i. dorsetske kulture (Eskimi).</OPI>
+         <GT/>
+         <Z>Karel Natek</Z>
+         <K>361</K>
+         <KR>4.1.1</KR>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>01123100+00</N>
+         <T>G3</T>
+         <G>Chesterfield </G>
+         <FOR>[čéstərfild-], </FOR>
+         <KDE>mesto v Veliki Britaniji, </KDE>
+         <OPI>v srednji Angliji, v grofiji Derbyshire, ob reki Rother, j. od Sheffielda, 70.000 preb. (aglomeracija 127.000); rudniki železove rude in premogovniki, strojna, kemijska in tekstilna industrija.</OPI>
+         <GT/>
+         <SN>
+            <DX>01123100+00+88</DX>
+            <DXA/>
+            <TS>EGY</TS>
+            <OPS/>
+            <Z>DZS, d. d.</Z>
+         </SN>
+         <Z>Veronika Rot</Z>
+         <K>325</K>
+         <KR>1.3.1.2.1</KR>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>01232900+01</N>
+         <T>P</T>
+         <G>Corpus Catholicorum </G>
+         <FOR>[kórpus katolikórum], </FOR>
+         <A>1) </A>
+         <PODR>
+            <I>katoliška Cerkev:</I>
+         </PODR>
+         <KDE>združitev katoliških državnih stanov na državnem zboru <LX>1633</LX> v Regensburgu pod predsedstvom majnškega dvora.</KDE>
+         <OPI/>
+         <GT/>
+         <Z>Bronislava Aubelj</Z>
+         <K>145</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>01232900+02</N>
+         <W/>
+         <T>L1-L2</T>
+         <G>Corpus Catholicorum, </G>
+         <A>2) </A>
+         <PODR>
+            <I>založništvo:</I>
+         </PODR>
+         <KDE>založniška družba za izdajanje del katoliških piscev s sedežem v Bonnu, </KDE>
+         <OPI>ustanovljena <LX>1917</LX>.</OPI>
+         <GT/>
+         <Z>Bronislava Aubelj</Z>
+         <K>130/145</K>
+         <KR>1.1.1.3</KR>
+      </PO>
+   </XX>
+   <XX>
+      <BI>
+         <N>01347100+00</N>
+         <T>B</T>
+         <G>Dagerman </G>
+         <FOR>[dágərman], </FOR>
+         <OIME>Stig Halvard, </OIME>
+         <KDE>švedski pripovednik, dramatik in lirik, </KDE>
+         <RPOD>
+            <RPOD1>*5.10.1924 Ålvkarleby, </RPOD1>
+            <RPOD2>†4.11.1954 Enebyberg; </RPOD2>
+         </RPOD>
+         <OPI>
+            <KP>
+               <KK>06785500+00</KK>švedska književnost</KP>
+            <QQ>
+               <GQ>
+                  <T>B</T>
+                  <G>Dagerman </G>
+                  <OIME>Stig Halvard, </OIME>
+                  <K>121</K>
+                  <KR>1.5.2.5</KR>
+               </GQ>
+               <T>P</T>
+               <G>švedska književnost, </G>
+               <K>108</K>
+               <KR>1.5.2.5</KR>
+               <KDE>začetki v obdobju pokristjanjevanja, po uvedbi latinice; </KDE>[OK]</QQ>.</OPI>
+         <GT/>
+         <Z>Lena Holmqvist</Z>
+         <K>121</K>
+         <KR>1.5.2.5</KR>
+      </BI>
+   </XX>
+   <XX>
+      <BI>
+         <N>01464900+00</N>
+         <T>B</T>
+         <G>Dessau </G>
+         <FOR>[désav-], </FOR>
+         <OIME>Paul, </OIME>
+         <KDE>nemški skladatelj in dirigent, </KDE>
+         <RPOD>
+            <RPOD1>*19.12.1894 Hamburg, </RPOD1>
+            <RPOD2>†28.6.1979 Berlin; </RPOD2>
+         </RPOD>
+         <OPI>
+            <ILT>1933</ILT> emigriral v Pariz, od <LT>1939</LT> živel v New Yorku in Hollywoodu, <LT>1948</LT> se je vrnil v NDR. V glasbi povezoval prvine nove glasbe z zabavno glasbo in s političnimi vsebinami. Po <LT>1942</LT> je nanj močno vplival B. Brecht (uglasbitev <I>Matere Korajže</I>, <I>Kavkaškega kroga s kredo</I> idr.). Filmska glasba, orkestralne skladbe <I>Nemški miserere</I> (Deutsches Miserere, <LT>1945</LT>), komorna glasba, samospevi in opere <I>Judita</I> (Giuditta, <LT>1912</LT>), <I>Obsodba Lukula</I> (Die Verurteilung des Lukullus, <LT>1951</LT> in <LT>1968</LT>), <I>Lanzelot</I> (<LT>1969</LT>), <I>Einstein</I> (<LT>1974</LT>), <I>Leonce in Lena</I> (Leonce und Lena, <LT>1978</LT>).</OPI>
+         <GT/>
+         <SK>
+            <DX>01464900+00+01</DX>
+            <TS>SF</TS>
+            <O>
+               <OPS>
+                  <B>Paul Dessau</B>
+               </OPS>(str. 1063 B)</O>
+         </SK>
+         <Z>Vera Gregorač</Z>
+         <K>131/141</K>
+         <KR>1.1.1.3</KR>
+      </BI>
+   </XX>
+   <XX>
+      <PO>
+         <N>01577900+00</N>
+         <T>R</T>
+         <G>dolgoglavi škržati </G>
+         <FOR>(<LIME>Fulgoridae</LIME>), </FOR>
+         <KDE>predvsem tropski <KP>
+               <KK>06751400+00</KK>škržati</KP>
+            <QQ>
+               <GQ>
+                  <T>R</T>
+                  <G>dolgoglavi škržati </G>
+                  <K>412z</K>
+                  <KR/>
+               </GQ>
+               <T>R</T>
+               <G>škržati, </G>
+               <K>412z</K>
+               <KR/>
+               <KDE>več družin številnih in zelo razprostranjenih <KAZ>enakokrilcev</KAZ>; </KDE>[OK]</QQ> z zelo povečano in napihnjeno glavo. </KDE>
+         <OPI>Nekdaj so menili, da se tudi svetijo. V j. Evropi je pogost 8–9 mm velik mrežekrili škržat (<LIMEX>
+               <I>Dictyophora europaea</I>
+            </LIMEX>). V srednji Evropi živi rjavo obarvan rebrasti škržat (<LIMEX>
+               <I>Cixius nervosus</I>
+            </LIMEX>).</OPI>
+         <GT/>
+         <SK>
+            <DX>01577900+00+01</DX>
+            <TS>SF</TS>
+            <OPS>
+               <B>dolgoglavi škržati:</B> kijasto oblikovana rdečkasta glava surinamskega dolgoglavega škržata (<I>Laternaria phosphorea</I>) je skoraj tako dolga kot celotno telo </OPS>
+            <O>(str. 2981 B)</O>
+         </SK>
+         <Z>Ignac Sivec/Bogdan Horvat</Z>
+         <K>412z</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>01696100+00</N>
+         <T>E02</T>
+         <G>Eberndorf </G>
+         <FOR>[ébərndorf], </FOR>
+         <KDE>
+            <KP>
+               <KK>01565000+00</KK>Dobrla vas</KP>
+            <QQ>
+               <GQ>
+                  <T>E02</T>
+                  <G>Eberndorf </G>
+                  <K>321</K>
+                  <KR>1.1.1.1</KR>
+               </GQ>
+               <T>G3</T>
+               <G>Dobrla vas </G>
+               <K>321</K>
+               <KR>1.1.1.1</KR>
+               <KDE>kraj v Avstriji, </KDE>[OK]</QQ>.</KDE>
+         <OPI/>
+         <GT/>
+         <Z>Marija Javornik</Z>
+         <K>321</K>
+         <KR>1.1.1.1</KR>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>01808800+00</N>
+         <T>P</T>
+         <G>enantem </G>
+         <FOR>[grško], </FOR>
+         <KDE>izpuščaj na sluznici.</KDE>
+         <OPI/>
+         <GT/>
+         <Z>Iza Ciglenečki</Z>
+         <K>402</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>01924900+00</N>
+         <T>P</T>
+         <G>expressis verbis </G>
+         <FOR>[latinsko, eksprésis vêrbis], </FOR>
+         <KDE>jasno, izrecno.</KDE>
+         <OPI/>
+         <GT/>
+         <Z>Zdenka Erbežnik</Z>
+         <K>101</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <BI>
+         <N>02041200+00</N>
+         <T>B</T>
+         <G>Fleming </G>
+         <FOR>[fléming-], </FOR>
+         <OIME>Victor, </OIME>
+         <KDE>ameriški filmski režiser, </KDE>
+         <RPOD>
+            <RPOD1>*23.2.1883 Pasadena (CA), </RPOD1>
+            <RPOD2>†6.1.1949 Cottonwood (AZ). </RPOD2>
+         </RPOD>
+         <OPI>
+            <RUB>
+               <RUBN>
+                  <I>Filmi</I>
+               </RUBN>
+               <RUBT>
+                  <I>Past za moške</I> (Mantrap, <ILT>1926</ILT>), <I>Mož iz Virginije</I> (The Virginian, <LT>1929</LT>), <I>Rdeči prah</I> (Red Dust, <LT>1932</LT>), <I>V vrtincu</I> (Gone with the Wind, <LT>1939</LT>; štirje oskarji), <I>Čarovnik iz Oza</I> (The Wizzard of Oz, <LT>1939</LT>), <I>Doktor Jekyll in gospod Hyde</I> (Dr. Jekyll and Mr. Hyde, <LT>1941</LT>), <I>Ivana Orleanska</I> (Joan of Arc, <LT>1948</LT>).</RUBT>
+            </RUB>
+         </OPI>
+         <GT/>
+         <Z>Bojan Kavčič</Z>
+         <K>131</K>
+         <KR>4.1.2</KR>
+      </BI>
+   </XX>
+   <XX>
+      <BI>
+         <N>02157000+00</N>
+         <T>B</T>
+         <G>Gajdusek </G>
+         <FOR>[gejdúsək], </FOR>
+         <OIME>Daniel Carleton, </OIME>
+         <KDE>ameriški otroški zdravnik in virolog, </KDE>
+         <RPOD>
+            <RPOD1>*9.9.1923 Yonkers (NY); </RPOD1>
+            <RPOD2/>
+         </RPOD>
+         <OPI>
+            <LX>1976</LX> Nobelova nagrada za medicino skupaj z <KB>B. S. <KK>00785700+00</KK>Blumbergom</KB>
+            <QQ>
+               <GQ>
+                  <T>B</T>
+                  <G>Gajdusek </G>
+                  <OIME>Daniel Carleton, </OIME>
+                  <K>405</K>
+                  <KR>4.1.2</KR>
+               </GQ>
+               <T>B</T>
+               <G>Blumberg </G>
+               <OIME>Baruch Samuel, </OIME>
+               <K>405</K>
+               <KR>4.1.2</KR>
+               <KDE>ameriški virolog, </KDE>[Z]</QQ> za odkritje novih mehanizmov nastajanja in širjenja infekcijskih bolezni.</OPI>
+         <GT/>
+         <Z>Metka Kralj</Z>
+         <K>405</K>
+         <KR>4.1.2</KR>
+      </BI>
+   </XX>
+   <XX>
+      <PO>
+         <N>02276400+00</N>
+         <T>P</T>
+         <G>glasoslovje, </G>
+         <KDE>veda o glasovih, in sicer o njihovih pomenskorazločevalnih (<KP>
+               <KK>02061900+00</KK>fonologija</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>glasoslovje, </G>
+                  <K>105</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>fonologija </G>
+               <K>107</K>
+               <KR/>
+               <KDE>delna jezikoslovna disciplina, </KDE>[Z]</QQ>) ter artikulacijskih in akustičnih lastnostih (<KP>
+               <KK>02061000+00</KK>fonetika</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>glasoslovje, </G>
+                  <K>105</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>fonetika </G>
+               <K>107</K>
+               <KR/>
+               <KDE>znanstvena disciplina, </KDE>[Z]</QQ>).</KDE>
+         <OPI/>
+         <GT/>
+         <Z>Marja Bešter</Z>
+         <O>Opomba: novo geslo.</O>
+         <K>105</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <BI>
+         <N>02398400+00</N>
+         <T>B</T>
+         <G>Gregor I. </G>
+         <DOS>
+            <I>Veliki</I>, </DOS>
+         <A2>1</A2>
+         <BORN>(590–604), </BORN>
+         <KDE>cerkveni učitelj, </KDE>
+         <RPOD>
+            <RPOD1>*pred 540 Rim, </RPOD1>
+            <RPOD2>†12.3.604 prav tam; </RPOD2>
+         </RPOD>
+         <OPI>prvi redovnik, ki je postal papež; utrl pot misijonu med Anglosasi (594 odposlal 40 redovnikov) in prestopu <KP>
+               <KK>03705700+00</KK>Langobardov</KP>
+            <QQ>
+               <GQ>
+                  <T>B</T>
+                  <G>Gregor I. </G>
+                  <DOS>
+                     <I>Veliki</I>, </DOS>
+                  <K>145</K>
+                  <KR>1.4.1.1</KR>
+               </GQ>
+               <T>N</T>
+               <G>Langobardi, </G>
+               <K>137b</K>
+               <KR>1.1.1/1.4.1</KR>
+               <KDE>zahodnogermansko (izvirno morda celo severnogermansko) pleme; </KDE>[OK]</QQ> h katoliški veri; nasprotno kot patriarh v Carigradu, ki je imel naslov <I>
+               <ENX>oikumenikos</ENX>
+            </I>, je sebe imenoval <KP>
+               <KK>06225500+00</KK>servus servorum Dei</KP>
+            <QQ>
+               <GQ>
+                  <T>B</T>
+                  <G>Gregor I. </G>
+                  <DOS>
+                     <I>Veliki</I>, </DOS>
+                  <K>145</K>
+                  <KR>1.4.1.1</KR>
+               </GQ>
+               <T>P</T>
+               <G>servus servorum Dei </G>
+               <K>145</K>
+               <KR/>
+               <KDE>tako papeži od <KAZ>Gregorja I.</KAZ> imenujejo sebe.</KDE>[Z]</QQ>. S svojimi številni spisi, polnimi vere v čudeže in poenostavljanj naukov cerkvenih učiteljev, predvsem njegovega vzora <KP>
+               <KK>00496200+01</KK>Avguština</KP>
+            <QQ>
+               <GQ>
+                  <T>B</T>
+                  <G>Gregor I. </G>
+                  <DOS>
+                     <I>Veliki</I>, </DOS>
+                  <K>145</K>
+                  <KR>1.4.1.1</KR>
+               </GQ>
+               <T>B</T>
+               <G>Avguštin, </G>
+               <K>102/145</K>
+               <KR>1.4.1.1</KR>
+               <KDE>krščanski teolog in filozof, </KDE>[OK]</QQ>, je močno vplival na ves srednji vek. Svetnik, god: 3.9.</OPI>
+         <GT/>
+         <Z>Marko Urbanija</Z>
+         <K>145</K>
+         <KR>1.4.1.1</KR>
+      </BI>
+   </XX>
+   <XX>
+      <BI>
+         <N>02514700+00</N>
+         <T>B</T>
+         <G>Harnoncourt </G>
+         <FOR>[arnonkúr], </FOR>
+         <OIME>Nicolaus, </OIME>
+         <KDE>nemški dirigent, </KDE>
+         <RPOD>
+            <RPOD1>*6.12.1929 Berlin; </RPOD1>
+            <RPOD2/>
+         </RPOD>
+         <OPI>najprej nastopal kot violončelist, <ILT>1952</ILT> na Dunaju ustanovil ansambel <I>
+               <ENX>Concentus Musicus</ENX>
+            </I>, ki izvaja staro glasbo z izvirnimi glasbili in v <KP>
+               <KK>07663200+00</KK>zgodovinski izvajalni praksi</KP>
+            <QQ>
+               <GQ>
+                  <T>B</T>
+                  <G>Harnoncourt </G>
+                  <OIME>Nicolaus, </OIME>
+                  <K>141</K>
+                  <KR>1.1.1.3</KR>
+               </GQ>
+               <T>P</T>
+               <G>zgodovinska izvajalna praksa, </G>
+               <K>141</K>
+               <KR/>
+               <KDE>poskusi, da bi izvajali glasbo starejših obdobij kar najbolj podobno izvirnemu načinu. </KDE>[OK]</QQ>; za zgledne veljajo njegove izvedbe Monteverdija (<LT>1976</LT>–79) in Mozarta (od <LT>1980</LT>).<RUB>
+               <RUBN>
+                  <I>Knjižna izdaja</I>
+               </RUBN>
+               <RUBT>
+                  <I>Glasba kot zvočni govor</I> (Musik als Klangrede, <OLT>1982</OLT>).</RUBT>
+            </RUB>
+         </OPI>
+         <GT/>
+         <SK>
+            <DX>02514700+00+01</DX>
+            <TS>SF</TS>
+            <OPS>
+               <B>Nicolaus Harnoncourt</B>
+            </OPS>
+            <O>(str. 2081 C)</O>
+         </SK>
+         <Z>Vera Gregorač</Z>
+         <K>141</K>
+         <KR>1.1.1.3</KR>
+      </BI>
+   </XX>
+   <XX>
+      <BI>
+         <N>02630700+00</N>
+         <T>B</T>
+         <G>Hiller </G>
+         <FOR>[híler], </FOR>
+         <OIME>Arthur, </OIME>
+         <KDE>ameriški filmski režiser kanadskega rodu, </KDE>
+         <RPOD>
+            <RPOD1>*22.11.1923 Edmonton (Alberta). </RPOD1>
+            <RPOD2/>
+         </RPOD>
+         <OPI>
+            <RUB>
+               <RUBN>
+                  <I>Filmi</I>
+               </RUBN>
+               <RUBT>
+                  <I>Ljubezenska zgodba</I> (Love Story, <ILT>1970</ILT>), <I>Bolnišnica</I> (The Hospital, <LT>1971</LT>), <I>Srebrna puščica</I> (Silver Streak, <LT>1976</LT>), <I>Avtor, avtor</I> (Author! Author!, <LT>1982</LT>).</RUBT>
+            </RUB>
+         </OPI>
+         <GT/>
+         <Z>Bojan Kavčič</Z>
+         <K>131</K>
+         <KR>4.1.2/4.1.1</KR>
+      </BI>
+   </XX>
+   <XX>
+      <BI>
+         <N>02749400+00</N>
+         <T>B</T>
+         <G>Hurt </G>
+         <FOR>[hə́rt], </FOR>
+         <OIME>William, </OIME>
+         <KDE>ameriški filmski in gledališki igralec, </KDE>
+         <RPOD>
+            <RPOD1>*20.3.1950 Washington. </RPOD1>
+            <RPOD2/>
+         </RPOD>
+         <OPI>
+            <RUB>
+               <RUBN>
+                  <I>Filmi</I>
+               </RUBN>
+               <RUBT>
+                  <I>Spremenjena stanja</I> (Altered states, <ILT>1979</ILT>), <I>Telesna strast</I> (Body Heat, <LT>1981</LT>), <I>Park Gorki</I> (Gorky Park, <LT>1983</LT>), <I>Poljub ženske pajka</I> (Kiss of the Spider Woman, <LT>1985</LT>; oskar), <I>Otroci manjšega boga</I> (Children of a Lesser God, <LT>1986</LT>), <I>Alice</I> (<LT>1990</LT>), <I>Dim</I> (Smoke, <LT>1995</LT>).</RUBT>
+            </RUB>
+         </OPI>
+         <GT/>
+         <Z>Bojan Kavčič</Z>
+         <K>131/132</K>
+         <KR>4.1.2</KR>
+      </BI>
+   </XX>
+   <XX>
+      <PO>
+         <N>02863300+00</N>
+         <T>E01</T>
+         <G>intina, </G>
+         <KDE>
+            <KP>
+               <KK>05162100+00</KK>pelod</KP>
+            <QQ>
+               <GQ>
+                  <T>E01</T>
+                  <G>intina, </G>
+                  <K>423</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>pelod </G>
+               <K>423</K>
+               <KR/>
+               <KDE>v <EN>
+                     <I>pelodnih vrečkah</I>
+                  </EN> prašnikov (<KAZ>cvet</KAZ>) nastajajo <KAZ>haploidna</KAZ>
+                  <EN>
+                     <I>pelodna zrna</I>
+                  </EN>; </KDE>[OK]</QQ>.</KDE>
+         <OPI/>
+         <GT/>
+         <Z>Jelka Strgar</Z>
+         <K>423</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>02981900+00</N>
+         <T>P</T>
+         <G>jasperware </G>
+         <FOR>[angleško, džéspərver], </FOR>
+         <KDE>keramika, ki jo izdeluje podjetje, ki ga je začel <KB>J. <KK>07503900+00</KK>Wedgwood</KB>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>jasperware </G>
+                  <K>214</K>
+                  <KR/>
+               </GQ>
+               <T>B</T>
+               <G>Wedgwood </G>
+               <OIME>Josiah, </OIME>
+               <K>214</K>
+               <KR>1.3.1.2.1</KR>
+               <KDE>angleški keramik, </KDE>[OK]</QQ>.</KDE>
+         <OPI/>
+         <GT/>
+         <Z>Jože Pavlič Damijan</Z>
+         <K>214</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>03100400+00</N>
+         <T>E01</T>
+         <G>kalifornijski kapar, </G>
+         <KDE>
+            <KP>
+               <KK>00244300+00</KK>ameriški kapar</KP>
+            <QQ>
+               <GQ>
+                  <T>E01</T>
+                  <G>kalifornijski kapar, </G>
+                  <K>412z</K>
+                  <KR/>
+               </GQ>
+               <T>R</T>
+               <G>ameriški kapar </G>
+               <K>412z</K>
+               <KR>4.1.2</KR>
+               <KDE>vrsta <KAZ>kaparjev</KAZ>, </KDE>[OK]</QQ>.</KDE>
+         <OPI/>
+         <GT/>
+         <Z>Ignac Sivec/Bogdan Horvat</Z>
+         <O>Op.: novo</O>
+         <K>412z</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>03216700+01</N>
+         <T>P</T>
+         <G>kavzalnost </G>
+         <FOR>[latinsko <I>
+               <LIME>causa</LIME>
+            </I>, ‚vzrok’], </FOR>
+         <A>1) </A>
+         <PODR>
+            <I>splošno:</I>
+         </PODR>
+         <KDE>vzročnost; </KDE>
+         <OPI>medsebojno razmerje med vzrokom in učinkom.</OPI>
+         <GT/>
+         <Z>Zdenka Erbežnik</Z>
+         <K>101</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>03216700+03</N>
+         <W/>
+         <T>P</T>
+         <G>kavzalnost, </G>
+         <A>3) </A>
+         <PODR>
+            <I>fizika:</I>
+         </PODR>
+         <KDE>fizika skuša dogodke pojasniti na osnovi prejšnjih dogodkov ali iz razpoložljivih podatkov napovedati dogodke v prihodnosti. </KDE>
+         <OPI>V klasični fiziki lahko vsi »prejšnji« dogodki, ne glede na to, kje so se zgodili, vplivajo na poznejše dogodke. Ta misel temelji na privzetku neskončno hitrega razširjanja učinkov (signalov), ki jih ti dogodki povzročijo (teorija o <KP>
+               <KK>07143400+02</KK>učinkovanju na daljavo</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>kavzalnost, </G>
+                  <PODR>
+                     <I>fizika:</I>
+                  </PODR>
+                  <K>503</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>učinkovanje na daljavo, </G>
+               <PODR>
+                  <I>fizika:</I>
+               </PODR>
+               <K>503</K>
+               <KR/>
+               <KDE>privzetek, da se fizikalni pojavi širijo z neskončno hitrostjo in brez vpliva prostora. </KDE>[OK]</QQ>). Sodobna fizika je prišla do spoznanja, da je največja hitrost za razširjanje signalov <KP>
+               <KK>06686400+00</KK>svetlobna hitrost</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>kavzalnost, </G>
+                  <PODR>
+                     <I>fizika:</I>
+                  </PODR>
+                  <K>503</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>svetlobna hitrost, </G>
+               <K>503m</K>
+               <KR/>
+               <KDE>hitrost, s katero se širi <KAZ>elektromagnetno valovanje</KAZ> (svetloba) v praznem prostoru (vakuumu). </KDE>[OK]</QQ>, ki je končna (3 · 10<U>8</U> m/s); s tem je pokazala, da je stari privzetek o neomejeni vzročnosti napačen in da v pogojih, ki jih opisuje <KP>
+               <KK>05847700+00</KK>relativnostna teorija</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>kavzalnost, </G>
+                  <PODR>
+                     <I>fizika:</I>
+                  </PODR>
+                  <K>503</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>relativnostna teorija, </G>
+               <K>503</K>
+               <KR/>
+               <KDE>fizikalna teorija za opis pojavov v hitro gibajočih se sistemih; </KDE>[OK]</QQ>, ne velja več. Dogodki se razdelijo v takšne, ki so z dogodkom A lahko v vzročni (<I>
+               <ENX>kavzalni</ENX>
+            </I>) zvezi (tj. povezani ali odvisni), in takšne, ki niso in ne morejo biti povezani in je zanje nepomembna, kdaj so se glede na dogodek A zgodili in kje. Dogodke, ki so z danim dogodkom lahko v vzročni zvezi, in tiste, ki ne morejo biti v <KP>
+               <KK>05645100+00</KK>prostoru-času</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>kavzalnost, </G>
+                  <PODR>
+                     <I>fizika:</I>
+                  </PODR>
+                  <K>503</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>prostor-čas </G>
+               <K>503</K>
+               <KR/>
+               <KDE>štiridimenzionalna predstava, </KDE>[O]</QQ>, razmejuje <KP>
+               <KK>06688500+00</KK>svetlobni stožec</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>kavzalnost, </G>
+                  <PODR>
+                     <I>fizika:</I>
+                  </PODR>
+                  <K>503</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>svetlobni stožec, </G>
+               <K>503</K>
+               <KR/>
+               <KDE>ploskev v štiridimenzionalnem diagramu prostora-časa (<KAZ>relativnostna teorija</KAZ>), </KDE>[OK]</QQ>.V <KP>
+               <KK>03647800+00</KK>kvantni mehaniki</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>kavzalnost, </G>
+                  <PODR>
+                     <I>fizika:</I>
+                  </PODR>
+                  <K>503</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>kvantna mehanika, </G>
+               <K>503</K>
+               <KR/>
+               <KDE>teorija o gibanju kvantnih delcev </KDE>[OK]</QQ> velja <KP>
+               <KK>04534500+00</KK>načelo nedoločenosti</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>kavzalnost, </G>
+                  <PODR>
+                     <I>fizika:</I>
+                  </PODR>
+                  <K>503</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>načelo nedoločenosti </G>
+               <K>503</K>
+               <KR/>
+               <KDE>načelo v <KAZ>kvantni teoriji</KAZ> (postavil <KAZ>W. Heisenberg</KAZ>): </KDE>[OK]</QQ>, ki pravi, da v mikrofizikalnih pojavih niso <I>
+               <ENX>hkrati</ENX>
+            </I> določljive vse količine, npr. kraj in gibalna količina (oz. hitrost) elektrona, ki bi bili potrebne za napoved pojava in njegovega vnaprejšnjega razvoja (npr. potovanja elektrona po njegovi »tirnici«). Opis in napovedi pojavov zato temeljijo le na statističnih izrazih, ki podajajo verjetnosti in porazdelitve. Opazljivih količin (npr. lego in hitrost delca) tako z matematičnimi metodami ni mogoče kavzalno povezati med seboj.V zadnjem času večino makroskopskih dinamičnih sistemov obravnavajo kot <I>
+               <ENX>kaotične</ENX>
+            </I> (<KP>
+               <KK>03140400+02</KK>kaos</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>kavzalnost, </G>
+                  <PODR>
+                     <I>fizika:</I>
+                  </PODR>
+                  <K>503</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>kaos, </G>
+               <PODR>
+                  <I>fizika:</I>
+               </PODR>
+               <K>503</K>
+               <KR/>
+               <KDE>lastnost sistemov, </KDE>[OK]</QQ>). To pomeni, da lahko že neskončno majhna sprememba začetnih pogojev neke dinamične spremenljivke v sistemu privede do nepredvidljivih in nenapovedljivih sprememb v vedenju vsega sistema. Strogo deterministično se vedejo le zelo posebni sistemi, ki jim pot skozi kaos preprečujejo ustrezne zapore. Čeprav novi pogledi vzročnosti načeloma ne omejujejo, pa znatno zmanjšajo preračunljivost in napovedljivost realnih sistemov. V tej zvezi, a nekoliko pretirano formulirano, se lahko vprašamo, »ali lahko zamah metulja s krilci vpliva na gibanje planetov?«.</OPI>
+         <GT/>
+         <Z>Sašo Avsec</Z>
+         <K>503</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>03216700+02</N>
+         <T>P</T>
+         <G>kavzalnost, </G>
+         <A>2) </A>
+         <PODR>
+            <I>filozofija:</I>
+         </PODR>
+         <KDE>ker <EN>
+               <I>vzročni zakon</I>
+            </EN> pomeni, da ima vsako dogajanje nujno vsaj en vzrok in je to dogajanje vzrok naslednjega dogajanja, pri čemer enaki vzroki porajajo enake učinke, si <YI>kavzalnost</YI> po navadi lasti univerzalno veljavo. </KDE>
+         <OPI>Ker naj bi bila časovno strukturirana <ENX>
+               <I>vzročna povezanost</I>
+               <FOR1X>(<I>
+                     <ES1X>kavzalni neksus</ES1X>
+                  </I>)</FOR1X>
+            </ENX> vsega dogajanja neprekinjena in popolna, vodi k vprašanju o začetku in koncu oz. končnosti in neskončnosti vzročne verige v filozofski <KP>
+               <KK>00369200+00</KK>aporiji</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>kavzalnost, </G>
+                  <PODR>
+                     <I>filozofija:</I>
+                  </PODR>
+                  <K>102</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>aporija </G>
+               <K>102</K>
+               <KR/>
+               <KDE>zagata; </KDE>[OK]</QQ>. Kot temeljna struktura vsega dogajanja <YI>kavzalnost</YI> nasprotuje drugemu temeljnemu filozofskemu pojmu, svobodi; povezava med <YI>kavzalnostjo</YI> in svobodo pa je filozofsko relevantno vprašanje (<KP>
+               <KK>01468100+00</KK>determinizem</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>kavzalnost, </G>
+                  <PODR>
+                     <I>filozofija:</I>
+                  </PODR>
+                  <K>102</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>determinizem </G>
+               <K>102</K>
+               <KR/>
+               <KDE>temeljno pojmovanje filozofije narave, </KDE>[OK]</QQ>, <KP>
+               <KK>02811700+02</KK>indeterminizem</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>kavzalnost, </G>
+                  <PODR>
+                     <I>filozofija:</I>
+                  </PODR>
+                  <K>102</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>indeterminizem, </G>
+               <PODR>
+                  <I>filozofija:</I>
+               </PODR>
+               <K>102</K>
+               <KR/>
+               <KDE>v etiki pojmovanje, po katerem dopušča zveza med naravno vzročnostjo in psihološkimi motivacijami poseg svobodne volje; </KDE>[OK]</QQ>). – Aristotel je razlikoval štiri vzroke: materialnega, formalnega, gibalnega in smotrnostnega, ki šele v svoji enotnosti oblikujejo skupni vzrok; novoveško naravoslovno mišljenje je od B. Spinoze, G. Galilea in I. Newtona naprej zožilo <YI>kavzalnost</YI> na mehansko zvezo gibalnega učinka. Empirizem in skepticizem soglašata, da <YI>kavzalnosti</YI> kot zakona v stvareh samih ni mogoče dokazati, zato se lahko po <KB>D. <KK>02743700+00</KK>Humu</KB>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>kavzalnost, </G>
+                  <PODR>
+                     <I>filozofija:</I>
+                  </PODR>
+                  <K>102</K>
+                  <KR/>
+               </GQ>
+               <T>B</T>
+               <G>Hume </G>
+               <OIME>David, </OIME>
+               <K>102/138</K>
+               <KR>1.3.1.2.4</KR>
+               <KDE>škotski filozof in zgodovinar, </KDE>[OK]</QQ> sprašujemo le o duši kot o mestu <YI>kavzalnosti</YI>, pri čemer naj bi bila <YI>kavzalnost</YI> neka asociacija, ki nastane na podlagi navade in pričakovanja. Za <KB>I. <KK>03136600+00</KK>Kanta</KB>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>kavzalnost, </G>
+                  <PODR>
+                     <I>filozofija:</I>
+                  </PODR>
+                  <K>102</K>
+                  <KR/>
+               </GQ>
+               <T>B</T>
+               <G>Kant, </G>
+               <OIME>Immanuel, </OIME>
+               <K>102</K>
+               <KR>1.1.1.3</KR>
+               <KDE>nemški filozof, </KDE>[OK]</QQ> pripada <YI>kavzalnost</YI> apriornim <KP>
+               <KK>03202500+02</KK>kategorijam</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>kavzalnost, </G>
+                  <PODR>
+                     <I>filozofija:</I>
+                  </PODR>
+                  <K>102</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>kategorija, </G>
+               <PODR>
+                  <I>filozofija:</I>
+               </PODR>
+               <K>102</K>
+               <KR/>
+               <KDE>vsak pojem, </KDE>[OK]</QQ>; veljavnost vzročnega načela naj bi bila dana zgolj na področju izkušnje. <KB>A. <KK>06152500+00</KK>Schopenhauer</KB>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>kavzalnost, </G>
+                  <PODR>
+                     <I>filozofija:</I>
+                  </PODR>
+                  <K>102</K>
+                  <KR/>
+               </GQ>
+               <T>B</T>
+               <G>Schopenhauer </G>
+               <OIME>Arthur, </OIME>
+               <K>102</K>
+               <KR>1.1.1.3</KR>
+               <KDE>nemški filozof, </KDE>[OK]</QQ> je razlikoval tri oblike <YI>kavzalnosti</YI>: vzrok na anorganskem področju, dražljaj na organsko-vegetativnem področju in motiv kot instanco zavesti, ki vodi delovanje. Logična analiza <YI>kavzalnosti</YI> vodi k zunanjim okoliščinam, ki šele ustvarijo in sprožijo celotno dogajanje.</OPI>
+         <GT/>
+         <Z>Zdenka Erbežnik</Z>
+         <K>102</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>03337600+00</N>
+         <T>L1-L2</T>
+         <G>Knjiga konkordije, </G>
+         <KDE>seznam luteranskih <KP>
+               <KK>07305200+00</KK>veroizpovednih spisov</KP>
+            <QQ>
+               <GQ>
+                  <T>L1-L2</T>
+                  <G>Knjiga konkordije, </G>
+                  <K>144</K>
+                  <KR>1.1.1.3</KR>
+               </GQ>
+               <T>P</T>
+               <G>veroizpovedni spisi </G>
+               <K>144</K>
+               <KR/>
+               <KDE>kratek povzetek bistvenih sestavin krščanske vere. </KDE>[Z]</QQ>, med katerimi so tudi tri starocerkvene veroizpovedi. </KDE>
+         <OPI>Nastala <LX>1580</LX> ob prizadevanju za združitev vseh luteranskih Cerkva.</OPI>
+         <GT/>
+         <Z>Ludvik Jošar</Z>
+         <K>144</K>
+         <KR>1.1.1.3</KR>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>03452300+00</N>
+         <T>E01</T>
+         <G>kopalov octovec, </G>
+         <KDE>
+            <KP>
+               <KK>04831000+00</KK>octovec</KP>
+            <QQ>
+               <GQ>
+                  <T>E01</T>
+                  <G>kopalov octovec, </G>
+                  <K>422</K>
+                  <KR/>
+               </GQ>
+               <T>R</T>
+               <G>octovec </G>
+               <K>422</K>
+               <KR/>
+               <KDE>rod <KAZ>octovk</KAZ>; </KDE>[OK]</QQ>.</KDE>
+         <OPI/>
+         <GT/>
+         <Z>Peter Skoberne</Z>
+         <K>422</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>03569500+01</N>
+         <T>P</T>
+         <G>krma, </G>
+         <A>1) </A>
+         <PODR>
+            <I>pomorstvo:</I>
+         </PODR>
+         <KDE>zadnji del ladje, čolna; </KDE>
+         <OPI>nasprotno <KP>
+               <KK>05554800+00</KK>premec</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>krma, </G>
+                  <PODR>
+                     <I>pomorstvo:</I>
+                  </PODR>
+                  <K>516n</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>premec, </G>
+               <K>516n</K>
+               <KR/>
+               <KDE>sprednji del ladje ali čolna; </KDE>[Z]</QQ>.</OPI>
+         <GT/>
+         <Z>Štefan Oštir</Z>
+         <K>516n</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>03569500+02</N>
+         <W/>
+         <T>P</T>
+         <G>krma, </G>
+         <A>2) </A>
+         <PODR>
+            <I>kmetijstvo:</I>
+         </PODR>
+         <KDE>hrana za živali, </KDE>
+         <OPI>posebej domače živali. Razlikujemo 1. <I>vzdrževalno <YI>krmo</YI>
+            </I>, hranilne snovi, ki so potrebne, da se žival brez izgube teže obdrži pri življenju; potreba za vzdrževanje je odvisna od velikosti živali oz. od njene površine; 2. <I>proizvodno <YI>krmo</YI>
+            </I>, hranilne snovi, ki omogočajo posebne sposobnosti živali (proizvodnja mleka, mesa, maščobe, jajc; delovno energijo).<RUB>
+               <RUBN>
+                  <EN>
+                     <I>Izkoriščanje krme</I>
+                  </EN>: </RUBN>
+               <RUBT>indikator pretvorbe krmila v zaželeno proizvodnjo pri kmetijskih domačih živalih. Npr. izkoriščanje <YI>krme</YI> 1 : 3,2 pri pitanju prašičev pomeni, da je bilo potrebno 3,2 kg krmila za prirast 1 kg svinjskega mesa. – Pridevnik <I>
+                     <ENX>krmen</ENX>
+                  </I>.</RUBT>
+            </RUB>
+         </OPI>
+         <GT/>
+         <Z>Štefan Oštir</Z>
+         <K>452</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>03689100+00</N>
+         <T>P</T>
+         <G>laktoza </G>
+         <FOR>(<I>
+               <ES1>mlečni sladkor</ES1>
+            </I>), </FOR>
+         <KDE>iz D-glukoze in D-galaktoze sestavljen disaharid (<KP>
+               <KK>06045000+00</KK>saharidi</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>laktoza </G>
+                  <K>506</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>saharidi </G>
+               <K>506</K>
+               <KR/>
+               <KDE>primarni oksidacijski produkti polihidroksialkoholov (ena izmed skupin –OH je oksidirana); </KDE>[OK]</QQ>) v obliki belih, malo sladkih kristalov. </KDE>
+         <OPI>Mlečni sladkor je v mleku sesalcev (kravje mleko 4,5 %, materino mleko 6,7 %). Bakterije ga razgradijo do <KP>
+               <KK>04361400+00</KK>mlečne kisline</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>laktoza </G>
+                  <K>506</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>mlečna kislina </G>
+               <K>506</K>
+               <KR/>
+               <KDE>brezbarvna, lahko topna, kristalinična snov kislega okusa. </KDE>[OK]</QQ> (<KP>
+               <KK>07444800+00</KK>vrenje</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>laktoza </G>
+                  <K>506</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>vrenje, </G>
+               <K>508</K>
+               <KR/>
+               <KDE>proces razgradnje organskih spojin (npr. ogljikovih hidratov) brez prisotnosti kisika; </KDE>[OK]</QQ>, kisanje). Nastaja kot stranski izdelek pri pripravi sirov. Uporablja se za otroško prehrano, sredstvo za peko in v farmaciji.</OPI>
+         <GT/>
+         <Z>Majda Zorec-Karlovšek</Z>
+         <K>506</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>03803500+00</N>
+         <T>P</T>
+         <G>lesne rastline, </G>
+         <KDE>rastline s sekundarno rastjo oz. <KP>
+               <KK>06192000+00</KK>sekundarno debelitvijo</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>lesne rastline, </G>
+                  <K>514</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>sekundarna debelitev </G>
+               <K>514</K>
+               <KR/>
+               <KDE>povečevanje premera debla in korenin zaradi delitvene aktivnosti vaskularnega (žilnega) in <KAZ>plutnega kambija</KAZ>.</KDE>[OK]</QQ>, </KDE>
+         <OPI>ki ustvarjajo <KP>
+               <KK>03799000+00</KK>les</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>lesne rastline, </G>
+                  <K>514</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>les, </G>
+               <K>514</K>
+               <KR/>
+               <KDE>botanično sekundarni ksilem. </KDE>[OK]</QQ>.</OPI>
+         <GT/>
+         <Z>Nikolaj Torelli</Z>
+         <K>514</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>03925700+00</N>
+         <T>G2/G3</T>
+         <G>Łomża </G>
+         <FOR>[lómža], </FOR>
+         <KDE>mesto na Poljskem, </KDE>
+         <OPI>glavno mesto vojvodstva Łomża (6684 km<U>2</U>, 348.000 preb.), ob reki Narew, 60.000 preb.<RUB>
+               <RUBN>
+                  <I>Zgodovina</I>
+               </RUBN>
+               <RUBT>Do <LX>1918</LX> ruska utrdba, med drugo svetovno vojno skoraj do tal porušeno; zdaj pomembno šolsko središče, od <OLT>1920</OLT> sedež škofije.</RUBT>
+            </RUB>
+         </OPI>
+         <GT/>
+         <SN>
+            <DX>03925700+00+88</DX>
+            <DXA/>
+            <TS>EGY</TS>
+            <OPS/>
+            <Z>DZS, d. d.</Z>
+         </SN>
+         <Z>Jurij Senegačnik</Z>
+         <K>330</K>
+         <KR>1.1.3.2</KR>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>04041100+00</N>
+         <T>P</T>
+         <G>makrobiotika </G>
+         <FOR>[grško], </FOR>
+         <KDE>način prehranjevanja, </KDE>
+         <OPI>ki temelji na kitajskem sistemu jin in jang (negativna in pozitivna moč); skrajna makrobiotična prehrana je sestavljena skoraj samo iz nemletih žit, povzroči lahko pomanjkanje beljakovin in vitaminov.</OPI>
+         <GT/>
+         <Z>Duška Meh</Z>
+         <K>402</K>
+         <KR>2.4.3</KR>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>04159400+00</N>
+         <T>G3</T>
+         <G>Matsuyama </G>
+         <FOR>[macujáma], </FOR>
+         <KDE>mesto na Japonskem, </KDE>
+         <OPI>na SZ Šikokuja, 450.000 preb.; grad (16. st.), univerza (ustanovljena <LX>1949</LX>), kovinskopredelovalna, živilska in tekstilna industrija, rafinerija nafte.</OPI>
+         <GT/>
+         <Z>Tamara Bosnič</Z>
+         <K>345</K>
+         <KR>2.4.1</KR>
+      </PO>
+   </XX>
+   <XX>
+      <BI>
+         <N>04278400+00</N>
+         <T>E04</T>
+         <G>Metsys </G>
+         <FOR>[métsejs], </FOR>
+         <KDE>nizozemska slikarska družina: </KDE>
+         <OPIX>
+            <RPOX/>
+            <KB>Q. <KK>04144900+00</KK>Massys</KB>
+            <QQ>
+               <GQ>
+                  <T>E04</T>
+                  <G>Metsys </G>
+                  <K>214</K>
+                  <KR>1.3.2.3</KR>
+               </GQ>
+               <T>B</T>
+               <G>Massys </G>
+               <OIME>Quinten, </OIME>
+               <K>214</K>
+               <KR>1.3.2.3</KR>
+               <KDE>najpomembnejši član nizozemske slikarske družine, </KDE>[OK]</QQ>.</OPIX>
+         <GT/>
+         <Z>Damir Globočnik</Z>
+         <K>214</K>
+         <KR>1.3.2.3</KR>
+      </BI>
+   </XX>
+   <XX>
+      <PO>
+         <N>04397600+00</N>
+         <T>G3</T>
+         <G>Molfetta </G>
+         <FOR>[molféta], </FOR>
+         <KDE>pristaniško in trgovsko mesto v Italiji, </KDE>
+         <OPI>v Apuliji, ob Jadranskem morju, sz. od Barija, 65.000 preb.; sedež škofije, stolnici (11.–13. st.; 17. st.); ladjedelništvo, zelo razvito ribištvo, trgovina z oljem in vinom.</OPI>
+         <GT/>
+         <SN>
+            <DX>04397600+00+88</DX>
+            <DXA/>
+            <TS>EGY</TS>
+            <OPS/>
+            <Z>DZS, d. d.</Z>
+         </SN>
+         <Z>Ida Knez</Z>
+         <K>328</K>
+         <KR>1.4.1.1</KR>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>04516300+00</N>
+         <T>G4H</T>
+         <G>Mustag </G>
+         <FOR>[mustág-], </FOR>
+         <KDE>ime več gora v osrednji Aziji, </KDE>
+         <OPI>nekdaj tudi gorske verige <KP>
+               <KK>03155500+01</KK>Karakorum</KP>
+            <QQ>
+               <GQ>
+                  <T>G4H</T>
+                  <G>Mustag </G>
+                  <K>343</K>
+                  <KR>2.1.3</KR>
+               </GQ>
+               <T>G4H</T>
+               <G>Karakorum </G>
+               <K>344</K>
+               <KR>2.2.3</KR>
+               <KDE>drugo najvišje gorovje sveta; </KDE>[O]</QQ>.</OPI>
+         <GT/>
+         <Z>Drago Kladnik</Z>
+         <K>343</K>
+         <KR>2.1.3</KR>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>04638600+00</N>
+         <T>P</T>
+         <G>nemške državne dragocenosti, </G>
+         <KDE>v Svetem rimskem cesarstvu nemškega naroda insignije, </KDE>
+         <OPI>ki so simbolizirale kraljevo (oz. cesarsko) oblast (krona, vladarsko jabolko, vladarsko žezlo in vladarski meč), ornat za kronanje (mdr. plašč za kronanje, alba, dalmatika) in državne svetinje (križ, lenta, relikvije). Od <LX>1805</LX> shranjene na Dunaju.</OPI>
+         <GT/>
+         <SP>
+            <DX>04638600+00+01</DX>
+            <TS>PC</TS>
+            <OPS>
+               <B>nemške državne dragocenosti: 1</B> vladarsko jabolko, antični simbol moči, ki obsega ves svet; zlato, zlati filigran, žlahtni kamni in biseri, zahodnonemški izdelek (konec 12. st.) <B>2</B> krona, zlato, zlati filigran, žlahtni kamni, biseri, emajl, najverjetneje izdelana za kronanje Otona Velikega 962 v neki nemški zlatarnici, pozneje več predelav <B>3</B> žezlo (14. st.); nemški zlatarski izdelek </OPS>
+            <O>(str. 4214 A)</O>
+         </SP>
+         <Z>Oto Luthar</Z>
+         <K>137b</K>
+         <KR>1.1.1.3</KR>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>04759400+00</N>
+         <T>G3</T>
+         <G>Nouakchott </G>
+         <FOR>[nuakšót], </FOR>
+         <KDE>glavno mesto Mavretanije v sz. Afriki, </KDE>
+         <OPI>7 km od Atlantskega oceana, 480.000 preb.; sedež katoliške škofije, univerza (ustanovljena <LX>1983</LX>), bolnišnica; različna industrija, razsoljevanje morske vode; mednarodno letališče. Ostanki starih utrdb.</OPI>
+         <GT/>
+         <Z>Matej Gabrovec</Z>
+         <K>352</K>
+         <KR>3.1.5</KR>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>04878800+00</N>
+         <T>P</T>
+         <G>okrajšava, </G>
+         <KDE>zapisan začetni del pogosto rabljene besede ali besedne zveze, zaznamovan z malimi črkami in piko </KDE>
+         <OPI>(npr. <I>tj.</I> za <I>to je</I>, <I>itd.</I> za <I>in tako dalje</I>).</OPI>
+         <GT/>
+         <Z>Marja Bešter/Sašo Avsec</Z>
+         <O>Opomba: novo geslo</O>
+         <K>105</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>04994900+01</N>
+         <T>R</T>
+         <G>ostrigarji, </G>
+         <A>1) </A>
+         <PODR>
+            <I>botanika:</I>
+         </PODR>
+         <AIME>
+            <LIME>
+               <I>Plevrotus</I>
+            </LIME>, </AIME>
+         <KDE>rod gliv <KP>
+               <KK>03880400+00</KK>lističark</KP>
+            <QQ>
+               <GQ>
+                  <T>R</T>
+                  <G>ostrigarji, </G>
+                  <PODR>
+                     <I>botanika:</I>
+                  </PODR>
+                  <K>422g</K>
+                  <KR/>
+               </GQ>
+               <T>R</T>
+               <G>lističarke </G>
+               <K>422g</K>
+               <KR/>
+               <KDE>red gliv <KAZ>prostotrosnic</KAZ>; </KDE>[OK]</QQ>; </KDE>
+         <OPI>klobuk postrani priraščen na bet ali brez njega; rastejo na lesu; užitni; med najbolj znane sodi <KP>
+               <KK>00947300+00</KK>bukov ostrigar</KP>
+            <QQ>
+               <GQ>
+                  <T>R</T>
+                  <G>ostrigarji, </G>
+                  <PODR>
+                     <I>botanika:</I>
+                  </PODR>
+                  <K>422g</K>
+                  <KR/>
+               </GQ>
+               <T>R</T>
+               <G>bukov ostrigar </G>
+               <K>422g</K>
+               <KR/>
+               <KDE>gliva <KAZ>lističarka</KAZ> s 3–15 cm velikim školjkasto zaokroženim klobukom, </KDE>[OK]</QQ> (<LIMEX>
+               <I>Pleurotus ostreatus</I>
+            </LIMEX>), ki raste v šopih; precej ga tudi gojijo.</OPI>
+         <GT/>
+         <Z>Gabrijel Seljak</Z>
+         <K>422g</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>04994900+02</N>
+         <W/>
+         <T>R</T>
+         <G>ostrigarji, </G>
+         <A>2) </A>
+         <PODR>
+            <I>zoologija:</I>
+         </PODR>
+         <AIME>
+            <LIME>Anarrhichadidae</LIME>, </AIME>
+         <KDE>družina <KP>
+               <KK>00526700+00</KK>babic</KP>
+            <QQ>
+               <GQ>
+                  <T>R</T>
+                  <G>ostrigarji, </G>
+                  <PODR>
+                     <I>zoologija:</I>
+                  </PODR>
+                  <K>412rb</K>
+                  <KR/>
+               </GQ>
+               <T>R</T>
+               <G>babice </G>
+               <K>412rb</K>
+               <KR/>
+               <KDE>družina rib <KAZ>kostnic</KAZ> z golo, sluzasto kožo; </KDE>[O]</QQ> v hladnih morjih s. poloble; </KDE>
+         <OPI>veliki so lahko do 2,8 m, imajo debelo glavo in široka usta z močnimi zobmi; prehranjujejo se z raki, školjkami in morskimi ježki; v Severnem morju in Atlantiku živi atlantski <YI>ostrigar</YI> (<LIMEX>
+               <I>Anarhichas lupus</I>
+            </LIMEX>), cenjena jedilna riba.</OPI>
+         <GT/>
+         <SK>
+            <DX>04994900+02+01</DX>
+            <TS>SF</TS>
+            <OPS>
+               <B>ostrigarji:</B> atlantski ostrigar je okusna riba, prodajajo pa ga brez glave </OPS>
+            <O>(str. 4639 B)</O>
+         </SK>
+         <Z>Mihael Jožef Toman</Z>
+         <K>412rb</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>05109700+00</N>
+         <T>P</T>
+         <G>parveni </G>
+         <FOR>[francosko], </FOR>
+         <KDE>povzpetnik, novopečeni bogataš.</KDE>
+         <OPI/>
+         <GT/>
+         <Z>Zdenka Erbežnik</Z>
+         <K>101</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>05224900+00</N>
+         <T>G3</T>
+         <G>Petrovaradin, </G>
+         <KDE>mesto in trdnjava v ZRJ, </KDE>
+         <OPI>v Vojvodini (Srbija), na desnem bregu Donave, nasproti <KP>
+               <KK>04769300+00</KK>Novega Sada</KP>
+            <QQ>
+               <GQ>
+                  <T>G3</T>
+                  <G>Petrovaradin, </G>
+                  <K>333d</K>
+                  <KR>1.2.1.5</KR>
+               </GQ>
+               <T>G3</T>
+               <G>Novi Sad, </G>
+               <K>333d</K>
+               <KR>1.2.1.5</KR>
+               <KDE>mesto v ZRJ, </KDE>[OK]</QQ> (od <LX>1945</LX> upravno in gospodarsko povezan z njim), na obrobju Fruške gore; <LX>1716</LX> je tam princ Evgen Savojski premagal Turke.</OPI>
+         <GT/>
+         <SN>
+            <DX>05224900+00+88</DX>
+            <DXA/>
+            <TS>EGY</TS>
+            <OPS/>
+            <Z>DZS, d. d.</Z>
+         </SN>
+         <Z>Borut Drobnjak</Z>
+         <K>333d</K>
+         <KR>1.2.1.5</KR>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>05343400+00</N>
+         <T>P</T>
+         <G>pluvialna doba </G>
+         <FOR>[latinsko], </FOR>
+         <KDE>obdobje izdatnejših padavin na nepoledenelih območjih v obdobju <KP>
+               <KK>05387300+01</KK>poledenitev</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>pluvialna doba </G>
+                  <K>302</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>poledenitev, </G>
+               <PODR>
+                  <I>geologija:</I>
+               </PODR>
+               <K>302</K>
+               <KR/>
+               <KDE>oddelek v zgodovini Zemlje, </KDE>[OK]</QQ> v <KP>
+               <KK>05316800+00</KK>pleistocenu</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>pluvialna doba </G>
+                  <K>302</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>pleistocen </G>
+               <K>302</K>
+               <KR/>
+               <KDE>oddelek <KAZ>zemeljske zgodovine</KAZ>, </KDE>[OK]</QQ>.</KDE>
+         <OPI/>
+         <GT/>
+         <Z>Franc Cimerman</Z>
+         <K>302</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>05471200+00</N>
+         <T>P</T>
+         <G>poslovnik, </G>
+         <KDE>pravila za vodenje sej, razprav in glasovanj na zasedanjih, skupščinah v gospodarskih družbah, parlamentih ipd.</KDE>
+         <OPI/>
+         <GT/>
+         <Z>Jože Pavlič Damijan</Z>
+         <K>211</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>05598200+00</N>
+         <T>P</T>
+         <G>primo uomo </G>
+         <FOR>[italijansko, ‚prvi mož’], </FOR>
+         <KDE>nosilec glavnih vlog v italijanskih operah.</KDE>
+         <OPI/>
+         <GT>
+            <KP>
+               <KK>05592600+00</KK>primadona</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>primo uomo </G>
+                  <K>141</K>
+                  <KR>1.4.1.1</KR>
+               </GQ>
+               <T>P</T>
+               <G>primadona </G>
+               <K>141</K>
+               <KR/>
+               <KDE>nosilka glavne vloge v baročnih in zgodnjeklasičnih operah, </KDE>[OK]</QQ>
+         </GT>
+         <Z>Vera Gregorač</Z>
+         <K>141</K>
+         <KR>1.4.1.1</KR>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>05721400+00</N>
+         <T>G4O</T>
+         <G>Rab, </G>
+         <KDE>hrvaški otok v <KP>
+               <KK>03648900+00</KK>Kvarnerju</KP>
+            <QQ>
+               <GQ>
+                  <T>G4O</T>
+                  <G>Rab, </G>
+                  <K>333b</K>
+                  <KR>1.2.1.4</KR>
+               </GQ>
+               <T>G4M</T>
+               <G>Kvarner, </G>
+               <K>333b</K>
+               <KR>1.2.1.4</KR>
+               <KDE>zaliv v s. Jadranu, </KDE>[Z]</QQ>, </KDE>
+         <OPI>med Krkom in Pagom, 91 km<U>2</U>, gorat in gozdnat; vinogradi, oljčni nasadi, ribištvo, turizem; središče letovišče Rab (2500 preb.); romanske in benečanske stavbe, obzidje iz 12./13. st. Od julija <ILT>1942</ILT> do septembra <LT>1943</LT> italijansko koncentracijsko taborišče; v njem je bilo ok. 15.000 Slovencev, Hrvatov in Judov, umrlo je ok. 4400 ljudi (4000 Slovencev), med njimi veliko otrok in žensk. Po kapitulaciji Italije so taboriščniki razorožili italijanske vojake in ustanovil <I>
+               <ENX>Rabsko brigado</ENX>
+            </I>; štela je 60 borcev (ok. 300 Judov); osvobodila je tudi otoka Cres in Lošinj. Slovenski bataljoni so se po 15.9. prebili v Slovenijo. Vključeni so bili v 14. partizansko divizijo, vendar so brigado oktobra zaradi izčrpanosti večine borcev razpustili.</OPI>
+         <GT/>
+         <Z>Borut Drobnjak</Z>
+         <K>333b</K>
+         <KR>1.2.1.4</KR>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>05844100+00</N>
+         <T>P</T>
+         <G>rekonvalescenca </G>
+         <FOR>[latinsko], </FOR>
+         <AIME>
+            <I>
+               <ES>okrevanje</ES>
+            </I>, </AIME>
+         <KDE>obdobje po preboleli bolezni ali poškodbi, </KDE>
+         <OPI>ko si bolnik z razl. ukrepi (dieta, krepilna sredstva) krepi zmanjšano telesno odpornost.</OPI>
+         <GT/>
+         <Z>Alenka Strdin</Z>
+         <K>402</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>05958600+00</N>
+         <T>P</T>
+         <G>rogovila, </G>
+         <KDE>vilasta razraščenost drevja na dve debli ali več pred začetkom krošnje.</KDE>
+         <OPI/>
+         <GT/>
+         <Z>Zoran Belec</Z>
+         <K>456</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>06074800+00</N>
+         <T>G4J</T>
+         <G>Samarsko zajezitveno jezero </G>
+         <FOR>(<ES1>
+               <I>Samarskoe vodohranilišče</I>
+               <FOR1>[samárskoje vodohranílišče]</FOR1>
+            </ES1>), </FOR>
+         <AIME>prej <EN>
+               <I>Kujbyševsko zajezitveno jezero</I>
+            </EN>, </AIME>
+         <KDE>umetno jezero v Rusiji, </KDE>
+         <OPI>na srednji Volgi in njenih pritokih <KP>
+               <KK>03111900+02</KK>Kama</KP>
+            <QQ>
+               <GQ>
+                  <T>G4J</T>
+                  <G>Samarsko zajezitveno jezero </G>
+                  <K>337</K>
+                  <KR>1.6.2</KR>
+               </GQ>
+               <T>G4R</T>
+               <G>Kama, </G>
+               <PODR>
+                  <I>geografija:</I>
+               </PODR>
+               <K>337</K>
+               <KR>1.6.2</KR>
+               <KDE>reka v Rusiji, </KDE>[Z]</QQ> in Bol'šoj Čeremšan, 70 km nad <KP>
+               <KK>06073900+02</KK>Samaro</KP>
+            <QQ>
+               <GQ>
+                  <T>G4J</T>
+                  <G>Samarsko zajezitveno jezero </G>
+                  <K>337</K>
+                  <KR>1.6.2</KR>
+               </GQ>
+               <T>G4R</T>
+               <G>Samara, </G>
+               <K>337</K>
+               <KR>1.6.2</KR>
+               <KDE>levi pritok srednje Volge, </KDE>[O]</QQ>, ok. 6000 km<U>2</U>, dolgo več kot 500 km, široko do 40 km, dolžina jezu 5 km, višina jezu 27 m, 58 mlr. m<U>3</U> vode; <LX>1958</LX> zgrajena hidrolektrarna z 20 agregati in z močjo 2,3 mln. kW, letna proizvodnja 10,9 mlr. kWh električne energije.</OPI>
+         <GT/>
+         <Z>Jurij Senegačnik</Z>
+         <K>337</K>
+         <KR>1.6.2</KR>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>06186200+01</N>
+         <T>P</T>
+         <G>sejanje, </G>
+         <A>1) </A>
+         <PODR>
+            <I>kmetijstvo:</I>
+         </PODR>
+         <KDE>dajanje semena v zemljo.</KDE>
+         <OPI/>
+         <GT/>
+         <Z>Sašo Avsec</Z>
+         <K>452</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>06186200+02</N>
+         <W/>
+         <T>P</T>
+         <G>sejanje, </G>
+         <A>2) </A>
+         <PODR>
+            <I>tehnika:</I>
+         </PODR>
+         <KDE>
+            <A0>1. </A0>postopek ločevanja zrnatih snovi (npr. <KP>
+               <KK>02383400+00</KK>granulatov</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>sejanje, </G>
+                  <PODR>
+                     <I>tehnika:</I>
+                  </PODR>
+                  <K>508</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>granulat </G>
+               <K>508</K>
+               <KR/>
+               <KDE>zrnat material, drobir. </KDE>[OK]</QQ>) po velikosti. </KDE>
+         <OPI/>
+         <KDE>
+            <A0>2. </A0>določanje <KP>
+               <KK>07708000+00</KK>zrnatosti</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>sejanje, </G>
+                  <PODR>
+                     <I>tehnika:</I>
+                  </PODR>
+                  <K>508</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>zrnatost, </G>
+               <K>508/516f</K>
+               <KR/>
+               <KDE>mera za velikost zrn, iz katerih so sestavljene nekatere snovi </KDE>[OK]</QQ> z umerjenimi siti oz. natančno izdelanimi mrežicami.</KDE>
+         <OPI/>
+         <GT/>
+         <Z>Sašo Avsec</Z>
+         <K>508</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>06302400+00</N>
+         <T>P</T>
+         <G>sinhronski stroj, </G>
+         <KDE>stroj na vrtilni ali izmenični tok (<KP>
+               <KK>02215100+02</KK>generator</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>sinhronski stroj, </G>
+                  <K>510</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>generator, </G>
+               <PODR>
+                  <I>tehnika:</I>
+               </PODR>
+               <K>508/510/516</K>
+               <KR/>
+               <KDE>
+                  <A0>2. </A0>jaškasta peč za izdelavo plina iz trdnih goriv (npr. les, premog). </KDE>[O]</QQ>, <KP>
+               <KK>01774800+00</KK>elektromotor</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>sinhronski stroj, </G>
+                  <K>510</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>elektromotor, </G>
+               <K>510</K>
+               <KR/>
+               <KDE>energijski stroj za pretvarjanje električne energije v mehansko. </KDE>[OK]</QQ>), </KDE>
+         <OPI>pri katerem število vrtljajev prisilno ustreza frekvenci električnega toka in številu parov polov.</OPI>
+         <GT/>
+         <Z>Tomaž Saksida</Z>
+         <K>510</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>06428900+00</N>
+         <T>P</T>
+         <G>sold, </G>
+         <KDE>v srednjem veku italijanski srebrni novec, pozneje bakreni drobiž.</KDE>
+         <OPI/>
+         <GT/>
+         <Z>Ivan Turk (1)</Z>
+         <K>136</K>
+         <KR>1.4.1.1</KR>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>06554500+00</N>
+         <T>R</T>
+         <G>steblikarice </G>
+         <FOR>(<LIME>Cephidae</LIME>), </FOR>
+         <KDE>družina <KP>
+               <KK>05772700+00</KK>rastlinskih os</KP>
+            <QQ>
+               <GQ>
+                  <T>R</T>
+                  <G>steblikarice </G>
+                  <K>412z</K>
+                  <KR/>
+               </GQ>
+               <T>R</T>
+               <G>rastlinske ose </G>
+               <K>412z</K>
+               <KR/>
+               <KDE>podred <KAZ>kožekrilcev</KAZ> brez značilnega zažetka med oprsjem in zadkom; </KDE>[OK]</QQ>; </KDE>
+         <OPI>ličinke na travah, lahko so škodljivci (npr. <KP>
+               <KK>07755400+00</KK>žitna osica</KP>
+            <QQ>
+               <GQ>
+                  <T>R</T>
+                  <G>steblikarice </G>
+                  <K>412z</K>
+                  <KR/>
+               </GQ>
+               <T>R</T>
+               <G>žitna osica </G>
+               <K>412z</K>
+               <KR/>
+               <KDE>8 mm dolga škodljiva osica. </KDE>[OK]</QQ>).</OPI>
+         <GT/>
+         <SK>
+            <DX>06554500+00+01</DX>
+            <TS>SI</TS>
+            <OPS>
+               <B>steblikarice:</B> žitna osica </OPS>
+            <O>(str. 2052 C)</O>
+         </SK>
+         <Z>Ignac Sivec/Bogdan Horvat</Z>
+         <K>412z</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>06676400+01</N>
+         <T>P</T>
+         <G>svečnik, </G>
+         <A>1) </A>
+         <PODR>
+            <I>splošno:</I>
+         </PODR>
+         <KDE>držalo za sveče.</KDE>
+         <OPI/>
+         <GT/>
+         <Z>Peter Skoberne</Z>
+         <K>516</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>06676400+02</N>
+         <W/>
+         <T>E01</T>
+         <G>svečnik, </G>
+         <A>2) </A>
+         <PODR>
+            <I>botanika:</I>
+         </PODR>
+         <KDE>
+            <KP>
+               <KK>06700400+00</KK>sviščevke</KP>
+            <QQ>
+               <GQ>
+                  <T>E01</T>
+                  <G>svečnik, </G>
+                  <PODR>
+                     <I>botanika:</I>
+                  </PODR>
+                  <K>422</K>
+                  <KR/>
+               </GQ>
+               <T>R</T>
+               <G>sviščevke </G>
+               <K>422</K>
+               <KR/>
+               <KDE>rastlinska družina s številnimi rodovi enoletnih zelišč in trajnic; </KDE>[OK]</QQ>.</KDE>
+         <OPI/>
+         <GT/>
+         <Z>Peter Skoberne</Z>
+         <K>422</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>06802400+00</N>
+         <T>G3</T>
+         <G>Takasaki </G>
+         <FOR>[takasáki], </FOR>
+         <KDE>mesto na Japonskem, </KDE>
+         <OPI>na Honšuju, sz. od Tokia, 240.000 preb.; svilarska, živilska in kovinska industrija.</OPI>
+         <GT/>
+         <Z>Tamara Bosnič</Z>
+         <K>345</K>
+         <KR>2.4.1</KR>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>06924200+00</N>
+         <T>P</T>
+         <G>Thermopete<U>®</U>, </G>
+         <KDE>tapeta za toplotno izolacijo z zelo majhno toplotno prevodnostjo: </KDE>
+         <OPI>2–5 mm debela plast penaste umetne smole izolira enako kot 5–12 cm debel opečni zid. Kot osnovno tapeto jo prilepimo na stene sobe in prelepimo z okrasno tapeto ali prepleskamo. Uporabljamo jo kot dodatno zaščito pred izgubo toplote in izolacijo pred vlago.</OPI>
+         <GT/>
+         <Z>Mario Fakin</Z>
+         <K>516</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>07043100+00</N>
+         <T>P</T>
+         <G>trapila </G>
+         <FOR>(nemško <I>
+               <ES1>Angster</ES1>
+            </I>, <I>
+               <ES1>Kuttrolf</ES1>
+            </I>), </FOR>
+         <KDE>steklene pivske posode, </KDE>
+         <OPI>ki imajo obliko steklenice s širokim trebušnim delom in ozkim grlom; v njem je več ozkih cevi; skozi te pijača le počasi teče v usta. Znana že v antiki, 15.–18. st. razširjena kot šaljiva pivska posoda.</OPI>
+         <GT/>
+         <SK>
+            <DX>07043100+00+01</DX>
+            <TS>SU</TS>
+            <OPS>
+               <B>trapilo,</B> München, Bayerisches Nationalmuseum </OPS>
+            <O>(str. 2922 D)</O>
+         </SK>
+         <Z>Damir Globočnik</Z>
+         <K>214</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>07166700+00</N>
+         <T>P</T>
+         <G>umetni govor, </G>
+         <KDE>artikulirana predstavitev podatkov, elektroakustično posnemanje naravnega govora; </KDE>
+         <OPI>posebej za predstavitev rezultatov računalniških operacij v neposrednem strojno formuliranem jeziku prek telefonskih slušalk ali zvočnikov.</OPI>
+         <GT/>
+         <Z>Dejan Žlajpah</Z>
+         <K>515</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>07289700+00</N>
+         <T>E01</T>
+         <G>velikouhi jelen, </G>
+         <KDE>
+            <KP>
+               <KK>04493300+00</KK>mulasti jelen</KP>
+            <QQ>
+               <GQ>
+                  <T>E01</T>
+                  <G>velikouhi jelen, </G>
+                  <K>412</K>
+                  <KR/>
+               </GQ>
+               <T>R</T>
+               <G>mulasti jelen </G>
+               <K>412s</K>
+               <KR/>
+               <KDE>sodi med <KAZ>virginijske srnjake</KAZ>; </KDE>[OK]</QQ>.</KDE>
+         <OPI/>
+         <GT/>
+         <Z>Marija Javornik</Z>
+         <K>412</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>07414500+00</N>
+         <T>E01</T>
+         <G>vokal, </G>
+         <KDE>
+            <KP>
+               <KK>06077000+00</KK>samoglasnik</KP>
+            <QQ>
+               <GQ>
+                  <T>E01</T>
+                  <G>vokal, </G>
+                  <K>105</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>samoglasnik </G>
+               <K>105</K>
+               <KR/>
+               <KDE>glas, za katerega tvorbo je značilna največja odprtostna stopnja govorne cevi v primerjavi z <KAZ>zvočnikom</KAZ> in <KAZ>nezvočnikom</KAZ>. </KDE>[OK]</QQ>.</KDE>
+         <OPI/>
+         <GT/>
+         <Z>Marja Bešter</Z>
+         <K>105</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>07534100+02</N>
+         <W/>
+         <T>G4H</T>
+         <G>Wilson, </G>
+         <A1>2) </A1>
+         <KDE>hrib pri Los Angelesu v ZDA, </KDE>
+         <OPI>v zvezni državi Kalifornija, 1742 m; z <KP>
+               <KK>07534900+00</KK>wilsonskim observatorijem</KP>
+            <QQ>
+               <GQ>
+                  <T>G4H</T>
+                  <G>Wilson, </G>
+                  <K>362</K>
+                  <KR>4.1.2</KR>
+               </GQ>
+               <T>L1-L2</T>
+               <G>wilsonski observatorij </G>
+               <K>502</K>
+               <KR/>
+               <KDE>astronomski <KAZ>observatorij</KAZ> na Mount <KAZ>Wilsonu</KAZ>.</KDE>[Z]</QQ>.</OPI>
+         <GT/>
+         <Z>Karel Natek</Z>
+         <K>362</K>
+         <KR>4.1.2</KR>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>07534100+01</N>
+         <T>G4H</T>
+         <G>Wilson </G>
+         <FOR>(<ES1>
+               <I>Mount <YI>Wilson</YI>
+               </I>
+               <FOR1>[máu̯nt vílson]</FOR1>
+            </ES1>), </FOR>
+         <A1>1) </A1>
+         <KDE>gora v Skalnem gorovju v ZDA, </KDE>
+         <OPI>v zvezni državi Kolorado, 4342 m.</OPI>
+         <GT/>
+         <Z>Karel Natek</Z>
+         <K>362</K>
+         <KR>4.1.2</KR>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>07654400+00</N>
+         <T>G2</T>
+         <G>Zemgale </G>
+         <FOR>[zémgale], </FOR>
+         <KDE>zgodovinska pokrajina in nekdanja provinca v južni Latviji, </KDE>
+         <OPI>glavno mesto Jelgava.</OPI>
+         <GT/>
+         <Z>Jurij Senegačnik</Z>
+         <K>137a</K>
+         <KR>1.5.1.2</KR>
+      </PO>
+   </XX>
+   <XX>
+      <BI>
+         <N>B0006700+00</N>
+         <T>B</T>
+         <G>Cohen-Tannoudji </G>
+         <FOR>[koén tanúdži], </FOR>
+         <OIME>Claude, </OIME>
+         <KDE>francoski fizik alžirskega rodu, </KDE>
+         <RPOD>
+            <RPOD1>*1.4.1933 Constantine (Alžirija); </RPOD1>
+            <RPOD2/>
+         </RPOD>
+         <OPI>teoretično razvijal metode hlajenja in lovljenja atomov z <KP>
+               <KK>03720800+00</KK>lasersko svetlobo</KP>
+            <QQ>
+               <GQ>
+                  <T>B</T>
+                  <G>Cohen-Tannoudji </G>
+                  <OIME>Claude, </OIME>
+                  <K>503</K>
+                  <KR>1.3.3/3.1.1</KR>
+               </GQ>
+               <T>P</T>
+               <G>lasersko steklo, </G>
+               <K>503</K>
+               <KR/>
+               <KDE>z magnetnimi spojinami dopirano steklo, </KDE>[OK]</QQ>. S pomočjo šestih laserskih snopov, ki so se sekali, so upočasnili atome helija do hitrosti 2 cm/s; <ILT>1997</ILT> Nobelova nagrada za fiziko z <KB>S. <KK>B0006600+00</KK>Chujem</KB>
+            <QQ>
+               <GQ>
+                  <T>B</T>
+                  <G>Cohen-Tannoudji </G>
+                  <OIME>Claude, </OIME>
+                  <K>503</K>
+                  <KR>1.3.3/3.1.1</KR>
+               </GQ>
+               <T>B</T>
+               <G>Chu </G>
+               <OIME>Steven, </OIME>
+               <K>503</K>
+               <KR>4.1.2</KR>
+               <KDE>ameriški fizik, </KDE>[Z]</QQ> in <KB>W. D. <KK>B0006800+00</KK>Phillipsom</KB>
+            <QQ>
+               <GQ>
+                  <T>B</T>
+                  <G>Cohen-Tannoudji </G>
+                  <OIME>Claude, </OIME>
+                  <K>503</K>
+                  <KR>1.3.3/3.1.1</KR>
+               </GQ>
+               <T>B</T>
+               <G>Phillips </G>
+               <OIME>William D(aniel), </OIME>
+               <K>503</K>
+               <KR>4.1.2</KR>
+               <KDE>ameriški fizik, </KDE>[Z]</QQ>.</OPI>
+         <GT/>
+         <Z>Maja Ondračka</Z>
+         <K>503</K>
+         <KR>1.3.3/3.1.1</KR>
+      </BI>
+   </XX>
+   <XX>
+      <PO>
+         <N>00553300+01</N>
+         <T>P</T>
+         <G>balada </G>
+         <FOR>[italijansko <I>
+               <ES1>balatta</ES1>
+            </I>, provansalsko <I>
+               <ES1>balada</ES1>
+            </I>, ‚plesna pesem’], </FOR>
+         <A>1) </A>
+         <PODR>
+            <I>književnost:</I>
+         </PODR>
+         <KDE>v srednjem veku v romanskih deželah kratka pesem, </KDE>
+         <OPI>ki so jo peli plesalci, v 14./15. st. se je v Franciji (posebej pri <KB>F. <KK>07344300+00</KK>Villonu</KB>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>balada </G>
+                  <PODR>
+                     <I>književnost:</I>
+                  </PODR>
+                  <K>108</K>
+                  <KR>1.3.1.2.1</KR>
+               </GQ>
+               <T>B</T>
+               <G>Villon </G>
+               <OIME>François, </OIME>
+               <K>110</K>
+               <KR>1.3.3</KR>
+               <KDE>francoski pesnik, </KDE>[OK]</QQ>) izoblikovala v strogo obliko. V Angliji se je v 18. st. ta označitev prenesla na stare ljudske pesmi, ki dramatično in pogosto z dialogom pripovedujejo o nenavadnih dogodkih ter v nasprotju z <KP>
+               <KK>05964800+01</KK>romanco</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>balada </G>
+                  <PODR>
+                     <I>književnost:</I>
+                  </PODR>
+                  <K>108</K>
+                  <KR>1.3.1.2.1</KR>
+               </GQ>
+               <T>P</T>
+               <G>romanca </G>
+               <PODR>
+                  <I>književnost:</I>
+               </PODR>
+               <K>108</K>
+               <KR/>
+               <KDE>epsko-lirska pripoved v verzih po vzorcu ljudske pesmi, </KDE>[OK]</QQ> posegajo po temačni snovi (izvor v germanskih junaških pesnitvah). <KB>Th. <KK>05177500+00</KK>Percy</KB>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>balada </G>
+                  <PODR>
+                     <I>književnost:</I>
+                  </PODR>
+                  <K>108</K>
+                  <KR>1.3.1.2.1</KR>
+               </GQ>
+               <T>B</T>
+               <G>Percy </G>
+               <OIME>Thomas, </OIME>
+               <K>144</K>
+               <KR>1.3.1.2.1</KR>
+               <KDE>anglikanski škof in angleški pisatelj, </KDE>[OK]</QQ> je z zbirko angleških ljudskih <YI>balad</YI> spodbudil zbiranje ljudskih <YI>balad</YI>. V Nemčiji so <KB>J. G. <KK>02581900+00</KK>Herder</KB>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>balada </G>
+                  <PODR>
+                     <I>književnost:</I>
+                  </PODR>
+                  <K>108</K>
+                  <KR>1.3.1.2.1</KR>
+               </GQ>
+               <T>B</T>
+               <G>Herder </G>
+               <OIME>Johann Gottfried von (od <ILT>1802</ILT>), </OIME>
+               <K>102/500</K>
+               <KR>1.1.1.3</KR>
+               <KDE>nemški filozof in teolog, </KDE>[OK]</QQ>, <KB>A. von <KK>00416400+01</KK>Arnim</KB>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>balada </G>
+                  <PODR>
+                     <I>književnost:</I>
+                  </PODR>
+                  <K>108</K>
+                  <KR>1.3.1.2.1</KR>
+               </GQ>
+               <T>B</T>
+               <G>Arnim </G>
+               <OIME>Achim (Ludwig Joachim) von, </OIME>
+               <K>108/132d</K>
+               <KR>1.1.1.3</KR>
+               <KDE>nemški pesnik in pisatelj visoke romantike, </KDE>[O]</QQ>, <KB>C. <KK>00892000+00</KK>Brentano</KB>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>balada </G>
+                  <PODR>
+                     <I>književnost:</I>
+                  </PODR>
+                  <K>108</K>
+                  <KR>1.3.1.2.1</KR>
+               </GQ>
+               <T>B</T>
+               <G>Brentano </G>
+               <OIME>Clemens, </OIME>
+               <K>108/132d</K>
+               <KR>1.1.1.3</KR>
+               <KDE>nemški romantični pesnik, </KDE>[OK]</QQ> zbirali ljudske <YI>balada</YI> 13.–15. st. Iz teoretičnega zanimanja za te <YI>balada</YI> je po <LX>1770</LX> nastala umetna <YI>balada</YI>, v Nemčiji posebej pri <KB>G. A. <KK>00955700+00</KK>Bürgerju</KB>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>balada </G>
+                  <PODR>
+                     <I>književnost:</I>
+                  </PODR>
+                  <K>108</K>
+                  <KR>1.3.1.2.1</KR>
+               </GQ>
+               <T>B</T>
+               <G>Bürger </G>
+               <OIME>Gottfried August, </OIME>
+               <K>108</K>
+               <KR>1.1.1.3</KR>
+               <KDE>nemški pesnik <KAZ>viharništva</KAZ>, </KDE>[OK]</QQ>, <KB>J. W. von <KK>02310500+00</KK>Goetheju</KB>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>balada </G>
+                  <PODR>
+                     <I>književnost:</I>
+                  </PODR>
+                  <K>108</K>
+                  <KR>1.3.1.2.1</KR>
+               </GQ>
+               <T>B</T>
+               <G>Goethe </G>
+               <OIME>Johann Wolfgang von (od <ILT>1782</ILT>), </OIME>
+               <K>108/132d/500</K>
+               <KR>1.1.1.3</KR>
+               <KDE>nemški pesnik, pisatelj, dramatik, kritik, teoretik, </KDE>[OK]</QQ>, <KB>F. von <KK>06142100+00</KK>Schillerju</KB>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>balada </G>
+                  <PODR>
+                     <I>književnost:</I>
+                  </PODR>
+                  <K>108</K>
+                  <KR>1.3.1.2.1</KR>
+               </GQ>
+               <T>B</T>
+               <G>Schiller </G>
+               <OIME>(Johann Christoph) Friedrich von (od <ILT>1802</ILT>), </OIME>
+               <K>108/132d</K>
+               <KR>1.1.1.3</KR>
+               <KDE>nemški pesnik, dramatik, filozof, </KDE>[OK]</QQ>, <KB>L. <KK>07152300+00</KK>Uhlandu</KB>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>balada </G>
+                  <PODR>
+                     <I>književnost:</I>
+                  </PODR>
+                  <K>108</K>
+                  <KR>1.3.1.2.1</KR>
+               </GQ>
+               <T>B</T>
+               <G>Uhland </G>
+               <OIME>Ludwig, </OIME>
+               <K>108/132d</K>
+               <KR>1.1.1.3</KR>
+               <KDE>nemški pesnik, </KDE>[OK]</QQ>, <KB>Th. <KK>02063600+00</KK>Fontaneju</KB>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>balada </G>
+                  <PODR>
+                     <I>književnost:</I>
+                  </PODR>
+                  <K>108</K>
+                  <KR>1.3.1.2.1</KR>
+               </GQ>
+               <T>B</T>
+               <G>Fontane </G>
+               <OIME>Theodor, </OIME>
+               <K>108</K>
+               <KR>1.1.1.3</KR>
+               <KDE>nemški pisatelj, </KDE>[OK]</QQ>; pri Slovencih pri <KB>F. <KK>05573200+00</KK>Prešernu</KB>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>balada </G>
+                  <PODR>
+                     <I>književnost:</I>
+                  </PODR>
+                  <K>108</K>
+                  <KR>1.3.1.2.1</KR>
+               </GQ>
+               <T>B</T>
+               <G>Prešeren, </G>
+               <OIME>France, </OIME>
+               <K>115</K>
+               <KR>1.1.3.4</KR>
+               <KDE>slovenski pesnik, </KDE>[OK]</QQ> in <KB>A. <KK>00458400+00</KK>Aškercu</KB>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>balada </G>
+                  <PODR>
+                     <I>književnost:</I>
+                  </PODR>
+                  <K>108</K>
+                  <KR>1.3.1.2.1</KR>
+               </GQ>
+               <T>B</T>
+               <G>Aškerc, </G>
+               <OIME>Anton, </OIME>
+               <K>115/132d</K>
+               <KR>1.1.3.4</KR>
+               <KDE>slovenski pesnik, </KDE>[OK]</QQ>, <KB>J. <KK>04225100+00</KK>Menartu</KB>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>balada </G>
+                  <PODR>
+                     <I>književnost:</I>
+                  </PODR>
+                  <K>108</K>
+                  <KR>1.3.1.2.1</KR>
+               </GQ>
+               <T>B</T>
+               <G>Menart, </G>
+               <OIME>Janez, </OIME>
+               <K>115/132d</K>
+               <KR>1.1.3.4</KR>
+               <KDE>slovenski pesnik in prevajalec, </KDE>[OK]</QQ>. Zdaj se nadaljuje kot pripovedna pesem, ki se ne drži več strogo prvotne oblike; pri <KB>F. <KK>07503800+00</KK>Wedekindu</KB>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>balada </G>
+                  <PODR>
+                     <I>književnost:</I>
+                  </PODR>
+                  <K>108</K>
+                  <KR>1.3.1.2.1</KR>
+               </GQ>
+               <T>B</T>
+               <G>Wedekind </G>
+               <OIME>Frank, </OIME>
+               <K>108/132d</K>
+               <KR>1.1.1.3</KR>
+               <KDE>nemški pisatelj, </KDE>[OK]</QQ>, <KB>B. <KK>00887200+00</KK>Brechtu</KB>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>balada </G>
+                  <PODR>
+                     <I>književnost:</I>
+                  </PODR>
+                  <K>108</K>
+                  <KR>1.3.1.2.1</KR>
+               </GQ>
+               <T>B</T>
+               <G>Brecht </G>
+               <OIME>Bert(olt), </OIME>
+               <K>108/132/132d</K>
+               <KR>1.1.1.3</KR>
+               <KDE>nemški pesnik, pisatelj, dramatik, gledališki kritik, </KDE>[OK]</QQ> blizu sejmarskim pesmim.</OPI>
+         <GT/>
+         <Z>Hilda Hašaj</Z>
+         <K>108</K>
+         <KR>1.3.1.2.1</KR>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>00553300+02</N>
+         <W/>
+         <T>P</T>
+         <G>balada, </G>
+         <A>2) </A>
+         <PODR>
+            <I>glasba:</I>
+         </PODR>
+         <KDE>označitev za številne srednjeveške vokalne oblike; </KDE>
+         <OPI>od 18. st. pomeni <YI>balada</YI> uglasbeno epsko pesniško obliko s tem imenom za solistični glas in klavirsko ali orkestrsko spremljavo (<KB>F. <KK>06155200+00</KK>Schubert</KB>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>balada, </G>
+                  <PODR>
+                     <I>glasba:</I>
+                  </PODR>
+                  <K>141</K>
+                  <KR/>
+               </GQ>
+               <T>B</T>
+               <G>Schubert </G>
+               <OIME>Franz (Peter), </OIME>
+               <K>141</K>
+               <KR>1.1.1.1</KR>
+               <KDE>avstrijski skladatelj, </KDE>[OK]</QQ>, <KB>F. <KK>03912100+00</KK>Loewe</KB>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>balada, </G>
+                  <PODR>
+                     <I>glasba:</I>
+                  </PODR>
+                  <K>141</K>
+                  <KR/>
+               </GQ>
+               <T>B</T>
+               <G>Loewe </G>
+               <OIME>Frederick, </OIME>
+               <K>141</K>
+               <KR>4.1.2/1.1.1.1</KR>
+               <KDE>ameriški skladatelj avstrijskega rodu, </KDE>[OK]</QQ>). V 19. st. je <KB>R. <KK>06157700+01</KK>Schumann</KB>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>balada, </G>
+                  <PODR>
+                     <I>glasba:</I>
+                  </PODR>
+                  <K>141</K>
+                  <KR/>
+               </GQ>
+               <T>B</T>
+               <G>Schumann </G>
+               <OIME>Robert, </OIME>
+               <K>141</K>
+               <KR>1.1.1.3</KR>
+               <KDE>nemški skladatelj, </KDE>[OK]</QQ> ustvaril zborovsko balado, <KB>F. <KK>01135200+00</KK>Chopin</KB>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>balada, </G>
+                  <PODR>
+                     <I>glasba:</I>
+                  </PODR>
+                  <K>141</K>
+                  <KR/>
+               </GQ>
+               <T>B</T>
+               <G>Chopin </G>
+               <OIME>Frédéric (François), </OIME>
+               <K>141</K>
+               <KR>1.1.3.2</KR>
+               <KDE>poljski skladatelj in pianist, </KDE>[OK]</QQ> je balado uvedel v instrumentalno glasbo (klavirska balada).</OPI>
+         <GT/>
+         <Z>Vera Gregorač</Z>
+         <K>141</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>01156900+00</N>
+         <T>P</T>
+         <G>cinkanje, </G>
+         <KDE>galvansko nanašanje tanke plasti <KP>
+               <KK>01156800+01</KK>cinka</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>cinkanje, </G>
+                  <K>508</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>cink, </G>
+               <PODR>
+                  <I>kemija:</I>
+               </PODR>
+               <K>504</K>
+               <KR/>
+               <KDE>dvovalentni kemijski element, </KDE>[O]</QQ> na površino manj plemenitih kovin </KDE>
+         <OPI>(npr. železa). Uporablja se za protikorozijsko zaščito; posebej za pločevino, vijake in druge predmete, ki jih ogroža rja. <I>
+               <YI>Cinkanje</YI> z ognjem</I>, potapljanje predmeta v kopel s staljenim cinkom.</OPI>
+         <GT/>
+         <Z>Sašo Avsec</Z>
+         <K>508</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>01672300+00</N>
+         <T>P</T>
+         <G>dvanajsttonska tehnika </G>
+         <FOR>(<I>
+               <ES1>dodekafonija</ES1>
+            </I>), </FOR>
+         <KDE>pri skladanju atonalne glasbe (<KP>
+               <KK>00473700+00</KK>atonalnost</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>dvanajsttonska tehnika </G>
+                  <K>141</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>atonalnost </G>
+               <K>141</K>
+               <KR/>
+               <KDE>od začetka 20. st. označitev za glasbo, ki zanika kakršnekoli funkcionalne povezave med toni. </KDE>[OK]</QQ>) uporabljena tehnika. </KDE>
+         <OPI>
+            <YI>Dvanajsttonska tehnika</YI> odpravlja vodilno vlogo na osnovnem tonu temelječe <KP>
+               <KK>06993000+00</KK>tonalnosti</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>dvanajsttonska tehnika </G>
+                  <K>141</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>tonalnost, </G>
+               <K>141</K>
+               <KR/>
+               <KDE>navezanost melodičnega in harmonskega poteka skladbe na določen <KAZ>tonski način</KAZ> ali harmonsko območje; </KDE>[OK]</QQ> in jo nadomesti s tonskimi vrstami, katerih osnova je 12 med seboj enakovrednih in harmonsko-funkcionalno povsem nevezanih poltonov. Iz 12 poltonov je mogoče sestaviti več kot 400,000.000 različnih tonskih vrst. Tonska vrsta je osnova, ki dobi kompozicijsko obliko s kontrapunktno obdelavo (<KP>
+               <KK>03442600+00</KK>kontrapunkt</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>dvanajsttonska tehnika </G>
+                  <K>141</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>kontrapunkt </G>
+               <K>141</K>
+               <KR/>
+               <KDE>večglasna kompozicijska tehnika, </KDE>[OK]</QQ>, <KP>
+               <KK>05754400+00</KK>rakov postop</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>dvanajsttonska tehnika </G>
+                  <K>141</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>rakov postop, </G>
+               <K>141</K>
+               <KR/>
+               <KDE>v glasbi po notah enaka, toda v nasprotni smeri potekajoča tema; </KDE>[OK]</QQ>, <KP>
+               <KK>04817300+00</KK>obrnitev</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>dvanajsttonska tehnika </G>
+                  <K>141</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>obrnitev, </G>
+               <K>141</K>
+               <KR/>
+               <KDE>
+                  <A0>3. </A0>
+                  <I>
+                     <ENX>rakova <YI>obrnitev</YI>
+                     </ENX>
+                  </I>, nazaj (rakovo) potekajoča in obrnjena (navzgor-navzdol) vrsta vseh v <KAZ>temi</KAZ> nastopajočih <KAZ>intervalov</KAZ>.</KDE>[OK]</QQ>), variiranjem (<KP>
+               <KK>07246500+02</KK>variacija</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>dvanajsttonska tehnika </G>
+                  <K>141</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>variacija, </G>
+               <PODR>
+                  <I>glasba:</I>
+               </PODR>
+               <K>141</K>
+               <KR/>
+               <KDE>spreminjanje melodične podobe ali narave v glasbenem stavku predvsem v temi ali v celi skladbi; </KDE>[Z]</QQ>) in <KP>
+               <KK>07038800+00</KK>transponiranjem</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>dvanajsttonska tehnika </G>
+                  <K>141</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>transponiranje </G>
+               <K>141</K>
+               <KR/>
+               <KDE>prestavitev skladbe iz enega <KAZ>tonskega načina</KAZ> v drugega. </KDE>[OK]</QQ>. Iz tonske vrste je mogoče izpeljati melodijo in harmonijo. – Po razmeroma kratkem obdobju sproščene atonalnosti (<KP>
+               <KK>02803200+02</KK>impresionizem</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>dvanajsttonska tehnika </G>
+                  <K>141</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>impresionizem, </G>
+               <PODR>
+                  <I>glasba:</I>
+               </PODR>
+               <K>141</K>
+               <KR/>
+               <KDE>nov slog, </KDE>[O]</QQ>, <KP>
+               <KK>01749000+00</KK>ekspresionizem</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>dvanajsttonska tehnika </G>
+                  <K>141</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>ekspresionizem </G>
+               <K>108/132/141/214</K>
+               <KR/>
+               <KDE>umetniško ustvarjanje iz neposrednih, notranjih doživetij in duševnega občutja, odziv na <KAZ>impresionizem</KAZ>, <KAZ>naturalizem</KAZ> in akademizem.</KDE>[Z]</QQ>) so iz potrebe po novi urejenosti tonskega gradiva <YI>dvanajsttonsko tehniko</YI> skoraj hkrati odkrili <KB>A. <KK>06151500+00</KK>Schönberg</KB>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>dvanajsttonska tehnika </G>
+                  <K>141</K>
+                  <KR/>
+               </GQ>
+               <T>B</T>
+               <G>Schönberg </G>
+               <OIME>Arnold, </OIME>
+               <K>141</K>
+               <KR>1.1.1.1</KR>
+               <KDE>avstrijski skladatelj, </KDE>[Z]</QQ>, <KB>J. M. <KK>02526400+00</KK>Hauer</KB>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>dvanajsttonska tehnika </G>
+                  <K>141</K>
+                  <KR/>
+               </GQ>
+               <T>B</T>
+               <G>Hauer </G>
+               <OIME>Joseph Matthias, </OIME>
+               <K>141</K>
+               <KR>1.1.1.1</KR>
+               <KDE>avstrijski skladatelj, </KDE>[Z]</QQ>, <KB>E. <KK>07245400+00</KK>Varèse</KB>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>dvanajsttonska tehnika </G>
+                  <K>141</K>
+                  <KR/>
+               </GQ>
+               <T>B</T>
+               <G>Varèse </G>
+               <OIME>Edgar(d), </OIME>
+               <K>141</K>
+               <KR>4.1.2/1.3.3</KR>
+               <KDE>ameriški skladatelj francoskega rodu, </KDE>[OK]</QQ> in Jefim Golišev (<LX>1895</LX>–<LX>1970</LX>); za glavnega predstavnika pa vendarle velja Schönberg, ki je <YI>dvanajsttonsko tehniko</YI> uporabljal od <OLT>1923</OLT>/24.Naslednja stopnja v razvoju <YI>dvanajsttonske tehnike</YI> je <KP>
+               <KK>06218800+00</KK>serialna glasba</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>dvanajsttonska tehnika </G>
+                  <K>141</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>serialna glasba, </G>
+               <K>141</K>
+               <KR/>
+               <KDE>prenašanje temeljnih načel <KAZ>dvanajsttonske tehnike</KAZ> na vsa področja glasbene kompozicije, </KDE>[Z]</QQ>; poleg Schönberga so skladatelji serialne glasbe <KB>A. <KK>00690600+00</KK>Berg</KB>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>dvanajsttonska tehnika </G>
+                  <K>141</K>
+                  <KR/>
+               </GQ>
+               <T>B</T>
+               <G>Berg </G>
+               <OIME>Alban (Maria Johannes), </OIME>
+               <K>141</K>
+               <KR>1.1.1.1</KR>
+               <KDE>avstrijski skladatelj, </KDE>[OK]</QQ>, <KB>L. <KK>01355500+00</KK>Dallapiccola</KB>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>dvanajsttonska tehnika </G>
+                  <K>141</K>
+                  <KR/>
+               </GQ>
+               <T>B</T>
+               <G>Dallapiccola </G>
+               <OIME>Luigi, </OIME>
+               <K>141</K>
+               <KR>1.4.1.1</KR>
+               <KDE>italijanski skladatelj, </KDE>[Z]</QQ>, <KB>H. <KK>01725400+00</KK>Eimert</KB>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>dvanajsttonska tehnika </G>
+                  <K>141</K>
+                  <KR/>
+               </GQ>
+               <T>B</T>
+               <G>Eimert </G>
+               <OIME>Herbert, </OIME>
+               <K>141</K>
+               <KR>1.1.1.3</KR>
+               <KDE>nemški skladatelj, </KDE>[Z]</QQ>, <KB>H. <KK>01728100+00</KK>Eisler</KB>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>dvanajsttonska tehnika </G>
+                  <K>141</K>
+                  <KR/>
+               </GQ>
+               <T>B</T>
+               <G>Eisler </G>
+               <OIME>Hanns, </OIME>
+               <K>131/141</K>
+               <KR>1.1.1.3</KR>
+               <KDE>nemški skladatelj, </KDE>[OK]</QQ>, <KB>W. <KK>02075100+00</KK>Fortner</KB>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>dvanajsttonska tehnika </G>
+                  <K>141</K>
+                  <KR/>
+               </GQ>
+               <T>B</T>
+               <G>Fortner </G>
+               <OIME>Wolfgang, </OIME>
+               <K>141</K>
+               <KR>1.1.1.3</KR>
+               <KDE>nemški skladatelj, </KDE>[OK]</QQ>, <KB>K. A. <KK>02519000+00</KK>Hartmann</KB>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>dvanajsttonska tehnika </G>
+                  <K>141</K>
+                  <KR/>
+               </GQ>
+               <T>B</T>
+               <G>Hartmann </G>
+               <OIME>Karl Amadeus, </OIME>
+               <K>141</K>
+               <KR>1.1.1.3</KR>
+               <KDE>nemški skladatelj, </KDE>[OK]</QQ>, <KB>H. W. <KK>02576400+00</KK>Henze</KB>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>dvanajsttonska tehnika </G>
+                  <K>141</K>
+                  <KR/>
+               </GQ>
+               <T>B</T>
+               <G>Henze </G>
+               <OIME>Hans Werner, </OIME>
+               <K>131/141</K>
+               <KR>1.1.1.3</KR>
+               <KDE>nemški skladatelj, </KDE>[OK]</QQ>, <KB>E. <KK>03540300+00</KK>Křenek</KB>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>dvanajsttonska tehnika </G>
+                  <K>141</K>
+                  <KR/>
+               </GQ>
+               <T>B</T>
+               <G>Křenek </G>
+               <OIME>Ernst, </OIME>
+               <K>141</K>
+               <KR>1.1.1.1</KR>
+               <KDE>avstrijski skladatelj, </KDE>[OK]</QQ>, René Leibowitz (<OLT>1913</OLT>–<OLT>1972</OLT>), <KB>I. <KK>06602700+00</KK>Stravinski</KB>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>dvanajsttonska tehnika </G>
+                  <K>141</K>
+                  <KR/>
+               </GQ>
+               <T>B</T>
+               <G>Stravinski </G>
+               <OIME>Igor (Fjodorovič), </OIME>
+               <K>141</K>
+               <KR>4.1.2/1.6.2</KR>
+               <KDE>ameriški skladatelj ruskega rodu, </KDE>[Z]</QQ>, <KB>A. <KK>07503000+00</KK>Webern</KB>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>dvanajsttonska tehnika </G>
+                  <K>141</K>
+                  <KR/>
+               </GQ>
+               <T>B</T>
+               <G>Webern </G>
+               <OIME>Anton von, </OIME>
+               <K>141</K>
+               <KR>1.1.1.1</KR>
+               <KDE>avstrijski skladatelj, </KDE>[Z]</QQ> idr.</OPI>
+         <GT/>
+         <Z>Vera Gregorač</Z>
+         <K>141</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>02202100+00</N>
+         <T>G3</T>
+         <G>Gdansk </G>
+         <FOR>(<ES1>
+               <I>Gdańsk</I>
+               <FOR1>[gdánsk]</FOR1>
+            </ES1>), </FOR>
+         <KDE>mesto na Poljskem in nekdanja svobodna država ob izlivu Visle v Baltsko morje, </KDE>
+         <OPI>470.000 preb., glavno mesto poljskega vojvodstva Gdansk (7394 km<U>2</U>, 1,4 mln. preb.), eno najpomembnejših pristanišč in trgovskih mest ob Baltiku; industrijske in pristaniške naprave med drugo svetovno vojno v celoti uničene, po njej pa zgrajene na novo; veliko pristanišče združeno s pristaniščem sosednjega mesta <KP>
+               <KK>02202300+00</KK>Gdynia</KP>
+            <QQ>
+               <GQ>
+                  <T>G3</T>
+                  <G>Gdansk </G>
+                  <K>330</K>
+                  <KR>1.1.3.2</KR>
+               </GQ>
+               <T>G3</T>
+               <G>Gdynia </G>
+               <K>330</K>
+               <KR>1.1.3.2</KR>
+               <KDE>pristaniško mesto na Poljskem, </KDE>[OK]</QQ>. Skupaj z Gdynio in morskim kopališkim krajem Sopotje <YI>Gdansk</YI> združen v »trojno mesto« z 800.000 preb. Univerza, tehnične in druge visoke šole; ladjedelnice, proizvodnja vagonov in traktorjev, kemijska in živilska industrija; v starem mestnem jedru so številni veličastni kulturnozgodovinski spomeniki: gotska Marijina cerkev (14.–15. st.), Artusov dvor, gotska mestna hiša, arzenal, znamenite hiše (16.–18. st.); med drugo svetovno vojno je bilo mesto do tal porušeno, obnova v starem slogu je že skoraj povsem končana.<RUB>
+               <RUBN>
+                  <I>Zgodovina</I>
+               </RUBN>
+               <RUBT>V 10. st. je ob izlivu reke Motłave v Vislo nastalo utrjeno naselje z gradom; 997 je prvič omenjeno kot Gadanum; <ILT>1261</ILT> mestne pravice, <ILT>1309</ILT> je v mestu prevzel oblast nemški viteški red, <OLT>1361</OLT> član Hanze, <ILT>1454</ILT> skoraj neodvisna država, formalno pa pod poljsko oblastjo, v 16. st. vzpon reformacije, <ILT>1793</ILT> pod Prusijo, <ILT>1807</ILT> svobodno mesto, od <OLT>1814</OLT> spet pod Prusijo in do prve svetovne vojne glavno mesto nemške province Z. Prusija (nemško ime <EN>
+                     <I>Danzig</I>
+                  </EN>); z versajskim mirom je bilo mesto razglašeno za svobodno državo (1895 km<U>2</U>); <ILT>1939</ILT> ga je zasedel Hitler in začel vojno s Poljsko (začetek druge svetovne vojne); od <LT>1945</LT> spet poljski; nemško prebivalstvo je zbežalo ali je bilo izseljeno. <LT>1970</LT> in <LT>1980</LT> so bili v <YI>Gdansku</YI> delavski nemiri, mesto je postalo eno od oporišč poljskega delavskega sindikata Solidarnost.</RUBT>
+            </RUB>
+         </OPI>
+         <GT/>
+         <SN>
+            <DX>02202100+00+88</DX>
+            <DXA/>
+            <TS>EGY</TS>
+            <OPS/>
+            <Z>DZS, d. d.</Z>
+         </SN>
+         <SK>
+            <DX>02202100+00+01</DX>
+            <TS>SF</TS>
+            <OPS>
+               <B>Gdansk:</B> Zelena vrata (iz leta <ILT>1568</ILT>) </OPS>
+            <O>(str. 1021 A)</O>
+         </SK>
+         <Z>Jurij Senegačnik</Z>
+         <K>330</K>
+         <KR>1.1.3.2</KR>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>02699700+00</N>
+         <T>E02</T>
+         <G>Hông </G>
+         <FOR>(<ES1>
+               <I>Sông <YI>Hông</YI>
+               </I>
+               <FOR1>[sóng hóng-]</FOR1>
+            </ES1>), </FOR>
+         <KDE>
+            <KP>
+               <KK>05800600+00</KK>Rdeča reka</KP>
+            <QQ>
+               <GQ>
+                  <T>E02</T>
+                  <G>Hông </G>
+                  <K>346</K>
+                  <KR>2.3</KR>
+               </GQ>
+               <T>G4R</T>
+               <G>Rdeča reka </G>
+               <K>345/346</K>
+               <KR>2.3.10/2.4.3</KR>
+               <KDE>reka na J Kitajske in S Vietnama, </KDE>[OK]</QQ>.</KDE>
+         <OPI/>
+         <GT/>
+         <Z>Drago Kladnik</Z>
+         <K>346</K>
+         <KR>2.3</KR>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>03146700+00</N>
+         <T>P</T>
+         <G>kapljevina, </G>
+         <KDE>snov v <KP>
+               <KK>00096800+00</KK>agregatnem stanju</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>kapljevina, </G>
+                  <K>503</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>agregatno stanje, </G>
+               <K>503</K>
+               <KR/>
+               <KDE>fizikalno stanje snovi z značilnimi makroskopskimi in mikroskopskimi lastnostmi. </KDE>[Z]</QQ>, v katerem tvori kaplje. </KDE>
+         <OPI>Njene molekule med seboj niso trdno vezane kakor v trdninah in se lahko premikajo po prostoru, niso pa tako proste kakor v <KP>
+               <KK>05326800+00</KK>plinih</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>kapljevina, </G>
+                  <K>503</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>plin, </G>
+               <K>503</K>
+               <KR/>
+               <KDE>
+                  <KAZ>agregatno stanje</KAZ>, </KDE>[OK]</QQ>, ki napolnijo vso posodo do njenih meja. Prehod snovi v kapljevinsko stanje je odvisen od tlaka in temperature (<KP>
+               <KK>03560400+00</KK>kritična točka</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>kapljevina, </G>
+                  <K>503</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>kritična točka </G>
+               <K>503</K>
+               <KR/>
+               <KDE>mejna točka v termodinamskem diagramu stanj, </KDE>[OK]</QQ>); snov preide v <YI>kapljevino</YI> s taljenjem <KP>
+               <KK>07051400+00</KK>trdne snovi</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>kapljevina, </G>
+                  <K>503</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>trdna snov, </G>
+               <K>503</K>
+               <KR/>
+               <KDE>agregatno stanje, </KDE>[OK]</QQ> ali kondenzacijo <ZX>plina</ZX>. <YI>Kapljevine</YI> so malo stisljive, zato se jim prostornina tudi pri visokem tlaku le malo spremeni; to izkoriščamo v hidravliki. Njihova oblika se prilagodi obliki spodnjega dela posode, površina pa je praktično vodoravna in razen na mejah ravna (<KP>
+               <KK>03143400+00</KK>kapilarnost</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>kapljevina, </G>
+                  <K>503</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>kapilarnost </G>
+               <K>503</K>
+               <KR/>
+               <KDE>pojav v tankih cevkah (<KAZ>kapilarah</KAZ>), </KDE>[Z]</QQ>); pri večjih množinah <YI>kapljevin</YI>, kot npr. morjih ali jezerih, površina sovpada s sfero, ki ima izhodišče v središču Zemlje; v breztežnem stanju zavzame <YI>kapljevina</YI> zaradi <KP>
+               <KK>05501000+00</KK>površinske napetosti</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>kapljevina, </G>
+                  <K>503</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>površinska napetost, </G>
+               <K>503</K>
+               <KR/>
+               <KDE>sila, ki deluje na površini <KAZ>kapljevine</KAZ> in je usmerjena proti njeni notranjosti. </KDE>[Z]</QQ>, ki teži k čim manjši površini, obliko krogle (<KP>
+               <KK>02621100+00</KK>hidrostatika</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>kapljevina, </G>
+                  <K>503</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>hidrostatika, </G>
+               <K>503m</K>
+               <KR/>
+               <KDE>nauk o mirujočih <KAZ>kapljevinah</KAZ>. </KDE>[Z]</QQ>, <KP>
+               <KK>02615000+00</KK>hidrodinamika</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>kapljevina, </G>
+                  <K>503</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>hidrodinamika, </G>
+               <K>503</K>
+               <KR/>
+               <KDE>nauk o premikajočih se <KAZ>kapljevinah</KAZ>. </KDE>[Z]</QQ>). Majhna množina <YI>kapljevin</YI> se oblikuje v kapljo, ki je posledica težnosti in površinske napetosti – slednja ne dovoli, da bi se kaplja na ravni podlagi popolnoma razlila. <YI>Kapljevine</YI> skupaj s plini uvrščamo med <KP>
+               <KK>06856500+00</KK>tekočine</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>kapljevina, </G>
+                  <K>503</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>tekočina, </G>
+               <K>503</K>
+               <KR/>
+               <KDE>skupno ime za snovi, </KDE>[Z]</QQ>, pogosto pa ta izraz površno uporabimo za <YI>kapljevine</YI>.<RUBK>
+               <RUBN>
+                  <B>Kratek pregled</B>
+               </RUBN>
+               <RUBT>Kapljevine so tekočine, ki tvorijo kaplje. Temperatura in od nje odvisna povprečna gibalna energija atomov ali molekul je v kapljevini dovolj velika, da se delci v njej ne morejo zvezati v kristale. Čeprav so povprečne razdalje med atomi ali molekulami v kapljevinah komaj kaj večji kakor v trdnih snoveh, lahko kapljevine poljubno oblikujemo. Voda zato v težnostnem polju zavzame tisto obliko, ki jo narekuje posoda ali podlaga. Kljub veliki gibljivosti vode jo lahko le malo stisnemo. Notranje vezavne sile v kapljevinah so sicer manjše kakor v kristalih, se pa kljub temu močno upirajo stiskanju. Medmolekulske sile povzročijo, da kapljevine, na katere ne delujejo zunanje sile, zavzamejo obliko krogle.Kapljevine lahko raztapljajo druge snovi, zato jih uporabljamo tudi za pranje. Voda kot transportno sredstvo ni pomembna le v tehniki, temveč predvsem v bioloških sistemih. Krvni obtok živali in človeka ter vsaka izmenjava snovi temelji na raztapljanju v vodi in njenih transportnih lastnostih.Vsaka molekula kapljevine s svojimi električnimi privlačnimi silami deluje na svoje sosede. Ta <KP>
+                     <KK>03358500+00</KK>kohezija</KP>
+                  <QQ>
+                     <GQ>
+                        <T>P</T>
+                        <G>kapljevina, </G>
+                        <K>503</K>
+                        <KR/>
+                     </GQ>
+                     <T>P</T>
+                     <G>kohezija </G>
+                     <K>503</K>
+                     <KR/>
+                     <KDE>vezavne sile med molekulami neke snovi, navadno trdnin.</KDE>[OK]</QQ> v notranjosti veže snov, na površini pa nastanejo v notranjost usmerjene sile, saj imajo molekule na površini sosede le na eni strani. Te sile so vzrok za nastanek <ZX>površinske napetosti</ZX>, ki deluje kakor nekakšna koža, ki obkroža kapljevino. Če ni drugih zunanjih sil, kot npr. pri prostem padu v vakuumu ali breztežnostnem vesoljskem prostoru, se kapljica pod vplivom površinske napetosti oblikuje v kroglico. Nekatere žuželke lahko tekajo po vodni površini, ker s svojimi, posebej oblikovanimi nožicami, ne predrejo navidezne površinske opne, ki je posledica površinske napetosti. Sila površinske napetosti prevlada nad silo teže.Ko se kapljevina dotakne trdne snovi, se na mejah prikažejo medmolekularne privlačne sile. Pojav imenujemo <KP>
+                     <KK>00055200+01</KK>adhezija</KP>
+                  <QQ>
+                     <GQ>
+                        <T>P</T>
+                        <G>kapljevina, </G>
+                        <K>503</K>
+                        <KR/>
+                     </GQ>
+                     <T>P</T>
+                     <G>adhezija </G>
+                     <PODR>
+                        <I>fizika:</I>
+                     </PODR>
+                     <K>503</K>
+                     <KR/>
+                     <KDE>na osnovi molekularnih sil delujoča privlačnost, </KDE>[OK]</QQ>. Če je adhezija močnejša od kohezije, kapljevina omoči steno – skuša povečati stično površino, zato se ob njej dvigne. V nasprotnem primeru kapljevina ne omoči stene, ampak se ob njej zniža. Če močečo kapljevino vlijemo v klinasto posodo ali ozko cevko (kapilaro), se na ozkem delu dvigne. To imenujemo <ZX>kapilarnost</ZX>. Tako se npr. močeča kapljevina (črnilo) v klinasti kiveti iz stekla v ozkem delu posode vidno dvigne. Živo srebro sten iz iste snovi ne omoči, zato se v ozkem delu spusti. Kapilarni dvig je zelo pomemben pri izmenjavi snovi v rastilnah oz. pri njihovi prehrani.Kapljevine so skoraj <I>
+                     <ENX>nestisljive</ENX>
+                  </I> – tudi pri velikih tlakih le malo spremenijo svojo prostornino. Zaradi te lastnosti se odlično obnesejo za prenos mehanskih sil. Hidravlične naprave, kot so npr. dvižni mehanizem viličarja ali avtomobilske zavore, v ta namen uporabljajo posebna hidravlična olja.Kavitacija je pojav, ki nastaja pri hitrem pretakanju kapljevin. Tlak v kapljevini se lahko tako močno zniža, da kapljevina zavre. Nastanejo <I>
+                     <ENX>kavitacijski mehurčki</ENX>
+                  </I>, ki se z veliko hitrostjo zaletavajo drug v drugega in okoliške predmete. Na površinah lopatic ladijskih propelerjev ali turbin v hidroelektrarnah povzročajo luknjičaste poškodbe. Ko se kapljevina upočasni in se tlak spet poveča, hipoma izginejo, pri tem pa povzročajo tresljaje. Pojasnimo jih z Bernoullijevo enačbo. Kavitacijo z ultrazvokom namenoma ustvarimo v napravah za čiščenje. Ultrazvočni valovi močno pospešijo in zavirajo kapljevino, pri tem nastali kavitacijski mehurčki pa odstranijo tudi najbolj trdovratno umazanijo.V rezervoarju mehurčne celice je <I>
+                     <ENX>pregreta kapljevina</ENX>
+                  </I> (npr. tekoči vodik) v <I>
+                     <ENX>metastabilnem stanju</ENX>
+                  </I> in pod ustreznim tlakom. Njena temperatura je višja od vrelišča, a ker v njej ni motenj, ne zavre. Če vanjo prileti atomski delec, na svoji poti ionizira molekule kapljevine. S tem ustvari verigo kondenzacijskih jeder, ob kateri za zelo kratek čas iz kapljevine nastanejo plinasti mehurčki, ki označijo pot delca. Te sledi v pravem trenutku fotografirajo, slike iz mehurčne celice pa pozneje ovrednoti računalnik. Nabite delce lahko z magnetnim poljem ukrivijo v spiralne tirnice, ki pomagajo pri določanju lastnosti delcev.Značilnost kapljevin je njihova <KP>
+                     <KK>07365700+00</KK>viskoznost</KP>
+                  <QQ>
+                     <GQ>
+                        <T>P</T>
+                        <G>kapljevina, </G>
+                        <K>503</K>
+                        <KR/>
+                     </GQ>
+                     <T>P</T>
+                     <G>viskoznost </G>
+                     <K>503</K>
+                     <KR/>
+                     <KDE>snovna konstanta, </KDE>[OK]</QQ>. Ta je lahko silno majhna (npr. ohlajeni helij), srednje velika (npr. olje in glicerin), vse do viskoznosti, pri kateri kapljevine ne tečejo več (npr. smole in stekla). Te t. i. »trdne« kapljevine prepoznamo po tem, da pri segrevanju ne doživijo faznega prehoda, tališča, temveč postajajo vse mehkejše in končno popolnoma tekoče. Posebnost so plastelinu podobne snovi iz verigastih molekul, katere viskoznost je odvisna od hitrosti mehanske obremenitve. Takšna kapljevina steče skozi lijak počasi kakor mehka tekočina, ob udarcu pa se navadno zdrobi ali zlomi. Pri tem nastanejo prelomne površine, kakor jih poznamo npr. pri steklu.Helij postane pri ohladitvi pod temperaturo pribl. 2,2 K <I>
+                     <ENX>supertekočina</ENX>
+                  </I> oz. <I>
+                     <ENX>superfluid</ENX>
+                  </I>. V tem stanju teče brez upora tudi skozi najtanjše kapilare. V kozarcu zaradi kapilarnega dviga polzi kakor tanek tekoč film po stenah navzgor in kljub sili težnosti počasi steče prek roba.Avtor Richard Knerr</RUBT>
+            </RUBK>
+         </OPI>
+         <GT/>
+         <Z>Sašo Avsec</Z>
+         <K>503</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>03560200+00</N>
+         <T>P</T>
+         <G>kritična temperatura, </G>
+         <KDE>temperatura, pri kateri se v snoveh zgodi kakšna pomembna sprememba, </KDE>
+         <OPI>npr. prehod v superprevodno fazo (<KP>
+               <KK>06660400+00</KK>superprevodnost</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>kritična temperatura, </G>
+                  <K>503</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>superprevodnost, </G>
+               <K>503</K>
+               <KR/>
+               <KDE>pojav v nekaterih kovinah in kovinam podobnih spojinah, da pri temperaturi v bližini <KAZ>absolutne ničle</KAZ> popolnoma izgubijo električni upor. </KDE>[Z]</QQ>), prehod iz feromagnetne (<KP>
+               <KK>01984800+00</KK>feromagnetizem</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>kritična temperatura, </G>
+                  <K>503</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>feromagnetizem, </G>
+               <K>503</K>
+               <KR/>
+               <KDE>lastnost nekaterih snovi, da vsebujejo območja s trajnim magnetnim momentom; </KDE>[OK]</QQ>) v paramagnetno fazo (<KP>
+               <KK>01275700+00</KK>Curiejeva temperatura</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>kritična temperatura, </G>
+                  <K>503</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>Curiejeva temperatura </G>
+               <K>503</K>
+               <KR/>
+               <KDE>temperatura, nad katero feromagnetne snovi (<KAZ>feromagnetizem</KAZ>) hipoma postanejo paramagnetne (<KAZ>paramagnetizem</KAZ>). </KDE>[OK]</QQ>). Pri <KP>
+               <KK>05326800+00</KK>plinih</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>kritična temperatura, </G>
+                  <K>503</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>plin, </G>
+               <K>503</K>
+               <KR/>
+               <KDE>
+                  <KAZ>agregatno stanje</KAZ>, </KDE>[OK]</QQ> je <YI>kritična temperatura</YI> najvišja temperatura, pod katero snov pri nobenem tlaku ne nastopa v kapljevinskem stanju.</OPI>
+         <GT/>
+         <Z>Sašo Avsec</Z>
+         <K>503</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>04033300+00</N>
+         <T>N</T>
+         <G>Maji, </G>
+         <KDE>skupno ime za jezikovno sorodna indijanska ljudstva iz jv. Mehike (posebej z Jukatana), Gvatemale in v. Hondurasa, pribl. 4,2 mln. pripadnikov. </KDE>
+         <OPI>
+            <YI>Maji</YI> so ustvarili eno najpomembnejših kultur predkolumbovske Amerike. S poljedelstvom kot gospodarskim temeljem (<KP>
+               <KK>04284600+00</KK>Mezoamerika</KP>
+            <QQ>
+               <GQ>
+                  <T>N</T>
+                  <G>Maji, </G>
+                  <K>363</K>
+                  <KR>4.2</KR>
+               </GQ>
+               <T>G2</T>
+               <G>Mezoamerika, </G>
+               <K>137a/137b</K>
+               <KR>4.2</KR>
+               <KDE>označitev za območje predkolumbovskih razvitih kultur v Srednji Ameriki od sz. in sv. Mehike prek z. Hondurasa in z. Nikaragve do sz. Kostarike. </KDE>[OK]</QQ>) so v gvatemalskem višavju že pred našim štetjem nastala obredna središča, npr. Kaminaljuyú (tam je zdaj gvatemalsko glavno mesto). V majevskem klasičnem obdobju, 300–900 n. š., se je težišče kulture <YI>Majev</YI> premaknilo v nižavje na S. Številna mesta, npr. <KP>
+               <KK>05045700+00</KK>Palenque</KP>
+            <QQ>
+               <GQ>
+                  <T>N</T>
+                  <G>Maji, </G>
+                  <K>363</K>
+                  <KR>4.2</KR>
+               </GQ>
+               <T>G3</T>
+               <G>Palenque </G>
+               <K>201</K>
+               <KR>4.2.5</KR>
+               <KDE>ruševine majevskega mesta (<KAZ>Maji</KAZ>) v Mehiki, </KDE>[Z]</QQ>, Bonampak in <KP>
+               <KK>07216200+00</KK>Uxmal</KP>
+            <QQ>
+               <GQ>
+                  <T>N</T>
+                  <G>Maji, </G>
+                  <K>363</K>
+                  <KR>4.2</KR>
+               </GQ>
+               <T>G3</T>
+               <G>Uxmal </G>
+               <K>201</K>
+               <KR>4.2.5</KR>
+               <KDE>ruševine majevskega mesta (<KAZ>Maji</KAZ>) v Mehiki, </KDE>[Z]</QQ> v Mehiki, <KP>
+               <KK>06943100+00</KK>Tikal</KP>
+            <QQ>
+               <GQ>
+                  <T>N</T>
+                  <G>Maji, </G>
+                  <K>363</K>
+                  <KR>4.2</KR>
+               </GQ>
+               <T>G3</T>
+               <G>Tikal </G>
+               <K>201</K>
+               <KR>4.2.2</KR>
+               <KDE>pomembne majevske ruševine v s. Gvatemali, </KDE>[OK]</QQ> in Quirigua v Gvatemali in Copán v Hondurasu, so prebivalci v 8. ali 9. st. zapustili (kot razloge navajajo mdr. osiromašenje obdelovalnih površin in kmečke upore). Medtem ko so pokrajine južnega nižavja opustele, je 10.–12. st. S Jukatana pod <KP>
+               <KK>06988200+00</KK>Tolteki</KP>
+            <QQ>
+               <GQ>
+                  <T>N</T>
+                  <G>Maji, </G>
+                  <K>363</K>
+                  <KR>4.2</KR>
+               </GQ>
+               <T>N</T>
+               <G>Tolteki, </G>
+               <K>137b</K>
+               <KR>4.2.5</KR>
+               <KDE>ljudstvo iz srednje Mehike iz skupine <KAZ>Navancev</KAZ>; </KDE>[OK]</QQ> doživel nov razcvet (Chichén Itzá). Španci so se v gvatemalskem višavju in na Jukatanu po <LX>1511</LX> še srečali s kulturo majevskih mest in jo polagoma uničevali. <LX>1697</LX> je padlo zadnje majevsko mesto Tayasal. Z osvobodilnimi boji so se lahko <YI>Maji</YI> nekajkrat otresli tuje oblasti.Po 3. st. so <YI>Maji</YI> v astronomiji, astrologiji in zgodovinopisju uporabljali hieroglifsko pisavo (ki so jo doslej samo deloma razvozlali), izumili so številčni sistem z ničlo in uporabljali natančen astronomski koledar. V mestih so okrog velikih osrednjih trgov postavljali do 65 m visoke stopničaste piramide s svetišči na vrhu, palače, igrišča za obredno igro z žogo, prav tako stele in oltarje. Umetniško pomembni kipi, kamniti mozaiki, freske in reliefi iz štuka so krasili kamnite stavbe, pokrite z nepravilnimi oboki in zidane z apneno malto, prav tako tudi stavbe iz opeke, posušene na soncu. Razvito je bilo poslikavanje lončevine, obdelovanje žada, tkalstvo in skromno obdelovanje kovin, okrasje iz ptičjega perja. Mesta so povezovale ceste, ki so jih gradili na nasipih, trgovski stiki so segali vse do Kostarike.</OPI>
+         <GT>
+            <KP>
+               <KK>06541800+00</KK>staroameriška umetnost</KP>
+            <QQ>
+               <GQ>
+                  <T>N</T>
+                  <G>Maji, </G>
+                  <K>363</K>
+                  <KR>4.2</KR>
+               </GQ>
+               <T>P</T>
+               <G>staroameriška umetnost, </G>
+               <K>214</K>
+               <KR>4</KR>
+               <KDE>likovna umetnost indijanskih razvitih kultur, predzgodovinska umetnost v ZDA, ki se je razvijala deloma pod vplivom indijanskih kultur (<KAZ>Anasazijci</KAZ>, <KAZ>gozdna kultura</KAZ> v ZDA), in umetnost tropske J. Amerike z Antili (Venezuela, Amazonija, <KAZ>maražoarska kultura</KAZ>). </KDE>[Z]</QQ>
+         </GT>
+         <SK>
+            <DX>04033300+00+01</DX>
+            <TS>SF</TS>
+            <OPS>
+               <B>Maji:</B> ruševine mesta Chichén-Itzá s tempeljsko piramido, imenovano Castillo </OPS>
+            <O>(str. 3300 B)</O>
+         </SK>
+         <SK>
+            <DX>04033300+00+02</DX>
+            <TS>SF</TS>
+            <OPS>
+               <B>Maji:</B> poslikan kamnit jaguarski prestol z vložki iz žada (majevsko-tolteška kultura, ok. 11.–13. st.), Chichén Itzá (Jukatan, Mehika) </OPS>
+            <O>(str. 3300 B)</O>
+         </SK>
+         <SK>
+            <DX>04033300+00+03</DX>
+            <TS>SU</TS>
+            <OPS>
+               <B>Maji:</B> poslikan trinožni keramični krožnik z upodobljenim sedečim dostojanstvenikom (poznoklasično obdobje, 650–900), Ciudad de México, zasebna zbirka </OPS>
+            <O>(str. 3300 C)</O>
+         </SK>
+         <SK>
+            <DX>04033300+00+04</DX>
+            <TS>SU</TS>
+            <OPS>
+               <B>Maji:</B> razkošni leseni ščit z vložki iz turkiza in pirita (postklasično obdobje, 12. st.), Ciudad de México, Museo Nacionale de Antropologia </OPS>
+            <O>(str. 3300 C)</O>
+         </SK>
+         <Z>Borut Korun</Z>
+         <K>363</K>
+         <KR>4.2</KR>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>04474500+00</N>
+         <T>P</T>
+         <G>možganska krvavitev, </G>
+         <KDE>krvavitev v možganih ali okoli njih, </KDE>
+         <OPI>ki je posledica poškodbe ali spontanega pretrganja krvne žile. Posledica topih poškodb lobanje je krvavitev med lobanjsko kostjo in trdo možgansko ovojnico (<I>
+               <ENX>epiduralna krvavitev</ENX>
+            </I>), ali med trdo in mehko možgansko ovojnico (<I>
+               <ENX>subduralna krvavitev</ENX>
+            </I>). Znaki: postopen nastanek glavobola, zmedenosti, ohromitve dela telesa. Zdravljenje: kirurška odstranitev krvi (<KP>
+               <KK>07057600+00</KK>trepanacija</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>možganska krvavitev, </G>
+                  <K>402</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>trepanacija </G>
+               <K>403</K>
+               <KR/>
+               <KDE>odprtje kosti, </KDE>[OK]</QQ>). – Pri spontanem raztrganju razširjene krvne žile (anevrizme) nastane krvavitev v prostor med mehkima ovojnicama (<I>
+               <ENX>subarahnoidalna krvavitev</ENX>
+            </I>) ali v možganovino (<I>
+               <ENX>intracerebralna krvavitev</ENX>
+            </I>). Posebej ogroženi so starejši ljudje z nezdravljeno <KP>
+               <KK>02642800+00</KK>hipertenzijo</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>možganska krvavitev, </G>
+                  <K>402</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>hipertenzija </G>
+               <K>402</K>
+               <KR/>
+               <KDE>stalno zvišan krvni tlak (več kot 160 mmHg v <KAZ>sistoli</KAZ> in več kot 95 mmHg v <KAZ>diastoli</KAZ> – ne glede na starost). </KDE>[OK]</QQ>. Znaki: pri subarahnoidalni <YI>možganski krvavitvi</YI> nenaden močan glavobol, nenadna izguba zavesti; intracerebralna <YI>možganska krvavitev</YI> je ena od oblik <KP>
+               <KK>04474700+00</KK>možganskega inzulta</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>možganska krvavitev, </G>
+                  <K>402</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>možganski inzult </G>
+               <K>402</K>
+               <KR/>
+               <KDE>nenadno nastali nevrološki izpadi zaradi okvare možganov, </KDE>[OK]</QQ> z enakimi znaki. Obe sta življenjsko nevarni. Zdravljenje: kirurško, a le izjemoma.</OPI>
+         <GT/>
+         <Z>Iza Ciglenečki</Z>
+         <K>402</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>04887300+00</N>
+         <T>P</T>
+         <G>okultizem </G>
+         <FOR>[latinsko], </FOR>
+         <KDE>nauk o skritih (okultnih), </KDE>
+         <OPI>znanstveno nedostopnih pojavih, ki naj bi bili učinkovanje duhov (<KP>
+               <KK>06479400+00</KK>spiritizem</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>okultizem </G>
+                  <K>102</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>spiritizem </G>
+               <K>143</K>
+               <KR/>
+               <KDE>v več religijah razširjeno verovanje v obstoj duhov, </KDE>[Z]</QQ>) ali izraz posebnih človekovih zmožnosti.<RUB>
+               <RUBN>
+                  <EN>
+                     <I>Okultist</I>
+                  </EN>: </RUBN>
+               <RUBT>kdor se ukvarja z <YI>okultizmom</YI>.</RUBT>
+            </RUB>
+         </OPI>
+         <GT/>
+         <Z>Zdenka Erbežnik</Z>
+         <K>102</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <BI>
+         <N>05350400+00</N>
+         <T>B</T>
+         <G>Poděbrad </G>
+         <FOR>[pódjebrad-], </FOR>
+         <OIME>Jurij, </OIME>
+         <AIME>tudi <I>Poděbradski</I> in <I>Kunštátski</I>
+         </AIME>
+         <KDE>češki kralj (<ILT>1458</ILT>–71), </KDE>
+         <RPOD>
+            <RPOD1>*6.4.1420 Poděbrady, </RPOD1>
+            <RPOD2>†22.3.1471 Praga; </RPOD2>
+         </RPOD>
+         <OPI>od <OLT>1444</OLT> politični vodja <KP>
+               <KK>07212300+00</KK>utrakvistov</KP>
+            <QQ>
+               <GQ>
+                  <T>B</T>
+                  <G>Poděbrad </G>
+                  <OIME>Jurij, </OIME>
+                  <K>137b</K>
+                  <KR>1.1.3.1</KR>
+               </GQ>
+               <T>L2-L2</T>
+               <G>utrakvisti </G>
+               <K>144</K>
+               <KR/>
+               <KDE>označitev za zmerne <KAZ>husite</KAZ>, in sicer zaradi njihove zahteve, da je treba obhajilo prejeti <I>sub utraque specie</I> (v obeh podobah), tj. poleg hostije tudi t. i. laiški kelih (latinsko <I>calix</I>).</KDE>[OK]</QQ>; češki stanovi so ga <LT>1452</LT> izvolili za oskrbnika (<I>
+               <ENX>gubernatorja</ENX>
+            </I>) mladoletnemu <KP>
+               <KK>03671800+00</KK>Ladislavu Posthumusu</KP>
+            <QQ>
+               <GQ>
+                  <T>B</T>
+                  <G>Poděbrad </G>
+                  <OIME>Jurij, </OIME>
+                  <K>137b</K>
+                  <KR>1.1.3.1</KR>
+               </GQ>
+               <T>B</T>
+               <G>Ladislav </G>
+               <DOS>
+                  <I>Posthumus</I>, </DOS>
+               <K>137b</K>
+               <KR>1.1.2/1.1.3.1</KR>
+               <KDE>ogrski (<ILT>1440</ILT>–57) in češki (<OLT>1453</OLT>–57) kralj, </KDE>[Z]</QQ>. Po Ladislavovi smrti <LT>1458</LT> postal kralj; <LT>1466</LT> ga je papež Pavel II. izobčil. Medtem ko je <KP>
+               <KK>04155600+00</KK>Matija Korvin</KP>
+            <QQ>
+               <GQ>
+                  <T>B</T>
+                  <G>Poděbrad </G>
+                  <OIME>Jurij, </OIME>
+                  <K>137b</K>
+                  <KR>1.1.3.1</KR>
+               </GQ>
+               <T>B</T>
+               <G>Matija </G>
+               <DOS>
+                  <I>Korvin</I>, </DOS>
+               <K>137b</K>
+               <KR>1.1.2</KR>
+               <KDE>ogrski kralj (<ILT>1458</ILT>–90), sin <KAZ>J. Hunyadija</KAZ>, </KDE>[OK]</QQ> zasedel sosednje dežele Češke, se je <YI>Poděbrad</YI> uveljavil v matični državi.</OPI>
+         <GT/>
+         <Z>Oto Luthar</Z>
+         <K>137b</K>
+         <KR>1.1.3.1</KR>
+      </BI>
+   </XX>
+   <XX>
+      <PO>
+         <N>05671500+00</N>
+         <T>P</T>
+         <G>psihedelični rock </G>
+         <FOR>[～ rók], </FOR>
+         <KDE>slogovna smer v rockovski glasbi 60. let, izhajajoča predvsem iz izkušenj glasbenikov z mamili ter iz uporabe električnih ojačevalnikov in potujitvenih učinkov (npr. protisklopi, popačenja) glasbe. </KDE>
+         <OPI>Prizadevanja, da bi se pri glasbenikih in poslušalcih z razl. mamili (posebej s hašišem, z marihuano in LSD) povečala ustvarjalnost oz. dojemanje. Pomembne skupine <YI>psihedeličnega rocka</YI> so bile poleg skupin Doors in Flock predvsem Iron Butterfly (<I>
+               <ENX>In a gadda da Vida</ENX>
+            </I>), Amon Düül, Vanilla Fudge, The Byrds, Jefferson Airplane, Pink Floyd, pa tudi skupina Beatles (<I>
+               <ENX>Lucy in the Sky of Diamonds</ENX>
+            </I>). <YI>Psihedelični rock</YI> je v 80. letih obnovil <KP>
+               <KK>02717400+00</KK>house</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>psihedelični rock </G>
+                  <K>141z</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>house </G>
+               <K>141z</K>
+               <KR/>
+               <KDE>niz skladb, namenjenih za ples; </KDE>[OK]</QQ>.</OPI>
+         <GT/>
+         <Z>Vera Gregorač</Z>
+         <K>141z</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <BI>
+         <N>06102700+00</N>
+         <T>B</T>
+         <G>Santana </G>
+         <FOR>[santána], </FOR>
+         <OIME>Carlos (od 1973) Devadip, </OIME>
+         <KDE>mehiški rockovski kitarist, </KDE>
+         <RPOD>
+            <RPOD1>*20.7.1947 Autlán de Navarro; </RPOD1>
+            <RPOD2/>
+         </RPOD>
+         <OPI>
+            <ILT>1967</ILT> ustanovil v San Franciscu skupino <I>Santana</I>, katere značilnost postanejo afrokubanska ritmika in pojoče kitare. Nastop <YI>Santane</YI> v Woodstocku <OLT>1969</OLT> je odločilno vplival na slog južnoameriškega rocka. Skladbe, kot so <I>Black Magic Woman</I> (<LT>1970</LT>), <I>Samba Pa Ti</I> (<LT>1970</LT>), <I>Jingo</I> (<LT>1973</LT>) ali <I>She's not There</I> (<LT>1977</LT>), so postale svetovne uspešnice.<RUB>
+               <RUBN>
+                  <I>Plošče</I>
+               </RUBN>
+               <RUBT>
+                  <I>Santana</I> (<OLT>1969</OLT>), <I>Abraxas</I> (<LT>1970</LT>), <I>III</I> (<LT>1971</LT>), <I>Caravanserai</I> (<LT>1972</LT>), <I>Love Devotion Surrender</I> (z Johnom McLaughlinom, <LT>1973</LT>), <I>Zebop!</I> (<LT>1981</LT>), <I>Viva Santana</I> (<LT>1988</LT>).</RUBT>
+            </RUB>
+         </OPI>
+         <GT/>
+         <Z>Vera Gregorač</Z>
+         <K>141z</K>
+         <KR>4.2.5</KR>
+      </BI>
+   </XX>
+   <XX>
+      <PO>
+         <N>06519900+01</N>
+         <T>P</T>
+         <G>sredstva, </G>
+         <A>1) </A>
+         <PODR>
+            <I>splošno:</I>
+         </PODR>
+         <KDE>snov, priprava, naprava ipd., uporabljena za dosego kakšnega cilja ipd.</KDE>
+         <OPI/>
+         <GT/>
+         <Z>Ivan Turk (1)</Z>
+         <K>150</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>06519900+02</N>
+         <W/>
+         <T>P</T>
+         <G>sredstva, </G>
+         <A>2) </A>
+         <PODR>
+            <I>ekonomija:</I>
+         </PODR>
+         <AIME>
+            <I>
+               <ES>premoženje</ES>
+            </I>, </AIME>
+         <KDE>celota stvari, pravic in denarja, ki jih ima kdo in mu omogočajo uresničevanje ekonomskih ciljev. </KDE>
+         <OPI>Izražena so v denarni merski enoti in ovrednotena največ z zneskom, za katerega je mogoče predpostaviti, da ga bo mogoče dobiti v denarni obliki, kadar imajo <YI>sredstva</YI> nedenarne oblike. V <KP>
+               <KK>00735400+00</KK>bilanci stanja</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>sredstva, </G>
+                  <PODR>
+                     <I>ekonomija:</I>
+                  </PODR>
+                  <K>211</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>bilanca stanja, </G>
+               <K>211</K>
+               <KR/>
+               <KDE>temeljni <KAZ>računovodski izkaz</KAZ>, </KDE>[Z]</QQ> so navedena na levi strani in označena tudi z izrazom <I>aktiva</I>. Glede na značilnosti se delijo na <KP>
+               <KK>06531300+00</KK>stalna sredstva</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>sredstva, </G>
+                  <PODR>
+                     <I>ekonomija:</I>
+                  </PODR>
+                  <K>211</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>stalna sredstva, </G>
+               <K>211</K>
+               <KR/>
+               <KDE>v podjetju tista <KAZ>sredstva</KAZ>, </KDE>[Z]</QQ> in <KP>
+               <KK>02250600+00</KK>gibljiva sredstva</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>sredstva, </G>
+                  <PODR>
+                     <I>ekonomija:</I>
+                  </PODR>
+                  <K>211</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>gibljiva sredstva, </G>
+               <K>211</K>
+               <KR/>
+               <KDE>tista <KAZ>sredstva</KAZ> v podjetju, </KDE>[Z]</QQ>, glede na čas vezave v danih oblikah na <KP>
+               <KK>01578700+00</KK>dolgoročna sredstva</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>sredstva, </G>
+                  <PODR>
+                     <I>ekonomija:</I>
+                  </PODR>
+                  <K>211</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>dolgoročna sredstva, </G>
+               <K>211</K>
+               <KR/>
+               <KDE>tista <KAZ>sredstva</KAZ> v podjetju, </KDE>[Z]</QQ> in <KP>
+               <KK>03529100+00</KK>kratkoročna sredstva</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>sredstva, </G>
+                  <PODR>
+                     <I>ekonomija:</I>
+                  </PODR>
+                  <K>211</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>kratkoročna sredstva, </G>
+               <K>211</K>
+               <KR/>
+               <KDE>tista <KAZ>sredstva</KAZ> v podjetju, </KDE>[Z]</QQ>, glede na funkcionalnost pri ustvarjanju prihodkov pa na <KP>
+               <KK>04983600+00</KK>osnovna sredstva</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>sredstva, </G>
+                  <PODR>
+                     <I>ekonomija:</I>
+                  </PODR>
+                  <K>211</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>osnovna sredstva, </G>
+               <K>211</K>
+               <KR/>
+               <KDE>tista <KAZ>sredstva</KAZ> v podjetju, </KDE>[Z]</QQ>, <KP>
+               <KK>04812800+00</KK>obratna sredstva</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>sredstva, </G>
+                  <PODR>
+                     <I>ekonomija:</I>
+                  </PODR>
+                  <K>211</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>obratna sredstva, </G>
+               <K>211</K>
+               <KR/>
+               <KDE>tista <KAZ>sredstva</KAZ> v podjetju, </KDE>[Z]</QQ> in <KP>
+               <KK>02014300+00</KK>finančne naložbe</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>sredstva, </G>
+                  <PODR>
+                     <I>ekonomija:</I>
+                  </PODR>
+                  <K>211</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>finančne naložbe, </G>
+               <K>211</K>
+               <KR/>
+               <KDE>v podjetjih <KAZ>sredstva</KAZ>, vključena v proces, iz katerega izhajajo prihodki od financiranja in ne prihodki od poslovanja. </KDE>[Z]</QQ>.</OPI>
+         <GT/>
+         <Z>Ivan Turk (1)</Z>
+         <K>211</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>06911400+02</N>
+         <W/>
+         <T>P</T>
+         <G>tetanus, </G>
+         <A>2) </A>
+         <PODR>
+            <I>fiziologija:</I>
+         </PODR>
+         <KDE>najkrčevitejše stanje <KP>
+               <KK>04346600+00</KK>mišice</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>tetanus, </G>
+                  <PODR>
+                     <I>fiziologija:</I>
+                  </PODR>
+                  <K>442</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>mišica </G>
+               <K>403</K>
+               <KR/>
+               <KDE>organ, sestavljen iz <KAZ>mišičnega tkiva</KAZ>. </KDE>[OK]</QQ>, </KDE>
+         <OPI>posledica <KP>
+               <KK>06653500+02</KK>sumacije</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>tetanus, </G>
+                  <PODR>
+                     <I>fiziologija:</I>
+                  </PODR>
+                  <K>442</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>sumacija, </G>
+               <PODR>
+                  <I>fiziologija:</I>
+               </PODR>
+               <K>442</K>
+               <KR/>
+               <KDE>seštevanje posameznih mišičnih trzljajev vse do tetaničnega skrčenja (<KAZ>tetanus</KAZ>); </KDE>[Z]</QQ> posameznih trzljajev; pojavlja se pri velikih mišičnih obremenitvah.</OPI>
+         <GT/>
+         <Z>Jaro Lajovic</Z>
+         <K>442</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>06911400+01</N>
+         <T>P</T>
+         <G>tetanus </G>
+         <FOR>[grško], </FOR>
+         <A>1) </A>
+         <PODR>
+            <I>medicina:</I>
+         </PODR>
+         <AIME>
+            <I>
+               <ES>otrpni krč</ES>
+            </I>, </AIME>
+         <KDE>huda infekcijska bolezen, </KDE>
+         <OPI>ki jo povzroča bacil <I>
+               <ENX>Clostridium tetani</ENX>
+            </I>. Spore klostridija živijo v zemlji, v telo vstopajo skozi rane, se razmnožijo in tvorijo <KP>
+               <KK>06983500+00</KK>toksin</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>tetanus </G>
+                  <PODR>
+                     <I>medicina:</I>
+                  </PODR>
+                  <K>405</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>toksini </G>
+               <K>402</K>
+               <KR/>
+               <KDE>strupi s specifičnim delovanjem, </KDE>[OK]</QQ>; ta deluje na živčne sinapse. Bolezenski znaki: 5–20 dni po okužbi utrujenost, neješčnost, tonični krči (<KP>
+               <KK>06996700+00</KK>tonus</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>tetanus </G>
+                  <PODR>
+                     <I>medicina:</I>
+                  </PODR>
+                  <K>405</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>tonus </G>
+               <K>403</K>
+               <KR/>
+               <KDE>normalna notranja napetost telesnih tkiv, </KDE>[OK]</QQ>) mišičja (najprej na mišicah obraza, nato zatilja, hrbta in okončin), pri polni zavesti. Zaradi visoke temperature, <KP>
+               <KK>06796000+00</KK>tahikardije</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>tetanus </G>
+                  <PODR>
+                     <I>medicina:</I>
+                  </PODR>
+                  <K>405</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>tahikardija </G>
+               <K>403</K>
+               <KR/>
+               <KDE>zvečana frekvenca srčnega utripa, </KDE>[OK]</QQ>, <KP>
+               <KK>06796400+00</KK>tahipnoe</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>tetanus </G>
+                  <PODR>
+                     <I>medicina:</I>
+                  </PODR>
+                  <K>405</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>tahipnoa </G>
+               <K>403</K>
+               <KR/>
+               <KDE>nenormalno hitro dihanje, </KDE>[OK]</QQ> in mišičnih krčev je potrebno intenzivno zdravljenje z umetnim dihanjem, pomirjevali, parenteralnim hranjenjem, mišičnimi relaksanti in antibiotiki. <YI>Tetanus</YI> je v svetu (nerazvite dežele) še vedno zelo razširjena smrtna bolezen, pri nas je zaradi aktivne in pasivne imunizacije (<KP>
+               <KK>01079600+01</KK>cepljenje</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>tetanus </G>
+                  <PODR>
+                     <I>medicina:</I>
+                  </PODR>
+                  <K>405</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>cepljenje, </G>
+               <PODR>
+                  <I>medicina:</I>
+               </PODR>
+               <K>402</K>
+               <KR/>
+               <KDE>vnos mrtvih ali oslabljenih bolezenskih povzročiteljev in iz njih z gensko tehnologijo pridobljenih <KAZ>antigenov</KAZ> ali bakterijskih strupov v zdrav organizem za preprečevanje infekcijske bolezni (<I>zaščitno <YI>cepljenje</YI>
+                  </I>). </KDE>[Z]</QQ>) bolezen redka, večinoma se pojavlja pri starejših. Cepljenje proti <YI>tetanusu</YI> je del obveznega cepilnega programa, cepijo (diteper cepivo – davica, tetanus, oslovski kašelj) otroke v starosti 3, 6, 9 in 15–18 mesecev ter ponovno ob vstopu v šolo. Cepljenje je treba ponoviti vsakih deset let. Cepijo tudi osebe, ki so se ranile, če je od zadnjega cepljenja poteklo več kot deset let. Pri preprečevanju je pomembna tudi pravilna oskrba ran.</OPI>
+         <GT/>
+         <Z>Andreja Bricelj</Z>
+         <K>405</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>07302500+00</N>
+         <T>P</T>
+         <G>verižni refleks, </G>
+         <KDE>zaporedje pogojnih in nepogojnih refleksov. </KDE>
+         <OPI>Mnenje, da so zapleteni poteki vedenja zgolj <YI>verižni refleksi</YI>, je že dolgo zastarelo.</OPI>
+         <GT/>
+         <Z>Ivan Štuhec</Z>
+         <K>436</K>
+         <KR/>
+      </PO>
+   </XX>
+   <XX>
+      <PO>
+         <N>07691700+00</N>
+         <T>P</T>
+         <G>znižanje zmrzišča, </G>
+         <KDE>
+            <A0>1. </A0>pojav, </KDE>
+         <OPI>pri katerem se topilu zaradi v njem <I>
+               <ENX>raztopljenih snovi</ENX>
+            </I> zniža temperaturo zmrzovanja oz. zmrzišča. Nižanje zmrzišča je sorazmerno z molarno koncentracijo, neodvisno od vrste raztopljene snovi, in ga lahko uporabijo – podobno kakor nižanje parnega tlaka in višanje vrelišča – za določanje molekularne teže neznanih snovi. Za 1 kg vode znaša <YI>znižanje zmrzišča</YI> pri molu raztopljene snovi in tlaku 1013 hPa npr. 1,86 °C, za benzen 5,07 °C, za tetrakloroogljik 29,8 °C. Tehnična uporaba <YI>znižanja zmrzišča</YI> npr. pri <KP>
+               <KK>02665500+00</KK>hladilnih strojih</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>znižanje zmrzišča, </G>
+                  <K>503</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>hladilni stroj </G>
+               <K>503</K>
+               <KR/>
+               <KDE>naprava za doseganje temperatur, nižjih od temperature okolice; </KDE>[OK]</QQ>. </OPI>
+         <KDE>
+            <A0>2. </A0>pojav, pri katerem se zaradi <I>povečanega tlaka</I> zniža temperatura zmrzovanja kapljevine.</KDE>
+         <OPI/>
+         <GT>
+            <KP>
+               <KK>05829800+00</KK>regelacija</KP>
+            <QQ>
+               <GQ>
+                  <T>P</T>
+                  <G>znižanje zmrzišča, </G>
+                  <K>503</K>
+                  <KR/>
+               </GQ>
+               <T>P</T>
+               <G>regelacija </G>
+               <K>503</K>
+               <KR/>
+               <KDE>pojav, pri katerem se voda pri nizki, konstantni temperaturi zaradi hitrega zmanjšanja <KAZ>tlaka</KAZ> spremeni v led. </KDE>[OK]</QQ>
+         </GT>
+         <Z>Matjaž Štuhec</Z>
+         <K>503</K>
+         <KR/>
+      </PO>
+   </XX>
+</DZS>

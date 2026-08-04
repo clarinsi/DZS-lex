@@ -1,0 +1,35 @@
+### Targets for testing scripts on sample
+test-all:	test-dzs2tei test-val
+test-val:
+	$j TEI/tei_dzslex.rng Sample/DZS-lex.sample.xml
+test-dzs2tei:
+	$s -xsl:Scripts/dzs2tei.xsl Sample/KNAUR.sample.xml > Sample/DZS-lex.sample.xml
+
+### Targets to run on complete source
+all:	dzs2tei val
+val:
+	$s -xsl:Scripts/check-links.xsl Lexicon/DZS-lex.xml
+	$j TEI/tei_dzslex.rng Lexicon/DZS-lex.xml
+
+dzs2tei:
+	$s -xsl:Scripts/dzs2tei.xsl Lexicon/KNAUR.xml > Lexicon/DZS-lex.xml
+
+### Preparation of the source lexicon
+prep: dzs2xml dzs2sample
+dzs2sample:
+	$s ratio=1000 -xsl:Scripts/dzs2sample.xsl Lexicon/KNAUR.xml > Sample/KNAUR.sample.xml
+	grep -c '<XX>' Lexicon/KNAUR.xml
+	grep -c '<XX>' Sample/KNAUR.sample.xml
+dzs2xml:
+	iconv -f CP1250 -t UTF-8 < Lexicon/KNAUR.648 > Lexicon/KNAUR.txt
+	Scripts/dzs2xml.pl Scripts/DZS-chars.tsv < Lexicon/KNAUR.txt > Lexicon/KNAUR.xml
+
+### Support scripts for analysing the source
+show-element:
+	$s element=FOR -xsl:Scripts/show-element.xsl Lexicon/KNAUR.xml
+
+
+############################################
+j = java -jar /usr/share/java/jing.jar
+s = java -jar /usr/share/java/saxon.jar
+P = parallel --gnu --halt 0
