@@ -87,7 +87,6 @@
     <TEI xmlns="http://www.tei-c.org/ns/1.0">
       <xsl:attribute name="xml:id" select="$id_prefix"/>
       <xsl:attribute name="xml:lang">sl</xsl:attribute>
-      <xsl:attribute name="type">lex-0</xsl:attribute>
       <xsl:copy-of select="$teiHeader"/>
       <text>
         <body>
@@ -735,27 +734,6 @@
   <xsl:function name="et:id">
     <xsl:param name="n"/>
     <xsl:value-of select="concat($id_prefix, replace($n, '\+', '.'))"/>
-  </xsl:function>
-
-  <!-- Remove trailing punctuation and space -->
-  <xsl:function name="et:de-punct">
-    <xsl:param name="str"/>
-    <xsl:value-of select="normalize-space(replace($str, concat($punct-re, '\s*$'), ''))"/>
-  </xsl:function>
-
-  <!-- Return trailing punct and space as <pc> -->
-  <xsl:function name="et:punct">
-    <xsl:param name="str"/>
-    <xsl:if test="matches($str, concat($punct-re, '\s*$'))">
-      <pc>
-        <xsl:value-of select="concat(
-                              normalize-space(
-                              replace($str, concat('.+(', $punct-re, '\s*)$'), '$1')
-                              ),
-                              '&#32;')
-                              "/>
-      </pc>
-    </xsl:if>
   </xsl:function>
 
   <xsl:template match="*">
