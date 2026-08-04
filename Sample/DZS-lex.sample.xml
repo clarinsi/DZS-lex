@@ -85,14 +85,14 @@
                <lbl type="number" n="A0">1. </lbl>
                <sense n="KDE">
                   <def n="KDE">oznaka za mersko enoto površine <ref target="#dzs00377200.00" n="KP">ar</ref>; </def>
+                  <def n="OPI">1 a = 100 m². </def>
                </sense>
-               <def n="OPI">1 a = 100 m². </def>
                <lbl type="number" n="A0">2. </lbl>
                <sense n="KDE">
                   <def n="KDE">oznaka za predpono <ref target="#dzs00470800.00" n="KP">ato-</ref> pri <ref target="#dzs04250900.00" n="KP">merskih enotah</ref>
                   </def>
+                  <def n="OPI">(= 10⁻¹⁸ = 1 trilijoninka).</def>
                </sense>
-               <def n="OPI">(= 10⁻¹⁸ = 1 trilijoninka).</def>
                <milestone type="admin" unit="meta"/>
                <note type="admin" subtype="author" n="Z">
                   <name>Sašo Avsec</name>
@@ -1941,10 +1941,10 @@
             <lbl type="number" n="A0">1. </lbl>
             <sense n="KDE">
                <def n="KDE">pojav, </def>
+               <def n="OPI">pri katerem se topilu zaradi v njem <hi rend="italic" n="I">
+                     <distinct type="form" n="ENX">raztopljenih snovi</distinct>
+                  </hi> zniža temperaturo zmrzovanja oz. zmrzišča. Nižanje zmrzišča je sorazmerno z molarno koncentracijo, neodvisno od vrste raztopljene snovi, in ga lahko uporabijo – podobno kakor nižanje parnega tlaka in višanje vrelišča – za določanje molekularne teže neznanih snovi. Za 1 kg vode znaša <oRef type="headword" n="YI">znižanje zmrzišča</oRef> pri molu raztopljene snovi in tlaku 1013 hPa npr. 1,86 °C, za benzen 5,07 °C, za tetrakloroogljik 29,8 °C. Tehnična uporaba <oRef type="headword" n="YI">znižanja zmrzišča</oRef> npr. pri <ref target="#dzs02665500.00" n="KP">hladilnih strojih</ref>. </def>
             </sense>
-            <def n="OPI">pri katerem se topilu zaradi v njem <hi rend="italic" n="I">
-                  <distinct type="form" n="ENX">raztopljenih snovi</distinct>
-               </hi> zniža temperaturo zmrzovanja oz. zmrzišča. Nižanje zmrzišča je sorazmerno z molarno koncentracijo, neodvisno od vrste raztopljene snovi, in ga lahko uporabijo – podobno kakor nižanje parnega tlaka in višanje vrelišča – za določanje molekularne teže neznanih snovi. Za 1 kg vode znaša <oRef type="headword" n="YI">znižanje zmrzišča</oRef> pri molu raztopljene snovi in tlaku 1013 hPa npr. 1,86 °C, za benzen 5,07 °C, za tetrakloroogljik 29,8 °C. Tehnična uporaba <oRef type="headword" n="YI">znižanja zmrzišča</oRef> npr. pri <ref target="#dzs02665500.00" n="KP">hladilnih strojih</ref>. </def>
             <lbl type="number" n="A0">2. </lbl>
             <sense n="KDE">
                <def n="KDE">pojav, pri katerem se zaradi <hi rend="italic" n="I">povečanega tlaka</hi> zniža temperatura zmrzovanja kapljevine.</def>

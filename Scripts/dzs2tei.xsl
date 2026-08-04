@@ -90,7 +90,10 @@
       <xsl:copy-of select="$teiHeader"/>
       <text>
         <body>
-          <xsl:apply-templates/>
+          <xsl:variable name="pass1">
+            <xsl:apply-templates/>
+          </xsl:variable>
+          <xsl:apply-templates mode="pass2" select="$pass1"/>
         </body>
       </text>
     </TEI>
@@ -726,8 +729,48 @@
        Will delete the whole thing!!
   -->
   <xsl:template match="QQ"/>
- 
 
+  <!-- Catch all -->
+  <xsl:template match="*">
+    <xsl:message select="concat('ERROR: uncosumed element ', name())"/>
+    <xsl:copy>
+      <xsl:apply-templates/>
+    </xsl:copy>
+  </xsl:template>
+
+  <!-- Pass 2: Move def into preceding sense, source has wrong nesting -->
+  <xsl:template mode="pass2" match="tei:sense[@n = 'KDE']">
+    <xsl:copy>
+      <xsl:apply-templates mode="pass2" select="@*"/>
+      <xsl:apply-templates mode="pass2"/>
+      <xsl:if test="following-sibling::tei:*[1][self::tei:def]">
+        <xsl:copy-of select="following-sibling::tei:*[1]"/>
+      </xsl:if>
+    </xsl:copy>
+  </xsl:template>
+  
+  <xsl:template mode="pass2" match="tei:def">
+    <xsl:if test="not(preceding-sibling::tei:*[1][self::tei:sense])">
+      <xsl:copy>
+        <xsl:apply-templates mode="pass2" select="@*"/>
+        <xsl:apply-templates mode="pass2"/>
+      </xsl:copy>
+    </xsl:if>
+  </xsl:template>
+
+  <xsl:template mode="pass2" match="tei:*">
+    <xsl:copy>
+      <xsl:apply-templates mode="pass2" select="@*"/>
+      <xsl:apply-templates mode="pass2" select="tei:*|text()"/>
+    </xsl:copy>
+  </xsl:template>
+  <xsl:template mode="pass2" match="@*">
+    <xsl:copy/>
+  </xsl:template>
+  <xsl:template mode="pass2" match="/text()">
+    <xsl:value-of select="."/>
+  </xsl:template>
+  
   <!-- FUNCTIONS -->
   
   <!-- Construct IDs for entries and senses -->
@@ -735,11 +778,5 @@
     <xsl:param name="n"/>
     <xsl:value-of select="concat($id_prefix, replace($n, '\+', '.'))"/>
   </xsl:function>
-
-  <xsl:template match="*">
-    <xsl:copy>
-      <xsl:apply-templates/>
-    </xsl:copy>
-  </xsl:template>
 
   </xsl:stylesheet>
