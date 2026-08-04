@@ -7,7 +7,7 @@
 
   <xsl:param name="ratio">100</xsl:param>
 
-  <xsl:output indent="yes" omit-xml-declaration="yes"/>
+  <xsl:output indent="no" omit-xml-declaration="yes"/>
 
   <xsl:key name="entry" match="XX" use="substring-before(*/N, '+')"/>
 
@@ -19,13 +19,17 @@
     </xsl:comment>
     <xsl:text>&#10;</xsl:text>
     <xsl:copy>
+      <xsl:text>&#10;</xsl:text>
       <xsl:for-each select="XX">
         <xsl:if test="(position() mod $ratio) = 1">
           <xsl:variable name="id" select="substring-before(*/N, '+')"/>
           <xsl:copy-of select="key('entry', $id)"/>
+          <xsl:text>&#10;</xsl:text>
+          <xsl:text>&#10;</xsl:text>
         </xsl:if>
       </xsl:for-each>
     </xsl:copy>
+    <xsl:text>&#10;</xsl:text>
   </xsl:template>
 
 </xsl:stylesheet>
