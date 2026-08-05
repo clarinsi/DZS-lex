@@ -12,7 +12,7 @@
   <xsl:param name="id_prefix">dzs</xsl:param>
 
   <xsl:variable name="teiHeader">
-    <teiHeader xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sl">
+    <teiHeader xml:lang="sl">
       <fileDesc>
         <titleStmt>
           <title xml:lang="sl">Veliki splošni leksikon DZS [dzslex]</title>
@@ -108,7 +108,7 @@
     <xsl:for-each-group select="XX" group-by="*/substring-before(N[1], '+')">
       <xsl:variable name="head" select="current-group()[1]"/>
       <xsl:variable name="tail" select="current-group()[position() != 1]"/>
-      <entry xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sl">
+      <entry xml:lang="sl">
         <!-- No idea why these 3 types of entries are distinguished already at this level,
              their content models are similar (enough) to process them regardless which one it is;
              we distinguish them by entry/@type: -->
@@ -132,13 +132,13 @@
     <xsl:choose>
       <xsl:when test="A">
         <xsl:apply-templates select="A/preceding-sibling::*"/>
-        <sense xmlns="http://www.tei-c.org/ns/1.0" n="{name()}">
+        <sense n="{name()}">
           <xsl:apply-templates select="A | A/following-sibling::*"/>
         </sense>
       </xsl:when>
       <xsl:when test="A1">
         <xsl:apply-templates select="A1/preceding-sibling::*"/>
-        <sense xmlns="http://www.tei-c.org/ns/1.0" n="{name()}">
+        <sense n="{name()}">
           <xsl:apply-templates select="A1 | A1/following-sibling::*"/>
         </sense>
       </xsl:when>
@@ -149,7 +149,7 @@
   </xsl:template>
   
   <xsl:template mode="sense" match="PO | DR | BI">
-    <sense xmlns="http://www.tei-c.org/ns/1.0" n="{name()}">
+    <sense n="{name()}">
       <xsl:attribute name="xml:id" select="et:id(N)"/>
       <xsl:apply-templates select="*[name() != 'G']"/>
     </sense>
@@ -160,12 +160,12 @@
     
   <!-- Milestone(?) for start of admin section at end of entry -->
   <xsl:template match="GT">
-    <milestone xmlns="http://www.tei-c.org/ns/1.0" type="admin" unit="meta"/>
+    <milestone type="admin" unit="meta"/>
   </xsl:template>
     
   <!-- Headword, e.g. <G>a, </G> -->
   <xsl:template match="G">
-    <form xmlns="http://www.tei-c.org/ns/1.0" type="lemma" n="{name()}">
+    <form type="lemma" n="{name()}">
       <!-- Before G there is T, which gives some sort of label -->
       <orth>
         <xsl:if test="ancestor::BI">
@@ -180,12 +180,12 @@
   <xsl:template match="YI">
     <xsl:choose>
       <xsl:when test="ancestor::RPOD">
-        <distinct xmlns="http://www.tei-c.org/ns/1.0" type="oRef" n="{name()}">
+        <distinct type="oRef" n="{name()}">
 	  <xsl:apply-templates/>
 	</distinct>
       </xsl:when>
       <xsl:otherwise>
-	<oRef xmlns="http://www.tei-c.org/ns/1.0" type="headword" n="{name()}">
+	<oRef type="headword" n="{name()}">
 	  <xsl:apply-templates/>
 	</oRef>
       </xsl:otherwise>
@@ -194,14 +194,14 @@
 
   <!-- Cross-reference mentioned in text of the entry -->
   <xsl:template match="ZX">
-    <oRef xmlns="http://www.tei-c.org/ns/1.0" type="cross-reference" n="{name()}">
+    <oRef type="cross-reference" n="{name()}">
       <xsl:apply-templates/>
     </oRef>
   </xsl:template>
 
   <!-- (Sub?)Sense number e.g. <A>1) </A>, <A0>1. </A0>, <A1>1) </A1>, <A2>2</A2> -->
   <xsl:template match="A | A0 | A1 | A2">
-    <lbl xmlns="http://www.tei-c.org/ns/1.0" type="number" n="{name()}">
+    <lbl type="number" n="{name()}">
       <xsl:value-of select="."/>
     </lbl>
   </xsl:template>
@@ -224,12 +224,12 @@
       <xsl:choose>
 	<!-- Various contexts where FOR(1) winds up in an element that doesn't allow form -->
 	<xsl:when test="ancestor::LIME">  <!-- or ancestor::ES1 -->
-	  <distinct type="form" xmlns="http://www.tei-c.org/ns/1.0" n="{name()}">
+	  <distinct type="form" n="{name()}">
 	    <xsl:apply-templates/>
 	  </distinct>
 	</xsl:when>
 	<xsl:otherwise>
-	  <form xmlns="http://www.tei-c.org/ns/1.0" n="{name()}">
+	  <form n="{name()}">
 	    <xsl:apply-templates/>
 	  </form>
 	</xsl:otherwise>
@@ -240,7 +240,7 @@
   <!-- FOR1 in rubric or definition, where it can be in <head>, hence cannot be form -->
     <xsl:template match="RUB//FOR1 | OPI//FOR1 | KDE//FOR1">
     <xsl:if test="normalize-space(.)">
-      <distinct type="form" xmlns="http://www.tei-c.org/ns/1.0" n="{name()}">
+      <distinct type="form" n="{name()}">
 	<xsl:apply-templates/>
       </distinct>
     </xsl:if>
@@ -261,14 +261,14 @@
       <!-- <A0>1. </A0> ... -->
       <xsl:when test="A0">
         <xsl:apply-templates select="A0"/>
-        <sense xmlns="http://www.tei-c.org/ns/1.0" n="{name()}">
+        <sense n="{name()}">
           <def n="{name()}">
             <xsl:apply-templates select="node()[name() != 'A0']"/>
           </def>
         </sense>
       </xsl:when>
       <xsl:when test="normalize-space(.)">
-        <def xmlns="http://www.tei-c.org/ns/1.0" n="{name()}">
+        <def n="{name()}">
           <xsl:apply-templates/>
         </def>
       </xsl:when>
@@ -296,14 +296,14 @@
   -->
   <xsl:template match="OPI">
     <xsl:if test="normalize-space(.)">
-      <def xmlns="http://www.tei-c.org/ns/1.0" n="{name()}">
+      <def n="{name()}">
         <xsl:apply-templates/>
       </def>
     </xsl:if>
   </xsl:template>
   <xsl:template match="OPIX">
     <xsl:if test="normalize-space(.)">
-      <def xmlns="http://www.tei-c.org/ns/1.0" n="{name()}">
+      <def n="{name()}">
         <xsl:apply-templates/>
       </def>
     </xsl:if>
@@ -316,7 +316,7 @@
        <FD> časovni pas	srednjeevropski čas + 1 ura površina	390.759 km ... </FD>
   -->
   <xsl:template match="FD">
-    <floatingText xmlns="http://www.tei-c.org/ns/1.0" type="table" n="{name()}">
+    <floatingText type="table" n="{name()}">
       <body>
 	<p>
           <xsl:apply-templates/>
@@ -330,7 +330,7 @@
        N.B: can have more than one RUBN, hence head hence we have to have divs
   -->
   <xsl:template match="RUB">
-    <floatingText xmlns="http://www.tei-c.org/ns/1.0" type="list" n="{name()}">
+    <floatingText type="list" n="{name()}">
       <body>
         <xsl:for-each-group select="*" group-starting-with="RUBN">
 	  <div>
@@ -342,7 +342,7 @@
   </xsl:template>
   
   <xsl:template match="RUBK">
-    <floatingText xmlns="http://www.tei-c.org/ns/1.0" type="overview" n="{name()}">
+    <floatingText type="overview" n="{name()}">
       <body>
         <xsl:apply-templates/>
       </body>
@@ -350,12 +350,12 @@
   </xsl:template>
 
   <xsl:template match="RUBN">
-    <head xmlns="http://www.tei-c.org/ns/1.0" n="{name()}">
+    <head n="{name()}">
       <xsl:apply-templates/>
     </head>
   </xsl:template>
   <xsl:template match="RUBT">
-    <p xmlns="http://www.tei-c.org/ns/1.0" n="{name()}">
+    <p n="{name()}">
       <xsl:apply-templates/>
     </p>
   </xsl:template>
@@ -370,7 +370,7 @@
 
   <!--  Domain e.g. <PODR><I>jezikoslovje:</I></PODR> -->
   <xsl:template match="PODR">
-    <usg xmlns="http://www.tei-c.org/ns/1.0" type="domain" n="{name()}">
+    <usg type="domain" n="{name()}">
       <xsl:value-of select="normalize-space(.)"/>
     </usg>
   </xsl:template>
@@ -385,9 +385,9 @@
     <xsl:if test="not(KK)">
       <xsl:message select="concat('ERROR: KP without KK in ', .)"/>
     </xsl:if>
-    <!--xr xmlns="http://www.tei-c.org/ns/1.0" n="{name()}"-->
+    <!--xr n="{name()}"-->
       <xsl:apply-templates select="KK/preceding-sibling::node()"/>
-      <ref xmlns="http://www.tei-c.org/ns/1.0" target="{concat('#', et:id(KK))}" n="{name()}">
+      <ref target="{concat('#', et:id(KK))}" n="{name()}">
         <xsl:apply-templates select="KK/following-sibling::node()"/>
       </ref>
     <!--/xr-->
@@ -398,12 +398,12 @@
   <xsl:template match="IZGO">
     <xsl:choose>
       <xsl:when test="ancestor::KDE">
-        <distinct xmlns="http://www.tei-c.org/ns/1.0" type="pron" n="{name()}">
+        <distinct type="pron" n="{name()}">
 	  <xsl:apply-templates/>
 	</distinct>
       </xsl:when>
       <xsl:otherwise>
-	<pron xmlns="http://www.tei-c.org/ns/1.0" n="{name()}">
+	<pron n="{name()}">
 	  <xsl:apply-templates/>
 	</pron>
       </xsl:otherwise>
@@ -412,7 +412,7 @@
 
   <!-- Years, no obvious difference between the elements -->
   <xsl:template match="LX | ILT | OLT | LT">
-    <date xmlns="http://www.tei-c.org/ns/1.0" n="{name()}">
+    <date n="{name()}">
       <xsl:apply-templates/>
     </date>
   </xsl:template>
@@ -423,7 +423,7 @@
        <AIME>zdaj <I><EN>Arabat el Madfune</EN></I>, </AIME>
   -->
   <xsl:template match="AIME">
-    <form xmlns="http://www.tei-c.org/ns/1.0" n="{name()}">
+    <form n="{name()}">
       <xsl:apply-templates/>
     </form>
   </xsl:template>
@@ -438,19 +438,19 @@
   <!-- Forename -->
   <!-- If directly in entry (i.e. BI,PO,DR), can't be name, must be form -->
   <xsl:template match="BI/OIME | PO/OIME | DR/OIME">
-    <form xmlns="http://www.tei-c.org/ns/1.0" type="forename" n="{name()}">
+    <form type="forename" n="{name()}">
       <xsl:apply-templates/>
     </form>
   </xsl:template>
   <xsl:template match="OIME">
-    <forename xmlns="http://www.tei-c.org/ns/1.0" n="{name()}">
+    <forename n="{name()}">
       <xsl:apply-templates/>
     </forename>
   </xsl:template>
   
   <!-- Surname -->
   <xsl:template match="PRIM">
-    <surname xmlns="http://www.tei-c.org/ns/1.0" n="{name()}">
+    <surname n="{name()}">
       <xsl:apply-templates/>
     </surname>
   </xsl:template>
@@ -459,13 +459,13 @@
        (Karl) <DOS>Veliki</DOS>
   -->
   <xsl:template match="DOS">
-    <form xmlns="http://www.tei-c.org/ns/1.0" type="addName" n="{name()}">
+    <form type="addName" n="{name()}">
       <xsl:apply-templates/>
     </form>
   </xsl:template>
   <!-- Pseudonym -->
   <xsl:template match="PSIM">
-    <addName xmlns="http://www.tei-c.org/ns/1.0" type="pseudonym" n="{name()}">
+    <addName type="pseudonym" n="{name()}">
       <xsl:apply-templates/>
     </addName>
   </xsl:template>
@@ -485,7 +485,7 @@
 			((name() = 'EN' or name() = 'ES' or name() = 'ES1') and (ancestor::FOR or ancestor::AIME))
 			)
 			">
-	  <form xmlns="http://www.tei-c.org/ns/1.0" n="{name()}">
+	  <form n="{name()}">
 	    <!-- Sometimes I is outside ES1, we have to move it in (cf. also template for I) -->
 	    <xsl:choose>
 	      <xsl:when test="ancestor::FOR and parent::I">
@@ -500,7 +500,7 @@
 	  </form>
 	</xsl:when>
 	<xsl:otherwise>
-          <distinct xmlns="http://www.tei-c.org/ns/1.0" type="form" n="{name()}">
+          <distinct type="form" n="{name()}">
 	    <xsl:if test="name() = 'LIMEX'">
 	      <xsl:attribute name="xml:lang">la</xsl:attribute>
 	    </xsl:if>
@@ -514,7 +514,7 @@
   <!-- Author / editor of entry -->
   <xsl:template match="Z">
     <xsl:if test="normalize-space(.)">
-      <note xmlns="http://www.tei-c.org/ns/1.0" type="admin" subtype="author" n="{name()}">
+      <note type="admin" subtype="author" n="{name()}">
         <name>
           <xsl:apply-templates/>
         </name>
@@ -527,7 +527,7 @@
   <xsl:template match="K | KR"/>
   <xsl:template mode="nest" match="K | KR">
     <xsl:if test="normalize-space(.)">
-      <note xmlns="http://www.tei-c.org/ns/1.0" type="class" n="{name()}">
+      <note type="class" n="{name()}">
         <xsl:apply-templates/>
       </note>
     </xsl:if>
@@ -545,8 +545,8 @@
   <!-- Birth info (why, as there is also RPOD1? -->
   <xsl:template match="BORN">
     <xsl:if test="normalize-space(.)">
-      <def xmlns="http://www.tei-c.org/ns/1.0" n="{name()}">
-	<state xmlns="http://www.tei-c.org/ns/1.0" type="birth" n="{name()}">
+      <def n="{name()}">
+	<state type="birth" n="{name()}">
           <desc>
             <xsl:apply-templates/>
           </desc>
@@ -557,14 +557,14 @@
 
   <!-- Birth/death info -->
   <xsl:template match="RPOD">
-    <def xmlns="http://www.tei-c.org/ns/1.0" n="{name()}">
+    <def n="{name()}">
       <xsl:apply-templates/>
     </def>
   </xsl:template>
   <!-- Why two elements? -->
   <xsl:template match="RPOD1">
     <xsl:if test="normalize-space(.)">
-      <state xmlns="http://www.tei-c.org/ns/1.0" type="birth" n="{name()}">
+      <state type="birth" n="{name()}">
         <desc>
           <xsl:apply-templates/>
         </desc>
@@ -573,7 +573,7 @@
   </xsl:template>
   <xsl:template match="RPOD2">
     <xsl:if test="normalize-space(.)">
-      <state xmlns="http://www.tei-c.org/ns/1.0" type="death" n="{name()}">
+      <state type="death" n="{name()}">
         <desc>
           <xsl:apply-templates/>
         </desc>
@@ -583,14 +583,14 @@
 
   <!-- Always(?) inside SK, the headword(?) -->
   <xsl:template match="B">
-    <hi xmlns="http://www.tei-c.org/ns/1.0" rend="bold" n="{name()}">
+    <hi rend="bold" n="{name()}">
       <xsl:apply-templates/>
     </hi>
   </xsl:template>
   <!-- Like B, except for names only -->
   <xsl:template match="BX">
-    <name xmlns="http://www.tei-c.org/ns/1.0" n="{name()}">
-      <hi xmlns="http://www.tei-c.org/ns/1.0" rend="bold">
+    <name n="{name()}">
+      <hi rend="bold">
         <xsl:apply-templates/>
       </hi>
     </name>
@@ -603,7 +603,7 @@
 	<xsl:apply-templates/>
       </xsl:when>
       <xsl:otherwise>
-	<hi xmlns="http://www.tei-c.org/ns/1.0" rend="italic" n="{name()}">
+	<hi rend="italic" n="{name()}">
 	  <xsl:apply-templates/>
 	</hi>
       </xsl:otherwise>
@@ -626,7 +626,7 @@
         </xsl:analyze-string>
       </xsl:when>
       <xsl:otherwise>
-        <hi xmlns="http://www.tei-c.org/ns/1.0" rend="superscript" n="{name()}">
+        <hi rend="superscript" n="{name()}">
           <xsl:value-of select="."/>
         </hi>
       </xsl:otherwise>
@@ -643,7 +643,7 @@
         </xsl:analyze-string>
       </xsl:when>
       <xsl:otherwise>
-        <hi xmlns="http://www.tei-c.org/ns/1.0" rend="subscript" n="{name()}">
+        <hi rend="subscript" n="{name()}">
           <xsl:value-of select="."/>
         </hi>
       </xsl:otherwise>
@@ -653,14 +653,14 @@
   <!-- Notes -->
   <!-- Margin text with reference to figure, admin info, and caption -->
   <xsl:template match="SK | SP">
-    <note xmlns="http://www.tei-c.org/ns/1.0" type="admin" subtype="figure" n="{name()}">
+    <note type="admin" subtype="figure" n="{name()}">
       <xsl:apply-templates/>
     </note>
   </xsl:template>
   <!-- Caption of an illustration -->
   <xsl:template match="OPS">
     <xsl:if test="normalize-space(.)">
-      <figure xmlns="http://www.tei-c.org/ns/1.0" n="{name()}">
+      <figure n="{name()}">
 	<head>
           <xsl:apply-templates/>
 	</head>
@@ -671,19 +671,19 @@
   <!-- Admin notes -->
   <!-- General admin note -->
   <xsl:template match="O">
-    <note xmlns="http://www.tei-c.org/ns/1.0" type="admin" subtype="comment" n="{name()}">
+    <note type="admin" subtype="comment" n="{name()}">
       <xsl:apply-templates/>
     </note>
   </xsl:template>
   <!-- Reference to something, probably admin info -->
   <xsl:template match="SN">
-    <note xmlns="http://www.tei-c.org/ns/1.0" type="admin" n="{name()}">
+    <note type="admin" n="{name()}">
       <xsl:apply-templates/>
     </note>
   </xsl:template>
   <!-- Some sort indication of the status of entry (e.g. [OK], [O], [Z]) for internal use? -->
   <xsl:template match="text()[matches(., '^\[[A-Z]{1,3}\]$')]">
-    <note xmlns="http://www.tei-c.org/ns/1.0" type="admin">
+    <note type="admin">
       <lbl>
         <xsl:value-of select="."/>
       </lbl>
@@ -696,7 +696,7 @@
   -->
   <xsl:template match="T | TS">
     <xsl:if test="normalize-space(.)">
-      <note xmlns="http://www.tei-c.org/ns/1.0" type="admin" subtype="class" n="{name()}">
+      <note type="admin" subtype="class" n="{name()}">
         <xsl:apply-templates/>
       </note>
     </xsl:if>
@@ -712,7 +712,7 @@
   -->
   <xsl:template match="DX | DXA | F0">
     <xsl:if test="normalize-space(.)">
-      <note xmlns="http://www.tei-c.org/ns/1.0" type="pointer" n="{name()}">
+      <note type="pointer" n="{name()}">
         <xsl:apply-templates/>
       </note>
     </xsl:if>
