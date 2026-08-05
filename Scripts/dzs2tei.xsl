@@ -865,15 +865,36 @@
     </xsl:copy>
   </xsl:template>
 
-  <!-- PASS 4: CHANGE hi TO @rend ON ENCLOSING ELEMENT WHERE POSSIBLE -->
+  <!-- PASS 4: CHANGE hi TO @rend ON ENCLOSED/ENCLOSING ELEMENT WHERE POSSIBLE -->
 
+  <xsl:template mode="pass4" match="tei:hi">
+    <xsl:choose>
+      <xsl:when test="parent::tei:* and parent::tei:*[not(tei:*[2] or text()[normalize-space(.)])]">
+        <xsl:apply-templates mode="pass4"/>
+      </xsl:when>
+      <xsl:when test="tei:* and not(tei:*[2] or text()[normalize-space(.)])">
+        <xsl:apply-templates mode="pass4"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:copy>
+          <xsl:apply-templates mode="pass4" select="@*"/>
+          <xsl:apply-templates mode="pass4"/>
+        </xsl:copy>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
   <xsl:template mode="pass4" match="tei:entry//tei:*">
     <xsl:copy>
       <xsl:apply-templates mode="pass4" select="@*"/>
       <xsl:choose>
+        <xsl:when test="parent::tei:hi and parent::tei:hi[not(tei:*[2] or text()[normalize-space(.)])]">
+          <xsl:attribute name="rend" select="parent::tei:hi/@rend"/>
+          <xsl:apply-templates mode="pass4"/>
+        </xsl:when>
         <xsl:when test="tei:hi and not(tei:*[2] or text()[normalize-space(.)])">
           <xsl:attribute name="rend" select="tei:hi/@rend"/>
-          <xsl:apply-templates mode="pass4" select="tei:hi/node()"/>
+          <xsl:apply-templates mode="pass4"/>
         </xsl:when>
         <xsl:otherwise>
           <xsl:apply-templates mode="pass4"/>

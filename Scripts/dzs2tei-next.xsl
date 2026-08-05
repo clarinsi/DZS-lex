@@ -1,46 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Conversion of DZS lexicon in XML to TEI Lex0 -->
+<!-- Stage 3: fix spaces and end punctuation -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:tei="http://www.tei-c.org/ns/1.0" 
+		xmlns="http://www.tei-c.org/ns/1.0" 
 		xmlns:et="http://nl.ijs.si/et" 
 		exclude-result-prefixes="et tei"
 		version="2.0">
 
-  <xsl:import href="dzs2lex0-lib.xsl"/>
+  <xsl:import href="dzs2tei-lib.xsl"/>
   
-  <xsl:param name="id_prefix">dzs</xsl:param>
-
   <xsl:output indent="yes"/>
 
-  <xsl:variable name="left-re">^(,|;|\]|\))</xsl:variable>
-  <xsl:variable name="right-re">^(\[|\()</xsl:variable>
-  <xsl:variable name="space-re">^( |&#xA0;)</xsl:variable>
-
-  <xsl:template match="FOR">
-    <xsl:choose>
-      <!-- This is not true, can be just pron... -->
-      <xsl:when test="matches(., '^\[')">
-        <etym>
-          <xsl:apply-templates mode="FOR"/>
-        </etym>
-      </xsl:when>
-      <xsl:otherwise>
-        <!--xsl:message select="concat('WARN: Strange FOR ', $for)"/-->
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>
-  <xsl:template mode="FOR" match="*">
-    <xsl:apply-templates select="."/>
+  <xsl:template match="tei:TEI">
+    <xsl:copy>
+      <xsl:apply-templates mode="pass5" select="@*"/>
+      <xsl:apply-templates mode="pass5"/>
+    </xsl:copy>
   </xsl:template>
 
-  <xsl:template mode="FOR" match="text()">
-    <xsl:call-template name="FOR">
-      <xsl:with-param name="str" select="."/>
-    </xsl:call-template>
-  </xsl:template>
-  
-  <xsl:template name="FOR">
-    <xsl:param name="str"/>
+  <xsl:template mode="pass5" match="tei:form">
     <xsl:choose>
       <xsl:when test="$str = ''"/>
       <xsl:when test="matches($str, $space-re)">
@@ -115,11 +94,18 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
-
-  <xsl:template match="*">
+    
+  <xsl:template mode="pass5" match="text()">
+    <xsl:value-of select="."/>
+  </xsl:template>
+  <xsl:template mode="pass5" match="@*">
+    <xsl:copy/>
+  </xsl:template>
+  <xsl:template mode="pass5" match="tei:*">
     <xsl:copy>
-      <xsl:apply-templates/>
+      <xsl:apply-templates mode="pass5" select="@*"/>
+      <xsl:apply-templates mode="pass5" select="tei:*|text()"/>
     </xsl:copy>
   </xsl:template>
 
-  </xsl:stylesheet>
+</xsl:stylesheet>
