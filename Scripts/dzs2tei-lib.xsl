@@ -2,12 +2,42 @@
 <!-- Variables for conversion -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:tei="http://www.tei-c.org/ns/1.0" 
+		xmlns="http://www.tei-c.org/ns/1.0" 
 		exclude-result-prefixes="tei"
 		version="2.0">
 
-  <!-- Punctuation that appears at end of element content and should be moved out of the element -->
-  <xsl:variable name="punct-re">[,:;.]</xsl:variable>
-  
+  <!-- Punctuation that appears at start or end of element content and should be moved out of the element -->
+  <xsl:variable name="puncts">
+    <pc join="right">‚</pc>
+    <!--pc join="right">(</pc Because of labels a la "1)"-->
+    <!--pc join="right">[</pc Because if ( is missing, so should [ be (form)-->
+    <pc join="left">,</pc>
+    <pc join="left">:</pc>
+    <pc join="left">;</pc>
+    <!--pc join="left">.</pc Because of >idp.< etc. -->
+    <pc join="left">’</pc>
+    <!--pc join="left">]</pc-->
+    <!--pc join="left">)</pc-->
+  </xsl:variable>
+  <xsl:variable name="startpunct-re">
+    <xsl:text>[</xsl:text>
+    <xsl:for-each select="$puncts/tei:pc[@join = 'right']">
+      <xsl:if test="matches(., '[\[\]\(\)]')">\</xsl:if>
+      <xsl:value-of select="."/>
+    </xsl:for-each>
+    <xsl:text>]</xsl:text>
+  </xsl:variable>
+  <xsl:variable name="endpunct-re">
+    <xsl:text>[</xsl:text>
+    <xsl:for-each select="$puncts/tei:pc[@join = 'left']">
+      <xsl:if test="matches(., '[\[\]\(\)]')">
+        <xsl:text>\</xsl:text>
+      </xsl:if>
+      <xsl:value-of select="."/>
+    </xsl:for-each>
+    <xsl:text>]</xsl:text>
+  </xsl:variable>
+
   <xsl:variable name="langs">
     <lang>afrikanško</lang>
     <lang>angleško</lang>
