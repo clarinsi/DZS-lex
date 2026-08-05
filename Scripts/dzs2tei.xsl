@@ -869,9 +869,6 @@
 
   <xsl:template mode="pass4" match="tei:hi">
     <xsl:choose>
-      <xsl:when test="parent::tei:* and parent::tei:*[not(tei:*[2] or text()[normalize-space(.)])]">
-        <xsl:apply-templates mode="pass4"/>
-      </xsl:when>
       <xsl:when test="tei:* and not(tei:*[2] or text()[normalize-space(.)])">
         <xsl:apply-templates mode="pass4"/>
       </xsl:when>
@@ -894,7 +891,7 @@
         </xsl:when>
         <xsl:when test="tei:hi and not(tei:*[2] or text()[normalize-space(.)])">
           <xsl:attribute name="rend" select="tei:hi/@rend"/>
-          <xsl:apply-templates mode="pass4"/>
+          <xsl:apply-templates mode="pass4" select="tei:hi/node()"/>
         </xsl:when>
         <xsl:otherwise>
           <xsl:apply-templates mode="pass4"/>
