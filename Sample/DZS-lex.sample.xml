@@ -59,12 +59,15 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs00000100.01" n="PO">
             <note type="admin" subtype="class" n="T">P1</note>
             <form type="lemma" n="G">
-               <orth>a, </orth>
+               <orth>a</orth>
             </form>
+            <pc join="left">,</pc>
             <sense n="PO">
-               <lbl type="number" n="A">1) </lbl>
-               <usg type="domain" n="PODR">jezikoslovje:</usg>
-               <def n="KDE">prva črka slovenske abecede, </def>
+               <lbl type="number" n="A">1)</lbl>
+               <usg type="domain" n="PODR">jezikoslovje</usg>
+               <pc join="left">:</pc>
+               <def n="KDE">prva črka slovenske abecede</def>
+               <pc join="left">,</pc>
                <def n="OPI">ustreza hebrejski alef in grški alfa.</def>
                <milestone type="admin" unit="meta"/>
                <note type="admin" subtype="figure" n="SK">
@@ -80,14 +83,17 @@
             </sense>
             <sense n="PO" xml:id="dzs00000100.02">
                <note type="admin" subtype="class" n="T">E10</note>
-               <lbl type="number" n="A">2) </lbl>
-               <usg type="domain" n="PODR">merilna tehnika:</usg>
-               <lbl type="number" n="A0">1. </lbl>
+               <lbl type="number" n="A">2)</lbl>
+               <usg type="domain" n="PODR">merilna tehnika</usg>
+               <pc join="left">:</pc>
+               <lbl type="number" n="A0">1.</lbl>
                <sense n="KDE">
-                  <def n="KDE">oznaka za mersko enoto površine <ref target="#dzs00377200.00" n="KP">ar</ref>; </def>
-                  <def n="OPI">1 a = 100 m². </def>
+                  <def n="KDE">oznaka za mersko enoto površine <ref target="#dzs00377200.00" n="KP">ar</ref>
+                  </def>
+                  <pc join="left">;</pc>
+                  <def n="OPI">1 a = 100 m².</def>
                </sense>
-               <lbl type="number" n="A0">2. </lbl>
+               <lbl type="number" n="A0">2.</lbl>
                <sense n="KDE">
                   <def n="KDE">oznaka za predpono <ref target="#dzs00470800.00" n="KP">ato-</ref> pri <ref target="#dzs04250900.00" n="KP">merskih enotah</ref>
                   </def>
@@ -101,9 +107,11 @@
             </sense>
             <sense n="PO" xml:id="dzs00000100.03">
                <note type="admin" subtype="class" n="T">P</note>
-               <lbl type="number" n="A">3) </lbl>
-               <usg type="domain" n="PODR">glasba:</usg>
-               <def n="KDE">šesta stopnja diatonične osnovne C-durove lestvice; </def>
+               <lbl type="number" n="A">3)</lbl>
+               <usg type="domain" n="PODR">glasba</usg>
+               <pc join="left">:</pc>
+               <def n="KDE">šesta stopnja diatonične osnovne C-durove lestvice</def>
+               <pc join="left">;</pc>
                <def n="OPI">oznaka za trizvoke in tonske načine: a za a-mol, A za A-dur; kot uglaševalni ton a¹ (enočrtni a) od <date n="LX">1939</date> označevan s 440 Hz.</def>
                <milestone type="admin" unit="meta"/>
                <note type="admin" subtype="author" n="Z">
@@ -115,10 +123,12 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs00109700.00" n="PO">
             <note type="admin" subtype="class" n="T">G3</note>
             <form type="lemma" n="G">
-               <orth>Aintree </orth>
+               <orth>Aintree</orth>
             </form>
-            <form n="FOR">[êjntri], </form>
-            <def n="KDE">kraj v Veliki Britaniji, </def>
+            <form n="FOR">[êjntri]</form>
+            <pc join="left">,</pc>
+            <def n="KDE">kraj v Veliki Britaniji</def>
+            <pc join="left">,</pc>
             <def n="OPI">v sv. Angliji, s. od Liverpoola; znan po konjskih dirkah za nagrado Grand National (najtežavnejše dirke čez zapreke na svetu).</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="author" n="Z">
@@ -130,8 +140,9 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs00218800.00" n="PO">
             <note type="admin" subtype="class" n="T">E01</note>
             <form type="lemma" n="G">
-               <orth>alternativno kmetijstvo, </orth>
+               <orth>alternativno kmetijstvo</orth>
             </form>
+            <pc join="left">,</pc>
             <def n="KDE">
                <ref target="#dzs00748400.00" n="KP">biotično kmetijstvo</ref>.</def>
             <milestone type="admin" unit="meta"/>
@@ -143,8 +154,9 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs00330900.00" n="PO">
             <note type="admin" subtype="class" n="T">E01</note>
             <form type="lemma" n="G">
-               <orth>Anthribidae, </orth>
+               <orth>Anthribidae</orth>
             </form>
+            <pc join="left">,</pc>
             <def n="KDE">
                <ref target="#dzs00349800.00" n="KP">antribide</ref>.</def>
             <milestone type="admin" unit="meta"/>
@@ -156,12 +168,14 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs00445100.00" n="PO">
             <note type="admin" subtype="class" n="T">R</note>
             <form type="lemma" n="G">
-               <orth>Aspergillus </orth>
+               <orth>Aspergillus</orth>
             </form>
             <form n="FOR">(<form n="ES1">
                   <hi rend="italic" n="I">aspergilus</hi>
-               </form>), </form>
-            <def n="KDE">rod zelo razširjenih, </def>
+               </form>)</form>
+            <pc join="left">,</pc>
+            <def n="KDE">rod zelo razširjenih</def>
+            <pc join="left">,</pc>
             <def n="OPI">predvsem saprofitskih, redkeje parazitskih plesni (<ref target="#dzs00445200.00" n="KP">aspergiloza</ref>, <ref target="#dzs04302200.00" n="KP">mikoze</ref>). Nekatere vrste oblikujejo antibiotike, nekatere pa tudi zelo strupene in pogosto kancerogene snovi (<ref target="#dzs00078500.00" n="KP">aflatoksini</ref>, <ref target="#dzs04302100.00" n="KP">mikotoksini</ref>).</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="figure" n="SK">
@@ -181,9 +195,11 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs00560500.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>balistični odklon, </orth>
+               <orth>balistični odklon</orth>
             </form>
-            <def n="KDE">velikost prvega nihaja balističnega merilnega instrumenta, </def>
+            <pc join="left">,</pc>
+            <def n="KDE">velikost prvega nihaja balističnega merilnega instrumenta</def>
+            <pc join="left">,</pc>
             <def n="OPI">ki ga poženemo s kratkim sunkom. Balistični galvanometer rabi za merjenje zelo kratkih tokovnih sunkov, balistično nihalo pa za merjenje hitrosti izstrelkov.</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="author" n="Z">
@@ -194,11 +210,12 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs00673600.00" n="PO">
             <note type="admin" subtype="class" n="T">BM</note>
             <form type="lemma" n="G">
-               <orth>Bendida </orth>
+               <orth>Bendida</orth>
             </form>
             <form n="FOR">(<form n="LIME">
                   <hi rend="italic" n="I">Bendis</hi>
-               </form>), </form>
+               </form>)</form>
+            <pc join="left">,</pc>
             <def n="KDE">traška boginja lova, njen orgiastični kult so v Atenah uvedli v dobi <ref target="#dzs05186400.00" n="KP">Perikla</ref>.</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="author" n="Z">
@@ -213,10 +230,12 @@
                 n="BI">
             <note type="admin" subtype="class" n="T">BG</note>
             <form type="lemma" n="G">
-               <orth type="name">Blumhardt </orth>
+               <orth type="name">Blumhardt</orth>
             </form>
-            <form n="FOR">[blúmhart], </form>
-            <def n="KDE">nemška evangeličanska duhovnika:</def>
+            <form n="FOR">[blúmhart]</form>
+            <pc join="left">,</pc>
+            <def n="KDE">nemška evangeličanska duhovnika</def>
+            <pc join="left">:</pc>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="author" n="Z">
                <name>Ludvik Jošar</name>
@@ -227,8 +246,9 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs00899500.00" n="PO">
             <note type="admin" subtype="class" n="T">E01</note>
             <form type="lemma" n="G">
-               <orth>brezzobci, </orth>
+               <orth>brezzobci</orth>
             </form>
+            <pc join="left">,</pc>
             <def n="KDE">
                <ref target="#dzs06415600.00" n="KP">sočlenkarji</ref>.</def>
             <milestone type="admin" unit="meta"/>
@@ -240,10 +260,12 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs01009800.00" n="PO">
             <note type="admin" subtype="class" n="T">G3</note>
             <form type="lemma" n="G">
-               <orth>Cape Dorset </orth>
+               <orth>Cape Dorset</orth>
             </form>
-            <form n="FOR">[kêjp dórset], </form>
-            <def n="KDE">trgovsko in oskrbovalno središče v Kanadi, </def>
+            <form n="FOR">[kêjp dórset]</form>
+            <pc join="left">,</pc>
+            <def n="KDE">trgovsko in oskrbovalno središče v Kanadi</def>
+            <pc join="left">,</pc>
             <def n="OPI">na jz. obali <ref target="#dzs00536600.00" n="KP">Baffinovega otoka</ref>; eskimsko naselje z ok. 600 preb.; v bližini pomembno arheološko najdišče t. i. dorsetske kulture (Eskimi).</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="author" n="Z">
@@ -255,10 +277,12 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs01123100.00" n="PO">
             <note type="admin" subtype="class" n="T">G3</note>
             <form type="lemma" n="G">
-               <orth>Chesterfield </orth>
+               <orth>Chesterfield</orth>
             </form>
-            <form n="FOR">[čéstərfild-], </form>
-            <def n="KDE">mesto v Veliki Britaniji, </def>
+            <form n="FOR">[čéstərfild-]</form>
+            <pc join="left">,</pc>
+            <def n="KDE">mesto v Veliki Britaniji</def>
+            <pc join="left">,</pc>
             <def n="OPI">v srednji Angliji, v grofiji Derbyshire, ob reki Rother, j. od Sheffielda, 70.000 preb. (aglomeracija 127.000); rudniki železove rude in premogovniki, strojna, kemijska in tekstilna industrija.</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" n="SN">
@@ -277,12 +301,14 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs01232900.01" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>Corpus Catholicorum </orth>
+               <orth>Corpus Catholicorum</orth>
             </form>
-            <form n="FOR">[kórpus katolikórum], </form>
+            <form n="FOR">[kórpus katolikórum]</form>
+            <pc join="left">,</pc>
             <sense n="PO">
-               <lbl type="number" n="A">1) </lbl>
-               <usg type="domain" n="PODR">katoliška Cerkev:</usg>
+               <lbl type="number" n="A">1)</lbl>
+               <usg type="domain" n="PODR">katoliška Cerkev</usg>
+               <pc join="left">:</pc>
                <def n="KDE">združitev katoliških državnih stanov na državnem zboru <date n="LX">1633</date> v Regensburgu pod predsedstvom majnškega dvora.</def>
                <milestone type="admin" unit="meta"/>
                <note type="admin" subtype="author" n="Z">
@@ -292,9 +318,11 @@
             </sense>
             <sense n="PO" xml:id="dzs01232900.02">
                <note type="admin" subtype="class" n="T">L1-L2</note>
-               <lbl type="number" n="A">2) </lbl>
-               <usg type="domain" n="PODR">založništvo:</usg>
-               <def n="KDE">založniška družba za izdajanje del katoliških piscev s sedežem v Bonnu, </def>
+               <lbl type="number" n="A">2)</lbl>
+               <usg type="domain" n="PODR">založništvo</usg>
+               <pc join="left">:</pc>
+               <def n="KDE">založniška družba za izdajanje del katoliških piscev s sedežem v Bonnu</def>
+               <pc join="left">,</pc>
                <def n="OPI">ustanovljena <date n="LX">1917</date>.</def>
                <milestone type="admin" unit="meta"/>
                <note type="admin" subtype="author" n="Z">
@@ -310,18 +338,23 @@
                 n="BI">
             <note type="admin" subtype="class" n="T">B</note>
             <form type="lemma" n="G">
-               <orth type="name">Dagerman </orth>
+               <orth type="name">Dagerman</orth>
             </form>
-            <form n="FOR">[dágərman], </form>
-            <form type="forename" n="OIME">Stig Halvard, </form>
-            <def n="KDE">švedski pripovednik, dramatik in lirik, </def>
+            <form n="FOR">[dágərman]</form>
+            <pc join="left">,</pc>
+            <form type="forename" n="OIME">Stig Halvard</form>
+            <pc join="left">,</pc>
+            <def n="KDE">švedski pripovednik, dramatik in lirik</def>
+            <pc join="left">,</pc>
             <def n="RPOD">
                <state type="birth" n="RPOD1">
-                  <desc>*5.10.1924 Ålvkarleby, </desc>
+                  <desc>*5.10.1924 Ålvkarleby</desc>
                </state>
+               <pc join="left">,</pc>
                <state type="death" n="RPOD2">
-                  <desc>†4.11.1954 Enebyberg; </desc>
+                  <desc>†4.11.1954 Enebyberg</desc>
                </state>
+               <pc join="left">;</pc>
             </def>
             <def n="OPI">
                <ref target="#dzs06785500.00" n="KP">švedska književnost</ref>.</def>
@@ -338,18 +371,23 @@
                 n="BI">
             <note type="admin" subtype="class" n="T">B</note>
             <form type="lemma" n="G">
-               <orth type="name">Dessau </orth>
+               <orth type="name">Dessau</orth>
             </form>
-            <form n="FOR">[désav-], </form>
-            <form type="forename" n="OIME">Paul, </form>
-            <def n="KDE">nemški skladatelj in dirigent, </def>
+            <form n="FOR">[désav-]</form>
+            <pc join="left">,</pc>
+            <form type="forename" n="OIME">Paul</form>
+            <pc join="left">,</pc>
+            <def n="KDE">nemški skladatelj in dirigent</def>
+            <pc join="left">,</pc>
             <def n="RPOD">
                <state type="birth" n="RPOD1">
-                  <desc>*19.12.1894 Hamburg, </desc>
+                  <desc>*19.12.1894 Hamburg</desc>
                </state>
+               <pc join="left">,</pc>
                <state type="death" n="RPOD2">
-                  <desc>†28.6.1979 Berlin; </desc>
+                  <desc>†28.6.1979 Berlin</desc>
                </state>
+               <pc join="left">;</pc>
             </def>
             <def n="OPI">
                <date n="ILT">1933</date> emigriral v Pariz, od <date n="LT">1939</date> živel v New Yorku in Hollywoodu, <date n="LT">1948</date> se je vrnil v NDR. V glasbi povezoval prvine nove glasbe z zabavno glasbo in s političnimi vsebinami. Po <date n="LT">1942</date> je nanj močno vplival B. Brecht (uglasbitev <hi rend="italic" n="I">Matere Korajže</hi>, <hi rend="italic" n="I">Kavkaškega kroga s kredo</hi> idr.). Filmska glasba, orkestralne skladbe <hi rend="italic" n="I">Nemški miserere</hi> (Deutsches Miserere, <date n="LT">1945</date>), komorna glasba, samospevi in opere <hi rend="italic" n="I">Judita</hi> (Giuditta, <date n="LT">1912</date>), <hi rend="italic" n="I">Obsodba Lukula</hi> (Die Verurteilung des Lukullus, <date n="LT">1951</date> in <date n="LT">1968</date>), <hi rend="italic" n="I">Lanzelot</hi> (<date n="LT">1969</date>), <hi rend="italic" n="I">Einstein</hi> (<date n="LT">1974</date>), <hi rend="italic" n="I">Leonce in Lena</hi> (Leonce und Lena, <date n="LT">1978</date>).</def>
@@ -373,10 +411,11 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs01577900.00" n="PO">
             <note type="admin" subtype="class" n="T">R</note>
             <form type="lemma" n="G">
-               <orth>dolgoglavi škržati </orth>
+               <orth>dolgoglavi škržati</orth>
             </form>
-            <form n="FOR">(<form n="LIME">Fulgoridae</form>), </form>
-            <def n="KDE">predvsem tropski <ref target="#dzs06751400.00" n="KP">škržati</ref> z zelo povečano in napihnjeno glavo. </def>
+            <form n="FOR">(<form n="LIME">Fulgoridae</form>)</form>
+            <pc join="left">,</pc>
+            <def n="KDE">predvsem tropski <ref target="#dzs06751400.00" n="KP">škržati</ref> z zelo povečano in napihnjeno glavo.</def>
             <def n="OPI">Nekdaj so menili, da se tudi svetijo. V j. Evropi je pogost 8–9 mm velik mrežekrili škržat (<distinct type="form" n="LIMEX" xml:lang="la">
                   <hi rend="italic" n="I">Dictyophora europaea</hi>
                </distinct>). V srednji Evropi živi rjavo obarvan rebrasti škržat (<distinct type="form" n="LIMEX" xml:lang="la">
@@ -388,7 +427,7 @@
                <note type="admin" subtype="class" n="TS">SF</note>
                <figure n="OPS">
                   <head>
-                     <hi rend="bold" n="B">dolgoglavi škržati:</hi> kijasto oblikovana rdečkasta glava surinamskega dolgoglavega škržata (<hi rend="italic" n="I">Laternaria phosphorea</hi>) je skoraj tako dolga kot celotno telo </head>
+                     <hi rend="bold" n="B">dolgoglavi škržati</hi>: kijasto oblikovana rdečkasta glava surinamskega dolgoglavega škržata (<hi rend="italic" n="I">Laternaria phosphorea</hi>) je skoraj tako dolga kot celotno telo </head>
                </figure>
                <note type="admin" subtype="comment" n="O">(str. 2981 B)</note>
             </note>
@@ -400,9 +439,10 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs01696100.00" n="PO">
             <note type="admin" subtype="class" n="T">E02</note>
             <form type="lemma" n="G">
-               <orth>Eberndorf </orth>
+               <orth>Eberndorf</orth>
             </form>
-            <form n="FOR">[ébərndorf], </form>
+            <form n="FOR">[ébərndorf]</form>
+            <pc join="left">,</pc>
             <def n="KDE">
                <ref target="#dzs01565000.00" n="KP">Dobrla vas</ref>.</def>
             <milestone type="admin" unit="meta"/>
@@ -415,9 +455,10 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs01808800.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>enantem </orth>
+               <orth>enantem</orth>
             </form>
-            <form n="FOR">[grško], </form>
+            <form n="FOR">[grško]</form>
+            <pc join="left">,</pc>
             <def n="KDE">izpuščaj na sluznici.</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="author" n="Z">
@@ -428,9 +469,10 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs01924900.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>expressis verbis </orth>
+               <orth>expressis verbis</orth>
             </form>
-            <form n="FOR">[latinsko, eksprésis vêrbis], </form>
+            <form n="FOR">[latinsko, eksprésis vêrbis]</form>
+            <pc join="left">,</pc>
             <def n="KDE">jasno, izrecno.</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="author" n="Z">
@@ -444,17 +486,21 @@
                 n="BI">
             <note type="admin" subtype="class" n="T">B</note>
             <form type="lemma" n="G">
-               <orth type="name">Fleming </orth>
+               <orth type="name">Fleming</orth>
             </form>
-            <form n="FOR">[fléming-], </form>
-            <form type="forename" n="OIME">Victor, </form>
-            <def n="KDE">ameriški filmski režiser, </def>
+            <form n="FOR">[fléming-]</form>
+            <pc join="left">,</pc>
+            <form type="forename" n="OIME">Victor</form>
+            <pc join="left">,</pc>
+            <def n="KDE">ameriški filmski režiser</def>
+            <pc join="left">,</pc>
             <def n="RPOD">
                <state type="birth" n="RPOD1">
-                  <desc>*23.2.1883 Pasadena (CA), </desc>
+                  <desc>*23.2.1883 Pasadena (CA)</desc>
                </state>
+               <pc join="left">,</pc>
                <state type="death" n="RPOD2">
-                  <desc>†6.1.1949 Cottonwood (AZ). </desc>
+                  <desc>†6.1.1949 Cottonwood (AZ).</desc>
                </state>
             </def>
             <def n="OPI">
@@ -483,16 +529,21 @@
                 n="BI">
             <note type="admin" subtype="class" n="T">B</note>
             <form type="lemma" n="G">
-               <orth type="name">Gajdusek </orth>
+               <orth type="name">Gajdusek</orth>
             </form>
-            <form n="FOR">[gejdúsək], </form>
-            <form type="forename" n="OIME">Daniel Carleton, </form>
-            <def n="KDE">ameriški otroški zdravnik in virolog, </def>
+            <form n="FOR">[gejdúsək]</form>
+            <pc join="left">,</pc>
+            <form type="forename" n="OIME">Daniel Carleton</form>
+            <pc join="left">,</pc>
+            <def n="KDE">ameriški otroški zdravnik in virolog</def>
+            <pc join="left">,</pc>
             <def n="RPOD">
                <state type="birth" n="RPOD1">
-                  <desc>*9.9.1923 Yonkers (NY); </desc>
+                  <desc>*9.9.1923 Yonkers (NY)</desc>
                </state>
+               <pc join="left">;</pc>
             </def>
+            <pc join="left">;</pc>
             <def n="OPI">
                <date n="LX">1976</date> Nobelova nagrada za medicino skupaj z B. S. <ref target="#dzs00785700.00" n="KB">Blumbergom</ref> za odkritje novih mehanizmov nastajanja in širjenja infekcijskih bolezni.</def>
             <milestone type="admin" unit="meta"/>
@@ -505,8 +556,9 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs02276400.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>glasoslovje, </orth>
+               <orth>glasoslovje</orth>
             </form>
+            <pc join="left">,</pc>
             <def n="KDE">veda o glasovih, in sicer o njihovih pomenskorazločevalnih (<ref target="#dzs02061900.00" n="KP">fonologija</ref>) ter artikulacijskih in akustičnih lastnostih (<ref target="#dzs02061000.00" n="KP">fonetika</ref>).</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="author" n="Z">
@@ -521,24 +573,31 @@
                 n="BI">
             <note type="admin" subtype="class" n="T">B</note>
             <form type="lemma" n="G">
-               <orth type="name">Gregor I. </orth>
+               <orth type="name">Gregor I.</orth>
             </form>
             <form type="addName" n="DOS">
-               <hi rend="italic" n="I">Veliki</hi>, </form>
+               <hi rend="italic" n="I">Veliki</hi>
+            </form>
+            <pc join="left">,</pc>
             <lbl type="number" n="A2">1</lbl>
             <def n="BORN">
                <state type="birth" n="BORN">
-                  <desc>(590–604), </desc>
+                  <desc>(590–604)</desc>
                </state>
+               <pc join="left">,</pc>
             </def>
-            <def n="KDE">cerkveni učitelj, </def>
+            <pc join="left">,</pc>
+            <def n="KDE">cerkveni učitelj</def>
+            <pc join="left">,</pc>
             <def n="RPOD">
                <state type="birth" n="RPOD1">
-                  <desc>*pred 540 Rim, </desc>
+                  <desc>*pred 540 Rim</desc>
                </state>
+               <pc join="left">,</pc>
                <state type="death" n="RPOD2">
-                  <desc>†12.3.604 prav tam; </desc>
+                  <desc>†12.3.604 prav tam</desc>
                </state>
+               <pc join="left">;</pc>
             </def>
             <def n="OPI">prvi redovnik, ki je postal papež; utrl pot misijonu med Anglosasi (594 odposlal 40 redovnikov) in prestopu <ref target="#dzs03705700.00" n="KP">Langobardov</ref> h katoliški veri; nasprotno kot patriarh v Carigradu, ki je imel naslov <hi rend="italic" n="I">
                   <distinct type="form" n="ENX">oikumenikos</distinct>
@@ -556,16 +615,21 @@
                 n="BI">
             <note type="admin" subtype="class" n="T">B</note>
             <form type="lemma" n="G">
-               <orth type="name">Harnoncourt </orth>
+               <orth type="name">Harnoncourt</orth>
             </form>
-            <form n="FOR">[arnonkúr], </form>
-            <form type="forename" n="OIME">Nicolaus, </form>
-            <def n="KDE">nemški dirigent, </def>
+            <form n="FOR">[arnonkúr]</form>
+            <pc join="left">,</pc>
+            <form type="forename" n="OIME">Nicolaus</form>
+            <pc join="left">,</pc>
+            <def n="KDE">nemški dirigent</def>
+            <pc join="left">,</pc>
             <def n="RPOD">
                <state type="birth" n="RPOD1">
-                  <desc>*6.12.1929 Berlin; </desc>
+                  <desc>*6.12.1929 Berlin</desc>
                </state>
+               <pc join="left">;</pc>
             </def>
+            <pc join="left">;</pc>
             <def n="OPI">najprej nastopal kot violončelist, <date n="ILT">1952</date> na Dunaju ustanovil ansambel <hi rend="italic" n="I">
                   <distinct type="form" n="ENX">Concentus Musicus</distinct>
                </hi>, ki izvaja staro glasbo z izvirnimi glasbili in v <ref target="#dzs07663200.00" n="KP">zgodovinski izvajalni praksi</ref>; za zgledne veljajo njegove izvedbe Monteverdija (<date n="LT">1976</date>–79) in Mozarta (od <date n="LT">1980</date>).<floatingText type="list" n="RUB">
@@ -603,14 +667,17 @@
                 n="BI">
             <note type="admin" subtype="class" n="T">B</note>
             <form type="lemma" n="G">
-               <orth type="name">Hiller </orth>
+               <orth type="name">Hiller</orth>
             </form>
-            <form n="FOR">[híler], </form>
-            <form type="forename" n="OIME">Arthur, </form>
-            <def n="KDE">ameriški filmski režiser kanadskega rodu, </def>
+            <form n="FOR">[híler]</form>
+            <pc join="left">,</pc>
+            <form type="forename" n="OIME">Arthur</form>
+            <pc join="left">,</pc>
+            <def n="KDE">ameriški filmski režiser kanadskega rodu</def>
+            <pc join="left">,</pc>
             <def n="RPOD">
                <state type="birth" n="RPOD1">
-                  <desc>*22.11.1923 Edmonton (Alberta). </desc>
+                  <desc>*22.11.1923 Edmonton (Alberta).</desc>
                </state>
             </def>
             <def n="OPI">
@@ -639,14 +706,17 @@
                 n="BI">
             <note type="admin" subtype="class" n="T">B</note>
             <form type="lemma" n="G">
-               <orth type="name">Hurt </orth>
+               <orth type="name">Hurt</orth>
             </form>
-            <form n="FOR">[hə́rt], </form>
-            <form type="forename" n="OIME">William, </form>
-            <def n="KDE">ameriški filmski in gledališki igralec, </def>
+            <form n="FOR">[hə́rt]</form>
+            <pc join="left">,</pc>
+            <form type="forename" n="OIME">William</form>
+            <pc join="left">,</pc>
+            <def n="KDE">ameriški filmski in gledališki igralec</def>
+            <pc join="left">,</pc>
             <def n="RPOD">
                <state type="birth" n="RPOD1">
-                  <desc>*20.3.1950 Washington. </desc>
+                  <desc>*20.3.1950 Washington.</desc>
                </state>
             </def>
             <def n="OPI">
@@ -672,8 +742,9 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs02863300.00" n="PO">
             <note type="admin" subtype="class" n="T">E01</note>
             <form type="lemma" n="G">
-               <orth>intina, </orth>
+               <orth>intina</orth>
             </form>
+            <pc join="left">,</pc>
             <def n="KDE">
                <ref target="#dzs05162100.00" n="KP">pelod</ref>.</def>
             <milestone type="admin" unit="meta"/>
@@ -685,9 +756,10 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs02981900.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>jasperware </orth>
+               <orth>jasperware</orth>
             </form>
-            <form n="FOR">[angleško, džéspərver], </form>
+            <form n="FOR">[angleško, džéspərver]</form>
+            <pc join="left">,</pc>
             <def n="KDE">keramika, ki jo izdeluje podjetje, ki ga je začel J. <ref target="#dzs07503900.00" n="KB">Wedgwood</ref>.</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="author" n="Z">
@@ -698,8 +770,9 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs03100400.00" n="PO">
             <note type="admin" subtype="class" n="T">E01</note>
             <form type="lemma" n="G">
-               <orth>kalifornijski kapar, </orth>
+               <orth>kalifornijski kapar</orth>
             </form>
+            <pc join="left">,</pc>
             <def n="KDE">
                <ref target="#dzs00244300.00" n="KP">ameriški kapar</ref>.</def>
             <milestone type="admin" unit="meta"/>
@@ -712,15 +785,18 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs03216700.01" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>kavzalnost </orth>
+               <orth>kavzalnost</orth>
             </form>
             <form n="FOR">[latinsko <form n="LIME">
                   <hi rend="italic" n="I">causa</hi>
-               </form>, ‚vzrok’], </form>
+               </form>, ‚vzrok’]</form>
+            <pc join="left">,</pc>
             <sense n="PO">
-               <lbl type="number" n="A">1) </lbl>
-               <usg type="domain" n="PODR">splošno:</usg>
-               <def n="KDE">vzročnost; </def>
+               <lbl type="number" n="A">1)</lbl>
+               <usg type="domain" n="PODR">splošno</usg>
+               <pc join="left">:</pc>
+               <def n="KDE">vzročnost</def>
+               <pc join="left">;</pc>
                <def n="OPI">medsebojno razmerje med vzrokom in učinkom.</def>
                <milestone type="admin" unit="meta"/>
                <note type="admin" subtype="author" n="Z">
@@ -730,9 +806,10 @@
             </sense>
             <sense n="PO" xml:id="dzs03216700.03">
                <note type="admin" subtype="class" n="T">P</note>
-               <lbl type="number" n="A">3) </lbl>
-               <usg type="domain" n="PODR">fizika:</usg>
-               <def n="KDE">fizika skuša dogodke pojasniti na osnovi prejšnjih dogodkov ali iz razpoložljivih podatkov napovedati dogodke v prihodnosti. </def>
+               <lbl type="number" n="A">3)</lbl>
+               <usg type="domain" n="PODR">fizika</usg>
+               <pc join="left">:</pc>
+               <def n="KDE">fizika skuša dogodke pojasniti na osnovi prejšnjih dogodkov ali iz razpoložljivih podatkov napovedati dogodke v prihodnosti.</def>
                <def n="OPI">V klasični fiziki lahko vsi »prejšnji« dogodki, ne glede na to, kje so se zgodili, vplivajo na poznejše dogodke. Ta misel temelji na privzetku neskončno hitrega razširjanja učinkov (signalov), ki jih ti dogodki povzročijo (teorija o <ref target="#dzs07143400.02" n="KP">učinkovanju na daljavo</ref>). Sodobna fizika je prišla do spoznanja, da je največja hitrost za razširjanje signalov <ref target="#dzs06686400.00" n="KP">svetlobna hitrost</ref>, ki je končna (3 · 10⁸ m/s); s tem je pokazala, da je stari privzetek o neomejeni vzročnosti napačen in da v pogojih, ki jih opisuje <ref target="#dzs05847700.00" n="KP">relativnostna teorija</ref>, ne velja več. Dogodki se razdelijo v takšne, ki so z dogodkom A lahko v vzročni (<hi rend="italic" n="I">
                      <distinct type="form" n="ENX">kavzalni</distinct>
                   </hi>) zvezi (tj. povezani ali odvisni), in takšne, ki niso in ne morejo biti povezani in je zanje nepomembna, kdaj so se glede na dogodek A zgodili in kje. Dogodke, ki so z danim dogodkom lahko v vzročni zvezi, in tiste, ki ne morejo biti v <ref target="#dzs05645100.00" n="KP">prostoru-času</ref>, razmejuje <ref target="#dzs06688500.00" n="KP">svetlobni stožec</ref>.V <ref target="#dzs03647800.00" n="KP">kvantni mehaniki</ref> velja <ref target="#dzs04534500.00" n="KP">načelo nedoločenosti</ref>, ki pravi, da v mikrofizikalnih pojavih niso <hi rend="italic" n="I">
@@ -748,11 +825,12 @@
             </sense>
             <sense n="PO" xml:id="dzs03216700.02">
                <note type="admin" subtype="class" n="T">P</note>
-               <lbl type="number" n="A">2) </lbl>
-               <usg type="domain" n="PODR">filozofija:</usg>
+               <lbl type="number" n="A">2)</lbl>
+               <usg type="domain" n="PODR">filozofija</usg>
+               <pc join="left">:</pc>
                <def n="KDE">ker <distinct type="form" n="EN">
                      <hi rend="italic" n="I">vzročni zakon</hi>
-                  </distinct> pomeni, da ima vsako dogajanje nujno vsaj en vzrok in je to dogajanje vzrok naslednjega dogajanja, pri čemer enaki vzroki porajajo enake učinke, si <oRef type="headword" n="YI">kavzalnost</oRef> po navadi lasti univerzalno veljavo. </def>
+                  </distinct> pomeni, da ima vsako dogajanje nujno vsaj en vzrok in je to dogajanje vzrok naslednjega dogajanja, pri čemer enaki vzroki porajajo enake učinke, si <oRef type="headword" n="YI">kavzalnost</oRef> po navadi lasti univerzalno veljavo.</def>
                <def n="OPI">Ker naj bi bila časovno strukturirana <distinct type="form" n="ENX">
                      <hi rend="italic" n="I">vzročna povezanost</hi> (<hi rend="italic" n="I">
                         <distinct type="form" n="ES1X">kavzalni neksus</distinct>
@@ -767,9 +845,10 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs03337600.00" n="PO">
             <note type="admin" subtype="class" n="T">L1-L2</note>
             <form type="lemma" n="G">
-               <orth>Knjiga konkordije, </orth>
+               <orth>Knjiga konkordije</orth>
             </form>
-            <def n="KDE">seznam luteranskih <ref target="#dzs07305200.00" n="KP">veroizpovednih spisov</ref>, med katerimi so tudi tri starocerkvene veroizpovedi. </def>
+            <pc join="left">,</pc>
+            <def n="KDE">seznam luteranskih <ref target="#dzs07305200.00" n="KP">veroizpovednih spisov</ref>, med katerimi so tudi tri starocerkvene veroizpovedi.</def>
             <def n="OPI">Nastala <date n="LX">1580</date> ob prizadevanju za združitev vseh luteranskih Cerkva.</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="author" n="Z">
@@ -781,8 +860,9 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs03452300.00" n="PO">
             <note type="admin" subtype="class" n="T">E01</note>
             <form type="lemma" n="G">
-               <orth>kopalov octovec, </orth>
+               <orth>kopalov octovec</orth>
             </form>
+            <pc join="left">,</pc>
             <def n="KDE">
                <ref target="#dzs04831000.00" n="KP">octovec</ref>.</def>
             <milestone type="admin" unit="meta"/>
@@ -794,12 +874,15 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs03569500.01" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>krma, </orth>
+               <orth>krma</orth>
             </form>
+            <pc join="left">,</pc>
             <sense n="PO">
-               <lbl type="number" n="A">1) </lbl>
-               <usg type="domain" n="PODR">pomorstvo:</usg>
-               <def n="KDE">zadnji del ladje, čolna; </def>
+               <lbl type="number" n="A">1)</lbl>
+               <usg type="domain" n="PODR">pomorstvo</usg>
+               <pc join="left">:</pc>
+               <def n="KDE">zadnji del ladje, čolna</def>
+               <pc join="left">;</pc>
                <def n="OPI">nasprotno <ref target="#dzs05554800.00" n="KP">premec</ref>.</def>
                <milestone type="admin" unit="meta"/>
                <note type="admin" subtype="author" n="Z">
@@ -809,9 +892,11 @@
             </sense>
             <sense n="PO" xml:id="dzs03569500.02">
                <note type="admin" subtype="class" n="T">P</note>
-               <lbl type="number" n="A">2) </lbl>
-               <usg type="domain" n="PODR">kmetijstvo:</usg>
-               <def n="KDE">hrana za živali, </def>
+               <lbl type="number" n="A">2)</lbl>
+               <usg type="domain" n="PODR">kmetijstvo</usg>
+               <pc join="left">:</pc>
+               <def n="KDE">hrana za živali</def>
+               <pc join="left">,</pc>
                <def n="OPI">posebej domače živali. Razlikujemo 1. <hi rend="italic" n="I">vzdrževalno <oRef type="headword" n="YI">krmo</oRef>
                   </hi>, hranilne snovi, ki so potrebne, da se žival brez izgube teže obdrži pri življenju; potreba za vzdrževanje je odvisna od velikosti živali oz. od njene površine; 2. <hi rend="italic" n="I">proizvodno <oRef type="headword" n="YI">krmo</oRef>
                   </hi>, hranilne snovi, ki omogočajo posebne sposobnosti živali (proizvodnja mleka, mesa, maščobe, jajc; delovno energijo).<floatingText type="list" n="RUB">
@@ -838,12 +923,13 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs03689100.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>laktoza </orth>
+               <orth>laktoza</orth>
             </form>
             <form n="FOR">(<form n="ES1">
                   <hi rend="italic" n="I">mlečni sladkor</hi>
-               </form>), </form>
-            <def n="KDE">iz D-glukoze in D-galaktoze sestavljen disaharid (<ref target="#dzs06045000.00" n="KP">saharidi</ref>) v obliki belih, malo sladkih kristalov. </def>
+               </form>)</form>
+            <pc join="left">,</pc>
+            <def n="KDE">iz D-glukoze in D-galaktoze sestavljen disaharid (<ref target="#dzs06045000.00" n="KP">saharidi</ref>) v obliki belih, malo sladkih kristalov.</def>
             <def n="OPI">Mlečni sladkor je v mleku sesalcev (kravje mleko 4,5 %, materino mleko 6,7 %). Bakterije ga razgradijo do <ref target="#dzs04361400.00" n="KP">mlečne kisline</ref> (<ref target="#dzs07444800.00" n="KP">vrenje</ref>, kisanje). Nastaja kot stranski izdelek pri pripravi sirov. Uporablja se za otroško prehrano, sredstvo za peko in v farmaciji.</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="author" n="Z">
@@ -854,9 +940,12 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs03803500.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>lesne rastline, </orth>
+               <orth>lesne rastline</orth>
             </form>
-            <def n="KDE">rastline s sekundarno rastjo oz. <ref target="#dzs06192000.00" n="KP">sekundarno debelitvijo</ref>, </def>
+            <pc join="left">,</pc>
+            <def n="KDE">rastline s sekundarno rastjo oz. <ref target="#dzs06192000.00" n="KP">sekundarno debelitvijo</ref>
+            </def>
+            <pc join="left">,</pc>
             <def n="OPI">ki ustvarjajo <ref target="#dzs03799000.00" n="KP">les</ref>.</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="author" n="Z">
@@ -867,10 +956,12 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs03925700.00" n="PO">
             <note type="admin" subtype="class" n="T">G2/G3</note>
             <form type="lemma" n="G">
-               <orth>Łomża </orth>
+               <orth>Łomża</orth>
             </form>
-            <form n="FOR">[lómža], </form>
-            <def n="KDE">mesto na Poljskem, </def>
+            <form n="FOR">[lómža]</form>
+            <pc join="left">,</pc>
+            <def n="KDE">mesto na Poljskem</def>
+            <pc join="left">,</pc>
             <def n="OPI">glavno mesto vojvodstva Łomża (6684 km², 348.000 preb.), ob reki Narew, 60.000 preb.<floatingText type="list" n="RUB">
                   <body>
                      <div>
@@ -899,10 +990,12 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs04041100.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>makrobiotika </orth>
+               <orth>makrobiotika</orth>
             </form>
-            <form n="FOR">[grško], </form>
-            <def n="KDE">način prehranjevanja, </def>
+            <form n="FOR">[grško]</form>
+            <pc join="left">,</pc>
+            <def n="KDE">način prehranjevanja</def>
+            <pc join="left">,</pc>
             <def n="OPI">ki temelji na kitajskem sistemu jin in jang (negativna in pozitivna moč); skrajna makrobiotična prehrana je sestavljena skoraj samo iz nemletih žit, povzroči lahko pomanjkanje beljakovin in vitaminov.</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="author" n="Z">
@@ -914,10 +1007,12 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs04159400.00" n="PO">
             <note type="admin" subtype="class" n="T">G3</note>
             <form type="lemma" n="G">
-               <orth>Matsuyama </orth>
+               <orth>Matsuyama</orth>
             </form>
-            <form n="FOR">[macujáma], </form>
-            <def n="KDE">mesto na Japonskem, </def>
+            <form n="FOR">[macujáma]</form>
+            <pc join="left">,</pc>
+            <def n="KDE">mesto na Japonskem</def>
+            <pc join="left">,</pc>
             <def n="OPI">na SZ Šikokuja, 450.000 preb.; grad (16. st.), univerza (ustanovljena <date n="LX">1949</date>), kovinskopredelovalna, živilska in tekstilna industrija, rafinerija nafte.</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="author" n="Z">
@@ -932,10 +1027,12 @@
                 n="BI">
             <note type="admin" subtype="class" n="T">E04</note>
             <form type="lemma" n="G">
-               <orth type="name">Metsys </orth>
+               <orth type="name">Metsys</orth>
             </form>
-            <form n="FOR">[métsejs], </form>
-            <def n="KDE">nizozemska slikarska družina: </def>
+            <form n="FOR">[métsejs]</form>
+            <pc join="left">,</pc>
+            <def n="KDE">nizozemska slikarska družina</def>
+            <pc join="left">:</pc>
             <def n="OPIX">Q. <ref target="#dzs04144900.00" n="KB">Massys</ref>.</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="author" n="Z">
@@ -947,10 +1044,12 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs04397600.00" n="PO">
             <note type="admin" subtype="class" n="T">G3</note>
             <form type="lemma" n="G">
-               <orth>Molfetta </orth>
+               <orth>Molfetta</orth>
             </form>
-            <form n="FOR">[molféta], </form>
-            <def n="KDE">pristaniško in trgovsko mesto v Italiji, </def>
+            <form n="FOR">[molféta]</form>
+            <pc join="left">,</pc>
+            <def n="KDE">pristaniško in trgovsko mesto v Italiji</def>
+            <pc join="left">,</pc>
             <def n="OPI">v Apuliji, ob Jadranskem morju, sz. od Barija, 65.000 preb.; sedež škofije, stolnici (11.–13. st.; 17. st.); ladjedelništvo, zelo razvito ribištvo, trgovina z oljem in vinom.</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" n="SN">
@@ -969,10 +1068,12 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs04516300.00" n="PO">
             <note type="admin" subtype="class" n="T">G4H</note>
             <form type="lemma" n="G">
-               <orth>Mustag </orth>
+               <orth>Mustag</orth>
             </form>
-            <form n="FOR">[mustág-], </form>
-            <def n="KDE">ime več gora v osrednji Aziji, </def>
+            <form n="FOR">[mustág-]</form>
+            <pc join="left">,</pc>
+            <def n="KDE">ime več gora v osrednji Aziji</def>
+            <pc join="left">,</pc>
             <def n="OPI">nekdaj tudi gorske verige <ref target="#dzs03155500.01" n="KP">Karakorum</ref>.</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="author" n="Z">
@@ -984,9 +1085,11 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs04638600.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>nemške državne dragocenosti, </orth>
+               <orth>nemške državne dragocenosti</orth>
             </form>
-            <def n="KDE">v Svetem rimskem cesarstvu nemškega naroda insignije, </def>
+            <pc join="left">,</pc>
+            <def n="KDE">v Svetem rimskem cesarstvu nemškega naroda insignije</def>
+            <pc join="left">,</pc>
             <def n="OPI">ki so simbolizirale kraljevo (oz. cesarsko) oblast (krona, vladarsko jabolko, vladarsko žezlo in vladarski meč), ornat za kronanje (mdr. plašč za kronanje, alba, dalmatika) in državne svetinje (križ, lenta, relikvije). Od <date n="LX">1805</date> shranjene na Dunaju.</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="figure" n="SP">
@@ -1007,10 +1110,12 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs04759400.00" n="PO">
             <note type="admin" subtype="class" n="T">G3</note>
             <form type="lemma" n="G">
-               <orth>Nouakchott </orth>
+               <orth>Nouakchott</orth>
             </form>
-            <form n="FOR">[nuakšót], </form>
-            <def n="KDE">glavno mesto Mavretanije v sz. Afriki, </def>
+            <form n="FOR">[nuakšót]</form>
+            <pc join="left">,</pc>
+            <def n="KDE">glavno mesto Mavretanije v sz. Afriki</def>
+            <pc join="left">,</pc>
             <def n="OPI">7 km od Atlantskega oceana, 480.000 preb.; sedež katoliške škofije, univerza (ustanovljena <date n="LX">1983</date>), bolnišnica; različna industrija, razsoljevanje morske vode; mednarodno letališče. Ostanki starih utrdb.</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="author" n="Z">
@@ -1022,9 +1127,10 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs04878800.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>okrajšava, </orth>
+               <orth>okrajšava</orth>
             </form>
-            <def n="KDE">zapisan začetni del pogosto rabljene besede ali besedne zveze, zaznamovan z malimi črkami in piko </def>
+            <pc join="left">,</pc>
+            <def n="KDE">zapisan začetni del pogosto rabljene besede ali besedne zveze, zaznamovan z malimi črkami in piko</def>
             <def n="OPI">(npr. <hi rend="italic" n="I">tj.</hi> za <hi rend="italic" n="I">to je</hi>, <hi rend="italic" n="I">itd.</hi> za <hi rend="italic" n="I">in tako dalje</hi>).</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="author" n="Z">
@@ -1036,16 +1142,22 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs04994900.01" n="PO">
             <note type="admin" subtype="class" n="T">R</note>
             <form type="lemma" n="G">
-               <orth>ostrigarji, </orth>
+               <orth>ostrigarji</orth>
             </form>
+            <pc join="left">,</pc>
             <sense n="PO">
-               <lbl type="number" n="A">1) </lbl>
-               <usg type="domain" n="PODR">botanika:</usg>
+               <lbl type="number" n="A">1)</lbl>
+               <usg type="domain" n="PODR">botanika</usg>
+               <pc join="left">:</pc>
                <form n="AIME">
                   <distinct type="form" n="LIME">
                      <hi rend="italic" n="I">Plevrotus</hi>
-                  </distinct>, </form>
-               <def n="KDE">rod gliv <ref target="#dzs03880400.00" n="KP">lističark</ref>; </def>
+                  </distinct>
+               </form>
+               <pc join="left">,</pc>
+               <def n="KDE">rod gliv <ref target="#dzs03880400.00" n="KP">lističark</ref>
+               </def>
+               <pc join="left">;</pc>
                <def n="OPI">klobuk postrani priraščen na bet ali brez njega; rastejo na lesu; užitni; med najbolj znane sodi <ref target="#dzs00947300.00" n="KP">bukov ostrigar</ref> (<distinct type="form" n="LIMEX" xml:lang="la">
                      <hi rend="italic" n="I">Pleurotus ostreatus</hi>
                   </distinct>), ki raste v šopih; precej ga tudi gojijo.</def>
@@ -1057,11 +1169,15 @@
             </sense>
             <sense n="PO" xml:id="dzs04994900.02">
                <note type="admin" subtype="class" n="T">R</note>
-               <lbl type="number" n="A">2) </lbl>
-               <usg type="domain" n="PODR">zoologija:</usg>
+               <lbl type="number" n="A">2)</lbl>
+               <usg type="domain" n="PODR">zoologija</usg>
+               <pc join="left">:</pc>
                <form n="AIME">
-                  <distinct type="form" n="LIME">Anarrhichadidae</distinct>, </form>
-               <def n="KDE">družina <ref target="#dzs00526700.00" n="KP">babic</ref> v hladnih morjih s. poloble; </def>
+                  <distinct type="form" n="LIME">Anarrhichadidae</distinct>
+               </form>
+               <pc join="left">,</pc>
+               <def n="KDE">družina <ref target="#dzs00526700.00" n="KP">babic</ref> v hladnih morjih s. poloble</def>
+               <pc join="left">;</pc>
                <def n="OPI">veliki so lahko do 2,8 m, imajo debelo glavo in široka usta z močnimi zobmi; prehranjujejo se z raki, školjkami in morskimi ježki; v Severnem morju in Atlantiku živi atlantski <oRef type="headword" n="YI">ostrigar</oRef> (<distinct type="form" n="LIMEX" xml:lang="la">
                      <hi rend="italic" n="I">Anarhichas lupus</hi>
                   </distinct>), cenjena jedilna riba.</def>
@@ -1071,7 +1187,7 @@
                   <note type="admin" subtype="class" n="TS">SF</note>
                   <figure n="OPS">
                      <head>
-                        <hi rend="bold" n="B">ostrigarji:</hi> atlantski ostrigar je okusna riba, prodajajo pa ga brez glave </head>
+                        <hi rend="bold" n="B">ostrigarji</hi>: atlantski ostrigar je okusna riba, prodajajo pa ga brez glave </head>
                   </figure>
                   <note type="admin" subtype="comment" n="O">(str. 4639 B)</note>
                </note>
@@ -1084,9 +1200,10 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs05109700.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>parveni </orth>
+               <orth>parveni</orth>
             </form>
-            <form n="FOR">[francosko], </form>
+            <form n="FOR">[francosko]</form>
+            <pc join="left">,</pc>
             <def n="KDE">povzpetnik, novopečeni bogataš.</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="author" n="Z">
@@ -1097,9 +1214,11 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs05224900.00" n="PO">
             <note type="admin" subtype="class" n="T">G3</note>
             <form type="lemma" n="G">
-               <orth>Petrovaradin, </orth>
+               <orth>Petrovaradin</orth>
             </form>
-            <def n="KDE">mesto in trdnjava v ZRJ, </def>
+            <pc join="left">,</pc>
+            <def n="KDE">mesto in trdnjava v ZRJ</def>
+            <pc join="left">,</pc>
             <def n="OPI">v Vojvodini (Srbija), na desnem bregu Donave, nasproti <ref target="#dzs04769300.00" n="KP">Novega Sada</ref> (od <date n="LX">1945</date> upravno in gospodarsko povezan z njim), na obrobju Fruške gore; <date n="LX">1716</date> je tam princ Evgen Savojski premagal Turke.</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" n="SN">
@@ -1118,9 +1237,10 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs05343400.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>pluvialna doba </orth>
+               <orth>pluvialna doba</orth>
             </form>
-            <form n="FOR">[latinsko], </form>
+            <form n="FOR">[latinsko]</form>
+            <pc join="left">,</pc>
             <def n="KDE">obdobje izdatnejših padavin na nepoledenelih območjih v obdobju <ref target="#dzs05387300.01" n="KP">poledenitev</ref> v <ref target="#dzs05316800.00" n="KP">pleistocenu</ref>.</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="author" n="Z">
@@ -1131,8 +1251,9 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs05471200.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>poslovnik, </orth>
+               <orth>poslovnik</orth>
             </form>
+            <pc join="left">,</pc>
             <def n="KDE">pravila za vodenje sej, razprav in glasovanj na zasedanjih, skupščinah v gospodarskih družbah, parlamentih ipd.</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="author" n="Z">
@@ -1143,9 +1264,10 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs05598200.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>primo uomo </orth>
+               <orth>primo uomo</orth>
             </form>
-            <form n="FOR">[italijansko, ‚prvi mož’], </form>
+            <form n="FOR">[italijansko, ‚prvi mož’]</form>
+            <pc join="left">,</pc>
             <def n="KDE">nosilec glavnih vlog v italijanskih operah.</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="author" n="Z">
@@ -1157,9 +1279,12 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs05721400.00" n="PO">
             <note type="admin" subtype="class" n="T">G4O</note>
             <form type="lemma" n="G">
-               <orth>Rab, </orth>
+               <orth>Rab</orth>
             </form>
-            <def n="KDE">hrvaški otok v <ref target="#dzs03648900.00" n="KP">Kvarnerju</ref>, </def>
+            <pc join="left">,</pc>
+            <def n="KDE">hrvaški otok v <ref target="#dzs03648900.00" n="KP">Kvarnerju</ref>
+            </def>
+            <pc join="left">,</pc>
             <def n="OPI">med Krkom in Pagom, 91 km², gorat in gozdnat; vinogradi, oljčni nasadi, ribištvo, turizem; središče letovišče Rab (2500 preb.); romanske in benečanske stavbe, obzidje iz 12./13. st. Od julija <date n="ILT">1942</date> do septembra <date n="LT">1943</date> italijansko koncentracijsko taborišče; v njem je bilo ok. 15.000 Slovencev, Hrvatov in Judov, umrlo je ok. 4400 ljudi (4000 Slovencev), med njimi veliko otrok in žensk. Po kapitulaciji Italije so taboriščniki razorožili italijanske vojake in ustanovil <hi rend="italic" n="I">
                   <distinct type="form" n="ENX">Rabsko brigado</distinct>
                </hi>; štela je 60 borcev (ok. 300 Judov); osvobodila je tudi otoka Cres in Lošinj. Slovenski bataljoni so se po 15.9. prebili v Slovenijo. Vključeni so bili v 14. partizansko divizijo, vendar so brigado oktobra zaradi izčrpanosti večine borcev razpustili.</def>
@@ -1173,12 +1298,16 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs05844100.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>rekonvalescenca </orth>
+               <orth>rekonvalescenca</orth>
             </form>
-            <form n="FOR">[latinsko], </form>
+            <form n="FOR">[latinsko]</form>
+            <pc join="left">,</pc>
             <form n="AIME">
-               <form n="ES">okrevanje</form>, </form>
-            <def n="KDE">obdobje po preboleli bolezni ali poškodbi, </def>
+               <form n="ES">okrevanje</form>
+            </form>
+            <pc join="left">,</pc>
+            <def n="KDE">obdobje po preboleli bolezni ali poškodbi</def>
+            <pc join="left">,</pc>
             <def n="OPI">ko si bolnik z razl. ukrepi (dieta, krepilna sredstva) krepi zmanjšano telesno odpornost.</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="author" n="Z">
@@ -1189,8 +1318,9 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs05958600.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>rogovila, </orth>
+               <orth>rogovila</orth>
             </form>
+            <pc join="left">,</pc>
             <def n="KDE">vilasta razraščenost drevja na dve debli ali več pred začetkom krošnje.</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="author" n="Z">
@@ -1201,16 +1331,20 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs06074800.00" n="PO">
             <note type="admin" subtype="class" n="T">G4J</note>
             <form type="lemma" n="G">
-               <orth>Samarsko zajezitveno jezero </orth>
+               <orth>Samarsko zajezitveno jezero</orth>
             </form>
             <form n="FOR">(<form n="ES1">
                   <hi rend="italic" n="I">Samarskoe vodohranilišče</hi>
                   <form n="FOR1">[samárskoje vodohranílišče]</form>
-               </form>), </form>
+               </form>)</form>
+            <pc join="left">,</pc>
             <form n="AIME">prej <form n="EN">
                   <hi rend="italic" n="I">Kujbyševsko zajezitveno jezero</hi>
-               </form>, </form>
-            <def n="KDE">umetno jezero v Rusiji, </def>
+               </form>
+            </form>
+            <pc join="left">,</pc>
+            <def n="KDE">umetno jezero v Rusiji</def>
+            <pc join="left">,</pc>
             <def n="OPI">na srednji Volgi in njenih pritokih <ref target="#dzs03111900.02" n="KP">Kama</ref> in Bol'šoj Čeremšan, 70 km nad <ref target="#dzs06073900.02" n="KP">Samaro</ref>, ok. 6000 km², dolgo več kot 500 km, široko do 40 km, dolžina jezu 5 km, višina jezu 27 m, 58 mlr. m³ vode; <date n="LX">1958</date> zgrajena hidrolektrarna z 20 agregati in z močjo 2,3 mln. kW, letna proizvodnja 10,9 mlr. kWh električne energije.</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="author" n="Z">
@@ -1222,11 +1356,13 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs06186200.01" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>sejanje, </orth>
+               <orth>sejanje</orth>
             </form>
+            <pc join="left">,</pc>
             <sense n="PO">
-               <lbl type="number" n="A">1) </lbl>
-               <usg type="domain" n="PODR">kmetijstvo:</usg>
+               <lbl type="number" n="A">1)</lbl>
+               <usg type="domain" n="PODR">kmetijstvo</usg>
+               <pc join="left">:</pc>
                <def n="KDE">dajanje semena v zemljo.</def>
                <milestone type="admin" unit="meta"/>
                <note type="admin" subtype="author" n="Z">
@@ -1236,13 +1372,14 @@
             </sense>
             <sense n="PO" xml:id="dzs06186200.02">
                <note type="admin" subtype="class" n="T">P</note>
-               <lbl type="number" n="A">2) </lbl>
-               <usg type="domain" n="PODR">tehnika:</usg>
-               <lbl type="number" n="A0">1. </lbl>
+               <lbl type="number" n="A">2)</lbl>
+               <usg type="domain" n="PODR">tehnika</usg>
+               <pc join="left">:</pc>
+               <lbl type="number" n="A0">1.</lbl>
                <sense n="KDE">
-                  <def n="KDE">postopek ločevanja zrnatih snovi (npr. <ref target="#dzs02383400.00" n="KP">granulatov</ref>) po velikosti. </def>
+                  <def n="KDE">postopek ločevanja zrnatih snovi (npr. <ref target="#dzs02383400.00" n="KP">granulatov</ref>) po velikosti.</def>
                </sense>
-               <lbl type="number" n="A0">2. </lbl>
+               <lbl type="number" n="A0">2.</lbl>
                <sense n="KDE">
                   <def n="KDE">določanje <ref target="#dzs07708000.00" n="KP">zrnatosti</ref> z umerjenimi siti oz. natančno izdelanimi mrežicami.</def>
                </sense>
@@ -1256,9 +1393,11 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs06302400.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>sinhronski stroj, </orth>
+               <orth>sinhronski stroj</orth>
             </form>
-            <def n="KDE">stroj na vrtilni ali izmenični tok (<ref target="#dzs02215100.02" n="KP">generator</ref>, <ref target="#dzs01774800.00" n="KP">elektromotor</ref>), </def>
+            <pc join="left">,</pc>
+            <def n="KDE">stroj na vrtilni ali izmenični tok (<ref target="#dzs02215100.02" n="KP">generator</ref>, <ref target="#dzs01774800.00" n="KP">elektromotor</ref>)</def>
+            <pc join="left">,</pc>
             <def n="OPI">pri katerem število vrtljajev prisilno ustreza frekvenci električnega toka in številu parov polov.</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="author" n="Z">
@@ -1269,8 +1408,9 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs06428900.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>sold, </orth>
+               <orth>sold</orth>
             </form>
+            <pc join="left">,</pc>
             <def n="KDE">v srednjem veku italijanski srebrni novec, pozneje bakreni drobiž.</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="author" n="Z">
@@ -1282,10 +1422,13 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs06554500.00" n="PO">
             <note type="admin" subtype="class" n="T">R</note>
             <form type="lemma" n="G">
-               <orth>steblikarice </orth>
+               <orth>steblikarice</orth>
             </form>
-            <form n="FOR">(<form n="LIME">Cephidae</form>), </form>
-            <def n="KDE">družina <ref target="#dzs05772700.00" n="KP">rastlinskih os</ref>; </def>
+            <form n="FOR">(<form n="LIME">Cephidae</form>)</form>
+            <pc join="left">,</pc>
+            <def n="KDE">družina <ref target="#dzs05772700.00" n="KP">rastlinskih os</ref>
+            </def>
+            <pc join="left">;</pc>
             <def n="OPI">ličinke na travah, lahko so škodljivci (npr. <ref target="#dzs07755400.00" n="KP">žitna osica</ref>).</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="figure" n="SK">
@@ -1293,7 +1436,7 @@
                <note type="admin" subtype="class" n="TS">SI</note>
                <figure n="OPS">
                   <head>
-                     <hi rend="bold" n="B">steblikarice:</hi> žitna osica </head>
+                     <hi rend="bold" n="B">steblikarice</hi>: žitna osica </head>
                </figure>
                <note type="admin" subtype="comment" n="O">(str. 2052 C)</note>
             </note>
@@ -1305,11 +1448,13 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs06676400.01" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>svečnik, </orth>
+               <orth>svečnik</orth>
             </form>
+            <pc join="left">,</pc>
             <sense n="PO">
-               <lbl type="number" n="A">1) </lbl>
-               <usg type="domain" n="PODR">splošno:</usg>
+               <lbl type="number" n="A">1)</lbl>
+               <usg type="domain" n="PODR">splošno</usg>
+               <pc join="left">:</pc>
                <def n="KDE">držalo za sveče.</def>
                <milestone type="admin" unit="meta"/>
                <note type="admin" subtype="author" n="Z">
@@ -1319,8 +1464,9 @@
             </sense>
             <sense n="PO" xml:id="dzs06676400.02">
                <note type="admin" subtype="class" n="T">E01</note>
-               <lbl type="number" n="A">2) </lbl>
-               <usg type="domain" n="PODR">botanika:</usg>
+               <lbl type="number" n="A">2)</lbl>
+               <usg type="domain" n="PODR">botanika</usg>
+               <pc join="left">:</pc>
                <def n="KDE">
                   <ref target="#dzs06700400.00" n="KP">sviščevke</ref>.</def>
                <milestone type="admin" unit="meta"/>
@@ -1333,10 +1479,12 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs06802400.00" n="PO">
             <note type="admin" subtype="class" n="T">G3</note>
             <form type="lemma" n="G">
-               <orth>Takasaki </orth>
+               <orth>Takasaki</orth>
             </form>
-            <form n="FOR">[takasáki], </form>
-            <def n="KDE">mesto na Japonskem, </def>
+            <form n="FOR">[takasáki]</form>
+            <pc join="left">,</pc>
+            <def n="KDE">mesto na Japonskem</def>
+            <pc join="left">,</pc>
             <def n="OPI">na Honšuju, sz. od Tokia, 240.000 preb.; svilarska, živilska in kovinska industrija.</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="author" n="Z">
@@ -1348,9 +1496,11 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs06924200.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>Thermopete®, </orth>
+               <orth>Thermopete®</orth>
             </form>
-            <def n="KDE">tapeta za toplotno izolacijo z zelo majhno toplotno prevodnostjo: </def>
+            <pc join="left">,</pc>
+            <def n="KDE">tapeta za toplotno izolacijo z zelo majhno toplotno prevodnostjo</def>
+            <pc join="left">:</pc>
             <def n="OPI">2–5 mm debela plast penaste umetne smole izolira enako kot 5–12 cm debel opečni zid. Kot osnovno tapeto jo prilepimo na stene sobe in prelepimo z okrasno tapeto ali prepleskamo. Uporabljamo jo kot dodatno zaščito pred izgubo toplote in izolacijo pred vlago.</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="author" n="Z">
@@ -1361,14 +1511,16 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs07043100.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>trapila </orth>
+               <orth>trapila</orth>
             </form>
             <form n="FOR">(nemško <form n="ES1">
                   <hi rend="italic" n="I">Angster</hi>
                </form>, <form n="ES1">
                   <hi rend="italic" n="I">Kuttrolf</hi>
-               </form>), </form>
-            <def n="KDE">steklene pivske posode, </def>
+               </form>)</form>
+            <pc join="left">,</pc>
+            <def n="KDE">steklene pivske posode</def>
+            <pc join="left">,</pc>
             <def n="OPI">ki imajo obliko steklenice s širokim trebušnim delom in ozkim grlom; v njem je več ozkih cevi; skozi te pijača le počasi teče v usta. Znana že v antiki, 15.–18. st. razširjena kot šaljiva pivska posoda.</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="figure" n="SK">
@@ -1376,7 +1528,7 @@
                <note type="admin" subtype="class" n="TS">SU</note>
                <figure n="OPS">
                   <head>
-                     <hi rend="bold" n="B">trapilo,</hi> München, Bayerisches Nationalmuseum </head>
+                     <hi rend="bold" n="B">trapilo</hi>, München, Bayerisches Nationalmuseum </head>
                </figure>
                <note type="admin" subtype="comment" n="O">(str. 2922 D)</note>
             </note>
@@ -1388,9 +1540,11 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs07166700.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>umetni govor, </orth>
+               <orth>umetni govor</orth>
             </form>
-            <def n="KDE">artikulirana predstavitev podatkov, elektroakustično posnemanje naravnega govora; </def>
+            <pc join="left">,</pc>
+            <def n="KDE">artikulirana predstavitev podatkov, elektroakustično posnemanje naravnega govora</def>
+            <pc join="left">;</pc>
             <def n="OPI">posebej za predstavitev rezultatov računalniških operacij v neposrednem strojno formuliranem jeziku prek telefonskih slušalk ali zvočnikov.</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="author" n="Z">
@@ -1401,8 +1555,9 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs07289700.00" n="PO">
             <note type="admin" subtype="class" n="T">E01</note>
             <form type="lemma" n="G">
-               <orth>velikouhi jelen, </orth>
+               <orth>velikouhi jelen</orth>
             </form>
+            <pc join="left">,</pc>
             <def n="KDE">
                <ref target="#dzs04493300.00" n="KP">mulasti jelen</ref>.</def>
             <milestone type="admin" unit="meta"/>
@@ -1414,8 +1569,9 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs07414500.00" n="PO">
             <note type="admin" subtype="class" n="T">E01</note>
             <form type="lemma" n="G">
-               <orth>vokal, </orth>
+               <orth>vokal</orth>
             </form>
+            <pc join="left">,</pc>
             <def n="KDE">
                <ref target="#dzs06077000.00" n="KP">samoglasnik</ref>.</def>
             <milestone type="admin" unit="meta"/>
@@ -1427,11 +1583,13 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs07534100.02" n="PO">
             <note type="admin" subtype="class" n="T">G4H</note>
             <form type="lemma" n="G">
-               <orth>Wilson, </orth>
+               <orth>Wilson</orth>
             </form>
+            <pc join="left">,</pc>
             <sense n="PO">
-               <lbl type="number" n="A1">2) </lbl>
-               <def n="KDE">hrib pri Los Angelesu v ZDA, </def>
+               <lbl type="number" n="A1">2)</lbl>
+               <def n="KDE">hrib pri Los Angelesu v ZDA</def>
+               <pc join="left">,</pc>
                <def n="OPI">v zvezni državi Kalifornija, 1742 m; z <ref target="#dzs07534900.00" n="KP">wilsonskim observatorijem</ref>.</def>
                <milestone type="admin" unit="meta"/>
                <note type="admin" subtype="author" n="Z">
@@ -1446,9 +1604,11 @@
                      <hi rend="italic" n="I">Mount <oRef type="headword" n="YI">Wilson</oRef>
                      </hi>
                      <form n="FOR1">[máu̯nt vílson]</form>
-                  </form>), </form>
-               <lbl type="number" n="A1">1) </lbl>
-               <def n="KDE">gora v Skalnem gorovju v ZDA, </def>
+                  </form>)</form>
+               <pc join="left">,</pc>
+               <lbl type="number" n="A1">1)</lbl>
+               <def n="KDE">gora v Skalnem gorovju v ZDA</def>
+               <pc join="left">,</pc>
                <def n="OPI">v zvezni državi Kolorado, 4342 m.</def>
                <milestone type="admin" unit="meta"/>
                <note type="admin" subtype="author" n="Z">
@@ -1461,10 +1621,12 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs07654400.00" n="PO">
             <note type="admin" subtype="class" n="T">G2</note>
             <form type="lemma" n="G">
-               <orth>Zemgale </orth>
+               <orth>Zemgale</orth>
             </form>
-            <form n="FOR">[zémgale], </form>
-            <def n="KDE">zgodovinska pokrajina in nekdanja provinca v južni Latviji, </def>
+            <form n="FOR">[zémgale]</form>
+            <pc join="left">,</pc>
+            <def n="KDE">zgodovinska pokrajina in nekdanja provinca v južni Latviji</def>
+            <pc join="left">,</pc>
             <def n="OPI">glavno mesto Jelgava.</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="author" n="Z">
@@ -1479,16 +1641,21 @@
                 n="BI">
             <note type="admin" subtype="class" n="T">B</note>
             <form type="lemma" n="G">
-               <orth type="name">Cohen-Tannoudji </orth>
+               <orth type="name">Cohen-Tannoudji</orth>
             </form>
-            <form n="FOR">[koén tanúdži], </form>
-            <form type="forename" n="OIME">Claude, </form>
-            <def n="KDE">francoski fizik alžirskega rodu, </def>
+            <form n="FOR">[koén tanúdži]</form>
+            <pc join="left">,</pc>
+            <form type="forename" n="OIME">Claude</form>
+            <pc join="left">,</pc>
+            <def n="KDE">francoski fizik alžirskega rodu</def>
+            <pc join="left">,</pc>
             <def n="RPOD">
                <state type="birth" n="RPOD1">
-                  <desc>*1.4.1933 Constantine (Alžirija); </desc>
+                  <desc>*1.4.1933 Constantine (Alžirija)</desc>
                </state>
+               <pc join="left">;</pc>
             </def>
+            <pc join="left">;</pc>
             <def n="OPI">teoretično razvijal metode hlajenja in lovljenja atomov z <ref target="#dzs03720800.00" n="KP">lasersko svetlobo</ref>. S pomočjo šestih laserskih snopov, ki so se sekali, so upočasnili atome helija do hitrosti 2 cm/s; <date n="ILT">1997</date> Nobelova nagrada za fiziko z S. <ref target="#dzsB0006600.00" n="KB">Chujem</ref> in W. D. <ref target="#dzsB0006800.00" n="KB">Phillipsom</ref>.</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="author" n="Z">
@@ -1500,17 +1667,20 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs00553300.01" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>balada </orth>
+               <orth>balada</orth>
             </form>
             <form n="FOR">[italijansko <form n="ES1">
                   <hi rend="italic" n="I">balatta</hi>
                </form>, provansalsko <form n="ES1">
                   <hi rend="italic" n="I">balada</hi>
-               </form>, ‚plesna pesem’], </form>
+               </form>, ‚plesna pesem’]</form>
+            <pc join="left">,</pc>
             <sense n="PO">
-               <lbl type="number" n="A">1) </lbl>
-               <usg type="domain" n="PODR">književnost:</usg>
-               <def n="KDE">v srednjem veku v romanskih deželah kratka pesem, </def>
+               <lbl type="number" n="A">1)</lbl>
+               <usg type="domain" n="PODR">književnost</usg>
+               <pc join="left">:</pc>
+               <def n="KDE">v srednjem veku v romanskih deželah kratka pesem</def>
+               <pc join="left">,</pc>
                <def n="OPI">ki so jo peli plesalci, v 14./15. st. se je v Franciji (posebej pri F. <ref target="#dzs07344300.00" n="KB">Villonu</ref>) izoblikovala v strogo obliko. V Angliji se je v 18. st. ta označitev prenesla na stare ljudske pesmi, ki dramatično in pogosto z dialogom pripovedujejo o nenavadnih dogodkih ter v nasprotju z <ref target="#dzs05964800.01" n="KP">romanco</ref> posegajo po temačni snovi (izvor v germanskih junaških pesnitvah). Th. <ref target="#dzs05177500.00" n="KB">Percy</ref> je z zbirko angleških ljudskih <oRef type="headword" n="YI">balad</oRef> spodbudil zbiranje ljudskih <oRef type="headword" n="YI">balad</oRef>. V Nemčiji so J. G. <ref target="#dzs02581900.00" n="KB">Herder</ref>, A. von <ref target="#dzs00416400.01" n="KB">Arnim</ref>, C. <ref target="#dzs00892000.00" n="KB">Brentano</ref> zbirali ljudske <oRef type="headword" n="YI">balada</oRef> 13.–15. st. Iz teoretičnega zanimanja za te <oRef type="headword" n="YI">balada</oRef> je po <date n="LX">1770</date> nastala umetna <oRef type="headword" n="YI">balada</oRef>, v Nemčiji posebej pri G. A. <ref target="#dzs00955700.00" n="KB">Bürgerju</ref>, J. W. von <ref target="#dzs02310500.00" n="KB">Goetheju</ref>, F. von <ref target="#dzs06142100.00" n="KB">Schillerju</ref>, L. <ref target="#dzs07152300.00" n="KB">Uhlandu</ref>, Th. <ref target="#dzs02063600.00" n="KB">Fontaneju</ref>; pri Slovencih pri F. <ref target="#dzs05573200.00" n="KB">Prešernu</ref> in A. <ref target="#dzs00458400.00" n="KB">Aškercu</ref>, J. <ref target="#dzs04225100.00" n="KB">Menartu</ref>. Zdaj se nadaljuje kot pripovedna pesem, ki se ne drži več strogo prvotne oblike; pri F. <ref target="#dzs07503800.00" n="KB">Wedekindu</ref>, B. <ref target="#dzs00887200.00" n="KB">Brechtu</ref> blizu sejmarskim pesmim.</def>
                <milestone type="admin" unit="meta"/>
                <note type="admin" subtype="author" n="Z">
@@ -1521,9 +1691,11 @@
             </sense>
             <sense n="PO" xml:id="dzs00553300.02">
                <note type="admin" subtype="class" n="T">P</note>
-               <lbl type="number" n="A">2) </lbl>
-               <usg type="domain" n="PODR">glasba:</usg>
-               <def n="KDE">označitev za številne srednjeveške vokalne oblike; </def>
+               <lbl type="number" n="A">2)</lbl>
+               <usg type="domain" n="PODR">glasba</usg>
+               <pc join="left">:</pc>
+               <def n="KDE">označitev za številne srednjeveške vokalne oblike</def>
+               <pc join="left">;</pc>
                <def n="OPI">od 18. st. pomeni <oRef type="headword" n="YI">balada</oRef> uglasbeno epsko pesniško obliko s tem imenom za solistični glas in klavirsko ali orkestrsko spremljavo (F. <ref target="#dzs06155200.00" n="KB">Schubert</ref>, F. <ref target="#dzs03912100.00" n="KB">Loewe</ref>). V 19. st. je R. <ref target="#dzs06157700.01" n="KB">Schumann</ref> ustvaril zborovsko balado, F. <ref target="#dzs01135200.00" n="KB">Chopin</ref> je balado uvedel v instrumentalno glasbo (klavirska balada).</def>
                <milestone type="admin" unit="meta"/>
                <note type="admin" subtype="author" n="Z">
@@ -1535,9 +1707,10 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs01156900.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>cinkanje, </orth>
+               <orth>cinkanje</orth>
             </form>
-            <def n="KDE">galvansko nanašanje tanke plasti <ref target="#dzs01156800.01" n="KP">cinka</ref> na površino manj plemenitih kovin </def>
+            <pc join="left">,</pc>
+            <def n="KDE">galvansko nanašanje tanke plasti <ref target="#dzs01156800.01" n="KP">cinka</ref> na površino manj plemenitih kovin</def>
             <def n="OPI">(npr. železa). Uporablja se za protikorozijsko zaščito; posebej za pločevino, vijake in druge predmete, ki jih ogroža rja. <hi rend="italic" n="I">
                   <oRef type="headword" n="YI">Cinkanje</oRef> z ognjem</hi>, potapljanje predmeta v kopel s staljenim cinkom.</def>
             <milestone type="admin" unit="meta"/>
@@ -1549,12 +1722,13 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs01672300.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>dvanajsttonska tehnika </orth>
+               <orth>dvanajsttonska tehnika</orth>
             </form>
             <form n="FOR">(<form n="ES1">
                   <hi rend="italic" n="I">dodekafonija</hi>
-               </form>), </form>
-            <def n="KDE">pri skladanju atonalne glasbe (<ref target="#dzs00473700.00" n="KP">atonalnost</ref>) uporabljena tehnika. </def>
+               </form>)</form>
+            <pc join="left">,</pc>
+            <def n="KDE">pri skladanju atonalne glasbe (<ref target="#dzs00473700.00" n="KP">atonalnost</ref>) uporabljena tehnika.</def>
             <def n="OPI">
                <oRef type="headword" n="YI">Dvanajsttonska tehnika</oRef> odpravlja vodilno vlogo na osnovnem tonu temelječe <ref target="#dzs06993000.00" n="KP">tonalnosti</ref> in jo nadomesti s tonskimi vrstami, katerih osnova je 12 med seboj enakovrednih in harmonsko-funkcionalno povsem nevezanih poltonov. Iz 12 poltonov je mogoče sestaviti več kot 400,000.000 različnih tonskih vrst. Tonska vrsta je osnova, ki dobi kompozicijsko obliko s kontrapunktno obdelavo (<ref target="#dzs03442600.00" n="KP">kontrapunkt</ref>, <ref target="#dzs05754400.00" n="KP">rakov postop</ref>, <ref target="#dzs04817300.00" n="KP">obrnitev</ref>), variiranjem (<ref target="#dzs07246500.02" n="KP">variacija</ref>) in <ref target="#dzs07038800.00" n="KP">transponiranjem</ref>. Iz tonske vrste je mogoče izpeljati melodijo in harmonijo. – Po razmeroma kratkem obdobju sproščene atonalnosti (<ref target="#dzs02803200.02" n="KP">impresionizem</ref>, <ref target="#dzs01749000.00" n="KP">ekspresionizem</ref>) so iz potrebe po novi urejenosti tonskega gradiva <oRef type="headword" n="YI">dvanajsttonsko tehniko</oRef> skoraj hkrati odkrili A. <ref target="#dzs06151500.00" n="KB">Schönberg</ref>, J. M. <ref target="#dzs02526400.00" n="KB">Hauer</ref>, E. <ref target="#dzs07245400.00" n="KB">Varèse</ref> in Jefim Golišev (<date n="LX">1895</date>–<date n="LX">1970</date>); za glavnega predstavnika pa vendarle velja Schönberg, ki je <oRef type="headword" n="YI">dvanajsttonsko tehniko</oRef> uporabljal od <date n="OLT">1923</date>/24.Naslednja stopnja v razvoju <oRef type="headword" n="YI">dvanajsttonske tehnike</oRef> je <ref target="#dzs06218800.00" n="KP">serialna glasba</ref>; poleg Schönberga so skladatelji serialne glasbe A. <ref target="#dzs00690600.00" n="KB">Berg</ref>, L. <ref target="#dzs01355500.00" n="KB">Dallapiccola</ref>, H. <ref target="#dzs01725400.00" n="KB">Eimert</ref>, H. <ref target="#dzs01728100.00" n="KB">Eisler</ref>, W. <ref target="#dzs02075100.00" n="KB">Fortner</ref>, K. A. <ref target="#dzs02519000.00" n="KB">Hartmann</ref>, H. W. <ref target="#dzs02576400.00" n="KB">Henze</ref>, E. <ref target="#dzs03540300.00" n="KB">Křenek</ref>, René Leibowitz (<date n="OLT">1913</date>–<date n="OLT">1972</date>), I. <ref target="#dzs06602700.00" n="KB">Stravinski</ref>, A. <ref target="#dzs07503000.00" n="KB">Webern</ref> idr.</def>
             <milestone type="admin" unit="meta"/>
@@ -1566,13 +1740,15 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs02202100.00" n="PO">
             <note type="admin" subtype="class" n="T">G3</note>
             <form type="lemma" n="G">
-               <orth>Gdansk </orth>
+               <orth>Gdansk</orth>
             </form>
             <form n="FOR">(<form n="ES1">
                   <hi rend="italic" n="I">Gdańsk</hi>
                   <form n="FOR1">[gdánsk]</form>
-               </form>), </form>
-            <def n="KDE">mesto na Poljskem in nekdanja svobodna država ob izlivu Visle v Baltsko morje, </def>
+               </form>)</form>
+            <pc join="left">,</pc>
+            <def n="KDE">mesto na Poljskem in nekdanja svobodna država ob izlivu Visle v Baltsko morje</def>
+            <pc join="left">,</pc>
             <def n="OPI">470.000 preb., glavno mesto poljskega vojvodstva Gdansk (7394 km², 1,4 mln. preb.), eno najpomembnejših pristanišč in trgovskih mest ob Baltiku; industrijske in pristaniške naprave med drugo svetovno vojno v celoti uničene, po njej pa zgrajene na novo; veliko pristanišče združeno s pristaniščem sosednjega mesta <ref target="#dzs02202300.00" n="KP">Gdynia</ref>. Skupaj z Gdynio in morskim kopališkim krajem Sopotje <oRef type="headword" n="YI">Gdansk</oRef> združen v »trojno mesto« z 800.000 preb. Univerza, tehnične in druge visoke šole; ladjedelnice, proizvodnja vagonov in traktorjev, kemijska in živilska industrija; v starem mestnem jedru so številni veličastni kulturnozgodovinski spomeniki: gotska Marijina cerkev (14.–15. st.), Artusov dvor, gotska mestna hiša, arzenal, znamenite hiše (16.–18. st.); med drugo svetovno vojno je bilo mesto do tal porušeno, obnova v starem slogu je že skoraj povsem končana.<floatingText type="list" n="RUB">
                   <body>
                      <div>
@@ -1599,7 +1775,7 @@
                <note type="admin" subtype="class" n="TS">SF</note>
                <figure n="OPS">
                   <head>
-                     <hi rend="bold" n="B">Gdansk:</hi> Zelena vrata (iz leta <date n="ILT">1568</date>) </head>
+                     <hi rend="bold" n="B">Gdansk</hi>: Zelena vrata (iz leta <date n="ILT">1568</date>) </head>
                </figure>
                <note type="admin" subtype="comment" n="O">(str. 1021 A)</note>
             </note>
@@ -1612,13 +1788,14 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs02699700.00" n="PO">
             <note type="admin" subtype="class" n="T">E02</note>
             <form type="lemma" n="G">
-               <orth>Hông </orth>
+               <orth>Hông</orth>
             </form>
             <form n="FOR">(<form n="ES1">
                   <hi rend="italic" n="I">Sông <oRef type="headword" n="YI">Hông</oRef>
                   </hi>
                   <form n="FOR1">[sóng hóng-]</form>
-               </form>), </form>
+               </form>)</form>
+            <pc join="left">,</pc>
             <def n="KDE">
                <ref target="#dzs05800600.00" n="KP">Rdeča reka</ref>.</def>
             <milestone type="admin" unit="meta"/>
@@ -1631,9 +1808,10 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs03146700.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>kapljevina, </orth>
+               <orth>kapljevina</orth>
             </form>
-            <def n="KDE">snov v <ref target="#dzs00096800.00" n="KP">agregatnem stanju</ref>, v katerem tvori kaplje. </def>
+            <pc join="left">,</pc>
+            <def n="KDE">snov v <ref target="#dzs00096800.00" n="KP">agregatnem stanju</ref>, v katerem tvori kaplje.</def>
             <def n="OPI">Njene molekule med seboj niso trdno vezane kakor v trdninah in se lahko premikajo po prostoru, niso pa tako proste kakor v <ref target="#dzs05326800.00" n="KP">plinih</ref>, ki napolnijo vso posodo do njenih meja. Prehod snovi v kapljevinsko stanje je odvisen od tlaka in temperature (<ref target="#dzs03560400.00" n="KP">kritična točka</ref>); snov preide v <oRef type="headword" n="YI">kapljevino</oRef> s taljenjem <ref target="#dzs07051400.00" n="KP">trdne snovi</ref> ali kondenzacijo <oRef type="cross-reference" n="ZX">plina</oRef>. <oRef type="headword" n="YI">Kapljevine</oRef> so malo stisljive, zato se jim prostornina tudi pri visokem tlaku le malo spremeni; to izkoriščamo v hidravliki. Njihova oblika se prilagodi obliki spodnjega dela posode, površina pa je praktično vodoravna in razen na mejah ravna (<ref target="#dzs03143400.00" n="KP">kapilarnost</ref>); pri večjih množinah <oRef type="headword" n="YI">kapljevin</oRef>, kot npr. morjih ali jezerih, površina sovpada s sfero, ki ima izhodišče v središču Zemlje; v breztežnem stanju zavzame <oRef type="headword" n="YI">kapljevina</oRef> zaradi <ref target="#dzs05501000.00" n="KP">površinske napetosti</ref>, ki teži k čim manjši površini, obliko krogle (<ref target="#dzs02621100.00" n="KP">hidrostatika</ref>, <ref target="#dzs02615000.00" n="KP">hidrodinamika</ref>). Majhna množina <oRef type="headword" n="YI">kapljevin</oRef> se oblikuje v kapljo, ki je posledica težnosti in površinske napetosti – slednja ne dovoli, da bi se kaplja na ravni podlagi popolnoma razlila. <oRef type="headword" n="YI">Kapljevine</oRef> skupaj s plini uvrščamo med <ref target="#dzs06856500.00" n="KP">tekočine</ref>, pogosto pa ta izraz površno uporabimo za <oRef type="headword" n="YI">kapljevine</oRef>.<floatingText type="overview" n="RUBK">
                   <body>
                      <head n="RUBN">
@@ -1664,9 +1842,11 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs03560200.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>kritična temperatura, </orth>
+               <orth>kritična temperatura</orth>
             </form>
-            <def n="KDE">temperatura, pri kateri se v snoveh zgodi kakšna pomembna sprememba, </def>
+            <pc join="left">,</pc>
+            <def n="KDE">temperatura, pri kateri se v snoveh zgodi kakšna pomembna sprememba</def>
+            <pc join="left">,</pc>
             <def n="OPI">npr. prehod v superprevodno fazo (<ref target="#dzs06660400.00" n="KP">superprevodnost</ref>), prehod iz feromagnetne (<ref target="#dzs01984800.00" n="KP">feromagnetizem</ref>) v paramagnetno fazo (<ref target="#dzs01275700.00" n="KP">Curiejeva temperatura</ref>). Pri <ref target="#dzs05326800.00" n="KP">plinih</ref> je <oRef type="headword" n="YI">kritična temperatura</oRef> najvišja temperatura, pod katero snov pri nobenem tlaku ne nastopa v kapljevinskem stanju.</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="author" n="Z">
@@ -1677,9 +1857,10 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs04033300.00" n="PO">
             <note type="admin" subtype="class" n="T">N</note>
             <form type="lemma" n="G">
-               <orth>Maji, </orth>
+               <orth>Maji</orth>
             </form>
-            <def n="KDE">skupno ime za jezikovno sorodna indijanska ljudstva iz jv. Mehike (posebej z Jukatana), Gvatemale in v. Hondurasa, pribl. 4,2 mln. pripadnikov. </def>
+            <pc join="left">,</pc>
+            <def n="KDE">skupno ime za jezikovno sorodna indijanska ljudstva iz jv. Mehike (posebej z Jukatana), Gvatemale in v. Hondurasa, pribl. 4,2 mln. pripadnikov.</def>
             <def n="OPI">
                <oRef type="headword" n="YI">Maji</oRef> so ustvarili eno najpomembnejših kultur predkolumbovske Amerike. S poljedelstvom kot gospodarskim temeljem (<ref target="#dzs04284600.00" n="KP">Mezoamerika</ref>) so v gvatemalskem višavju že pred našim štetjem nastala obredna središča, npr. Kaminaljuyú (tam je zdaj gvatemalsko glavno mesto). V majevskem klasičnem obdobju, 300–900 n. š., se je težišče kulture <oRef type="headword" n="YI">Majev</oRef> premaknilo v nižavje na S. Številna mesta, npr. <ref target="#dzs05045700.00" n="KP">Palenque</ref>, Bonampak in <ref target="#dzs07216200.00" n="KP">Uxmal</ref> v Mehiki, <ref target="#dzs06943100.00" n="KP">Tikal</ref> in Quirigua v Gvatemali in Copán v Hondurasu, so prebivalci v 8. ali 9. st. zapustili (kot razloge navajajo mdr. osiromašenje obdelovalnih površin in kmečke upore). Medtem ko so pokrajine južnega nižavja opustele, je 10.–12. st. S Jukatana pod <ref target="#dzs06988200.00" n="KP">Tolteki</ref> doživel nov razcvet (Chichén Itzá). Španci so se v gvatemalskem višavju in na Jukatanu po <date n="LX">1511</date> še srečali s kulturo majevskih mest in jo polagoma uničevali. <date n="LX">1697</date> je padlo zadnje majevsko mesto Tayasal. Z osvobodilnimi boji so se lahko <oRef type="headword" n="YI">Maji</oRef> nekajkrat otresli tuje oblasti.Po 3. st. so <oRef type="headword" n="YI">Maji</oRef> v astronomiji, astrologiji in zgodovinopisju uporabljali hieroglifsko pisavo (ki so jo doslej samo deloma razvozlali), izumili so številčni sistem z ničlo in uporabljali natančen astronomski koledar. V mestih so okrog velikih osrednjih trgov postavljali do 65 m visoke stopničaste piramide s svetišči na vrhu, palače, igrišča za obredno igro z žogo, prav tako stele in oltarje. Umetniško pomembni kipi, kamniti mozaiki, freske in reliefi iz štuka so krasili kamnite stavbe, pokrite z nepravilnimi oboki in zidane z apneno malto, prav tako tudi stavbe iz opeke, posušene na soncu. Razvito je bilo poslikavanje lončevine, obdelovanje žada, tkalstvo in skromno obdelovanje kovin, okrasje iz ptičjega perja. Mesta so povezovale ceste, ki so jih gradili na nasipih, trgovski stiki so segali vse do Kostarike.</def>
             <milestone type="admin" unit="meta"/>
@@ -1688,7 +1869,7 @@
                <note type="admin" subtype="class" n="TS">SF</note>
                <figure n="OPS">
                   <head>
-                     <hi rend="bold" n="B">Maji:</hi> ruševine mesta Chichén-Itzá s tempeljsko piramido, imenovano Castillo </head>
+                     <hi rend="bold" n="B">Maji</hi>: ruševine mesta Chichén-Itzá s tempeljsko piramido, imenovano Castillo </head>
                </figure>
                <note type="admin" subtype="comment" n="O">(str. 3300 B)</note>
             </note>
@@ -1697,7 +1878,7 @@
                <note type="admin" subtype="class" n="TS">SF</note>
                <figure n="OPS">
                   <head>
-                     <hi rend="bold" n="B">Maji:</hi> poslikan kamnit jaguarski prestol z vložki iz žada (majevsko-tolteška kultura, ok. 11.–13. st.), Chichén Itzá (Jukatan, Mehika) </head>
+                     <hi rend="bold" n="B">Maji</hi>: poslikan kamnit jaguarski prestol z vložki iz žada (majevsko-tolteška kultura, ok. 11.–13. st.), Chichén Itzá (Jukatan, Mehika) </head>
                </figure>
                <note type="admin" subtype="comment" n="O">(str. 3300 B)</note>
             </note>
@@ -1706,7 +1887,7 @@
                <note type="admin" subtype="class" n="TS">SU</note>
                <figure n="OPS">
                   <head>
-                     <hi rend="bold" n="B">Maji:</hi> poslikan trinožni keramični krožnik z upodobljenim sedečim dostojanstvenikom (poznoklasično obdobje, 650–900), Ciudad de México, zasebna zbirka </head>
+                     <hi rend="bold" n="B">Maji</hi>: poslikan trinožni keramični krožnik z upodobljenim sedečim dostojanstvenikom (poznoklasično obdobje, 650–900), Ciudad de México, zasebna zbirka </head>
                </figure>
                <note type="admin" subtype="comment" n="O">(str. 3300 C)</note>
             </note>
@@ -1715,7 +1896,7 @@
                <note type="admin" subtype="class" n="TS">SU</note>
                <figure n="OPS">
                   <head>
-                     <hi rend="bold" n="B">Maji:</hi> razkošni leseni ščit z vložki iz turkiza in pirita (postklasično obdobje, 12. st.), Ciudad de México, Museo Nacionale de Antropologia </head>
+                     <hi rend="bold" n="B">Maji</hi>: razkošni leseni ščit z vložki iz turkiza in pirita (postklasično obdobje, 12. st.), Ciudad de México, Museo Nacionale de Antropologia </head>
                </figure>
                <note type="admin" subtype="comment" n="O">(str. 3300 C)</note>
             </note>
@@ -1728,9 +1909,11 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs04474500.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>možganska krvavitev, </orth>
+               <orth>možganska krvavitev</orth>
             </form>
-            <def n="KDE">krvavitev v možganih ali okoli njih, </def>
+            <pc join="left">,</pc>
+            <def n="KDE">krvavitev v možganih ali okoli njih</def>
+            <pc join="left">,</pc>
             <def n="OPI">ki je posledica poškodbe ali spontanega pretrganja krvne žile. Posledica topih poškodb lobanje je krvavitev med lobanjsko kostjo in trdo možgansko ovojnico (<hi rend="italic" n="I">
                   <distinct type="form" n="ENX">epiduralna krvavitev</distinct>
                </hi>), ali med trdo in mehko možgansko ovojnico (<hi rend="italic" n="I">
@@ -1749,10 +1932,12 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs04887300.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>okultizem </orth>
+               <orth>okultizem</orth>
             </form>
-            <form n="FOR">[latinsko], </form>
-            <def n="KDE">nauk o skritih (okultnih), </def>
+            <form n="FOR">[latinsko]</form>
+            <pc join="left">,</pc>
+            <def n="KDE">nauk o skritih (okultnih)</def>
+            <pc join="left">,</pc>
             <def n="OPI">znanstveno nedostopnih pojavih, ki naj bi bili učinkovanje duhov (<ref target="#dzs06479400.00" n="KP">spiritizem</ref>) ali izraz posebnih človekovih zmožnosti.<floatingText type="list" n="RUB">
                   <body>
                      <div>
@@ -1777,20 +1962,25 @@
                 n="BI">
             <note type="admin" subtype="class" n="T">B</note>
             <form type="lemma" n="G">
-               <orth type="name">Poděbrad </orth>
+               <orth type="name">Poděbrad</orth>
             </form>
-            <form n="FOR">[pódjebrad-], </form>
-            <form type="forename" n="OIME">Jurij, </form>
+            <form n="FOR">[pódjebrad-]</form>
+            <pc join="left">,</pc>
+            <form type="forename" n="OIME">Jurij</form>
+            <pc join="left">,</pc>
             <form n="AIME">tudi <hi rend="italic" n="I">Poděbradski</hi> in <hi rend="italic" n="I">Kunštátski</hi>
             </form>
-            <def n="KDE">češki kralj (<date n="ILT">1458</date>–71), </def>
+            <def n="KDE">češki kralj (<date n="ILT">1458</date>–71)</def>
+            <pc join="left">,</pc>
             <def n="RPOD">
                <state type="birth" n="RPOD1">
-                  <desc>*6.4.1420 Poděbrady, </desc>
+                  <desc>*6.4.1420 Poděbrady</desc>
                </state>
+               <pc join="left">,</pc>
                <state type="death" n="RPOD2">
-                  <desc>†22.3.1471 Praga; </desc>
+                  <desc>†22.3.1471 Praga</desc>
                </state>
+               <pc join="left">;</pc>
             </def>
             <def n="OPI">od <date n="OLT">1444</date> politični vodja <ref target="#dzs07212300.00" n="KP">utrakvistov</ref>; češki stanovi so ga <date n="LT">1452</date> izvolili za oskrbnika (<hi rend="italic" n="I">
                   <distinct type="form" n="ENX">gubernatorja</distinct>
@@ -1805,10 +1995,11 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs05671500.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>psihedelični rock </orth>
+               <orth>psihedelični rock</orth>
             </form>
-            <form n="FOR">[～ rók], </form>
-            <def n="KDE">slogovna smer v rockovski glasbi 60. let, izhajajoča predvsem iz izkušenj glasbenikov z mamili ter iz uporabe električnih ojačevalnikov in potujitvenih učinkov (npr. protisklopi, popačenja) glasbe. </def>
+            <form n="FOR">[～ rók]</form>
+            <pc join="left">,</pc>
+            <def n="KDE">slogovna smer v rockovski glasbi 60. let, izhajajoča predvsem iz izkušenj glasbenikov z mamili ter iz uporabe električnih ojačevalnikov in potujitvenih učinkov (npr. protisklopi, popačenja) glasbe.</def>
             <def n="OPI">Prizadevanja, da bi se pri glasbenikih in poslušalcih z razl. mamili (posebej s hašišem, z marihuano in LSD) povečala ustvarjalnost oz. dojemanje. Pomembne skupine <oRef type="headword" n="YI">psihedeličnega rocka</oRef> so bile poleg skupin Doors in Flock predvsem Iron Butterfly (<hi rend="italic" n="I">
                   <distinct type="form" n="ENX">In a gadda da Vida</distinct>
                </hi>), Amon Düül, Vanilla Fudge, The Byrds, Jefferson Airplane, Pink Floyd, pa tudi skupina Beatles (<hi rend="italic" n="I">
@@ -1826,16 +2017,21 @@
                 n="BI">
             <note type="admin" subtype="class" n="T">B</note>
             <form type="lemma" n="G">
-               <orth type="name">Santana </orth>
+               <orth type="name">Santana</orth>
             </form>
-            <form n="FOR">[santána], </form>
-            <form type="forename" n="OIME">Carlos (od 1973) Devadip, </form>
-            <def n="KDE">mehiški rockovski kitarist, </def>
+            <form n="FOR">[santána]</form>
+            <pc join="left">,</pc>
+            <form type="forename" n="OIME">Carlos (od 1973) Devadip</form>
+            <pc join="left">,</pc>
+            <def n="KDE">mehiški rockovski kitarist</def>
+            <pc join="left">,</pc>
             <def n="RPOD">
                <state type="birth" n="RPOD1">
-                  <desc>*20.7.1947 Autlán de Navarro; </desc>
+                  <desc>*20.7.1947 Autlán de Navarro</desc>
                </state>
+               <pc join="left">;</pc>
             </def>
+            <pc join="left">;</pc>
             <def n="OPI">
                <date n="ILT">1967</date> ustanovil v San Franciscu skupino <hi rend="italic" n="I">Santana</hi>, katere značilnost postanejo afrokubanska ritmika in pojoče kitare. Nastop <oRef type="headword" n="YI">Santane</oRef> v Woodstocku <date n="OLT">1969</date> je odločilno vplival na slog južnoameriškega rocka. Skladbe, kot so <hi rend="italic" n="I">Black Magic Woman</hi> (<date n="LT">1970</date>), <hi rend="italic" n="I">Samba Pa Ti</hi> (<date n="LT">1970</date>), <hi rend="italic" n="I">Jingo</hi> (<date n="LT">1973</date>) ali <hi rend="italic" n="I">She's not There</hi> (<date n="LT">1977</date>), so postale svetovne uspešnice.<floatingText type="list" n="RUB">
                   <body>
@@ -1859,11 +2055,13 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs06519900.01" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>sredstva, </orth>
+               <orth>sredstva</orth>
             </form>
+            <pc join="left">,</pc>
             <sense n="PO">
-               <lbl type="number" n="A">1) </lbl>
-               <usg type="domain" n="PODR">splošno:</usg>
+               <lbl type="number" n="A">1)</lbl>
+               <usg type="domain" n="PODR">splošno</usg>
+               <pc join="left">:</pc>
                <def n="KDE">snov, priprava, naprava ipd., uporabljena za dosego kakšnega cilja ipd.</def>
                <milestone type="admin" unit="meta"/>
                <note type="admin" subtype="author" n="Z">
@@ -1873,11 +2071,14 @@
             </sense>
             <sense n="PO" xml:id="dzs06519900.02">
                <note type="admin" subtype="class" n="T">P</note>
-               <lbl type="number" n="A">2) </lbl>
-               <usg type="domain" n="PODR">ekonomija:</usg>
+               <lbl type="number" n="A">2)</lbl>
+               <usg type="domain" n="PODR">ekonomija</usg>
+               <pc join="left">:</pc>
                <form n="AIME">
-                  <form n="ES">premoženje</form>, </form>
-               <def n="KDE">celota stvari, pravic in denarja, ki jih ima kdo in mu omogočajo uresničevanje ekonomskih ciljev. </def>
+                  <form n="ES">premoženje</form>
+               </form>
+               <pc join="left">,</pc>
+               <def n="KDE">celota stvari, pravic in denarja, ki jih ima kdo in mu omogočajo uresničevanje ekonomskih ciljev.</def>
                <def n="OPI">Izražena so v denarni merski enoti in ovrednotena največ z zneskom, za katerega je mogoče predpostaviti, da ga bo mogoče dobiti v denarni obliki, kadar imajo <oRef type="headword" n="YI">sredstva</oRef> nedenarne oblike. V <ref target="#dzs00735400.00" n="KP">bilanci stanja</ref> so navedena na levi strani in označena tudi z izrazom <hi rend="italic" n="I">aktiva</hi>. Glede na značilnosti se delijo na <ref target="#dzs06531300.00" n="KP">stalna sredstva</ref> in <ref target="#dzs02250600.00" n="KP">gibljiva sredstva</ref>, glede na čas vezave v danih oblikah na <ref target="#dzs01578700.00" n="KP">dolgoročna sredstva</ref> in <ref target="#dzs03529100.00" n="KP">kratkoročna sredstva</ref>, glede na funkcionalnost pri ustvarjanju prihodkov pa na <ref target="#dzs04983600.00" n="KP">osnovna sredstva</ref>, <ref target="#dzs04812800.00" n="KP">obratna sredstva</ref> in <ref target="#dzs02014300.00" n="KP">finančne naložbe</ref>.</def>
                <milestone type="admin" unit="meta"/>
                <note type="admin" subtype="author" n="Z">
@@ -1889,12 +2090,16 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs06911400.02" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>tetanus, </orth>
+               <orth>tetanus</orth>
             </form>
+            <pc join="left">,</pc>
             <sense n="PO">
-               <lbl type="number" n="A">2) </lbl>
-               <usg type="domain" n="PODR">fiziologija:</usg>
-               <def n="KDE">najkrčevitejše stanje <ref target="#dzs04346600.00" n="KP">mišice</ref>, </def>
+               <lbl type="number" n="A">2)</lbl>
+               <usg type="domain" n="PODR">fiziologija</usg>
+               <pc join="left">:</pc>
+               <def n="KDE">najkrčevitejše stanje <ref target="#dzs04346600.00" n="KP">mišice</ref>
+               </def>
+               <pc join="left">,</pc>
                <def n="OPI">posledica <ref target="#dzs06653500.02" n="KP">sumacije</ref> posameznih trzljajev; pojavlja se pri velikih mišičnih obremenitvah.</def>
                <milestone type="admin" unit="meta"/>
                <note type="admin" subtype="author" n="Z">
@@ -1904,12 +2109,17 @@
             </sense>
             <sense n="PO" xml:id="dzs06911400.01">
                <note type="admin" subtype="class" n="T">P</note>
-               <form n="FOR">[grško], </form>
-               <lbl type="number" n="A">1) </lbl>
-               <usg type="domain" n="PODR">medicina:</usg>
+               <form n="FOR">[grško]</form>
+               <pc join="left">,</pc>
+               <lbl type="number" n="A">1)</lbl>
+               <usg type="domain" n="PODR">medicina</usg>
+               <pc join="left">:</pc>
                <form n="AIME">
-                  <form n="ES">otrpni krč</form>, </form>
-               <def n="KDE">huda infekcijska bolezen, </def>
+                  <form n="ES">otrpni krč</form>
+               </form>
+               <pc join="left">,</pc>
+               <def n="KDE">huda infekcijska bolezen</def>
+               <pc join="left">,</pc>
                <def n="OPI">ki jo povzroča bacil <hi rend="italic" n="I">
                      <distinct type="form" n="ENX">Clostridium tetani</distinct>
                   </hi>. Spore klostridija živijo v zemlji, v telo vstopajo skozi rane, se razmnožijo in tvorijo <ref target="#dzs06983500.00" n="KP">toksin</ref>; ta deluje na živčne sinapse. Bolezenski znaki: 5–20 dni po okužbi utrujenost, neješčnost, tonični krči (<ref target="#dzs06996700.00" n="KP">tonus</ref>) mišičja (najprej na mišicah obraza, nato zatilja, hrbta in okončin), pri polni zavesti. Zaradi visoke temperature, <ref target="#dzs06796000.00" n="KP">tahikardije</ref>, <ref target="#dzs06796400.00" n="KP">tahipnoe</ref> in mišičnih krčev je potrebno intenzivno zdravljenje z umetnim dihanjem, pomirjevali, parenteralnim hranjenjem, mišičnimi relaksanti in antibiotiki. <oRef type="headword" n="YI">Tetanus</oRef> je v svetu (nerazvite dežele) še vedno zelo razširjena smrtna bolezen, pri nas je zaradi aktivne in pasivne imunizacije (<ref target="#dzs01079600.01" n="KP">cepljenje</ref>) bolezen redka, večinoma se pojavlja pri starejših. Cepljenje proti <oRef type="headword" n="YI">tetanusu</oRef> je del obveznega cepilnega programa, cepijo (diteper cepivo – davica, tetanus, oslovski kašelj) otroke v starosti 3, 6, 9 in 15–18 mesecev ter ponovno ob vstopu v šolo. Cepljenje je treba ponoviti vsakih deset let. Cepijo tudi osebe, ki so se ranile, če je od zadnjega cepljenja poteklo več kot deset let. Pri preprečevanju je pomembna tudi pravilna oskrba ran.</def>
@@ -1923,9 +2133,10 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs07302500.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>verižni refleks, </orth>
+               <orth>verižni refleks</orth>
             </form>
-            <def n="KDE">zaporedje pogojnih in nepogojnih refleksov. </def>
+            <pc join="left">,</pc>
+            <def n="KDE">zaporedje pogojnih in nepogojnih refleksov.</def>
             <def n="OPI">Mnenje, da so zapleteni poteki vedenja zgolj <oRef type="headword" n="YI">verižni refleksi</oRef>, je že dolgo zastarelo.</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="author" n="Z">
@@ -1936,16 +2147,18 @@
          <entry xml:lang="sl" type="regular" xml:id="dzs07691700.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
             <form type="lemma" n="G">
-               <orth>znižanje zmrzišča, </orth>
+               <orth>znižanje zmrzišča</orth>
             </form>
-            <lbl type="number" n="A0">1. </lbl>
+            <pc join="left">,</pc>
+            <lbl type="number" n="A0">1.</lbl>
             <sense n="KDE">
-               <def n="KDE">pojav, </def>
+               <def n="KDE">pojav</def>
+               <pc join="left">,</pc>
                <def n="OPI">pri katerem se topilu zaradi v njem <hi rend="italic" n="I">
                      <distinct type="form" n="ENX">raztopljenih snovi</distinct>
-                  </hi> zniža temperaturo zmrzovanja oz. zmrzišča. Nižanje zmrzišča je sorazmerno z molarno koncentracijo, neodvisno od vrste raztopljene snovi, in ga lahko uporabijo – podobno kakor nižanje parnega tlaka in višanje vrelišča – za določanje molekularne teže neznanih snovi. Za 1 kg vode znaša <oRef type="headword" n="YI">znižanje zmrzišča</oRef> pri molu raztopljene snovi in tlaku 1013 hPa npr. 1,86 °C, za benzen 5,07 °C, za tetrakloroogljik 29,8 °C. Tehnična uporaba <oRef type="headword" n="YI">znižanja zmrzišča</oRef> npr. pri <ref target="#dzs02665500.00" n="KP">hladilnih strojih</ref>. </def>
+                  </hi> zniža temperaturo zmrzovanja oz. zmrzišča. Nižanje zmrzišča je sorazmerno z molarno koncentracijo, neodvisno od vrste raztopljene snovi, in ga lahko uporabijo – podobno kakor nižanje parnega tlaka in višanje vrelišča – za določanje molekularne teže neznanih snovi. Za 1 kg vode znaša <oRef type="headword" n="YI">znižanje zmrzišča</oRef> pri molu raztopljene snovi in tlaku 1013 hPa npr. 1,86 °C, za benzen 5,07 °C, za tetrakloroogljik 29,8 °C. Tehnična uporaba <oRef type="headword" n="YI">znižanja zmrzišča</oRef> npr. pri <ref target="#dzs02665500.00" n="KP">hladilnih strojih</ref>.</def>
             </sense>
-            <lbl type="number" n="A0">2. </lbl>
+            <lbl type="number" n="A0">2.</lbl>
             <sense n="KDE">
                <def n="KDE">pojav, pri katerem se zaradi <hi rend="italic" n="I">povečanega tlaka</hi> zniža temperatura zmrzovanja kapljevine.</def>
             </sense>
