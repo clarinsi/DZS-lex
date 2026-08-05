@@ -1,4 +1,12 @@
 ### Targets for testing scripts on sample
+test-2:
+	$s -xsl:Scripts/dzs2tei-next.xsl Sample/DZS-lex.sample.xml > Sample/DZS-lex.sample2.xml
+	$j TEI/tei_dzslex.rng Sample/DZS-lex.sample2.xml
+	-diff Sample/DZS-lex.sample.xml Sample/DZS-lex.sample2.xml
+test-2-large:
+	$s -xsl:Scripts/dzs2tei-next.xsl Lexicon/DZS-lex.ok.xml > Lexicon/DZS-lex.xml
+	$j TEI/tei_dzslex.rng Lexicon/DZS-lex.xml
+
 test-all:	test-dzs2tei test-val
 test-val:
 	$j TEI/tei_dzslex.rng Sample/DZS-lex.sample.xml

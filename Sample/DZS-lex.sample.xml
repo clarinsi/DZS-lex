@@ -170,9 +170,7 @@
             <form type="lemma" n="G">
                <orth>Aspergillus</orth>
             </form>
-            <form n="FOR">(<form n="ES1">
-                  <hi rend="italic" n="I">aspergilus</hi>
-               </form>)</form>
+            <form n="FOR">(<form n="ES1" rend="italic">aspergilus</form>)</form>
             <pc join="left">,</pc>
             <def n="KDE">rod zelo razširjenih</def>
             <pc join="left">,</pc>
@@ -212,9 +210,7 @@
             <form type="lemma" n="G">
                <orth>Bendida</orth>
             </form>
-            <form n="FOR">(<form n="LIME">
-                  <hi rend="italic" n="I">Bendis</hi>
-               </form>)</form>
+            <form n="FOR">(<form n="LIME" rend="italic">Bendis</form>)</form>
             <pc join="left">,</pc>
             <def n="KDE">traška boginja lova, njen orgiastični kult so v Atenah uvedli v dobi <ref target="#dzs05186400.00" n="KP">Perikla</ref>.</def>
             <milestone type="admin" unit="meta"/>
@@ -397,9 +393,7 @@
                <note type="admin" subtype="class" n="TS">SF</note>
                <note type="admin" subtype="comment" n="O">
                   <figure n="OPS">
-                     <head>
-                        <hi rend="bold" n="B">Paul Dessau</hi>
-                     </head>
+                     <head rend="bold">Paul Dessau</head>
                   </figure>(str. 1063 B)</note>
             </note>
             <note type="admin" subtype="author" n="Z">
@@ -416,11 +410,7 @@
             <form n="FOR">(<form n="LIME">Fulgoridae</form>)</form>
             <pc join="left">,</pc>
             <def n="KDE">predvsem tropski <ref target="#dzs06751400.00" n="KP">škržati</ref> z zelo povečano in napihnjeno glavo.</def>
-            <def n="OPI">Nekdaj so menili, da se tudi svetijo. V j. Evropi je pogost 8–9 mm velik mrežekrili škržat (<distinct type="form" n="LIMEX" xml:lang="la">
-                  <hi rend="italic" n="I">Dictyophora europaea</hi>
-               </distinct>). V srednji Evropi živi rjavo obarvan rebrasti škržat (<distinct type="form" n="LIMEX" xml:lang="la">
-                  <hi rend="italic" n="I">Cixius nervosus</hi>
-               </distinct>).</def>
+            <def n="OPI">Nekdaj so menili, da se tudi svetijo. V j. Evropi je pogost 8–9 mm velik mrežekrili škržat (<distinct type="form" n="LIMEX" xml:lang="la" rend="italic">Dictyophora europaea</distinct>). V srednji Evropi živi rjavo obarvan rebrasti škržat (<distinct type="form" n="LIMEX" xml:lang="la" rend="italic">Cixius nervosus</distinct>).</def>
             <milestone type="admin" unit="meta"/>
             <note type="admin" subtype="figure" n="SK">
                <note type="pointer" n="DX">01577900+00+01</note>
@@ -507,9 +497,7 @@
                <floatingText type="list" n="RUB">
                   <body>
                      <div>
-                        <head n="RUBN">
-                           <hi rend="italic" n="I">Filmi</hi>
-                        </head>
+                        <head n="RUBN" rend="italic">Filmi</head>
                         <p n="RUBT">
                            <hi rend="italic" n="I">Past za moške</hi> (Mantrap, <date n="ILT">1926</date>), <hi rend="italic" n="I">Mož iz Virginije</hi> (The Virginian, <date n="LT">1929</date>), <hi rend="italic" n="I">Rdeči prah</hi> (Red Dust, <date n="LT">1932</date>), <hi rend="italic" n="I">V vrtincu</hi> (Gone with the Wind, <date n="LT">1939</date>; štirje oskarji), <hi rend="italic" n="I">Čarovnik iz Oza</hi> (The Wizzard of Oz, <date n="LT">1939</date>), <hi rend="italic" n="I">Doktor Jekyll in gospod Hyde</hi> (Dr. Jekyll and Mr. Hyde, <date n="LT">1941</date>), <hi rend="italic" n="I">Ivana Orleanska</hi> (Joan of Arc, <date n="LT">1948</date>).</p>
                      </div>
@@ -575,9 +563,7 @@
             <form type="lemma" n="G">
                <orth type="name">Gregor I.</orth>
             </form>
-            <form type="addName" n="DOS">
-               <hi rend="italic" n="I">Veliki</hi>
-            </form>
+            <form type="addName" n="DOS" rend="italic">Veliki</form>
             <pc join="left">,</pc>
             <lbl type="number" n="A2">1</lbl>
             <def n="BORN">
@@ -635,9 +621,7 @@
                </hi>, ki izvaja staro glasbo z izvirnimi glasbili in v <ref target="#dzs07663200.00" n="KP">zgodovinski izvajalni praksi</ref>; za zgledne veljajo njegove izvedbe Monteverdija (<date n="LT">1976</date>–79) in Mozarta (od <date n="LT">1980</date>).<floatingText type="list" n="RUB">
                   <body>
                      <div>
-                        <head n="RUBN">
-                           <hi rend="italic" n="I">Knjižna izdaja</hi>
-                        </head>
+                        <head n="RUBN" rend="italic">Knjižna izdaja</head>
                         <p n="RUBT">
                            <hi rend="italic" n="I">Glasba kot zvočni govor</hi> (Musik als Klangrede, <date n="OLT">1982</date>).</p>
                      </div>
@@ -649,9 +633,7 @@
                <note type="pointer" n="DX">02514700+00+01</note>
                <note type="admin" subtype="class" n="TS">SF</note>
                <figure n="OPS">
-                  <head>
-                     <hi rend="bold" n="B">Nicolaus Harnoncourt</hi>
-                  </head>
+                  <head rend="bold">Nicolaus Harnoncourt</head>
                </figure>
                <note type="admin" subtype="comment" n="O">(str. 2081 C)</note>
             </note>
@@ -684,9 +666,7 @@
                <floatingText type="list" n="RUB">
                   <body>
                      <div>
-                        <head n="RUBN">
-                           <hi rend="italic" n="I">Filmi</hi>
-                        </head>
+                        <head n="RUBN" rend="italic">Filmi</head>
                         <p n="RUBT">
                            <hi rend="italic" n="I">Ljubezenska zgodba</hi> (Love Story, <date n="ILT">1970</date>), <hi rend="italic" n="I">Bolnišnica</hi> (The Hospital, <date n="LT">1971</date>), <hi rend="italic" n="I">Srebrna puščica</hi> (Silver Streak, <date n="LT">1976</date>), <hi rend="italic" n="I">Avtor, avtor</hi> (Author! Author!, <date n="LT">1982</date>).</p>
                      </div>
@@ -723,9 +703,7 @@
                <floatingText type="list" n="RUB">
                   <body>
                      <div>
-                        <head n="RUBN">
-                           <hi rend="italic" n="I">Filmi</hi>
-                        </head>
+                        <head n="RUBN" rend="italic">Filmi</head>
                         <p n="RUBT">
                            <hi rend="italic" n="I">Spremenjena stanja</hi> (Altered states, <date n="ILT">1979</date>), <hi rend="italic" n="I">Telesna strast</hi> (Body Heat, <date n="LT">1981</date>), <hi rend="italic" n="I">Park Gorki</hi> (Gorky Park, <date n="LT">1983</date>), <hi rend="italic" n="I">Poljub ženske pajka</hi> (Kiss of the Spider Woman, <date n="LT">1985</date>; oskar), <hi rend="italic" n="I">Otroci manjšega boga</hi> (Children of a Lesser God, <date n="LT">1986</date>), <hi rend="italic" n="I">Alice</hi> (<date n="LT">1990</date>), <hi rend="italic" n="I">Dim</hi> (Smoke, <date n="LT">1995</date>).</p>
                      </div>
@@ -787,9 +765,7 @@
             <form type="lemma" n="G">
                <orth>kavzalnost</orth>
             </form>
-            <form n="FOR">[latinsko <form n="LIME">
-                  <hi rend="italic" n="I">causa</hi>
-               </form>, ‚vzrok’]</form>
+            <form n="FOR">[latinsko <form n="LIME" rend="italic">causa</form>, ‚vzrok’]</form>
             <pc join="left">,</pc>
             <sense n="PO">
                <lbl type="number" n="A">1)</lbl>
@@ -828,9 +804,7 @@
                <lbl type="number" n="A">2)</lbl>
                <usg type="domain" n="PODR">filozofija</usg>
                <pc join="left">:</pc>
-               <def n="KDE">ker <distinct type="form" n="EN">
-                     <hi rend="italic" n="I">vzročni zakon</hi>
-                  </distinct> pomeni, da ima vsako dogajanje nujno vsaj en vzrok in je to dogajanje vzrok naslednjega dogajanja, pri čemer enaki vzroki porajajo enake učinke, si <oRef type="headword" n="YI">kavzalnost</oRef> po navadi lasti univerzalno veljavo.</def>
+               <def n="KDE">ker <distinct type="form" n="EN" rend="italic">vzročni zakon</distinct> pomeni, da ima vsako dogajanje nujno vsaj en vzrok in je to dogajanje vzrok naslednjega dogajanja, pri čemer enaki vzroki porajajo enake učinke, si <oRef type="headword" n="YI">kavzalnost</oRef> po navadi lasti univerzalno veljavo.</def>
                <def n="OPI">Ker naj bi bila časovno strukturirana <distinct type="form" n="ENX">
                      <hi rend="italic" n="I">vzročna povezanost</hi> (<hi rend="italic" n="I">
                         <distinct type="form" n="ES1X">kavzalni neksus</distinct>
@@ -903,9 +877,7 @@
                      <body>
                         <div>
                            <head n="RUBN">
-                              <distinct type="form" n="EN">
-                                 <hi rend="italic" n="I">Izkoriščanje krme</hi>
-                              </distinct>: </head>
+                              <distinct type="form" n="EN" rend="italic">Izkoriščanje krme</distinct>: </head>
                            <p n="RUBT">indikator pretvorbe krmila v zaželeno proizvodnjo pri kmetijskih domačih živalih. Npr. izkoriščanje <oRef type="headword" n="YI">krme</oRef> 1 : 3,2 pri pitanju prašičev pomeni, da je bilo potrebno 3,2 kg krmila za prirast 1 kg svinjskega mesa. – Pridevnik <hi rend="italic" n="I">
                                  <distinct type="form" n="ENX">krmen</distinct>
                               </hi>.</p>
@@ -925,9 +897,7 @@
             <form type="lemma" n="G">
                <orth>laktoza</orth>
             </form>
-            <form n="FOR">(<form n="ES1">
-                  <hi rend="italic" n="I">mlečni sladkor</hi>
-               </form>)</form>
+            <form n="FOR">(<form n="ES1" rend="italic">mlečni sladkor</form>)</form>
             <pc join="left">,</pc>
             <def n="KDE">iz D-glukoze in D-galaktoze sestavljen disaharid (<ref target="#dzs06045000.00" n="KP">saharidi</ref>) v obliki belih, malo sladkih kristalov.</def>
             <def n="OPI">Mlečni sladkor je v mleku sesalcev (kravje mleko 4,5 %, materino mleko 6,7 %). Bakterije ga razgradijo do <ref target="#dzs04361400.00" n="KP">mlečne kisline</ref> (<ref target="#dzs07444800.00" n="KP">vrenje</ref>, kisanje). Nastaja kot stranski izdelek pri pripravi sirov. Uporablja se za otroško prehrano, sredstvo za peko in v farmaciji.</def>
@@ -965,9 +935,7 @@
             <def n="OPI">glavno mesto vojvodstva Łomża (6684 km², 348.000 preb.), ob reki Narew, 60.000 preb.<floatingText type="list" n="RUB">
                   <body>
                      <div>
-                        <head n="RUBN">
-                           <hi rend="italic" n="I">Zgodovina</hi>
-                        </head>
+                        <head n="RUBN" rend="italic">Zgodovina</head>
                         <p n="RUBT">Do <date n="LX">1918</date> ruska utrdba, med drugo svetovno vojno skoraj do tal porušeno; zdaj pomembno šolsko središče, od <date n="OLT">1920</date> sedež škofije.</p>
                      </div>
                   </body>
@@ -1150,17 +1118,13 @@
                <usg type="domain" n="PODR">botanika</usg>
                <pc join="left">:</pc>
                <form n="AIME">
-                  <distinct type="form" n="LIME">
-                     <hi rend="italic" n="I">Plevrotus</hi>
-                  </distinct>
+                  <distinct type="form" n="LIME" rend="italic">Plevrotus</distinct>
                </form>
                <pc join="left">,</pc>
                <def n="KDE">rod gliv <ref target="#dzs03880400.00" n="KP">lističark</ref>
                </def>
                <pc join="left">;</pc>
-               <def n="OPI">klobuk postrani priraščen na bet ali brez njega; rastejo na lesu; užitni; med najbolj znane sodi <ref target="#dzs00947300.00" n="KP">bukov ostrigar</ref> (<distinct type="form" n="LIMEX" xml:lang="la">
-                     <hi rend="italic" n="I">Pleurotus ostreatus</hi>
-                  </distinct>), ki raste v šopih; precej ga tudi gojijo.</def>
+               <def n="OPI">klobuk postrani priraščen na bet ali brez njega; rastejo na lesu; užitni; med najbolj znane sodi <ref target="#dzs00947300.00" n="KP">bukov ostrigar</ref> (<distinct type="form" n="LIMEX" xml:lang="la" rend="italic">Pleurotus ostreatus</distinct>), ki raste v šopih; precej ga tudi gojijo.</def>
                <milestone type="admin" unit="meta"/>
                <note type="admin" subtype="author" n="Z">
                   <name>Gabrijel Seljak</name>
@@ -1178,9 +1142,7 @@
                <pc join="left">,</pc>
                <def n="KDE">družina <ref target="#dzs00526700.00" n="KP">babic</ref> v hladnih morjih s. poloble</def>
                <pc join="left">;</pc>
-               <def n="OPI">veliki so lahko do 2,8 m, imajo debelo glavo in široka usta z močnimi zobmi; prehranjujejo se z raki, školjkami in morskimi ježki; v Severnem morju in Atlantiku živi atlantski <oRef type="headword" n="YI">ostrigar</oRef> (<distinct type="form" n="LIMEX" xml:lang="la">
-                     <hi rend="italic" n="I">Anarhichas lupus</hi>
-                  </distinct>), cenjena jedilna riba.</def>
+               <def n="OPI">veliki so lahko do 2,8 m, imajo debelo glavo in široka usta z močnimi zobmi; prehranjujejo se z raki, školjkami in morskimi ježki; v Severnem morju in Atlantiku živi atlantski <oRef type="headword" n="YI">ostrigar</oRef> (<distinct type="form" n="LIMEX" xml:lang="la" rend="italic">Anarhichas lupus</distinct>), cenjena jedilna riba.</def>
                <milestone type="admin" unit="meta"/>
                <note type="admin" subtype="figure" n="SK">
                   <note type="pointer" n="DX">04994900+02+01</note>
@@ -1338,9 +1300,7 @@
                   <form n="FOR1">[samárskoje vodohranílišče]</form>
                </form>)</form>
             <pc join="left">,</pc>
-            <form n="AIME">prej <form n="EN">
-                  <hi rend="italic" n="I">Kujbyševsko zajezitveno jezero</hi>
-               </form>
+            <form n="AIME">prej <form n="EN" rend="italic">Kujbyševsko zajezitveno jezero</form>
             </form>
             <pc join="left">,</pc>
             <def n="KDE">umetno jezero v Rusiji</def>
@@ -1513,11 +1473,7 @@
             <form type="lemma" n="G">
                <orth>trapila</orth>
             </form>
-            <form n="FOR">(nemško <form n="ES1">
-                  <hi rend="italic" n="I">Angster</hi>
-               </form>, <form n="ES1">
-                  <hi rend="italic" n="I">Kuttrolf</hi>
-               </form>)</form>
+            <form n="FOR">(nemško <form n="ES1" rend="italic">Angster</form>, <form n="ES1" rend="italic">Kuttrolf</form>)</form>
             <pc join="left">,</pc>
             <def n="KDE">steklene pivske posode</def>
             <pc join="left">,</pc>
@@ -1669,11 +1625,7 @@
             <form type="lemma" n="G">
                <orth>balada</orth>
             </form>
-            <form n="FOR">[italijansko <form n="ES1">
-                  <hi rend="italic" n="I">balatta</hi>
-               </form>, provansalsko <form n="ES1">
-                  <hi rend="italic" n="I">balada</hi>
-               </form>, ‚plesna pesem’]</form>
+            <form n="FOR">[italijansko <form n="ES1" rend="italic">balatta</form>, provansalsko <form n="ES1" rend="italic">balada</form>, ‚plesna pesem’]</form>
             <pc join="left">,</pc>
             <sense n="PO">
                <lbl type="number" n="A">1)</lbl>
@@ -1724,9 +1676,7 @@
             <form type="lemma" n="G">
                <orth>dvanajsttonska tehnika</orth>
             </form>
-            <form n="FOR">(<form n="ES1">
-                  <hi rend="italic" n="I">dodekafonija</hi>
-               </form>)</form>
+            <form n="FOR">(<form n="ES1" rend="italic">dodekafonija</form>)</form>
             <pc join="left">,</pc>
             <def n="KDE">pri skladanju atonalne glasbe (<ref target="#dzs00473700.00" n="KP">atonalnost</ref>) uporabljena tehnika.</def>
             <def n="OPI">
@@ -1752,12 +1702,8 @@
             <def n="OPI">470.000 preb., glavno mesto poljskega vojvodstva Gdansk (7394 km², 1,4 mln. preb.), eno najpomembnejših pristanišč in trgovskih mest ob Baltiku; industrijske in pristaniške naprave med drugo svetovno vojno v celoti uničene, po njej pa zgrajene na novo; veliko pristanišče združeno s pristaniščem sosednjega mesta <ref target="#dzs02202300.00" n="KP">Gdynia</ref>. Skupaj z Gdynio in morskim kopališkim krajem Sopotje <oRef type="headword" n="YI">Gdansk</oRef> združen v »trojno mesto« z 800.000 preb. Univerza, tehnične in druge visoke šole; ladjedelnice, proizvodnja vagonov in traktorjev, kemijska in živilska industrija; v starem mestnem jedru so številni veličastni kulturnozgodovinski spomeniki: gotska Marijina cerkev (14.–15. st.), Artusov dvor, gotska mestna hiša, arzenal, znamenite hiše (16.–18. st.); med drugo svetovno vojno je bilo mesto do tal porušeno, obnova v starem slogu je že skoraj povsem končana.<floatingText type="list" n="RUB">
                   <body>
                      <div>
-                        <head n="RUBN">
-                           <hi rend="italic" n="I">Zgodovina</hi>
-                        </head>
-                        <p n="RUBT">V 10. st. je ob izlivu reke Motłave v Vislo nastalo utrjeno naselje z gradom; 997 je prvič omenjeno kot Gadanum; <date n="ILT">1261</date> mestne pravice, <date n="ILT">1309</date> je v mestu prevzel oblast nemški viteški red, <date n="OLT">1361</date> član Hanze, <date n="ILT">1454</date> skoraj neodvisna država, formalno pa pod poljsko oblastjo, v 16. st. vzpon reformacije, <date n="ILT">1793</date> pod Prusijo, <date n="ILT">1807</date> svobodno mesto, od <date n="OLT">1814</date> spet pod Prusijo in do prve svetovne vojne glavno mesto nemške province Z. Prusija (nemško ime <distinct type="form" n="EN">
-                              <hi rend="italic" n="I">Danzig</hi>
-                           </distinct>); z versajskim mirom je bilo mesto razglašeno za svobodno državo (1895 km²); <date n="ILT">1939</date> ga je zasedel Hitler in začel vojno s Poljsko (začetek druge svetovne vojne); od <date n="LT">1945</date> spet poljski; nemško prebivalstvo je zbežalo ali je bilo izseljeno. <date n="LT">1970</date> in <date n="LT">1980</date> so bili v <oRef type="headword" n="YI">Gdansku</oRef> delavski nemiri, mesto je postalo eno od oporišč poljskega delavskega sindikata Solidarnost.</p>
+                        <head n="RUBN" rend="italic">Zgodovina</head>
+                        <p n="RUBT">V 10. st. je ob izlivu reke Motłave v Vislo nastalo utrjeno naselje z gradom; 997 je prvič omenjeno kot Gadanum; <date n="ILT">1261</date> mestne pravice, <date n="ILT">1309</date> je v mestu prevzel oblast nemški viteški red, <date n="OLT">1361</date> član Hanze, <date n="ILT">1454</date> skoraj neodvisna država, formalno pa pod poljsko oblastjo, v 16. st. vzpon reformacije, <date n="ILT">1793</date> pod Prusijo, <date n="ILT">1807</date> svobodno mesto, od <date n="OLT">1814</date> spet pod Prusijo in do prve svetovne vojne glavno mesto nemške province Z. Prusija (nemško ime <distinct type="form" n="EN" rend="italic">Danzig</distinct>); z versajskim mirom je bilo mesto razglašeno za svobodno državo (1895 km²); <date n="ILT">1939</date> ga je zasedel Hitler in začel vojno s Poljsko (začetek druge svetovne vojne); od <date n="LT">1945</date> spet poljski; nemško prebivalstvo je zbežalo ali je bilo izseljeno. <date n="LT">1970</date> in <date n="LT">1980</date> so bili v <oRef type="headword" n="YI">Gdansku</oRef> delavski nemiri, mesto je postalo eno od oporišč poljskega delavskega sindikata Solidarnost.</p>
                      </div>
                   </body>
                </floatingText>
@@ -1814,9 +1760,7 @@
             <def n="KDE">snov v <ref target="#dzs00096800.00" n="KP">agregatnem stanju</ref>, v katerem tvori kaplje.</def>
             <def n="OPI">Njene molekule med seboj niso trdno vezane kakor v trdninah in se lahko premikajo po prostoru, niso pa tako proste kakor v <ref target="#dzs05326800.00" n="KP">plinih</ref>, ki napolnijo vso posodo do njenih meja. Prehod snovi v kapljevinsko stanje je odvisen od tlaka in temperature (<ref target="#dzs03560400.00" n="KP">kritična točka</ref>); snov preide v <oRef type="headword" n="YI">kapljevino</oRef> s taljenjem <ref target="#dzs07051400.00" n="KP">trdne snovi</ref> ali kondenzacijo <oRef type="cross-reference" n="ZX">plina</oRef>. <oRef type="headword" n="YI">Kapljevine</oRef> so malo stisljive, zato se jim prostornina tudi pri visokem tlaku le malo spremeni; to izkoriščamo v hidravliki. Njihova oblika se prilagodi obliki spodnjega dela posode, površina pa je praktično vodoravna in razen na mejah ravna (<ref target="#dzs03143400.00" n="KP">kapilarnost</ref>); pri večjih množinah <oRef type="headword" n="YI">kapljevin</oRef>, kot npr. morjih ali jezerih, površina sovpada s sfero, ki ima izhodišče v središču Zemlje; v breztežnem stanju zavzame <oRef type="headword" n="YI">kapljevina</oRef> zaradi <ref target="#dzs05501000.00" n="KP">površinske napetosti</ref>, ki teži k čim manjši površini, obliko krogle (<ref target="#dzs02621100.00" n="KP">hidrostatika</ref>, <ref target="#dzs02615000.00" n="KP">hidrodinamika</ref>). Majhna množina <oRef type="headword" n="YI">kapljevin</oRef> se oblikuje v kapljo, ki je posledica težnosti in površinske napetosti – slednja ne dovoli, da bi se kaplja na ravni podlagi popolnoma razlila. <oRef type="headword" n="YI">Kapljevine</oRef> skupaj s plini uvrščamo med <ref target="#dzs06856500.00" n="KP">tekočine</ref>, pogosto pa ta izraz površno uporabimo za <oRef type="headword" n="YI">kapljevine</oRef>.<floatingText type="overview" n="RUBK">
                   <body>
-                     <head n="RUBN">
-                        <hi rend="bold" n="B">Kratek pregled</hi>
-                     </head>
+                     <head n="RUBN" rend="bold">Kratek pregled</head>
                      <p n="RUBT">Kapljevine so tekočine, ki tvorijo kaplje. Temperatura in od nje odvisna povprečna gibalna energija atomov ali molekul je v kapljevini dovolj velika, da se delci v njej ne morejo zvezati v kristale. Čeprav so povprečne razdalje med atomi ali molekulami v kapljevinah komaj kaj večji kakor v trdnih snoveh, lahko kapljevine poljubno oblikujemo. Voda zato v težnostnem polju zavzame tisto obliko, ki jo narekuje posoda ali podlaga. Kljub veliki gibljivosti vode jo lahko le malo stisnemo. Notranje vezavne sile v kapljevinah so sicer manjše kakor v kristalih, se pa kljub temu močno upirajo stiskanju. Medmolekulske sile povzročijo, da kapljevine, na katere ne delujejo zunanje sile, zavzamejo obliko krogle.Kapljevine lahko raztapljajo druge snovi, zato jih uporabljamo tudi za pranje. Voda kot transportno sredstvo ni pomembna le v tehniki, temveč predvsem v bioloških sistemih. Krvni obtok živali in človeka ter vsaka izmenjava snovi temelji na raztapljanju v vodi in njenih transportnih lastnostih.Vsaka molekula kapljevine s svojimi električnimi privlačnimi silami deluje na svoje sosede. Ta <ref target="#dzs03358500.00" n="KP">kohezija</ref> v notranjosti veže snov, na površini pa nastanejo v notranjost usmerjene sile, saj imajo molekule na površini sosede le na eni strani. Te sile so vzrok za nastanek <oRef type="cross-reference" n="ZX">površinske napetosti</oRef>, ki deluje kakor nekakšna koža, ki obkroža kapljevino. Če ni drugih zunanjih sil, kot npr. pri prostem padu v vakuumu ali breztežnostnem vesoljskem prostoru, se kapljica pod vplivom površinske napetosti oblikuje v kroglico. Nekatere žuželke lahko tekajo po vodni površini, ker s svojimi, posebej oblikovanimi nožicami, ne predrejo navidezne površinske opne, ki je posledica površinske napetosti. Sila površinske napetosti prevlada nad silo teže.Ko se kapljevina dotakne trdne snovi, se na mejah prikažejo medmolekularne privlačne sile. Pojav imenujemo <ref target="#dzs00055200.01" n="KP">adhezija</ref>. Če je adhezija močnejša od kohezije, kapljevina omoči steno – skuša povečati stično površino, zato se ob njej dvigne. V nasprotnem primeru kapljevina ne omoči stene, ampak se ob njej zniža. Če močečo kapljevino vlijemo v klinasto posodo ali ozko cevko (kapilaro), se na ozkem delu dvigne. To imenujemo <oRef type="cross-reference" n="ZX">kapilarnost</oRef>. Tako se npr. močeča kapljevina (črnilo) v klinasti kiveti iz stekla v ozkem delu posode vidno dvigne. Živo srebro sten iz iste snovi ne omoči, zato se v ozkem delu spusti. Kapilarni dvig je zelo pomemben pri izmenjavi snovi v rastilnah oz. pri njihovi prehrani.Kapljevine so skoraj <hi rend="italic" n="I">
                            <distinct type="form" n="ENX">nestisljive</distinct>
                         </hi> – tudi pri velikih tlakih le malo spremenijo svojo prostornino. Zaradi te lastnosti se odlično obnesejo za prenos mehanskih sil. Hidravlične naprave, kot so npr. dvižni mehanizem viličarja ali avtomobilske zavore, v ta namen uporabljajo posebna hidravlična olja.Kavitacija je pojav, ki nastaja pri hitrem pretakanju kapljevin. Tlak v kapljevini se lahko tako močno zniža, da kapljevina zavre. Nastanejo <hi rend="italic" n="I">
@@ -1942,9 +1886,7 @@
                   <body>
                      <div>
                         <head n="RUBN">
-                           <distinct type="form" n="EN">
-                              <hi rend="italic" n="I">Okultist</hi>
-                           </distinct>: </head>
+                           <distinct type="form" n="EN" rend="italic">Okultist</distinct>: </head>
                         <p n="RUBT">kdor se ukvarja z <oRef type="headword" n="YI">okultizmom</oRef>.</p>
                      </div>
                   </body>
@@ -2036,9 +1978,7 @@
                <date n="ILT">1967</date> ustanovil v San Franciscu skupino <hi rend="italic" n="I">Santana</hi>, katere značilnost postanejo afrokubanska ritmika in pojoče kitare. Nastop <oRef type="headword" n="YI">Santane</oRef> v Woodstocku <date n="OLT">1969</date> je odločilno vplival na slog južnoameriškega rocka. Skladbe, kot so <hi rend="italic" n="I">Black Magic Woman</hi> (<date n="LT">1970</date>), <hi rend="italic" n="I">Samba Pa Ti</hi> (<date n="LT">1970</date>), <hi rend="italic" n="I">Jingo</hi> (<date n="LT">1973</date>) ali <hi rend="italic" n="I">She's not There</hi> (<date n="LT">1977</date>), so postale svetovne uspešnice.<floatingText type="list" n="RUB">
                   <body>
                      <div>
-                        <head n="RUBN">
-                           <hi rend="italic" n="I">Plošče</hi>
-                        </head>
+                        <head n="RUBN" rend="italic">Plošče</head>
                         <p n="RUBT">
                            <hi rend="italic" n="I">Santana</hi> (<date n="OLT">1969</date>), <hi rend="italic" n="I">Abraxas</hi> (<date n="LT">1970</date>), <hi rend="italic" n="I">III</hi> (<date n="LT">1971</date>), <hi rend="italic" n="I">Caravanserai</hi> (<date n="LT">1972</date>), <hi rend="italic" n="I">Love Devotion Surrender</hi> (z Johnom McLaughlinom, <date n="LT">1973</date>), <hi rend="italic" n="I">Zebop!</hi> (<date n="LT">1981</date>), <hi rend="italic" n="I">Viva Santana</hi> (<date n="LT">1988</date>).</p>
                      </div>

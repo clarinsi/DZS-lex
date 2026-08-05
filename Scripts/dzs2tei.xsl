@@ -97,7 +97,10 @@
           <xsl:variable name="pass2">
             <xsl:apply-templates mode="pass2" select="$pass1"/>
           </xsl:variable>
-          <xsl:apply-templates mode="pass3" select="$pass2"/>
+          <xsl:variable name="pass3">
+            <xsl:apply-templates mode="pass3" select="$pass2"/>
+          </xsl:variable>
+          <xsl:apply-templates mode="pass4" select="$pass3"/>
         </body>
       </text>
     </TEI>
@@ -859,6 +862,36 @@
     <xsl:copy>
       <xsl:apply-templates mode="pass3" select="@*"/>
       <xsl:apply-templates mode="pass3" select="tei:*|text()"/>
+    </xsl:copy>
+  </xsl:template>
+
+  <!-- PASS 4: CHANGE hi TO @rend ON ENCLOSING ELEMENT WHERE POSSIBLE -->
+
+  <xsl:template mode="pass4" match="tei:entry//tei:*">
+    <xsl:copy>
+      <xsl:apply-templates mode="pass4" select="@*"/>
+      <xsl:choose>
+        <xsl:when test="tei:hi and not(tei:*[2] or text()[normalize-space(.)])">
+          <xsl:attribute name="rend" select="tei:hi/@rend"/>
+          <xsl:apply-templates mode="pass4" select="tei:hi/node()"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:apply-templates mode="pass4"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template mode="pass4" match="text()">
+    <xsl:value-of select="."/>
+  </xsl:template>
+  <xsl:template mode="pass4" match="@*">
+    <xsl:copy/>
+  </xsl:template>
+  <xsl:template mode="pass4" match="tei:*">
+    <xsl:copy>
+      <xsl:apply-templates mode="pass4" select="@*"/>
+      <xsl:apply-templates mode="pass4" select="tei:*|text()"/>
     </xsl:copy>
   </xsl:template>
 
