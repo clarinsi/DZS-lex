@@ -94,7 +94,10 @@
           <xsl:variable name="pass1">
             <xsl:apply-templates/>
           </xsl:variable>
-          <xsl:apply-templates mode="pass2" select="$pass1"/>
+          <xsl:variable name="pass2">
+            <xsl:apply-templates mode="pass2" select="$pass1"/>
+          </xsl:variable>
+          <xsl:apply-templates mode="pass3" select="$pass2"/>
         </body>
       </text>
     </TEI>
@@ -739,7 +742,8 @@
     </xsl:copy>
   </xsl:template>
 
-  <!-- Pass 2: Move def into preceding sense, source has wrong nesting -->
+  <!-- PASS 2: MOVE DEF INTO PRECEDING SENSE (SOURCE HAS WRONG NESTING) -->
+  
   <xsl:template mode="pass2" match="tei:sense[@n = 'KDE']">
     <xsl:copy>
       <xsl:apply-templates mode="pass2" select="@*"/>
@@ -771,7 +775,93 @@
   <xsl:template mode="pass2" match="/text()">
     <xsl:value-of select="."/>
   </xsl:template>
-  
+
+  <!-- PASS 3: WHERE APPROPRIATE, MOVE PUNCTUATION OUTSIDE ELEMENTS, AND REMOVE SPACE FROM END OF ELEMENTS-->
+
+  <!-- Write out pc after element, if appropriate -->
+  <xsl:template mode="pass3" match="tei:entry//tei:*
+                                    [name() != 'body' and name() != 'div' and name() != 'head' and name() != 'p']">
+    <xsl:copy>
+      <xsl:apply-templates mode="pass3" select="@*"/>
+      <xsl:apply-templates mode="pass3"/>
+    </xsl:copy>
+    <!-- The last text node in element -->
+    <xsl:variable name="last" select="node()[last()]/self::text()"/>
+    <!-- Nested text ends with snippable punctuation and maybe space -->
+    <xsl:variable name="nested" select="."/>
+    <!--xsl:message>DEBUG1: <xsl:value-of select="concat(name(), ' // ', $last, ' /// ', $nested)"/></xsl:message-->
+    <xsl:choose>
+      <!-- The last text node in element ends in end punctuation and this is not the only node in parend-->
+      <xsl:when test="matches($last, concat($endpunct-re, '\s*$')) and (../tei:*[2] or ../text()[normalize-space(.)])">
+        <xsl:variable name="punct" select="replace($last, concat('.*(', $endpunct-re, '\s*)$'), '$1')"/>
+        <!--xsl:message>DEBUG2: <xsl:value-of select="concat(name(), ' // ', $punct)"/></xsl:message-->
+        <xsl:choose>
+          <!-- Next comes plain text, punct goes there -->
+          <xsl:when test="following-sibling::node()[1]/self::text()[normalize-space(.)]">
+            <xsl:value-of select="$punct"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:copy-of select="$puncts//tei:pc[. = normalize-space($punct)]"/>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:when>
+      <!-- The text nested in element ends in end punctuation and there is only one subordinate element
+           (to lift pc from nesting) -->
+      <xsl:when test="matches($nested, concat($endpunct-re, '\s*$')) and
+        not(tei:*[2] or text()[normalize-space(.)])">
+        <xsl:variable name="punct" select="replace($nested, concat('.*(', $endpunct-re, '\s*)$'), '$1')"/>
+        <!--xsl:message>DEBUG3: <xsl:value-of select="concat(name(), ' // ', $punct, ' /// ', text()[normalize-space(.)])"/></xsl:message-->
+        <xsl:copy-of select="$puncts//tei:pc[. = normalize-space($punct)]"/>
+      </xsl:when>
+    </xsl:choose>
+  </xsl:template>
+
+  <xsl:template mode="pass3" match="tei:entry//text()[normalize-space(.)]
+                                      [not(parent::tei:head or parent::tei:p)]">
+    <xsl:choose>
+      <!-- If there are no following siblings and text ends in end punctuation, remove it -->
+      <xsl:when test="not(following-sibling::tei:*) and matches(., concat($endpunct-re, '\s*$'))">
+        <xsl:variable name="residue" select="replace(., concat($endpunct-re, '\s*$'), '')"/>
+        <xsl:value-of select="replace(., concat($endpunct-re, '\s*$'), '')"/>
+      </xsl:when>
+      <!-- If element text in non-mixed content maybe remove start and/or end space -->
+      <xsl:when test="not(../../text()[normalize-space(.)])">
+        <xsl:choose>
+          <!-- only element in parent, can remove both spaces --> 
+          <xsl:when test="not(preceding-sibling::tei:* or following-sibling::tei:*)">
+            <xsl:value-of select="replace(replace(., ' $', ''), '^ ', '')"/>
+          </xsl:when>
+          <!-- first element in parent, can remove start space --> 
+          <xsl:when test="not(preceding-sibling::tei:*)">
+            <xsl:value-of select="replace(., '^ ', '')"/>
+          </xsl:when>
+          <!-- last element in parent, can remove end space --> 
+          <xsl:when test="not(following-sibling::tei:*)">
+            <xsl:value-of select="replace(., ' $', '')"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="."/>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="."/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  <xsl:template mode="pass3" match="text()">
+    <xsl:value-of select="."/>
+  </xsl:template>
+  <xsl:template mode="pass3" match="@*">
+    <xsl:copy/>
+  </xsl:template>
+  <xsl:template mode="pass3" match="tei:*">
+    <xsl:copy>
+      <xsl:apply-templates mode="pass3" select="@*"/>
+      <xsl:apply-templates mode="pass3" select="tei:*|text()"/>
+    </xsl:copy>
+  </xsl:template>
+
   <!-- FUNCTIONS -->
   
   <!-- Construct IDs for entries and senses -->
