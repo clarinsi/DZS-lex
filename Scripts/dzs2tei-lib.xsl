@@ -40,10 +40,12 @@
 
   <!-- Hopefully matches pronunciation, as it will always have an accented vowel (pron can have more than one word) -->
   <xsl:variable name="acc-char">[áàâéèêěəíóòôú～&#x0301;&#x032F;-]</xsl:variable>
-  <xsl:variable name="pron-re"
-                select="concat('^((a |an |bon |bu |če |de |di |do |du |eks |end |et |fet |fir |fon |for |i |il |le
-                        |kom |ki |kum |o |ov |sik |ša |šri |ven )?',
-                        '\w*', $acc-char, '\w*)')"/>
+  <xsl:variable name="pron-re">
+    <xsl:variable name="pword" select="concat('(\w*', $acc-char, '\w*)')"/>
+    <xsl:value-of select="concat('^((a |an |bon |bu |če |de |di |do |du |eks |end |et |fet |fir |fon |for |i |il |le |',
+                          'kom |ki |kum |o |ov |sik |ša |šri |ven ', ')?',
+                          $pword, '(\s', $pword, ')*)')"/>
+  </xsl:variable>
 
   <xsl:variable name="langs">
     <lang>afrikanško</lang>
