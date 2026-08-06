@@ -39,11 +39,11 @@
   </xsl:variable>
 
   <!-- Hopefully matches pronunciation, as it will always have an accented vowel (pron can have more than one word) -->
-  <xsl:variable name="acc-char">[áàâéèêěəíóòôú～&#x0301;&#x032F;-]</xsl:variable>
+  <xsl:variable name="acc-char">/?[áàâéèêěəíóòôú～&#x0301;&#x032F;-]</xsl:variable>
   <xsl:variable name="pron-re">
     <xsl:variable name="pword" select="concat('(\w*', $acc-char, '\w*)')"/>
-    <xsl:value-of select="concat('^((a |an |bon |bu |če |de |di |do |du |eks |end |et |fet |fir |fon |for |i |il |le |',
-                          'kom |ki |kum |o |ov |sik |ša |šri |ven ', ')?',
+    <xsl:value-of select="concat('^((a |al |an |bon |bu |če |de |dez |di |do |du |e |eks |end |et |fet |fir di|fir |fon |for |',
+                          'i |il |la |le |kom |ki |kum |o |ov |sik |ša |šri |ven ', ')?',
                           $pword, '(\s', $pword, ')*)')"/>
   </xsl:variable>
 
@@ -51,6 +51,7 @@
     <lang>afrikanško</lang>
     <lang>algonkinsko</lang>
     <lang>amharsko</lang>
+    <lang>angleška</lang>
     <lang>angleško</lang>
     <lang>arabsko</lang>
     <lang>arabskega</lang>
@@ -62,6 +63,7 @@
     <lang>babilonsko</lang>
     <lang>berbersko</lang>
     <lang>brazilsko</lang>
+    <lang>bretonsko</lang>
     <lang>bursko</lang>
     <lang>češko</lang>
     <lang>češčina</lang>
@@ -76,11 +78,13 @@
     <lang>francoščine</lang>
     <lang>germansko</lang>
     <lang>gotsko</lang>
+    <lang>grenlandsko</lang>
     <lang>grško</lang>
     <lang>grškega</lang>
     <lang>grškemu</lang>
     <lang>hebrejsko</lang>
     <lang>hindijsko</lang>
+    <lang>hrvaško</lang>
     <lang>indijanansko</lang>
     <lang>indijansko</lang>
     <lang>iransko</lang>
@@ -96,12 +100,12 @@
     <lang>kitajsko</lang>
     <lang>korejsko</lang>
     <lang>korzijškega</lang>
-    <lang>reolsko</lang>
     <lang>kreolsko</lang>
     <lang>latinsko</lang>
     <lang>latinskega</lang>
     <lang>latvijsko</lang>
     <lang>madžarsko</lang>
+    <lang>makedonsko</lang>
     <lang>malajsko</lang>
     <lang>maorsko</lang>
     <lang>mehiško</lang>
@@ -133,12 +137,19 @@
     <lang>sinijdžu</lang>
     <lang>skandinavsko</lang>
     <lang>slovansko</lang>
+    <lang>slovensko</lang>
     <lang>srednjeperzijsko</lang>
     <lang>srbsko</lang>
     <lang>starofrancosko</lang>
+    <lang>starodansko</lang>
+    <lang>staroegipčansko</lang>
     <lang>staroetiopsko</lang>
+    <lang>starogrško</lang>
+    <lang>staroiransko</lang>
     <lang>staronordijsko</lang>
+    <lang>staronordijske</lang>
     <lang>staroperzijsko</lang>
+    <lang>starorusko</lang>
     <lang>starovisokonemško</lang>
     <lang>sumersko</lang>
     <lang>sumerskega</lang>
@@ -154,6 +165,8 @@
     <lang>turkmensko</lang>
     <lang>turško</lang>
     <lang>ugaritsko</lang>
+    <lang>ujgursko</lang>
+    <lang>ukrajinsko</lang>
     <lang>jezik avstralskih staroselcev</lang>
     <lang>v jeziku Krijcev</lang>
     <lang>v algonkinskih jezikih</lang>
@@ -179,9 +192,31 @@
   </xsl:variable>
 
   <!-- Various labels -->
-  <xsl:variable name="lbl-re">^(i\. po |in |ali |tudi |iz |ter |zato tudi |od tod |morda |po |verjetno po |verjetno iz |prvotno |morda |pomen ni jasen |ustrezno |ustreza |zato tudi |prvotno |\+|/)</xsl:variable>
+  <xsl:variable name="lbl-re">
+    <xsl:text>^(</xsl:text>
+    <xsl:text>i\. po |i\. |in |ali |tudi |do |iz |ter |zato tudi |napačno tudi |od tod |od |morda |</xsl:text>
+    <xsl:text>po kraju |po gorovju |po |</xsl:text>
+    <xsl:text>verjetno po |verjetno iz |prvotno |morda |pomen ni jasen |ustrezno |ustreza |zato tudi |</xsl:text>
+    <xsl:text>zdaj |prej |prvotno |zastarelo |kratica za |kratica |simbol |</xsl:text>
+    <xsl:text>lastno poimenovanje |pravo ime |polno ime |pojmovno ime |polno ime |antični |</xsl:text>
+    <xsl:text>psevdonim |znak |oznaka |svetopisemski |komunistična kratica iz |znan tudi kot |sir |</xsl:text>
+    <xsl:text>ad lib\. |ad l\. |\+</xsl:text>
+    <xsl:text>)</xsl:text>
+  </xsl:variable>
 
   <!-- Grammatical labels -->
   <xsl:variable name="gram-re">^(ednina|množina|množinska pomanjševalnica za|množinska oblika od|v sestavljankah)</xsl:variable>
 
+  <!-- Year -->
+  <xsl:variable name="year-re">1?(\d\d\d)</xsl:variable>
+
+  <!-- Abbreviation -->
+  <xsl:variable name="abbr-re">(\p{Lu}\p{Lu}+\p{Ll}*)</xsl:variable>
+  
+  <!-- Names -->
+  <xsl:variable name="name-re">
+    <xsl:variable name="nword-re">(\p{Lu}\p{Ll}+)</xsl:variable>
+    <xsl:value-of select="concat($nword-re, '(\s(van|von|de|\p{Lu}\.|', $nword-re, '))*')"/>
+  </xsl:variable>
+  
 </xsl:stylesheet>

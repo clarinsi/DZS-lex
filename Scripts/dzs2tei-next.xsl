@@ -57,7 +57,7 @@
           <xsl:with-param name="str" select="replace($str, '^.', '')"/>
         </xsl:call-template>
       </xsl:when>
-      <xsl:when test="matches($str, '^[,\]\)]')">
+      <xsl:when test="matches($str, '^[,;\]\)]')">
         <pc join="left">
           <xsl:value-of select="replace($str, '^(.).*', '$1')"/>
         </pc>
@@ -115,9 +115,35 @@
           <xsl:with-param name="str" select="replace($str, concat('^', $langs-re), '')"/>
         </xsl:call-template>
       </xsl:when>
+      <xsl:when test="matches($str, concat('^', $year-re))">
+        <date>
+          <xsl:value-of select="replace($str, concat('^(', $year-re, ').*'), '$1')"/>
+        </date>
+        <xsl:call-template name="form">
+          <xsl:with-param name="str" select="replace($str, concat('^', $year-re), '')"/>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="matches($str, concat('^', $name-re))">
+        <name>
+          <xsl:value-of select="replace($str, concat('^(', $name-re, ').*'), '$1')"/>
+        </name>
+        <xsl:call-template name="form">
+          <xsl:with-param name="str" select="replace($str, concat('^', $name-re), '')"/>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="matches($str, concat('^', $abbr-re))">
+        <abbr>
+          <xsl:value-of select="replace($str, concat('^(', $abbr-re, ').*'), '$1')"/>
+        </abbr>
+        <xsl:call-template name="form">
+          <xsl:with-param name="str" select="replace($str, concat('^', $abbr-re), '')"/>
+        </xsl:call-template>
+      </xsl:when>
       <xsl:otherwise>
         <xsl:message select="concat('WARN: Non-covered form {', $str, '}')"/>
-        <xsl:value-of select="."/>
+        <orth type="unknown">
+          <xsl:value-of select="."/>
+        </orth>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
