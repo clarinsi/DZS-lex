@@ -99,6 +99,14 @@
           <xsl:with-param name="str" select="replace($str, concat('^', $lbl-re), '')"/>
         </xsl:call-template>
       </xsl:when>
+      <xsl:when test="matches($str, concat('^', $chem-re))">
+        <term type="chemical_formula">
+          <xsl:value-of select="normalize-space(replace($str, concat('^(', $chem-re, ').*'), '$1'))"/>
+        </term>
+        <xsl:call-template name="form">
+          <xsl:with-param name="str" select="replace($str, concat('^', $chem-re), '')"/>
+        </xsl:call-template>
+      </xsl:when>
       <xsl:when test="matches($str, concat('^', $gram-re))">
         <gram>
           <xsl:value-of select="replace($str, concat('^(', $gram-re, ').*'), '$1')"/>

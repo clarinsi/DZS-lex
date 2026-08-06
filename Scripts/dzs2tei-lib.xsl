@@ -38,17 +38,9 @@
     <xsl:text>]</xsl:text>
   </xsl:variable>
 
-  <!-- Hopefully matches pronunciation, as it will always have an accented vowel (pron can have more than one word) -->
-  <xsl:variable name="acc-char">/?[áàâéèêěəíóòôú～&#x0301;&#x032F;-]</xsl:variable>
-  <xsl:variable name="pron-re">
-    <xsl:variable name="pword" select="concat('(\w*', $acc-char, '\w*)')"/>
-    <xsl:value-of select="concat('^((a |al |an |bon |bu |če |de |dez |di |do |du |e |eks |end |et |fet |fir di|fir |fon |for |',
-                          'i |il |la |le |kom |ki |kum |o |ov |sik |ša |šri |ven ', ')?',
-                          $pword, '(\s', $pword, ')*)')"/>
-  </xsl:variable>
-
   <xsl:variable name="langs">
     <lang>afrikanško</lang>
+    <lang>afrikansko</lang>
     <lang>algonkinsko</lang>
     <lang>amharsko</lang>
     <lang>angleška</lang>
@@ -137,6 +129,7 @@
     <lang>sinijdžu</lang>
     <lang>skandinavsko</lang>
     <lang>slovansko</lang>
+    <lang>slovaško</lang>
     <lang>slovensko</lang>
     <lang>srednjeperzijsko</lang>
     <lang>srbsko</lang>
@@ -191,15 +184,31 @@
     <xsl:text>-?)+</xsl:text>
   </xsl:variable>
 
+  <!-- Hopefully matches pronunciation, as it will always have an accented vowel (pron can have more than one word) -->
+  <xsl:variable name="acc-char">/?[áàâéèêěəíóòôú～&#x0301;&#x032F;()-]</xsl:variable>
+
+
+
+
+  <xsl:variable name="pron-re">
+    <xsl:variable name="pword" select="concat('(\w*', $acc-char, '\w*)')"/>
+    <xsl:value-of select="concat('^((a |al |an |aš bon |aš |bu |če |d\)sen[^ ].*? |de |dez |di |doš |do |duž |du |e |eks |end |et |',
+                          'fet |fir di |fir |fon |for |',
+                          'i |il |la |le |kom |ki |kum |o |ov di |ov |sik |ša |šri |und |ven ', ')?',
+                          $pword, '(\s', $pword, ')*)')"/>
+    <!--xsl:value-of select="$acc-char"/-->
+  </xsl:variable>
+
   <!-- Various labels -->
   <xsl:variable name="lbl-re">
     <xsl:text>^(</xsl:text>
-    <xsl:text>i\. po |i\. |in |ali |tudi |do |iz |ter |zato tudi |napačno tudi |od tod |od |morda |</xsl:text>
+    <xsl:text>i\. po |i\. |in |ali |tudi |do |iz |ter |zato tudi |napačno tudi |od tod |od |oz\. |morda |</xsl:text>
     <xsl:text>po kraju |po gorovju |po |</xsl:text>
     <xsl:text>verjetno po |verjetno iz |prvotno |morda |pomen ni jasen |ustrezno |ustreza |zato tudi |</xsl:text>
-    <xsl:text>zdaj |prej |prvotno |zastarelo |kratica za |kratica |simbol |</xsl:text>
-    <xsl:text>lastno poimenovanje |pravo ime |polno ime |pojmovno ime |polno ime |antični |</xsl:text>
-    <xsl:text>psevdonim |znak |oznaka |svetopisemski |komunistična kratica iz |znan tudi kot |sir |</xsl:text>
+    <xsl:text>zdaj |prej |prvotno |zastarelo |okrajšava |kratica za |kratica |simbol |</xsl:text>
+    <xsl:text>lastno poimenovanje |pravo ime |polno ime |pojmovno ime |polno ime |trivialno ime za |častno ime |uradno ime |imenovan tudi |</xsl:text>
+    <xsl:text>antični |beseda neznanega izvora |psevdonim |znak |oznaka |svetopisemski |komunistična kratica iz |</xsl:text>
+    <xsl:text>znan tudi kot |sir |kemijska formula |celo ime |</xsl:text>
     <xsl:text>ad lib\. |ad l\. |\+</xsl:text>
     <xsl:text>)</xsl:text>
   </xsl:variable>
@@ -215,8 +224,10 @@
   
   <!-- Names -->
   <xsl:variable name="name-re">
-    <xsl:variable name="nword-re">(\p{Lu}\p{Ll}+)</xsl:variable>
-    <xsl:value-of select="concat($nword-re, '(\s(van|von|de|\p{Lu}\.|', $nword-re, '))*')"/>
+    <xsl:variable name="nword-re">(\p{Lu}'?\p{Ll}+)</xsl:variable>
+    <xsl:variable name="aword-re">(van|von|da|de|don|el|markizu de|sr\.|jr\.)</xsl:variable>
+    <xsl:value-of select="concat('(', $aword-re, '\s)?', $nword-re, '(\s', $aword-re, '|\p{Lu}\.|', $nword-re, ')*')"/>
   </xsl:variable>
   
+  <xsl:variable name="chem-re">([A-Z(\)–\[\]]+[₀₁₂₃₄₅₆₇₈₉][A-Z\(\)–\[\]₀₁₂₃₄₅₆₇₈₉]*)</xsl:variable>
 </xsl:stylesheet>
