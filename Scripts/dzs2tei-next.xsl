@@ -20,77 +20,104 @@
   </xsl:template>
 
   <xsl:template mode="pass5" match="tei:form">
+    <xsl:copy>
+      <xsl:apply-templates mode="pass5" select="@*"/>
+      <xsl:choose>
+        <xsl:when test="@type = '@lemma'">
+          <xsl:copy-of select="."/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:apply-templates mode="pass5"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:copy>
+  </xsl:template>
+  
+  <xsl:template mode="pass5" match="tei:form/text()">
+    <xsl:call-template name="form">
+      <xsl:with-param name="str" select="."/>
+    </xsl:call-template>
+  </xsl:template>
+  
+  <xsl:template name="form">
+    <xsl:param name="str"/>
     <xsl:choose>
       <xsl:when test="$str = ''"/>
-      <xsl:when test="matches($str, $space-re)">
-        <xsl:value-of select="replace($str, concat($space-re, '.*'), '$1')"/>
-        <xsl:call-template name="FOR">
-          <xsl:with-param name="str" select="replace($str, $space-re, '')"/>
+      <xsl:when test="matches($str, '^\s')">
+        <xsl:value-of select="replace($str, '^(\s+).*', '$1')"/>
+        <xsl:call-template name="form">
+          <xsl:with-param name="str" select="replace($str, '^\s+', '')"/>
         </xsl:call-template>
       </xsl:when>
-      <xsl:when test="matches($str, $left-re)">
-        <pc join="left">
-          <xsl:value-of select="replace($str, concat($left-re, '.*'), '$1')"/>
-        </pc>
-        <xsl:call-template name="FOR">
-          <xsl:with-param name="str" select="replace($str, $left-re, '')"/>
-        </xsl:call-template>
-      </xsl:when>
-      <xsl:when test="matches($str, $right-re)">
+      <xsl:when test="matches($str, '^[\[\(]')">
         <pc join="right">
-          <xsl:value-of select="replace($str, concat($right-re, '.*'), '$1')"/>
+          <xsl:value-of select="replace($str, '^(.).*', '$1')"/>
         </pc>
-        <xsl:call-template name="FOR">
-          <xsl:with-param name="str" select="replace($str, $right-re, '')"/>
+        <xsl:call-template name="form">
+          <xsl:with-param name="str" select="replace($str, '^.', '')"/>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="matches($str, '^[,\]\)]')">
+        <pc join="left">
+          <xsl:value-of select="replace($str, '^(.).*', '$1')"/>
+        </pc>
+        <xsl:call-template name="form">
+          <xsl:with-param name="str" select="replace($str, '^.', '')"/>
         </xsl:call-template>
       </xsl:when>
       <xsl:when test="matches($str, '^‚.+’')">
+        <pc join="right">‚</pc>
         <gloss>
-          <pc join="right">‚</pc>
           <xsl:value-of select="replace($str, '^‚(.+?)’.*', '$1')"/>
-          <pc join="left">’</pc>
         </gloss>
-        <xsl:call-template name="FOR">
-          <xsl:with-param name="str" select="replace($str, '^‚.+?’', '')"/>
+        <pc join="left">’</pc>
+        <xsl:call-template name="form">
+          <xsl:with-param name="str" select="replace($str, '^‚(.+?)’', '')"/>
         </xsl:call-template>
       </xsl:when>
-      <xsl:when test="matches($str, $lbl-re)">
-        <lbl>
-          <xsl:value-of select="replace($str, concat($lbl-re, '.*'), '$1')"/>
-        </lbl>
-        <xsl:call-template name="FOR">
-          <xsl:with-param name="str" select="replace($str, $lbl-re, '')"/>
-        </xsl:call-template>
-      </xsl:when>
-      <xsl:when test="matches($str, $gram-re)">
-        <gram>
-          <xsl:value-of select="replace($str, concat($gram-re, '.*'), '$1')"/>
-        </gram>
-        <xsl:call-template name="FOR">
-          <xsl:with-param name="str" select="replace($str, $gram-re, '')"/>
-        </xsl:call-template>
-      </xsl:when>
-      <xsl:when test="matches($str, $langs-re)">
+      <xsl:when test="matches($str, concat('^', $langs-re))">
         <lang>
-          <xsl:value-of select="replace($str, concat($langs-re, '.*'), '$1')"/>
+          <xsl:value-of select="replace($str, concat('^(', $langs-re, ').*'), '$1')"/>
         </lang>
-        <xsl:call-template name="FOR">
-          <xsl:with-param name="str" select="replace($str, $langs-re, '')"/>
+        <xsl:call-template name="form">
+          <xsl:with-param name="str" select="replace($str, concat('^', $langs-re), '')"/>
         </xsl:call-template>
       </xsl:when>
-      <xsl:when test="matches($str, $pron-re)">
+      <xsl:when test="matches($str, concat('^', $pron-re))">
         <pron>
-          <xsl:value-of select="replace($str, concat($pron-re, '.*'), '$1')"/>
+          <xsl:value-of select="replace($str, concat('^(', $pron-re, ').*'), '$1')"/>
         </pron>
-        <xsl:call-template name="FOR">
-          <xsl:with-param name="str" select="replace($str, $pron-re, '')"/>
+        <xsl:call-template name="form">
+          <xsl:with-param name="str" select="replace($str, concat('^', $pron-re), '')"/>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="matches($str, concat('^', $lbl-re))">
+        <lbl>
+          <xsl:value-of select="normalize-space(replace($str, concat('^(', $lbl-re, ').*'), '$1'))"/>
+        </lbl>
+        <xsl:call-template name="form">
+          <xsl:with-param name="str" select="replace($str, concat('^', $lbl-re), '')"/>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="matches($str, concat('^', $gram-re))">
+        <gram>
+          <xsl:value-of select="replace($str, concat('^(', $gram-re, ').*'), '$1')"/>
+        </gram>
+        <xsl:call-template name="form">
+          <xsl:with-param name="str" select="replace($str, concat('^', $gram-re), '')"/>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="matches($str, concat('^', $langs-re))">
+        <lang>
+          <xsl:value-of select="replace($str, concat('^(', $langs-re, ').*'), '$1')"/>
+        </lang>
+        <xsl:call-template name="form">
+          <xsl:with-param name="str" select="replace($str, concat('^', $langs-re), '')"/>
         </xsl:call-template>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:message select="concat('WARN: Strange FOR ', $str)"/>
-        <XXX>
-          <xsl:value-of select="$str"/>
-        </XXX>
+        <xsl:message select="concat('WARN: Non-covered form {', $str, '}')"/>
+        <xsl:value-of select="."/>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
