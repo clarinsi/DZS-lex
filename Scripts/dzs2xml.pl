@@ -25,6 +25,9 @@ while (<>) {
     # {vektor}: most common: {vektor}a but also {vektor}<I>c</I>, {vektor}OP, {vektor}ω
     
     # FIX ERRORS IN SOURCE
+
+    #Typo
+    s|starovisokononemško|starovisokonemško|g;
     
     # Bare text
     s|</KDE> (Kasneje preimenovana v <EN>UCTE</EN>.+?)<OPI>| </KDE><OPI>$1|;
