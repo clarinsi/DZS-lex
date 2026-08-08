@@ -344,11 +344,15 @@
             <pc join="left">,</pc>
             <def n="RPOD">
                <state type="birth" n="RPOD1">
-                  <desc>*5.10.1924 Ålvkarleby</desc>
+                  <desc>*<date when="1924-10-05">5.10.1924</date>
+                     <placeName>Ålvkarleby</placeName>
+                  </desc>
                </state>
                <pc join="left">,</pc>
                <state type="death" n="RPOD2">
-                  <desc>†4.11.1954 Enebyberg</desc>
+                  <desc>†<date when="1954-11-04">4.11.1954</date>
+                     <placeName>Enebyberg</placeName>
+                  </desc>
                </state>
                <pc join="left">;</pc>
             </def>
@@ -377,11 +381,15 @@
             <pc join="left">,</pc>
             <def n="RPOD">
                <state type="birth" n="RPOD1">
-                  <desc>*19.12.1894 Hamburg</desc>
+                  <desc>*<date when="1894-12-19">19.12.1894</date>
+                     <placeName>Hamburg</placeName>
+                  </desc>
                </state>
                <pc join="left">,</pc>
                <state type="death" n="RPOD2">
-                  <desc>†28.6.1979 Berlin</desc>
+                  <desc>†<date when="1979-06-28">28.6.1979</date>
+                     <placeName>Berlin</placeName>
+                  </desc>
                </state>
                <pc join="left">;</pc>
             </def>
@@ -486,11 +494,14 @@
             <pc join="left">,</pc>
             <def n="RPOD">
                <state type="birth" n="RPOD1">
-                  <desc>*23.2.1883 Pasadena (CA)</desc>
+                  <desc>*<date when="1883-02-23">23.2.1883</date>
+                     <placeName>Pasadena (CA)</placeName>
+                  </desc>
                </state>
                <pc join="left">,</pc>
                <state type="death" n="RPOD2">
-                  <desc>†6.1.1949 Cottonwood (AZ).</desc>
+                  <desc>†<date when="1949-01-06">6.1.1949</date>
+                     <placeName>Cottonwood (AZ)</placeName>.</desc>
                </state>
             </def>
             <def n="OPI">
@@ -527,7 +538,9 @@
             <pc join="left">,</pc>
             <def n="RPOD">
                <state type="birth" n="RPOD1">
-                  <desc>*9.9.1923 Yonkers (NY)</desc>
+                  <desc>*<date when="1923-09-09">9.9.1923</date>
+                     <placeName>Yonkers (NY)</placeName>
+                  </desc>
                </state>
                <pc join="left">;</pc>
             </def>
@@ -577,11 +590,16 @@
             <pc join="left">,</pc>
             <def n="RPOD">
                <state type="birth" n="RPOD1">
-                  <desc>*pred 540 Rim</desc>
+                  <desc>*<placeName>pred</placeName>
+                     <date when="0540">540</date>
+                     <placeName>Rim</placeName>
+                  </desc>
                </state>
                <pc join="left">,</pc>
                <state type="death" n="RPOD2">
-                  <desc>†12.3.604 prav tam</desc>
+                  <desc>†<date when="0604-03-12">12.3.604</date>
+                     <placeName>prav tam</placeName>
+                  </desc>
                </state>
                <pc join="left">;</pc>
             </def>
@@ -611,14 +629,16 @@
             <pc join="left">,</pc>
             <def n="RPOD">
                <state type="birth" n="RPOD1">
-                  <desc>*6.12.1929 Berlin</desc>
+                  <desc>*<date when="1929-12-06">6.12.1929</date>
+                     <placeName>Berlin</placeName>
+                  </desc>
                </state>
                <pc join="left">;</pc>
             </def>
             <pc join="left">;</pc>
             <def n="OPI">najprej nastopal kot violončelist, <date n="ILT">1952</date> na Dunaju ustanovil ansambel <hi rend="italic" n="I">
                   <distinct type="form" n="ENX" rend="italic">Concentus Musicus</distinct>
-               </hi>, ki izvaja staro glasbo z izvirnimi glasbili in v <ref target="#dzs07663200.00" n="KP">zgodovinski izvajalni praksi</ref>; za zgledne veljajo njegove izvedbe Monteverdija (<date n="LT">1976</date>–79) in Mozarta (od <date n="LT">1980</date>).<floatingText type="list" n="RUB">
+               </hi>, ki izvaja staro glasbo z izvirnimi glasbili in v <ref target="#dzs07663200.00" n="KP">zgodovinski izvajalni praksi</ref>; za zgledne veljajo njegove izvedbe Monteverdija (<date n="LT">1976</date>–<date when="1979">79</date>) in Mozarta (od <date n="LT">1980</date>).<floatingText type="list" n="RUB">
                   <body>
                      <div>
                         <head n="RUBN" rend="italic">Knjižna izdaja</head>
@@ -659,7 +679,8 @@
             <pc join="left">,</pc>
             <def n="RPOD">
                <state type="birth" n="RPOD1">
-                  <desc>*22.11.1923 Edmonton (Alberta).</desc>
+                  <desc>*<date when="1923-11-22">22.11.1923</date>
+                     <placeName>Edmonton (Alberta)</placeName>.</desc>
                </state>
             </def>
             <def n="OPI">
@@ -696,7 +717,8 @@
             <pc join="left">,</pc>
             <def n="RPOD">
                <state type="birth" n="RPOD1">
-                  <desc>*20.3.1950 Washington.</desc>
+                  <desc>*<date when="1950-03-20">20.3.1950</date>
+                     <placeName>Washington</placeName>.</desc>
                </state>
             </def>
             <def n="OPI">
@@ -1607,7 +1629,9 @@
             <pc join="left">,</pc>
             <def n="RPOD">
                <state type="birth" n="RPOD1">
-                  <desc>*1.4.1933 Constantine (Alžirija)</desc>
+                  <desc>*<date when="1933-04-01">1.4.1933</date>
+                     <placeName>Constantine (Alžirija)</placeName>
+                  </desc>
                </state>
                <pc join="left">;</pc>
             </def>
@@ -1912,15 +1936,19 @@
             <pc join="left">,</pc>
             <form n="AIME">tudi <hi rend="italic" n="I">Poděbradski</hi> in <hi rend="italic" n="I">Kunštátski</hi>
             </form>
-            <def n="KDE">češki kralj (<date n="ILT">1458</date>–71)</def>
+            <def n="KDE">češki kralj (<date n="ILT">1458</date>–<date when="1471">71</date>)</def>
             <pc join="left">,</pc>
             <def n="RPOD">
                <state type="birth" n="RPOD1">
-                  <desc>*6.4.1420 Poděbrady</desc>
+                  <desc>*<date when="1420-04-06">6.4.1420</date>
+                     <placeName>Poděbrady</placeName>
+                  </desc>
                </state>
                <pc join="left">,</pc>
                <state type="death" n="RPOD2">
-                  <desc>†22.3.1471 Praga</desc>
+                  <desc>†<date when="1471-03-22">22.3.1471</date>
+                     <placeName>Praga</placeName>
+                  </desc>
                </state>
                <pc join="left">;</pc>
             </def>
@@ -1969,7 +1997,9 @@
             <pc join="left">,</pc>
             <def n="RPOD">
                <state type="birth" n="RPOD1">
-                  <desc>*20.7.1947 Autlán de Navarro</desc>
+                  <desc>*<date when="1947-07-20">20.7.1947</date>
+                     <placeName>Autlán de Navarro</placeName>
+                  </desc>
                </state>
                <pc join="left">;</pc>
             </def>

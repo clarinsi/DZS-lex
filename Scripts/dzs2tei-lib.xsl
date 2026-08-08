@@ -6,6 +6,61 @@
 		exclude-result-prefixes="tei"
 		version="2.0">
 
+  <xsl:variable name="teiHeader">
+    <teiHeader xml:lang="sl">
+      <fileDesc>
+        <titleStmt>
+          <title xml:lang="sl">Veliki splošni leksikon DZS [dzslex]</title>
+          <title xml:lang="sl">Large General Lexicon DZS [dzslex]</title>
+          <respStmt>
+            <persName ref="https://orcid.org/0000-0002-1560-4099">Tomaž Erjavec</persName>
+            <resp>Kodiranje TEI XML</resp>
+            <resp xml:lang="en">TEI XML encoding</resp>
+          </respStmt>
+        </titleStmt>
+        <editionStmt>
+          <edition>Version 0.1</edition>
+        </editionStmt>
+        <extent>XXXXX entries</extent>
+        <publicationStmt>
+          <publisher>CLARIN.SI</publisher>
+          <idno type="PID">http://hdl.handle.net/11356/xxxx</idno>
+          <availability>
+            <p xml:lang="sl">Avtorske pravice za to izdajo ureja licenca
+          <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+          Priznanje avtorstva-Deljenje pod enakimi pogoji 4.0 mednarodna licenca</ref>.</p>
+               <p xml:lang="en">This work is licenced under the licence
+          <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+          Attribution-ShareAlike 4.0 International</ref>.</p>
+            </availability>
+        </publicationStmt>
+        <sourceDesc>
+          <biblStruct>
+            <monogr>
+              <title>VELIKI splošni leksikon [Elektronski vir]</title>
+              <idno type="ISBN">978-961-6474-90-0</idno>
+              <idno type="COBISS.SI-ID">259150339</idno>
+              <imprint>
+                <publisher>Amebis, d.o.o.</publisher>
+                <date>2025</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+        </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+        <langUsage>
+          <language ident="sl">slovenščina</language>
+          <language ident="la">latinščina</language>
+          <language ident="en">angleščina</language>
+        </langUsage>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+        <change when="2026-08-04"><name>Tomaž Erjavec</name> First draft.</change>
+      </revisionDesc>
+    </teiHeader>
+  </xsl:variable>
+  
   <!-- Punctuation that appears at start or end of element content and should be moved out of the element -->
   <xsl:variable name="puncts">
     <pc join="right">‚</pc>
@@ -131,6 +186,7 @@
     <lang>slovansko</lang>
     <lang>slovaško</lang>
     <lang>slovensko</lang>
+    <lang>slovenska</lang>
     <lang>srednjeperzijsko</lang>
     <lang>srbsko</lang>
     <lang>starofrancosko</lang>
@@ -201,16 +257,16 @@
 
   <!-- Various labels -->
   <xsl:variable name="lbl-re">
-    <xsl:text>^(</xsl:text>
-    <xsl:text>i\. po |i\. |in |ali |tudi |do |iz |ter |zato tudi |napačno tudi |od tod |od |oz\. |morda |</xsl:text>
-    <xsl:text>po kraju |po gorovju |po |</xsl:text>
-    <xsl:text>verjetno po |verjetno iz |prvotno |morda |pomen ni jasen |ustrezno |ustreza |zato tudi |</xsl:text>
-    <xsl:text>zdaj |prej |prvotno |zastarelo |okrajšava |kratica za |kratica |simbol |</xsl:text>
-    <xsl:text>lastno poimenovanje |pravo ime |polno ime |pojmovno ime |polno ime |trivialno ime za |častno ime |uradno ime |imenovan tudi |</xsl:text>
-    <xsl:text>antični |beseda neznanega izvora |psevdonim |znak |oznaka |svetopisemski |komunistična kratica iz |</xsl:text>
-    <xsl:text>znan tudi kot |sir |kemijska formula |celo ime |</xsl:text>
-    <xsl:text>ad lib\. |ad l\. |\+</xsl:text>
-    <xsl:text>)</xsl:text>
+    <xsl:text>^((</xsl:text>
+    <xsl:text>i\. po|i\.|in|ali|tudi|do|iz|ter|morda|zato tudi|napačno tudi|od tod|od|oz\.|</xsl:text>
+    <xsl:text>po kraju|po gorovju|po|</xsl:text>
+    <xsl:text>verjetno po|verjetno iz|prvotno|pomen ni jasen|ustrezno|ustreza|zato tudi|</xsl:text>
+    <xsl:text>zdaj|prej|prvotno|zastarelo|okrajšava|kratica za|kratica|kratici|simbol|</xsl:text>
+    <xsl:text>lastno poimenovanje|pravo ime|polno ime|pojmovno ime|polno ime|trivialno ime za|častno ime|uradno ime|imenovan tudi|</xsl:text>
+    <xsl:text>antični|beseda neznanega izvora|psevdonim|znak|oznaka|svetopisemski|komunistična kratica iz|</xsl:text>
+    <xsl:text>znan tudi kot|sir|kemijska formula|celo ime|</xsl:text>
+    <xsl:text>ad lib\.|ad l\.|\+</xsl:text>
+    <xsl:text>) )</xsl:text>
   </xsl:variable>
 
   <!-- Grammatical labels -->
@@ -224,9 +280,12 @@
   
   <!-- Names -->
   <xsl:variable name="name-re">
-    <xsl:variable name="nword-re">(\p{Lu}'?\p{Ll}+)</xsl:variable>
-    <xsl:variable name="aword-re">(van|von|da|de|don|el|markizu de|sr\.|jr\.)</xsl:variable>
-    <xsl:value-of select="concat('(', $aword-re, '\s)?', $nword-re, '(\s', $aword-re, '|\p{Lu}\.|', $nword-re, ')*')"/>
+    <xsl:variable name="nameword-re">(\p{Lu}'?\p{Ll}+)</xsl:variable>
+    <xsl:variable name="addword-re">(van|von|dall'|dell'|da|de|don|el|markizu de|sr\.|jr\.)</xsl:variable>
+    <xsl:variable name="abbrword-re">(\p{Lu}\.)</xsl:variable>
+    <xsl:value-of select="concat('(', $abbrword-re, '|', $addword-re, '\s)?',
+                          $nameword-re,
+                          '(\s', $addword-re, '|', $abbrword-re, '|', $nameword-re, ')*')"/>
   </xsl:variable>
   
   <xsl:variable name="chem-re">([A-Z(\)–\[\]]+[₀₁₂₃₄₅₆₇₈₉][A-Z\(\)–\[\]₀₁₂₃₄₅₆₇₈₉]*)</xsl:variable>

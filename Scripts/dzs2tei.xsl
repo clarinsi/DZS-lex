@@ -11,61 +11,6 @@
   
   <xsl:param name="id_prefix">dzs</xsl:param>
 
-  <xsl:variable name="teiHeader">
-    <teiHeader xml:lang="sl">
-      <fileDesc>
-        <titleStmt>
-          <title xml:lang="sl">Veliki splošni leksikon DZS [dzslex]</title>
-          <title xml:lang="sl">Large General Lexicon DZS [dzslex]</title>
-          <respStmt>
-            <persName ref="https://orcid.org/0000-0002-1560-4099">Tomaž Erjavec</persName>
-            <resp>Kodiranje TEI XML</resp>
-            <resp xml:lang="en">TEI XML encoding</resp>
-          </respStmt>
-        </titleStmt>
-        <editionStmt>
-          <edition>Version 0.1</edition>
-        </editionStmt>
-        <extent>XXXXX entries</extent>
-        <publicationStmt>
-          <publisher>CLARIN.SI</publisher>
-          <idno type="PID">http://hdl.handle.net/11356/xxxx</idno>
-          <availability>
-            <p xml:lang="sl">Avtorske pravice za to izdajo ureja licenca
-          <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
-          Priznanje avtorstva-Deljenje pod enakimi pogoji 4.0 mednarodna licenca</ref>.</p>
-               <p xml:lang="en">This work is licenced under the licence
-          <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
-          Attribution-ShareAlike 4.0 International</ref>.</p>
-            </availability>
-        </publicationStmt>
-        <sourceDesc>
-          <biblStruct>
-            <monogr>
-              <title>VELIKI splošni leksikon [Elektronski vir]</title>
-              <idno type="ISBN">978-961-6474-90-0</idno>
-              <idno type="COBISS.SI-ID">259150339</idno>
-              <imprint>
-                <publisher>Amebis, d.o.o.</publisher>
-                <date>2025</date>
-              </imprint>
-            </monogr>
-          </biblStruct>
-        </sourceDesc>
-      </fileDesc>
-      <profileDesc>
-        <langUsage>
-          <language ident="sl">slovenščina</language>
-          <language ident="la">latinščina</language>
-          <language ident="en">angleščina</language>
-        </langUsage>
-      </profileDesc>
-      <revisionDesc xml:lang="en">
-        <change when="2026-08-04"><name>Tomaž Erjavec</name> First draft.</change>
-      </revisionDesc>
-    </teiHeader>
-  </xsl:variable>
-  
   <xsl:output indent="yes"/>
 
   <!--xsl:template match="/">
@@ -105,6 +50,8 @@
       </text>
     </TEI>
   </xsl:template>
+
+  <!-- PASS 2: RENAME DZS ELEMENT TO TEI ONES -->
   
   <xsl:template match="DZS">
     <!-- Group by ID for entry e.g. <XX><PO><N>00000100+01</N> and for sense <XX><PO><N>00000100+02</N> etc. -->
@@ -564,7 +511,6 @@
       <xsl:apply-templates/>
     </def>
   </xsl:template>
-  <!-- Why two elements? -->
   <xsl:template match="RPOD1">
     <xsl:if test="normalize-space(.)">
       <state type="birth" n="{name()}">
@@ -745,8 +691,9 @@
     </xsl:copy>
   </xsl:template>
 
-  <!-- PASS 2: MOVE DEF INTO PRECEDING SENSE (SOURCE HAS WRONG NESTING) -->
+  <!-- PASS 2: MOVE DEF INTO PRECEDING SENSE (SOURCE HAS WRONG NESTING), MARK UP ADDITIONAL DATES -->
   
+  <!-- Copy def into sense -->
   <xsl:template mode="pass2" match="tei:sense[@n = 'KDE']">
     <xsl:copy>
       <xsl:apply-templates mode="pass2" select="@*"/>
@@ -756,7 +703,7 @@
       </xsl:if>
     </xsl:copy>
   </xsl:template>
-  
+  <!-- Remove original def -->
   <xsl:template mode="pass2" match="tei:def">
     <xsl:if test="not(preceding-sibling::tei:*[1][self::tei:sense])">
       <xsl:copy>
@@ -766,6 +713,117 @@
     </xsl:if>
   </xsl:template>
 
+  <!-- Mark up additional dates in date range -->
+  <xsl:template mode="pass2" match="text()">
+    <xsl:choose>
+      <!-- e.g. <date n="LT">1973</date>–76 -->
+      <xsl:when test="preceding-sibling::tei:*[1][name() = 'date'] and matches(., '^–\d\d[^0-9]')">
+        <xsl:variable name="century" select="replace(preceding-sibling::tei:date[1], '^(\d\d).*', '$1')"/>
+        <xsl:variable name="decade" select="replace(., '^–(\d\d).*', '$1')"/>
+        <xsl:text>–</xsl:text>
+        <date when="{$century}{$decade}">
+          <xsl:value-of select="$decade"/>
+        </date>
+        <xsl:value-of select="replace(., '^–(\d\d)', '')"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="."/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
+  <!-- Mark up additional dates in state/desc i.e. birth and death, has BC dates, and dates in old calendar -->
+  <xsl:template mode="pass2" match="tei:state[@type = 'birth' or @type = 'death']/tei:desc/
+                                    text()[matches(., '^[*†]')]">
+    <xsl:call-template name="date-and-name"/>
+  </xsl:template>
+  
+  <xsl:template name="date-and-name">
+    <xsl:param name="str" select="."/>
+    <xsl:param name="cert"/>
+    <xsl:choose>
+      <xsl:when test="matches($str, '^\s')">
+        <xsl:text>&#32;</xsl:text>
+        <xsl:call-template name="date-and-name">
+          <xsl:with-param name="str" select="replace($str, '^.', '')"/>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="matches($str, '^[*†,;:]')">
+        <xsl:value-of select="replace($str, '^(.).+', '$1')"/>
+        <xsl:call-template name="date-and-name">
+          <xsl:with-param name="str" select="replace($str, '^.', '')"/>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="matches($str, '^(verjetno )?ok\.')">
+        <xsl:value-of select="replace($str, '^((verjetno )?ok\.).*', '$1')"/>
+        <xsl:text>&#32;</xsl:text>
+        <xsl:call-template name="date-and-name">
+          <xsl:with-param name="str" select="replace($str, '^(verjetno )?ok\.', '')"/>
+          <xsl:with-param name="cert">low</xsl:with-param>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="matches($str, '^verjetno ')">
+        <xsl:value-of select="replace($str, '^(verjetno ).+', '$1')"/>
+        <xsl:call-template name="date-and-name">
+          <xsl:with-param name="str" select="replace($str, '^verjetno ', '')"/>
+          <xsl:with-param name="cert">medium</xsl:with-param>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="matches($str, '^(\(\?\))')">
+        <xsl:text>(?)</xsl:text>
+        <xsl:call-template name="date-and-name">
+          <xsl:with-param name="str" select="replace($str, '^(\(\?\))', '')"/>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="matches($str, '^(\d\d?\.)?(\d\d?\.)?( \([0-9.]+\) )?(\d\d?\d?\d?)\s?(pr\. )?(n\. š\.)?')">
+        <xsl:variable name="date" select="replace($str, '^((\d\d?\.)?(\d\d?\.)?( \([0-9.]+\) )?(\d\d?\d?\d?)\s?(pr\. )?(n\. š\.)?).+', '$1')"/>
+        <xsl:variable name="iso-date" select="et:date2iso($date)"/>
+        <date>
+          <xsl:if test="normalize-space($iso-date)">
+            <xsl:attribute name="when" select="$iso-date"/>
+          </xsl:if>
+          <xsl:if test="normalize-space($cert)">
+            <xsl:attribute name="cert" select="$cert"/>
+          </xsl:if>
+          <xsl:value-of select="normalize-space($date)"/>
+        </date>
+        <xsl:if test="ends-with($date, ' ')">
+          <xsl:text>&#32;</xsl:text>
+        </xsl:if>
+        <xsl:call-template name="date-and-name">
+          <xsl:with-param name="str" select="replace($str, et:protect($date), '')"/>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="matches($str, '^([\p{L} ]+\(.+?\))')">
+        <xsl:variable name="placeName" select="replace($str, '^([\p{L} ]+\(.+?\)).*', '$1')"/>
+        <placeName>
+          <xsl:value-of select="normalize-space($placeName)"/>
+        </placeName>
+        <xsl:if test="ends-with($placeName, ' ')">
+          <xsl:text>&#32;</xsl:text>
+        </xsl:if>
+        <xsl:call-template name="date-and-name">
+          <xsl:with-param name="str" select="replace($str, '^([\p{L} ]+\(.+?\))', '')"/>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="matches($str, '^[\p{L} ]+\p{L}')">
+        <xsl:variable name="placeName" select="replace($str, '^([\p{L} ]+\p{L}).*', '$1')"/>
+        <placeName>
+          <xsl:value-of select="normalize-space($placeName)"/>
+        </placeName>
+        <xsl:if test="ends-with($placeName, ' ')">
+          <xsl:text>&#32;</xsl:text>
+        </xsl:if>
+        <xsl:call-template name="date-and-name">
+          <xsl:with-param name="str" select="replace($str, '^[\p{L} ]+\p{L}', '')"/>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="$str"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
   <xsl:template mode="pass2" match="tei:*">
     <xsl:copy>
       <xsl:apply-templates mode="pass2" select="@*"/>
@@ -774,9 +832,6 @@
   </xsl:template>
   <xsl:template mode="pass2" match="@*">
     <xsl:copy/>
-  </xsl:template>
-  <xsl:template mode="pass2" match="/text()">
-    <xsl:value-of select="."/>
   </xsl:template>
 
   <!-- PASS 3: WHERE APPROPRIATE, MOVE PUNCTUATION OUTSIDE ELEMENTS, AND REMOVE SPACE FROM END OF ELEMENTS-->
@@ -921,4 +976,136 @@
     <xsl:value-of select="concat($id_prefix, replace($n, '\+', '.'))"/>
   </xsl:function>
 
-  </xsl:stylesheet>
+  <xsl:function name="et:date2iso">
+    <xsl:param name="date"/>
+    <!--xsl:message select="concat('DEBUG: anaysing ', $date)"/-->
+    <xsl:choose>
+      <xsl:when test="matches($date, 'n\. š\.')">
+        <xsl:analyze-string select="$date" regex="^(\d\d?\.)?(\d?\d?\.)?(\d\d?\d?\d?)\s?(pr. )?n. š.">
+          <xsl:matching-substring>
+            <xsl:variable name="day" select="replace(regex-group(1), '\.', '')"/>
+            <xsl:variable name="month" select="replace(regex-group(2), '\.', '')"/>
+            <xsl:variable name="bc" select="normalize-space(regex-group(4))"/>
+            <xsl:variable name="year">
+              <xsl:variable name="y" select="regex-group(3)"/>
+              <xsl:choose>
+                <!-- BC -->
+                <xsl:when test="$bc">
+                  <!-- BC 1 = 0000, BC 2 = -0001 etc. -->
+                  <xsl:variable name="iso-year" select="string(number($y) - 1)"/>
+                  <xsl:choose>
+                    <xsl:when test="$iso-year = '0'">
+                      <xsl:value-of select="$iso-year"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                      <xsl:value-of select="concat('-', $iso-year)"/>
+                    </xsl:otherwise>
+                  </xsl:choose>
+                </xsl:when>
+                <!-- AD -->
+                <xsl:otherwise>
+                  <xsl:value-of select="et:pad-date($y)"/>
+                </xsl:otherwise>
+              </xsl:choose>
+            </xsl:variable>
+            <!--xsl:message select="concat('DEBUG: match with ', $year, ' - ', $month, ' - ', $day)"/-->
+            <xsl:choose>
+              <xsl:when test="normalize-space($day) and normalize-space($month) and normalize-space($year)">
+                <xsl:value-of select="et:pad-date(concat($year, '-', $month, '-', $day))"/>
+              </xsl:when>
+              <!-- $day is here is actually month -->
+              <xsl:when test="normalize-space($day) and normalize-space($year)">
+                <xsl:value-of select="et:pad-date(concat($year, '-', $day))"/>
+              </xsl:when>
+              <xsl:when test="normalize-space($year)">
+                <xsl:value-of select="et:pad-date($year)"/>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:message select="concat('ERROR: Failed to cast year from string ', $date)"/>
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:matching-substring>
+        </xsl:analyze-string>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:analyze-string select="$date" regex="^(\d\d?\.)?(\d\d?\.)?( \([0-9.]+\) )?(\d\d\d\d?)">
+          <xsl:matching-substring>
+            <xsl:variable name="day" select="replace(regex-group(1), '\.', '')"/>
+            <xsl:variable name="month" select="replace(regex-group(2), '\.', '')"/>
+            <xsl:variable name="year" select="regex-group(4)"/>
+            <!--xsl:message select="concat('DEBUG: match with ', $year, ' - ', $month, ' - ', $day)"/-->
+            <xsl:choose>
+              <xsl:when test="normalize-space($day) and normalize-space($month) and normalize-space($year)">
+                <xsl:value-of select="et:pad-date(concat($year, '-', $month, '-', $day))"/>
+              </xsl:when>
+              <!-- $day is here is actually month -->
+              <xsl:when test="normalize-space($day) and normalize-space($year)">
+                <xsl:value-of select="et:pad-date(concat($year, '-', $day))"/>
+              </xsl:when>
+              <xsl:when test="normalize-space($year)">
+                <xsl:value-of select="et:pad-date($year)"/>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:message select="concat('ERROR: Failed to cast year from string ', $date)"/>
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:matching-substring>
+        </xsl:analyze-string>
+      </xsl:otherwise>
+    </xsl:choose>
+    
+  </xsl:function>
+          
+  <!-- Pad parts of date with 0 if necessary -->
+  <xsl:function name="et:pad-date">
+    <xsl:param name="date"/>
+    <xsl:analyze-string select="$date" regex="^(-)?(\d\d?\d?\d?)(-\d\d?)?(-\d\d?)?\s*$">
+      <xsl:matching-substring>
+        <xsl:variable name="sign"  select="regex-group(1)"/>
+        <xsl:variable name="year"  select="regex-group(2)"/>
+        <xsl:variable name="month" select="substring-after(regex-group(3), '-')"/>
+        <xsl:variable name="day"   select="substring-after(regex-group(4), '-')"/>
+        <xsl:choose>
+          <xsl:when test="normalize-space($day) and normalize-space($month) and normalize-space($year)">
+            <xsl:value-of select="concat($sign, et:pad($year, 4), '-', et:pad($month, 2), '-', et:pad($day, 2))"/>
+          </xsl:when>
+          <xsl:when test="normalize-space($month) and normalize-space($year)">
+            <xsl:value-of select="concat($sign, et:pad($year, 4), '-', et:pad($month, 2))"/>
+          </xsl:when>
+          <xsl:when test="normalize-space($year)">
+            <xsl:value-of select="concat($sign, et:pad($year, 4))"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:message select="concat('ERROR: Cant convert date to ISO date: ', $date)"/>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:matching-substring>
+      <xsl:non-matching-substring>
+        <xsl:message select="concat('ERROR: Bad date for ISO date: ', $date)"/>
+      </xsl:non-matching-substring>
+    </xsl:analyze-string>
+  </xsl:function>
+  
+  <!-- Pad a string with zeros -->
+  <xsl:function name="et:pad">
+    <xsl:param name="str"/>
+    <xsl:param name="length"/>
+    <xsl:variable name="zeros">
+      <xsl:choose>
+        <xsl:when test="$length = 4">0000</xsl:when>
+        <xsl:when test="$length = 2">00</xsl:when>
+      </xsl:choose>
+    </xsl:variable>
+    <xsl:value-of select="string(format-number(number($str), $zeros))"/>
+    <!--xsl:value-of select="substring(
+      concat('0000', $str),
+      string-length($str) + 1, $length)"/-->
+  </xsl:function>
+
+  <!-- Escape special characters in string, so it can be passed to a RE literally -->
+  <xsl:function name="et:protect">
+    <xsl:param name="str"/>
+    <xsl:value-of select="replace($str, '([\(\)\[\]\{\}\.])', '\\$1')"/>
+  </xsl:function>
+
+</xsl:stylesheet>
