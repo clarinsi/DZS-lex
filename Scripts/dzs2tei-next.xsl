@@ -19,17 +19,10 @@
     </xsl:copy>
   </xsl:template>
 
-  <xsl:template mode="pass5" match="tei:form">
+  <xsl:template mode="pass5" match="tei:form[@type != 'lemma']">
     <xsl:copy>
       <xsl:apply-templates mode="pass5" select="@*"/>
-      <xsl:choose>
-        <xsl:when test="@type = '@lemma'">
-          <xsl:copy-of select="."/>
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:apply-templates mode="pass5"/>
-        </xsl:otherwise>
-      </xsl:choose>
+      <xsl:apply-templates mode="pass5"/>
     </xsl:copy>
   </xsl:template>
   
@@ -41,116 +34,119 @@
   
   <xsl:template name="form">
     <xsl:param name="str"/>
+    <xsl:variable name="pleft-re">[\[\(]</xsl:variable>
+    <xsl:variable name="pright-re">[,;\]\)]</xsl:variable>
+    <xsl:variable name="gloss-re">‚.+’</xsl:variable>
     <xsl:choose>
       <xsl:when test="$str = ''"/>
-      <xsl:when test="matches($str, '^\s')">
-        <xsl:value-of select="replace($str, '^(\s+).*', '$1')"/>
+      <xsl:when test="et:tst-str($str, '\s+')">
+        <xsl:value-of select="et:get-str($str, '\s+')"/>
         <xsl:call-template name="form">
-          <xsl:with-param name="str" select="replace($str, '^\s+', '')"/>
+          <xsl:with-param name="str" select="et:del-str($str, '\s+')"/>
         </xsl:call-template>
       </xsl:when>
-      <xsl:when test="matches($str, '^[\[\(]')">
+      <xsl:when test="et:tst-str($str, $pleft-re)">
         <pc join="right">
-          <xsl:value-of select="replace($str, '^(.).*', '$1')"/>
+          <xsl:value-of select="et:get-str($str, $pleft-re)"/>
         </pc>
         <xsl:call-template name="form">
-          <xsl:with-param name="str" select="replace($str, '^.', '')"/>
+          <xsl:with-param name="str" select="et:del-str($str, $pleft-re)"/>
         </xsl:call-template>
       </xsl:when>
-      <xsl:when test="matches($str, '^[,;\]\)]')">
+      <xsl:when test="et:tst-str($str, $pright-re)">
         <pc join="left">
-          <xsl:value-of select="replace($str, '^(.).*', '$1')"/>
+          <xsl:value-of select="et:get-str($str, $pright-re)"/>
         </pc>
         <xsl:call-template name="form">
-          <xsl:with-param name="str" select="replace($str, '^.', '')"/>
+          <xsl:with-param name="str" select="et:del-str($str, $pright-re)"/>
         </xsl:call-template>
       </xsl:when>
-      <xsl:when test="matches($str, '^‚.+’')">
+      <xsl:when test="et:tst-str($str, $gloss-re)">
         <pc join="right">‚</pc>
         <gloss>
-          <xsl:value-of select="replace($str, '^‚(.+?)’.*', '$1')"/>
+          <xsl:value-of select="replace(et:get-str($str, $gloss-re), '.(.+).', '$1')"/>
         </gloss>
         <pc join="left">’</pc>
         <xsl:call-template name="form">
-          <xsl:with-param name="str" select="replace($str, '^‚(.+?)’', '')"/>
+          <xsl:with-param name="str" select="et:del-str($str,  $gloss-re)"/>
         </xsl:call-template>
       </xsl:when>
-      <xsl:when test="matches($str, concat('^', $langs-re))">
+      <xsl:when test="et:tst-str($str, $langs-re)">
         <lang>
-          <xsl:value-of select="replace($str, concat('^(', $langs-re, ').*'), '$1')"/>
+          <xsl:value-of select="et:get-str($str, $langs-re)"/>
         </lang>
         <xsl:call-template name="form">
-          <xsl:with-param name="str" select="replace($str, concat('^', $langs-re), '')"/>
+          <xsl:with-param name="str" select="et:del-str($str, $langs-re)"/>
         </xsl:call-template>
       </xsl:when>
-      <xsl:when test="matches($str, concat('^', $pron-re))">
+      <xsl:when test="et:tst-str($str, $pron-re)">
         <pron>
-          <xsl:value-of select="replace($str, concat('^(', $pron-re, ').*'), '$1')"/>
+          <xsl:value-of select="et:get-str($str, $pron-re)"/>
         </pron>
         <xsl:call-template name="form">
-          <xsl:with-param name="str" select="replace($str, concat('^', $pron-re), '')"/>
+          <xsl:with-param name="str" select="et:del-str($str, $pron-re)"/>
         </xsl:call-template>
       </xsl:when>
-      <xsl:when test="matches($str, concat('^', $lbl-re))">
+      <xsl:when test="et:tst-str($str, $lbl-re)">
         <lbl>
-          <xsl:value-of select="normalize-space(replace($str, concat('^(', $lbl-re, ').*'), '$1'))"/>
+          <xsl:value-of select="et:get-str($str, $lbl-re)"/>
         </lbl>
         <xsl:call-template name="form">
-          <xsl:with-param name="str" select="replace($str, concat('^', $lbl-re), '')"/>
+          <xsl:with-param name="str" select="et:del-str($str, $lbl-re)"/>
         </xsl:call-template>
       </xsl:when>
-      <xsl:when test="matches($str, concat('^', $chem-re))">
+      <xsl:when test="et:tst-str($str, $chem-re)">
         <term type="chemical_formula">
-          <xsl:value-of select="normalize-space(replace($str, concat('^(', $chem-re, ').*'), '$1'))"/>
+          <xsl:value-of select="et:get-str($str, $chem-re)"/>
         </term>
         <xsl:call-template name="form">
-          <xsl:with-param name="str" select="replace($str, concat('^', $chem-re), '')"/>
+          <xsl:with-param name="str" select="et:del-str($str, $chem-re)"/>
         </xsl:call-template>
       </xsl:when>
-      <xsl:when test="matches($str, concat('^', $gram-re))">
+      <xsl:when test="et:tst-str($str, $gram-re)">
         <gram>
-          <xsl:value-of select="replace($str, concat('^(', $gram-re, ').*'), '$1')"/>
+          <xsl:value-of select="et:get-str($str, $gram-re)"/>
         </gram>
         <xsl:call-template name="form">
-          <xsl:with-param name="str" select="replace($str, concat('^', $gram-re), '')"/>
+          <xsl:with-param name="str" select="et:del-str($str, $gram-re)"/>
         </xsl:call-template>
       </xsl:when>
-      <xsl:when test="matches($str, concat('^', $langs-re))">
+      <xsl:when test="et:tst-str($str, $langs-re)">
         <lang>
-          <xsl:value-of select="replace($str, concat('^(', $langs-re, ').*'), '$1')"/>
+          <xsl:value-of select="et:get-str($str, $langs-re)"/>
         </lang>
         <xsl:call-template name="form">
-          <xsl:with-param name="str" select="replace($str, concat('^', $langs-re), '')"/>
+          <xsl:with-param name="str" select="et:del-str($str, $langs-re)"/>
         </xsl:call-template>
       </xsl:when>
-      <xsl:when test="matches($str, concat('^', $year-re))">
+      <xsl:when test="et:tst-str($str, $year-re)">
         <date>
-          <xsl:value-of select="replace($str, concat('^(', $year-re, ').*'), '$1')"/>
+          <xsl:value-of select="et:get-str($str, $year-re)"/>
         </date>
         <xsl:call-template name="form">
-          <xsl:with-param name="str" select="replace($str, concat('^', $year-re), '')"/>
+          <xsl:with-param name="str" select="et:del-str($str, $year-re)"/>
         </xsl:call-template>
       </xsl:when>
-      <xsl:when test="matches($str, concat('^', $name-re))">
+      <xsl:when test="et:tst-str($str, $name-re)">
         <name>
-          <xsl:value-of select="replace($str, concat('^(', $name-re, ').*'), '$1')"/>
+          <xsl:value-of select="et:get-str($str, $name-re)"/>
         </name>
         <xsl:call-template name="form">
-          <xsl:with-param name="str" select="replace($str, concat('^', $name-re), '')"/>
+          <xsl:with-param name="str" select="et:del-str($str, $name-re)"/>
         </xsl:call-template>
       </xsl:when>
-      <xsl:when test="matches($str, concat('^', $abbr-re))">
+      <xsl:when test="et:tst-str($str, $abbr-re)">
         <abbr>
-          <xsl:value-of select="replace($str, concat('^(', $abbr-re, ').*'), '$1')"/>
+          <xsl:value-of select="et:get-str($str, $abbr-re)"/>
         </abbr>
         <xsl:call-template name="form">
-          <xsl:with-param name="str" select="replace($str, concat('^', $abbr-re), '')"/>
+          <xsl:with-param name="str" select="et:del-str($str, $abbr-re)"/>
         </xsl:call-template>
       </xsl:when>
       <xsl:otherwise>
         <xsl:message select="concat('WARN: Non-covered form {', $str, '}')"/>
         <orth type="unknown">
-          <xsl:value-of select="."/>
+          <xsl:value-of select="$str"/>
         </orth>
       </xsl:otherwise>
     </xsl:choose>
@@ -169,4 +165,31 @@
     </xsl:copy>
   </xsl:template>
 
+  <xsl:function name="et:tst-str">
+    <xsl:param name="str"/>
+    <xsl:param name="re"/>
+    <xsl:if test="matches($str, concat('^', $re))">
+      <xsl:value-of select="true()"/>
+    </xsl:if>
+  </xsl:function>
+  
+  <xsl:function name="et:get-str">
+    <xsl:param name="str"/>
+    <xsl:param name="re"/>
+    <xsl:if test="matches($str, concat('^', $re))">
+      <xsl:value-of select="normalize-space(
+                            replace($str, concat('^(', $re, ').*'), '$1')
+                            )"/>
+    </xsl:if>
+  </xsl:function>
+  
+  <xsl:function name="et:del-str">
+    <xsl:param name="str"/>
+    <xsl:param name="re"/>
+    <xsl:if test="not(matches($str, concat('^', $re)))">
+      <xsl:message select="concat('ERROR: Non-matching ', $str, ' on regex ', $re)"/>
+    </xsl:if>
+      <xsl:value-of select="replace($str, concat('^', $re), '')"/>
+  </xsl:function>
+  
 </xsl:stylesheet>
