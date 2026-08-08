@@ -602,7 +602,7 @@
   <!-- Notes -->
   <!-- Margin text with reference to figure, admin info, and caption -->
   <xsl:template match="SK | SP">
-    <note type="admin" subtype="figure" n="{name()}">
+    <note type="margin" subtype="figure" n="{name()}">
       <xsl:apply-templates/>
     </note>
   </xsl:template>

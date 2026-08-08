@@ -70,7 +70,7 @@
                <pc join="left">,</pc>
                <def n="OPI">ustreza hebrejski alef in grški alfa.</def>
                <milestone type="admin" unit="meta"/>
-               <note type="admin" subtype="figure" n="SK">
+               <note type="margin" subtype="figure" n="SK">
                   <note type="pointer" n="DX">00000100+01+01</note>
                   <note type="admin" subtype="class" n="TS">GI</note>
                   <note type="admin" subtype="comment" n="O">preglednica (črka)na str. 17!</note>
@@ -176,7 +176,7 @@
             <pc join="left">,</pc>
             <def n="OPI">predvsem saprofitskih, redkeje parazitskih plesni (<ref target="#dzs00445200.00" n="KP">aspergiloza</ref>, <ref target="#dzs04302200.00" n="KP">mikoze</ref>). Nekatere vrste oblikujejo antibiotike, nekatere pa tudi zelo strupene in pogosto kancerogene snovi (<ref target="#dzs00078500.00" n="KP">aflatoksini</ref>, <ref target="#dzs04302100.00" n="KP">mikotoksini</ref>).</def>
             <milestone type="admin" unit="meta"/>
-            <note type="admin" subtype="figure" n="SK">
+            <note type="margin" subtype="figure" n="SK">
                <note type="pointer" n="DX">00445100+00+01</note>
                <note type="admin" subtype="class" n="TS">SI</note>
                <figure n="OPS">
@@ -396,7 +396,7 @@
             <def n="OPI">
                <date n="ILT">1933</date> emigriral v Pariz, od <date n="LT">1939</date> živel v New Yorku in Hollywoodu, <date n="LT">1948</date> se je vrnil v NDR. V glasbi povezoval prvine nove glasbe z zabavno glasbo in s političnimi vsebinami. Po <date n="LT">1942</date> je nanj močno vplival B. Brecht (uglasbitev <hi rend="italic" n="I">Matere Korajže</hi>, <hi rend="italic" n="I">Kavkaškega kroga s kredo</hi> idr.). Filmska glasba, orkestralne skladbe <hi rend="italic" n="I">Nemški miserere</hi> (Deutsches Miserere, <date n="LT">1945</date>), komorna glasba, samospevi in opere <hi rend="italic" n="I">Judita</hi> (Giuditta, <date n="LT">1912</date>), <hi rend="italic" n="I">Obsodba Lukula</hi> (Die Verurteilung des Lukullus, <date n="LT">1951</date> in <date n="LT">1968</date>), <hi rend="italic" n="I">Lanzelot</hi> (<date n="LT">1969</date>), <hi rend="italic" n="I">Einstein</hi> (<date n="LT">1974</date>), <hi rend="italic" n="I">Leonce in Lena</hi> (Leonce und Lena, <date n="LT">1978</date>).</def>
             <milestone type="admin" unit="meta"/>
-            <note type="admin" subtype="figure" n="SK">
+            <note type="margin" subtype="figure" n="SK">
                <note type="pointer" n="DX">01464900+00+01</note>
                <note type="admin" subtype="class" n="TS">SF</note>
                <note type="admin" subtype="comment" n="O">
@@ -420,7 +420,7 @@
             <def n="KDE">predvsem tropski <ref target="#dzs06751400.00" n="KP">škržati</ref> z zelo povečano in napihnjeno glavo.</def>
             <def n="OPI">Nekdaj so menili, da se tudi svetijo. V j. Evropi je pogost 8–9 mm velik mrežekrili škržat (<distinct type="form" n="LIMEX" xml:lang="la" rend="italic">Dictyophora europaea</distinct>). V srednji Evropi živi rjavo obarvan rebrasti škržat (<distinct type="form" n="LIMEX" xml:lang="la" rend="italic">Cixius nervosus</distinct>).</def>
             <milestone type="admin" unit="meta"/>
-            <note type="admin" subtype="figure" n="SK">
+            <note type="margin" subtype="figure" n="SK">
                <note type="pointer" n="DX">01577900+00+01</note>
                <note type="admin" subtype="class" n="TS">SF</note>
                <figure n="OPS">
@@ -649,7 +649,7 @@
                </floatingText>
             </def>
             <milestone type="admin" unit="meta"/>
-            <note type="admin" subtype="figure" n="SK">
+            <note type="margin" subtype="figure" n="SK">
                <note type="pointer" n="DX">02514700+00+01</note>
                <note type="admin" subtype="class" n="TS">SF</note>
                <figure n="OPS">
@@ -1082,7 +1082,7 @@
             <pc join="left">,</pc>
             <def n="OPI">ki so simbolizirale kraljevo (oz. cesarsko) oblast (krona, vladarsko jabolko, vladarsko žezlo in vladarski meč), ornat za kronanje (mdr. plašč za kronanje, alba, dalmatika) in državne svetinje (križ, lenta, relikvije). Od <date n="LX">1805</date> shranjene na Dunaju.</def>
             <milestone type="admin" unit="meta"/>
-            <note type="admin" subtype="figure" n="SP">
+            <note type="margin" subtype="figure" n="SP">
                <note type="pointer" n="DX">04638600+00+01</note>
                <note type="admin" subtype="class" n="TS">PC</note>
                <figure n="OPS">
@@ -1166,7 +1166,7 @@
                <pc join="left">;</pc>
                <def n="OPI">veliki so lahko do 2,8 m, imajo debelo glavo in široka usta z močnimi zobmi; prehranjujejo se z raki, školjkami in morskimi ježki; v Severnem morju in Atlantiku živi atlantski <oRef type="headword" n="YI">ostrigar</oRef> (<distinct type="form" n="LIMEX" xml:lang="la" rend="italic">Anarhichas lupus</distinct>), cenjena jedilna riba.</def>
                <milestone type="admin" unit="meta"/>
-               <note type="admin" subtype="figure" n="SK">
+               <note type="margin" subtype="figure" n="SK">
                   <note type="pointer" n="DX">04994900+02+01</note>
                   <note type="admin" subtype="class" n="TS">SF</note>
                   <figure n="OPS">
@@ -1413,7 +1413,7 @@
             <pc join="left">;</pc>
             <def n="OPI">ličinke na travah, lahko so škodljivci (npr. <ref target="#dzs07755400.00" n="KP">žitna osica</ref>).</def>
             <milestone type="admin" unit="meta"/>
-            <note type="admin" subtype="figure" n="SK">
+            <note type="margin" subtype="figure" n="SK">
                <note type="pointer" n="DX">06554500+00+01</note>
                <note type="admin" subtype="class" n="TS">SI</note>
                <figure n="OPS">
@@ -1501,7 +1501,7 @@
             <pc join="left">,</pc>
             <def n="OPI">ki imajo obliko steklenice s širokim trebušnim delom in ozkim grlom; v njem je več ozkih cevi; skozi te pijača le počasi teče v usta. Znana že v antiki, 15.–18. st. razširjena kot šaljiva pivska posoda.</def>
             <milestone type="admin" unit="meta"/>
-            <note type="admin" subtype="figure" n="SK">
+            <note type="margin" subtype="figure" n="SK">
                <note type="pointer" n="DX">07043100+00+01</note>
                <note type="admin" subtype="class" n="TS">SU</note>
                <figure n="OPS">
@@ -1740,7 +1740,7 @@
                   <name>DZS, d. d.</name>
                </note>
             </note>
-            <note type="admin" subtype="figure" n="SK">
+            <note type="margin" subtype="figure" n="SK">
                <note type="pointer" n="DX">02202100+00+01</note>
                <note type="admin" subtype="class" n="TS">SF</note>
                <figure n="OPS">
@@ -1832,7 +1832,7 @@
             <def n="OPI">
                <oRef type="headword" n="YI">Maji</oRef> so ustvarili eno najpomembnejših kultur predkolumbovske Amerike. S poljedelstvom kot gospodarskim temeljem (<ref target="#dzs04284600.00" n="KP">Mezoamerika</ref>) so v gvatemalskem višavju že pred našim štetjem nastala obredna središča, npr. Kaminaljuyú (tam je zdaj gvatemalsko glavno mesto). V majevskem klasičnem obdobju, 300–900 n. š., se je težišče kulture <oRef type="headword" n="YI">Majev</oRef> premaknilo v nižavje na S. Številna mesta, npr. <ref target="#dzs05045700.00" n="KP">Palenque</ref>, Bonampak in <ref target="#dzs07216200.00" n="KP">Uxmal</ref> v Mehiki, <ref target="#dzs06943100.00" n="KP">Tikal</ref> in Quirigua v Gvatemali in Copán v Hondurasu, so prebivalci v 8. ali 9. st. zapustili (kot razloge navajajo mdr. osiromašenje obdelovalnih površin in kmečke upore). Medtem ko so pokrajine južnega nižavja opustele, je 10.–12. st. S Jukatana pod <ref target="#dzs06988200.00" n="KP">Tolteki</ref> doživel nov razcvet (Chichén Itzá). Španci so se v gvatemalskem višavju in na Jukatanu po <date n="LX">1511</date> še srečali s kulturo majevskih mest in jo polagoma uničevali. <date n="LX">1697</date> je padlo zadnje majevsko mesto Tayasal. Z osvobodilnimi boji so se lahko <oRef type="headword" n="YI">Maji</oRef> nekajkrat otresli tuje oblasti.Po 3. st. so <oRef type="headword" n="YI">Maji</oRef> v astronomiji, astrologiji in zgodovinopisju uporabljali hieroglifsko pisavo (ki so jo doslej samo deloma razvozlali), izumili so številčni sistem z ničlo in uporabljali natančen astronomski koledar. V mestih so okrog velikih osrednjih trgov postavljali do 65 m visoke stopničaste piramide s svetišči na vrhu, palače, igrišča za obredno igro z žogo, prav tako stele in oltarje. Umetniško pomembni kipi, kamniti mozaiki, freske in reliefi iz štuka so krasili kamnite stavbe, pokrite z nepravilnimi oboki in zidane z apneno malto, prav tako tudi stavbe iz opeke, posušene na soncu. Razvito je bilo poslikavanje lončevine, obdelovanje žada, tkalstvo in skromno obdelovanje kovin, okrasje iz ptičjega perja. Mesta so povezovale ceste, ki so jih gradili na nasipih, trgovski stiki so segali vse do Kostarike.</def>
             <milestone type="admin" unit="meta"/>
-            <note type="admin" subtype="figure" n="SK">
+            <note type="margin" subtype="figure" n="SK">
                <note type="pointer" n="DX">04033300+00+01</note>
                <note type="admin" subtype="class" n="TS">SF</note>
                <figure n="OPS">
@@ -1841,7 +1841,7 @@
                </figure>
                <note type="admin" subtype="comment" n="O">(str. 3300 B)</note>
             </note>
-            <note type="admin" subtype="figure" n="SK">
+            <note type="margin" subtype="figure" n="SK">
                <note type="pointer" n="DX">04033300+00+02</note>
                <note type="admin" subtype="class" n="TS">SF</note>
                <figure n="OPS">
@@ -1850,7 +1850,7 @@
                </figure>
                <note type="admin" subtype="comment" n="O">(str. 3300 B)</note>
             </note>
-            <note type="admin" subtype="figure" n="SK">
+            <note type="margin" subtype="figure" n="SK">
                <note type="pointer" n="DX">04033300+00+03</note>
                <note type="admin" subtype="class" n="TS">SU</note>
                <figure n="OPS">
@@ -1859,7 +1859,7 @@
                </figure>
                <note type="admin" subtype="comment" n="O">(str. 3300 C)</note>
             </note>
-            <note type="admin" subtype="figure" n="SK">
+            <note type="margin" subtype="figure" n="SK">
                <note type="pointer" n="DX">04033300+00+04</note>
                <note type="admin" subtype="class" n="TS">SU</note>
                <figure n="OPS">
