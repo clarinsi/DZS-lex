@@ -108,11 +108,6 @@
   <!-- ID of entry or sense; already processed in head / sense -->
   <xsl:template match="N"/>
     
-  <!-- Milestone(?) for start of admin section at end of entry -->
-  <xsl:template match="GT">
-    <milestone type="admin" unit="meta"/>
-  </xsl:template>
-    
   <!-- Headword, e.g. <G>a, </G> -->
   <xsl:template match="G">
     <form type="lemma" n="{name()}">
@@ -682,6 +677,7 @@
        Will delete the whole thing!!
   -->
   <xsl:template match="QQ"/>
+  <xsl:template match="GT"/>
 
   <!-- Catch all -->
   <xsl:template match="*">
@@ -849,7 +845,7 @@
     <xsl:variable name="nested" select="."/>
     <!--xsl:message>DEBUG1: <xsl:value-of select="concat(name(), ' // ', $last, ' /// ', $nested)"/></xsl:message-->
     <xsl:choose>
-      <!-- The last text node in element ends in end punctuation and this is not the only node in parend-->
+      <!-- The last text node in element ends in end punctuation and this is not the only node in parent-->
       <xsl:when test="matches($last, concat($endpunct-re, '\s*$')) and (../tei:*[2] or ../text()[normalize-space(.)])">
         <xsl:variable name="punct" select="replace($last, concat('.*(', $endpunct-re, '\s*)$'), '$1')"/>
         <!--xsl:message>DEBUG2: <xsl:value-of select="concat(name(), ' // ', $punct)"/></xsl:message-->
@@ -864,9 +860,10 @@
         </xsl:choose>
       </xsl:when>
       <!-- The text nested in element ends in end punctuation and there is only one subordinate element
-           (to lift pc from nesting) -->
-      <xsl:when test="matches($nested, concat($endpunct-re, '\s*$')) and
-        not(tei:*[2] or text()[normalize-space(.)])">
+           but more than one superordinate elements (we lift pc from nesting) -->
+      <xsl:when test="matches($nested, concat($endpunct-re, '\s*$'))
+                      and not(tei:*[2] or text()[normalize-space(.)])
+                      and (../tei:*[2] or ../text()[normalize-space(.)])">
         <xsl:variable name="punct" select="replace($nested, concat('.*(', $endpunct-re, '\s*)$'), '$1')"/>
         <!--xsl:message>DEBUG3: <xsl:value-of select="concat(name(), ' // ', $punct, ' /// ', text()[normalize-space(.)])"/></xsl:message-->
         <xsl:copy-of select="$puncts//tei:pc[. = normalize-space($punct)]"/>
@@ -907,8 +904,16 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
+  <!-- Try to remove space before left-glue punct, doesn't work! Maybe indent?
+       Example:
+       <hi rend="italic" n="I">vzdrževalno <oRef type="headword" n="YI">krmo</oRef>
+       </hi>, -->
   <xsl:template mode="pass3" match="text()">
-    <xsl:value-of select="."/>
+    <xsl:if test="normalize-space(.) or following-sibling::tei:* or 
+                  not(matches(../following-sibling::node()[1][self::text()], concat('^', $endpunct-re, '$'))
+                  )">
+      <xsl:value-of select="."/>
+    </xsl:if>
   </xsl:template>
   <xsl:template mode="pass3" match="@*">
     <xsl:copy/>
@@ -922,37 +927,41 @@
 
   <!-- PASS 4: CHANGE hi TO @rend ON ENCLOSED/ENCLOSING ELEMENT WHERE POSSIBLE -->
 
-  <xsl:template mode="pass4" match="tei:hi">
+  <xsl:template mode="pass4" match="tei:entry//tei:*">
     <xsl:choose>
-      <xsl:when test="tei:* and not(tei:*[2] or text()[normalize-space(.)])">
-        <xsl:apply-templates mode="pass4"/>
+      <xsl:when test="self::tei:hi">
+        <xsl:choose>
+          <xsl:when test="tei:* and not(tei:*[2] or text()[normalize-space(.)])">
+            <!--xsl:message select="concat('DEBUG: ', .)"/-->
+            <xsl:apply-templates mode="pass4"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:copy>
+              <xsl:apply-templates mode="pass4" select="@*"/>
+              <xsl:apply-templates mode="pass4"/>
+            </xsl:copy>
+          </xsl:otherwise>
+        </xsl:choose>
       </xsl:when>
       <xsl:otherwise>
         <xsl:copy>
           <xsl:apply-templates mode="pass4" select="@*"/>
-          <xsl:apply-templates mode="pass4"/>
+          <xsl:choose>
+            <xsl:when test="parent::tei:hi and parent::tei:hi[not(tei:*[2] or text()[normalize-space(.)])]">
+              <xsl:attribute name="rend" select="parent::tei:hi/@rend"/>
+              <xsl:apply-templates mode="pass4"/>
+            </xsl:when>
+            <xsl:when test="tei:hi and not(tei:*[2] or text()[normalize-space(.)])">
+              <xsl:attribute name="rend" select="tei:hi/@rend"/>
+              <xsl:apply-templates mode="pass4" select="tei:hi/node()"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:apply-templates mode="pass4"/>
+            </xsl:otherwise>
+          </xsl:choose>
         </xsl:copy>
       </xsl:otherwise>
     </xsl:choose>
-  </xsl:template>
-  
-  <xsl:template mode="pass4" match="tei:entry//tei:*">
-    <xsl:copy>
-      <xsl:apply-templates mode="pass4" select="@*"/>
-      <xsl:choose>
-        <xsl:when test="parent::tei:hi and parent::tei:hi[not(tei:*[2] or text()[normalize-space(.)])]">
-          <xsl:attribute name="rend" select="parent::tei:hi/@rend"/>
-          <xsl:apply-templates mode="pass4"/>
-        </xsl:when>
-        <xsl:when test="tei:hi and not(tei:*[2] or text()[normalize-space(.)])">
-          <xsl:attribute name="rend" select="tei:hi/@rend"/>
-          <xsl:apply-templates mode="pass4" select="tei:hi/node()"/>
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:apply-templates mode="pass4"/>
-        </xsl:otherwise>
-      </xsl:choose>
-    </xsl:copy>
   </xsl:template>
 
   <xsl:template mode="pass4" match="text()">
