@@ -1,3 +1,9 @@
+test-compare:
+	$s -xsl:Scripts/dumptext-dzs.xsl Sample/KNAUR.sample.xml > Sample/KNAUR.sample.txt
+	$s -xsl:Scripts/dumptext-tei.xsl Sample/DZS-lex.sample.xml > Sample/DZS-lex.sample.txt
+	wc Sample/KNAUR.sample.txt Sample/DZS-lex.sample.txt
+	diff Sample/KNAUR.sample.txt Sample/DZS-lex.sample.txt
+
 ### Targets for testing scripts on sample
 test-next:
 	$s -xsl:Scripts/dzs2tei-next.xsl Sample/DZS-lex.sample.xml > Sample/DZS-lex.sample2.xml
