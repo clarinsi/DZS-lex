@@ -96,6 +96,7 @@
   <xsl:variable name="langs">
     <lang>afrikanško</lang>
     <lang>afrikansko</lang>
+    <lang>akadsko</lang>
     <lang>algonkinsko</lang>
     <lang>amharsko</lang>
     <lang>angleška</lang>
@@ -130,10 +131,11 @@
     <lang>grškega</lang>
     <lang>grškemu</lang>
     <lang>hebrejsko</lang>
+    <lang>hindi</lang>
     <lang>hindijsko</lang>
     <lang>hrvaško</lang>
-    <lang>indijanansko</lang>
     <lang>indijansko</lang>
+    <lang>indonezijsko</lang>
     <lang>iransko</lang>
     <lang>irsko</lang>
     <lang>islandsko</lang>
@@ -144,18 +146,22 @@
     <lang>karibsko</lang>
     <lang>kečvansko</lang>
     <lang>keltsko</lang>
+    <lang>kirgiško</lang>
     <lang>kitajsko</lang>
     <lang>korejsko</lang>
     <lang>korzijškega</lang>
     <lang>kreolsko</lang>
+    <lang>laoško</lang>
     <lang>latinsko</lang>
     <lang>latinskega</lang>
     <lang>latvijsko</lang>
     <lang>madžarsko</lang>
     <lang>makedonsko</lang>
     <lang>malajsko</lang>
+    <lang>mandejsko</lang>
     <lang>maorsko</lang>
     <lang>mehiško</lang>
+    <lang>melanezijsko</lang>
     <lang>mokpo</lang>
     <lang>mongolsko</lang>
     <lang>navaško</lang>
@@ -163,6 +169,7 @@
     <lang>nizozemsko</lang>
     <lang>norveško</lang>
     <lang>novolatinsko</lang>
+    <lang>pali</lang>
     <lang>palijsko</lang>
     <lang>panmundžom</lang>
     <lang>paštu</lang>
@@ -187,6 +194,7 @@
     <lang>slovaško</lang>
     <lang>slovensko</lang>
     <lang>slovenska</lang>
+    <lang>spodnjenemško</lang>
     <lang>srednjeperzijsko</lang>
     <lang>srbsko</lang>
     <lang>starofrancosko</lang>
@@ -202,6 +210,7 @@
     <lang>starovisokonemško</lang>
     <lang>sumersko</lang>
     <lang>sumerskega</lang>
+    <lang>svahilijsko</lang>
     <lang>špansko</lang>
     <lang>švedsko</lang>
     <lang>tamilsko</lang>
@@ -213,6 +222,7 @@
     <lang>tunguško</lang>
     <lang>turkmensko</lang>
     <lang>turško</lang>
+    <lang>vzhodnoturško</lang>
     <lang>ugaritsko</lang>
     <lang>ujgursko</lang>
     <lang>ukrajinsko</lang>
@@ -241,16 +251,16 @@
   </xsl:variable>
 
   <!-- Hopefully matches pronunciation, as it will always have an accented vowel (pron can have more than one word) -->
-  <xsl:variable name="acc-char">/?[áàâéèêěəíóòôú～&#x0301;&#x032F;()-]</xsl:variable>
+  <xsl:variable name="acc-char">/?[ŕáàâéèêěəíóòôú～&#x0301;&#x032F;()-]</xsl:variable>
 
 
 
 
   <xsl:variable name="pron-re">
-    <xsl:variable name="pword" select="concat('(\w*', $acc-char, '\w*)')"/>
-    <xsl:value-of select="concat('^((a |al |an |aš bon |aš |bu |če |d\)sen[^ ].*? |de |dez |di |doš |do |duž |du |e |eks |end |et |',
-                          'fet |fir di |fir |fon |for |',
-                          'i |il |la |le |kom |ki |kum |o |ov di |ov |sik |ša |šri |und |ven ', ')?',
+    <xsl:variable name="pword" select="concat('(\p{Ll}*', $acc-char, '\p{Ll}*-?)')"/>
+    <xsl:value-of select="concat('^((a |al |an |as |aš bon |aš |apre |bon |bu |če |d\)sen[^ ].*? |d&quot; |de |del |dela |de |dez |di |',
+                          'doš |do |duž |du |e |eks |end |et |fen |fet |fir di |fir |fo |fon |for |',
+                          'i |il |la |le |kom |ki |kum |kva |o |ov di |ov |pur |sik |sa |se |ša |šri |und |ven |/', ')?',
                           $pword, '(\s', $pword, ')*)')"/>
     <!--xsl:value-of select="$acc-char"/-->
   </xsl:variable>
@@ -280,13 +290,20 @@
   
   <!-- Names -->
   <xsl:variable name="name-re">
-    <xsl:variable name="nameword-re">(\p{Lu}'?\p{Ll}+)</xsl:variable>
-    <xsl:variable name="addword-re">(van|von|dall'|dell'|da|de|don|el|markizu de|sr\.|jr\.)</xsl:variable>
+    <!-- Frank or F(rank) -->
+    <xsl:variable name="nameword-re">((([dl]')?\p{Lu}'?\p{Ll}+('s)?)|(\p{Lu}\(\p{Ll}+\)))</xsl:variable>
+    <xsl:variable name="addword-re">(van|von|d'|dall'|dell'|da|de|don|el|markizu de|sr\.|jr\.)</xsl:variable>
     <xsl:variable name="abbrword-re">(\p{Lu}\.)</xsl:variable>
     <xsl:value-of select="concat('(', $abbrword-re, '|', $addword-re, '\s)?',
                           $nameword-re,
-                          '(\s', $addword-re, '|', $abbrword-re, '|', $nameword-re, ')*')"/>
+                          '(\s', $addword-re, '|', $abbrword-re, '|', $nameword-re, ')*®?')"/>
   </xsl:variable>
   
-  <xsl:variable name="chem-re">([A-Z(\)–\[\]]+[₀₁₂₃₄₅₆₇₈₉][A-Z\(\)–\[\]₀₁₂₃₄₅₆₇₈₉]*)</xsl:variable>
+  <xsl:variable name="roman-re">([IVXLC]+)</xsl:variable>
+
+  <xsl:variable name="element-re">(H|He|Li|Be|B|C|N|O|F|Ne|Na|Mg|Al|Si|P|S|Cl|Ar|K|Ca|Fe|Cu|Ag|Au|Hg|Pb)</xsl:variable>
+  <xsl:variable name="chem-re" select="concat('([=–]?', $element-re, '(', $element-re, '|', '[=\(\)–\[\]₀₁₂₃₄₅₆₇₈₉⁻⁺]', ')+)')"/>
+
+  <!-- Ordinary words -->
+  <xsl:variable name="orth-re">(»?\p{L}[\p{L}\-,.! xyw]*[\p{L}.]?«?)</xsl:variable>
 </xsl:stylesheet>
