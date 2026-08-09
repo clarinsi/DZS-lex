@@ -28,6 +28,7 @@ while (<>) {
 
     # Typos
     s|starovisokononemško|starovisokonemško|g;
+    s|sanskt,|sanskrt,|g;
     # Dates
 
     s|l9|19|g;
