@@ -9,6 +9,8 @@
 		version="2.0">
 
   <xsl:output method="text"/>
+  <xsl:strip-space elements="TEI teiHeader text body entry sense figure floatingText"/>
+  <xsl:preserve-space elements="form def gloss hi head distinct p oRef orth note"/>
 
   <xsl:template match="/">
     <corpus>
