@@ -19,20 +19,28 @@ while (<>) {
     #Remove 1 nested char specs
     s/\{\{/{/g;
     s/\}\}/}/g;
-    #Tags cant start with numeral, rename
-    s/<0LT>/<OLT>/g;
-    s/<\/0LT>/<\/OLT>/g;
+    
+    #Tags cant start with numeral, rename 0LT
+    s|<0LT>|<OLT>|g;
+    s|</0LT>|</OLT>|g;
+    
     # {vektor}: most common: {vektor}a but also {vektor}<I>c</I>, {vektor}OP, {vektor}ω
+    # Need to switch around, as combining char comes after char
+    s|{vektor}<I>|<I>{vektor}|g;
+    s|{vektor}(\{.+?\})|$1\{vektor\}|g;
+    s|{vektor}([^<\{])|$1\{vektor\}|g;
     
     # FIX ERRORS IN SOURCE
 
     # Typos
     s|starovisokononemško|starovisokonemško|g;
     s|sanskt,|sanskrt,|g;
-    # Dates
-
-    s|l9|19|g;
+    s|ok\.1606|ok\. 1606|;
+    s|Malang \(Java;|Malang (Java);|;
+    s|fr, ‚brez hlač do kolen’|francosko, ‚brez hlač do kolen’|;
     
+    # Dates
+    s|l9|19|g;
     s|26\.6 \(8\.7\.\)|26.6. (8.7.)|;
     s| \(24\.\)\. | (24.) |;
     s|12\.3 \(24\.3\)|12.3. (24.3.);|;
@@ -68,7 +76,7 @@ while (<>) {
     s|25\.7([^.])|25.7.$1|;
     s|16\.12([^.])|16.12.$1|;
 
-    #Ha, wrong (illegal) dates
+    # Illegal dates
     s|31\.2\.1980|21.2.1980|;              #Alfred Andersch
     s|15.44.1972|15.4.1972|;               #Otto Brenner
     s|13\.29\.1924|13.9.1924|;
@@ -76,10 +84,6 @@ while (<>) {
     s|31\.98\.1991|30.8.1991|;             #Jean Tinguely
     s|29\.2\.1900|13.3.1900 (29.2.1900)|;  #Jean Negulesco, Seferis Giorgos: old style calendar
         
-    s|ok\.1606|ok\. 1606|;
-    s|Malang \(Java;|Malang (Java);|;
-    s|fr, ‚brez hlač do kolen’|francosko, ‚brez hlač do kolen’|;
-    
     # Bare text
     s|</KDE> (Kasneje preimenovana v <EN>UCTE</EN>.+?)<OPI>| </KDE><OPI>$1|;
     s|</KDE>(16.672.+strojna industrija.)|</KDE><OPI>$1</OPI>|;
