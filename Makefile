@@ -1,11 +1,16 @@
+test-tei2txt:
+	$s -xsl:Scripts/tei2txt.xsl Sample/DZS-lex.sample.xml > Sample/DZS-lex.sample.txt
+test-teitext:
+	$s -xsl:Scripts/tei2text.xsl Sample/DZS-lex.sample.xml > Sample/DZS-lex.sample.text.xml
+
 ### Targets for testing scripts on sample
 test-next:
-	$s -xsl:Scripts/dzs2tei-next.xsl Sample/DZS-lex.sample.xml > Sample/DZS-lex.sample2.xml
-	$j TEI/tei_dzslex.rng Sample/DZS-lex.sample2.xml
-	-diff Sample/DZS-lex.sample.xml Sample/DZS-lex.sample2.xml
+	$s -xsl:Scripts/dzs2tei-next.xsl Sample/DZS-lex.sample.xml > Sample/DZS-lex.sample.test.xml
+	$j TEI/tei_dzslex.rng Sample/DZS-lex.sample.test.xml
+	-diff Sample/DZS-lex.sample.xml Sample/DZS-lex.sample.test.xml
 test-next-large:
-	$s -xsl:Scripts/dzs2tei-next.xsl Lexicon/DZS-lex.ok.xml > Lexicon/DZS-lex.xml
-	$j TEI/tei_dzslex.rng Lexicon/DZS-lex.xml
+	$s -xsl:Scripts/dzs2tei-next.xsl Lexicon/DZS-lex.xml > Lexicon/DZS-lex.test.xml
+	$j TEI/tei_dzslex.rng Lexicon/DZS-lex.test.xml
 
 test-small:
 	$s -xsl:Scripts/test.xsl Sample/test.xml
@@ -21,21 +26,22 @@ test-compare:
 test-all:	test-dzs2tei test-val
 test-val:
 	$j TEI/tei_dzslex.rng Sample/DZS-lex.sample.xml
-test-dzs2tei:
-	$s -xsl:Scripts/dzs2tei.xsl Sample/KNAUR.sample.xml > Sample/DZS-lex.sample.xml
 
 ### Targets to run on complete source
-all:	dzs2tei val
+all:	prep sample-dzs2tei dzs2tei val 
 val:
 	$s -xsl:Scripts/check-links.xsl Lexicon/DZS-lex.xml
 	$j TEI/tei_dzslex.rng Lexicon/DZS-lex.xml
+sample-dzs2tei:
+	$s -xsl:Scripts/dzs2tei.xsl Sample/KNAUR.sample.xml > Sample/DZS-lex.sample.xml
+	$j TEI/tei_dzslex.rng Sample/DZS-lex.sample.xml
 
 dzs2tei:
 	$s -xsl:Scripts/dzs2tei.xsl Lexicon/KNAUR.xml > Lexicon/DZS-lex.xml
 
 ### Preparation of the source lexicon
-prep: dzs2xml dzs2sample
-dzs2sample:
+prep: dzs2xml sample
+sample:
 	$s ratio=1000 -xsl:Scripts/dzs2sample.xsl Lexicon/KNAUR.xml > Sample/KNAUR.sample.xml
 	grep -c '<XX>' Lexicon/KNAUR.xml
 	grep -c '<XX>' Sample/KNAUR.sample.xml
