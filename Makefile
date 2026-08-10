@@ -1,9 +1,3 @@
-test-compare:
-	$s -xsl:Scripts/dumptext-dzs.xsl Sample/KNAUR.sample.xml > Sample/KNAUR.sample.txt
-	$s -xsl:Scripts/dumptext-tei.xsl Sample/DZS-lex.sample.xml > Sample/DZS-lex.sample.txt
-	wc Sample/KNAUR.sample.txt Sample/DZS-lex.sample.txt
-	diff Sample/KNAUR.sample.txt Sample/DZS-lex.sample.txt
-
 ### Targets for testing scripts on sample
 test-next:
 	$s -xsl:Scripts/dzs2tei-next.xsl Sample/DZS-lex.sample.xml > Sample/DZS-lex.sample2.xml
@@ -12,6 +6,17 @@ test-next:
 test-next-large:
 	$s -xsl:Scripts/dzs2tei-next.xsl Lexicon/DZS-lex.ok.xml > Lexicon/DZS-lex.xml
 	$j TEI/tei_dzslex.rng Lexicon/DZS-lex.xml
+
+test-small:
+	$s -xsl:Scripts/test.xsl Sample/test.xml
+
+#Dump text one word per line from original and TEI and comapre
+#There are legit differences between the two (lemma in senses, punctuation glue)
+test-compare:
+	$s -xsl:Scripts/dumptext-dzs.xsl Sample/KNAUR.sample.xml > Sample/KNAUR.sample.txt
+	$s -xsl:Scripts/dumptext-tei.xsl Sample/DZS-lex.sample.xml > Sample/DZS-lex.sample.txt
+	wc Sample/KNAUR.sample.txt Sample/DZS-lex.sample.txt
+	diff Sample/KNAUR.sample.txt Sample/DZS-lex.sample.txt
 
 test-all:	test-dzs2tei test-val
 test-val:

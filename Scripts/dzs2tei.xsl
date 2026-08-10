@@ -687,7 +687,9 @@
     </xsl:copy>
   </xsl:template>
 
-  <!-- PASS 2: MOVE DEF INTO PRECEDING SENSE (SOURCE HAS WRONG NESTING), MARK UP ADDITIONAL DATES -->
+  <!-- PASS 2: MOVE DEF INTO PRECEDING SENSE (SOURCE HAS WRONG NESTING),
+       MOVE AIME form into preceding form
+       MARK UP ADDITIONAL DATES -->
   
   <!-- Copy def into sense -->
   <xsl:template mode="pass2" match="tei:sense[@n = 'KDE']">
@@ -707,6 +709,31 @@
         <xsl:apply-templates mode="pass2"/>
       </xsl:copy>
     </xsl:if>
+  </xsl:template>
+
+  <!-- Move AIME into preceding non-lemma form -->
+  <xsl:template mode="pass2" match="tei:form[not(@type = 'lemma')]">
+    <xsl:choose>
+      <xsl:when test="@n = 'AIME'">
+        <!-- Remove original def -->
+        <xsl:if test="not(preceding-sibling::tei:*[1][self::tei:form[not(@type = 'lemma')]])">
+          <xsl:copy>
+            <xsl:apply-templates mode="pass2" select="@*"/>
+            <xsl:apply-templates mode="pass2"/>
+          </xsl:copy>
+        </xsl:if>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:copy>
+          <xsl:apply-templates mode="pass2" select="@*"/>
+          <xsl:apply-templates mode="pass2"/>
+          <!-- Move AIME into this form -->
+          <xsl:if test="following-sibling::tei:*[1][self::tei:form[@n = 'AIME']]">
+            <xsl:copy-of select="following-sibling::tei:*[1]"/>
+          </xsl:if>
+        </xsl:copy>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
   <!-- Mark up additional dates in date range -->
@@ -860,7 +887,12 @@
         </xsl:choose>
       </xsl:when>
       <!-- The text nested in element ends in end punctuation and there is only one subordinate element
-           but more than one superordinate elements (we lift pc from nesting) -->
+           but more than one superordinate elements (we lift pc from nesting)
+           Punct should not be ’ as this one is part of a gloss and should not be lifter!
+           but
+             and not(matches($nested, '’\s*$'))
+           does not work ok.
+      -->
       <xsl:when test="matches($nested, concat($endpunct-re, '\s*$'))
                       and not(tei:*[2] or text()[normalize-space(.)])
                       and (../tei:*[2] or ../text()[normalize-space(.)])">

@@ -7,6 +7,24 @@
 		exclude-result-prefixes="et tei"
 		version="2.0">
 
+  <!-- Double problem:
+            <form n="FOR">
+               <pc join="right">(</pc>
+               <lbl>kratica za</lbl>
+               <form n="ES1">
+                  <orth>E</orth>
+                  <hi rend="italic" n="I">uzkadi</hi>
+                  <orth>T</orth>
+                  <hi rend="italic" n="I">a</hi>
+                  <orth>A</orth>
+                  <hi rend="italic" n="I">zkatasuna</hi>
+                  <orth type="undenfined">‚Baskija</orth>
+               </form>
+               <orth type="undenfined">’)</orth>
+            </form>
+            <pc join="left">,</pc>
+  -->
+
   <xsl:import href="dzs2tei-lib.xsl"/>
   
   <xsl:output indent="yes"/>
@@ -19,6 +37,28 @@
     </xsl:copy>
   </xsl:template>
 
+  <!-- Give type to some forms -->
+  <xsl:template mode="pass5" match="tei:form[not(@type)]">
+    <xsl:variable name="form">
+      <xsl:apply-templates mode="pass5"/>
+    </xsl:variable>
+    <xsl:variable name="type">
+      <xsl:choose>
+        <xsl:when test="$form/tei:*[1][self::tei:pc = '(']">variant</xsl:when>
+        <xsl:when test="$form/tei:lang">etymology</xsl:when>
+        <xsl:when test="$form/tei:pron">pronunciation</xsl:when>
+        <xsl:when test="$form/tei:name">name</xsl:when>
+      </xsl:choose>
+    </xsl:variable>
+    <xsl:copy>
+      <xsl:apply-templates mode="pass5" select="@*"/>
+      <xsl:if test="$type != ''">
+        <xsl:attribute name="type" select="$type"/>
+      </xsl:if>
+      <xsl:copy-of select="$form"/>
+    </xsl:copy>
+  </xsl:template>
+  
   <xsl:template mode="pass5" match="tei:form/text()">
     <xsl:call-template name="form">
       <xsl:with-param name="str" select="."/>
@@ -29,10 +69,19 @@
     <xsl:param name="str"/>
     <xsl:variable name="pleft-re">[\[\(]</xsl:variable>
     <xsl:variable name="pright-re">[.,;\]\)]</xsl:variable>
-    <xsl:variable name="punct-re">[–]</xsl:variable>
+    <xsl:variable name="punct-re">[–·]</xsl:variable>
     <xsl:variable name="gloss-re">‚.+’</xsl:variable>
     <xsl:choose>
       <xsl:when test="$str = ''"/>
+      <!-- Only one upper letter maybe with spaces, for cases such as " T" in
+           <form n="ES1">E<hi rend="italic" n="I">uzkadi</hi> T<hi rend="italic" n="I">a</hi>
+      -->
+      <xsl:when test="et:tst-str($str, '^\s*\p{Lu}\s*$')">
+        <xsl:value-of select="et:get-str($str, '\s*\p{Lu}\s*')"/>
+        <xsl:call-template name="form">
+          <xsl:with-param name="str" select="et:del-str($str, '\s*\p{Lu}\s*')"/>
+        </xsl:call-template>
+      </xsl:when>
       <xsl:when test="et:tst-str($str, '\s+')">
         <xsl:value-of select="et:get-str($str, '\s+')"/>
         <xsl:call-template name="form">
@@ -121,12 +170,20 @@
           <xsl:with-param name="str" select="et:del-str($str, $year-re)"/>
         </xsl:call-template>
       </xsl:when>
-      <xsl:when test="et:tst-str($str, $chem-re)">
+      <xsl:when test="et:tst-str($str, $chemformula-re) and string-length(et:get-str($str, $chemformula-re)) &gt; 2">
         <term type="chemical_formula">
-          <xsl:value-of select="et:get-str($str, $chem-re)"/>
+          <xsl:value-of select="et:get-str($str, $chemformula-re)"/>
         </term>
         <xsl:call-template name="form">
-          <xsl:with-param name="str" select="et:del-str($str, $chem-re)"/>
+          <xsl:with-param name="str" select="et:del-str($str, $chemformula-re)"/>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="et:tst-str($str, $chemcompound-re)">
+        <term type="chemical_compound">
+          <xsl:value-of select="et:get-str($str, $chemcompound-re)"/>
+        </term>
+        <xsl:call-template name="form">
+          <xsl:with-param name="str" select="et:del-str($str, $chemcompound-re)"/>
         </xsl:call-template>
       </xsl:when>
       <xsl:when test="et:tst-str($str, $name-re)">
@@ -162,20 +219,11 @@
           <xsl:with-param name="str" select="et:del-str($str, $orth-re)"/>
         </xsl:call-template>
       </xsl:when>
-      <xsl:when test="matches($str, concat('^', '.+', '[\)\]]*$'))">
-        <xsl:message select="concat('ERROR: string into default orth: ', $str)"/>
-        <orth type="undenfined">
-          <xsl:value-of select="replace($str, '^(.+)[\)\]]*$', '$1')"/>
-        </orth>
-        <xsl:call-template name="form">
-          <xsl:with-param name="str" select="replace($str, '^.+([\)\]]*)$', '$1')"/>
-        </xsl:call-template>
-      </xsl:when>
       <xsl:otherwise>
-        <xsl:message select="concat('ERROR: string into default orth: ', $str)"/>
-        <orth type="error">
+        <xsl:message select="concat('WARNING: string left unprocessed: ', $str)"/>
+        <!--orth type="error"-->
           <xsl:value-of select="$str"/>
-        </orth>
+        <!--/orth-->
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
@@ -205,9 +253,7 @@
     <xsl:param name="str"/>
     <xsl:param name="re"/>
     <xsl:if test="matches($str, concat('^', $re))">
-      <xsl:value-of select="normalize-space(
-                            replace($str, concat('^(', $re, ').*'), '$1')
-                            )"/>
+      <xsl:value-of select="replace($str, concat('^(', $re, ').*'), '$1')"/>
     </xsl:if>
   </xsl:function>
   

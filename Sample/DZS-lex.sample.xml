@@ -1208,12 +1208,11 @@
             <form type="lemma" n="G">
                <orth>rekonvalescenca</orth>
             </form>
-            <form n="FOR">[latinsko]</form>
-            <pc join="left">,</pc>
-            <form n="AIME">
-               <form n="ES">okrevanje</form>
+            <form n="FOR">[latinsko], <form n="AIME">
+                  <form n="ES">okrevanje</form>
+               </form>
+               <pc join="left">,</pc>
             </form>
-            <pc join="left">,</pc>
             <def n="KDE">obdobje po preboleli bolezni ali poškodbi</def>
             <pc join="left">,</pc>
             <def n="OPI">ko si bolnik z razl. ukrepi (dieta, krepilna sredstva) krepi zmanjšano telesno odpornost.</def>
@@ -1242,11 +1241,10 @@
             <form n="FOR">(<form n="ES1">
                   <hi rend="italic" n="I">Samarskoe vodohranilišče</hi>
                   <form n="FOR1">[samárskoje vodohranílišče]</form>
-               </form>)</form>
-            <pc join="left">,</pc>
-            <form n="AIME">prej <form n="EN" rend="italic">Kujbyševsko zajezitveno jezero</form>
+               </form>), <form n="AIME">prej <form n="EN" rend="italic">Kujbyševsko zajezitveno jezero</form>
+               </form>
+               <pc join="left">,</pc>
             </form>
-            <pc join="left">,</pc>
             <def n="KDE">umetno jezero v Rusiji</def>
             <pc join="left">,</pc>
             <def n="OPI">na srednji Volgi in njenih pritokih <ref target="#dzs03111900.02" n="KP">Kama</ref> in Bol'šoj Čeremšan, 70 km nad <ref target="#dzs06073900.02" n="KP">Samaro</ref>, ok. 6000 km², dolgo več kot 500 km, široko do 40 km, dolžina jezu 5 km, višina jezu 27 m, 58 mlr. m³ vode; <date n="LX">1958</date> zgrajena hidrolektrarna z 20 agregati in z močjo 2,3 mln. kW, letna proizvodnja 10,9 mlr. kWh električne energije.</def>
@@ -1804,9 +1802,8 @@
             </form>
             <form n="FOR">[pódjebrad-]</form>
             <pc join="left">,</pc>
-            <form type="forename" n="OIME">Jurij</form>
-            <pc join="left">,</pc>
-            <form n="AIME">tudi <hi rend="italic" n="I">Poděbradski</hi> in <hi rend="italic" n="I">Kunštátski</hi>
+            <form type="forename" n="OIME">Jurij, <form n="AIME">tudi <hi rend="italic" n="I">Poděbradski</hi> in <hi rend="italic" n="I">Kunštátski</hi>
+               </form>
             </form>
             <def n="KDE">češki kralj (<date n="ILT">1458</date>–<date when="1471">71</date>)</def>
             <pc join="left">,</pc>

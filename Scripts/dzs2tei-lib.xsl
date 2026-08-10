@@ -98,6 +98,7 @@
     <lang>afrikansko</lang>
     <lang>akadsko</lang>
     <lang>algonkinsko</lang>
+    <lang>ameriški slang</lang>
     <lang>amharsko</lang>
     <lang>angleška</lang>
     <lang>angleško</lang>
@@ -131,8 +132,8 @@
     <lang>grškega</lang>
     <lang>grškemu</lang>
     <lang>hebrejsko</lang>
-    <lang>hindi</lang>
     <lang>hindijsko</lang>
+    <lang>hindi</lang>
     <lang>hrvaško</lang>
     <lang>indijansko</lang>
     <lang>indonezijsko</lang>
@@ -151,6 +152,7 @@
     <lang>korejsko</lang>
     <lang>korzijškega</lang>
     <lang>kreolsko</lang>
+    <lang>langue d'oc</lang>
     <lang>laoško</lang>
     <lang>latinsko</lang>
     <lang>latinskega</lang>
@@ -168,9 +170,10 @@
     <lang>nemško</lang>
     <lang>nizozemsko</lang>
     <lang>norveško</lang>
+    <lang>normansko</lang>
     <lang>novolatinsko</lang>
-    <lang>pali</lang>
     <lang>palijsko</lang>
+    <lang>pali</lang>
     <lang>panmundžom</lang>
     <lang>paštu</lang>
     <lang>perzijsko</lang>
@@ -184,6 +187,7 @@
     <lang>romunsko</lang>
     <lang>rusko</lang>
     <lang>sanskrtsko</lang>
+    <lang>sanskrt</lang>
     <lang>saul</lang>
     <lang>semitsko</lang>
     <lang>semitskega</lang>
@@ -251,17 +255,20 @@
   </xsl:variable>
 
   <!-- Hopefully matches pronunciation, as it will always have an accented vowel (pron can have more than one word) -->
-  <xsl:variable name="acc-char">/?[ŕáàâéèêěəíóòôú～&#x0301;&#x032F;()-]</xsl:variable>
+  <xsl:variable name="acc-char">/?[ŕáàâéèêěəíóòôú～&#x0301;&#x032F;()]</xsl:variable>
 
 
 
 
   <xsl:variable name="pron-re">
     <xsl:variable name="pword" select="concat('(\p{Ll}*', $acc-char, '\p{Ll}*-?)')"/>
-    <xsl:value-of select="concat('^((a |al |an |as |aš bon |aš |apre |bon |bu |če |d\)sen[^ ].*? |d&quot; |de |del |dela |de |dez |di |',
-                          'doš |do |duž |du |e |eks |end |et |fen |fet |fir di |fir |fo |fon |for |',
-                          'i |il |la |le |kom |ki |kum |kva |o |ov di |ov |pur |sik |sa |se |ša |šri |und |ven |/', ')?',
-                          $pword, '(\s', $pword, ')*)')"/>
+    <xsl:variable name="apos">'</xsl:variable>
+    <xsl:value-of select="concat('^((a |al |an |as |aš bon |aš |apre |bi |bon |bu |če |d\)sen[^ ]*? |',
+                          'd', $apos, '|',
+                          'de |del |dela |de |dez |di |doš |do |duž |du |e |',
+                          'eks |end |et |fen |fet |fir di |fir |fo |fon |for |i |il |la |le |',
+                          'kom |ki |kum |kva |o |ov di |ov |pur |sik |san |sa |se |ša |šri |und |van |ven |/', ')?',
+                          $pword, '(-', $pword, '?)?', '(\s', $pword, ')*)')"/>
     <!--xsl:value-of select="$acc-char"/-->
   </xsl:variable>
 
@@ -274,7 +281,7 @@
     <xsl:text>zdaj|prej|prvotno|zastarelo|okrajšava|kratica za|kratica|kratici|simbol|</xsl:text>
     <xsl:text>lastno poimenovanje|pravo ime|polno ime|pojmovno ime|polno ime|trivialno ime za|častno ime|uradno ime|imenovan tudi|</xsl:text>
     <xsl:text>antični|beseda neznanega izvora|psevdonim|znak|oznaka|svetopisemski|komunistična kratica iz|</xsl:text>
-    <xsl:text>znan tudi kot|sir|kemijska formula|celo ime|</xsl:text>
+    <xsl:text>znan tudi kot|sir|kemijska formula|celo ime|besedna igra na|</xsl:text>
     <xsl:text>ad lib\.|ad l\.|\+</xsl:text>
     <xsl:text>) )</xsl:text>
   </xsl:variable>
@@ -285,25 +292,33 @@
   <!-- Year -->
   <xsl:variable name="year-re">1?(\d\d\d)</xsl:variable>
 
-  <!-- Abbreviation -->
-  <xsl:variable name="abbr-re">(\p{Lu}\p{Lu}+\p{Ll}*)</xsl:variable>
+  <!-- Abbreviation, at least three letters -->
+  <xsl:variable name="abbr-re">(\p{Lu}[\p{Lu}\p{Ll}]{3,})</xsl:variable>
   
   <!-- Names -->
   <xsl:variable name="name-re">
     <!-- Frank or F(rank) -->
     <xsl:variable name="nameword-re">((([dl]')?\p{Lu}'?\p{Ll}+('s)?)|(\p{Lu}\(\p{Ll}+\)))</xsl:variable>
-    <xsl:variable name="addword-re">(van|von|d'|dall'|dell'|da|de|don|el|markizu de|sr\.|jr\.)</xsl:variable>
+    <xsl:variable name="addword-re">(van|von|von \(de\)|d'|dall'|dell'|da|de|don|el|markizu de|sr\.|jr\.|&amp;)</xsl:variable>
     <xsl:variable name="abbrword-re">(\p{Lu}\.)</xsl:variable>
     <xsl:value-of select="concat('(', $abbrword-re, '|', $addword-re, '\s)?',
-                          $nameword-re,
+                          '(', '(', $nameword-re, '[-]', $nameword-re, ')', '|', $nameword-re, ')',
                           '(\s', $addword-re, '|', $abbrword-re, '|', $nameword-re, ')*®?')"/>
   </xsl:variable>
   
   <xsl:variable name="roman-re">([IVXLC]+)</xsl:variable>
 
-  <xsl:variable name="element-re">(H|He|Li|Be|B|C|N|O|F|Ne|Na|Mg|Al|Si|P|S|Cl|Ar|K|Ca|Fe|Cu|Ag|Au|Hg|Pb)</xsl:variable>
-  <xsl:variable name="chem-re" select="concat('([=–]?', $element-re, '(', $element-re, '|', '[=\(\)–\[\]₀₁₂₃₄₅₆₇₈₉⁻⁺]', ')+)')"/>
+  <xsl:variable name="element-re">(H|He|Li|Be|Br|B|C|N|O|F|Ne|Na|Mg|Al|Si|P|S|Cl|Ar|K|Ca|Fe|Cu|Ag|Au|Hg|Pb)</xsl:variable>
+  <xsl:variable name="chemformula-re" select="concat('([=–]?', $element-re,
+                                              '(',
+                                              '\((', $element-re, '|', '[₀₁₂₃₄₅₆₇₈₉]', ')+\)', '|',
+                                              '[=–\[\]₀₁₂₃₄₅₆₇₈₉⁻⁺]', '|', $element-re, ')',
+                                              '+)')"/>
+  <xsl:variable name="chemcompound-re">(\d+[,\-][\p{Nd}\p{Ll},\- ]+\p{Ll})</xsl:variable>
 
-  <!-- Ordinary words -->
-  <xsl:variable name="orth-re">(»?\p{L}[\p{L}\-,.! xyw]*[\p{L}.]?«?)</xsl:variable>
+  <!-- Ordinary words, at least three chars not to pull in individual letters that are before
+       the highlighted rest of the word, e.g.
+       E<hi rend="italic" n="I">uzkadi</hi>
+  -->
+  <xsl:variable name="orth-re">(»?\p{L}[\p{L}\-,.!xyw ]+[\p{L}.]?«?)</xsl:variable>
 </xsl:stylesheet>

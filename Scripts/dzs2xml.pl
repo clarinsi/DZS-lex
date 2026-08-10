@@ -78,6 +78,7 @@ while (<>) {
         
     s|ok\.1606|ok\. 1606|;
     s|Malang \(Java;|Malang (Java);|;
+    s|fr, ‚brez hlač do kolen’|francosko, ‚brez hlač do kolen’|;
     
     # Bare text
     s|</KDE> (Kasneje preimenovana v <EN>UCTE</EN>.+?)<OPI>| </KDE><OPI>$1|;
