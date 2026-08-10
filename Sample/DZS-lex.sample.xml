@@ -122,7 +122,11 @@
             <form type="lemma" n="G">
                <orth>Aintree</orth>
             </form>
-            <form n="FOR">[êjntri]</form>
+            <form n="FOR" type="pronunciation">
+               <pc join="right">[</pc>
+               <pron>êjntri</pron>
+               <pc join="left">]</pc>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">kraj v Veliki Britaniji</def>
             <pc join="left">,</pc>
@@ -164,7 +168,13 @@
             <form type="lemma" n="G">
                <orth>Aspergillus</orth>
             </form>
-            <form n="FOR">(<form n="ES1" rend="italic">aspergilus</form>)</form>
+            <form n="FOR" type="variant">
+               <pc join="right">(</pc>
+               <form n="ES1" rend="italic">
+                  <orth>aspergilus</orth>
+               </form>
+               <pc join="left">)</pc>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">rod zelo razširjenih</def>
             <pc join="left">,</pc>
@@ -202,7 +212,13 @@
             <form type="lemma" n="G">
                <orth>Bendida</orth>
             </form>
-            <form n="FOR">(<form n="LIME" rend="italic">Bendis</form>)</form>
+            <form n="FOR" type="variant">
+               <pc join="right">(</pc>
+               <form n="LIME" rend="italic" type="name">
+                  <name>Bendis</name>
+               </form>
+               <pc join="left">)</pc>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">traška boginja lova, njen orgiastični kult so v Atenah uvedli v dobi <ref target="#dzs05186400.00" n="KP">Perikla</ref>.</def>
             <note type="admin" subtype="author" n="Z">
@@ -219,7 +235,11 @@
             <form type="lemma" n="G">
                <orth type="name">Blumhardt</orth>
             </form>
-            <form n="FOR">[blúmhart]</form>
+            <form n="FOR" type="pronunciation">
+               <pc join="right">[</pc>
+               <pron>blúmhart</pron>
+               <pc join="left">]</pc>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">nemška evangeličanska duhovnika</def>
             <pc join="left">:</pc>
@@ -247,7 +267,11 @@
             <form type="lemma" n="G">
                <orth>Cape Dorset</orth>
             </form>
-            <form n="FOR">[kêjp dórset]</form>
+            <form n="FOR" type="pronunciation">
+               <pc join="right">[</pc>
+               <pron>kêjp dórset</pron>
+               <pc join="left">]</pc>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">trgovsko in oskrbovalno središče v Kanadi</def>
             <pc join="left">,</pc>
@@ -263,7 +287,11 @@
             <form type="lemma" n="G">
                <orth>Chesterfield</orth>
             </form>
-            <form n="FOR">[čéstərfild-]</form>
+            <form n="FOR" type="pronunciation">
+               <pc join="right">[</pc>
+               <pron>čéstərfild-</pron>
+               <pc join="left">]</pc>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">mesto v Veliki Britaniji</def>
             <pc join="left">,</pc>
@@ -286,7 +314,11 @@
             <form type="lemma" n="G">
                <orth>Corpus Catholicorum</orth>
             </form>
-            <form n="FOR">[kórpus katolikórum]</form>
+            <form n="FOR" type="pronunciation">
+               <pc join="right">[</pc>
+               <pron>kórpus katolikórum</pron>
+               <pc join="left">]</pc>
+            </form>
             <pc join="left">,</pc>
             <sense n="PO">
                <lbl type="number" n="A">1)</lbl>
@@ -321,9 +353,16 @@
             <form type="lemma" n="G">
                <orth type="name">Dagerman</orth>
             </form>
-            <form n="FOR">[dágərman]</form>
+            <form n="FOR" type="pronunciation">
+               <pc join="right">[</pc>
+               <pron>dágərman</pron>
+               <pc join="left">]</pc>
+            </form>
             <pc join="left">,</pc>
-            <form type="forename" n="OIME">Stig Halvard</form>
+            <form type="forename" n="OIME">
+               <name>Stig</name>
+               <name>Halvard</name>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">švedski pripovednik, dramatik in lirik</def>
             <pc join="left">,</pc>
@@ -357,9 +396,15 @@
             <form type="lemma" n="G">
                <orth type="name">Dessau</orth>
             </form>
-            <form n="FOR">[désav-]</form>
+            <form n="FOR" type="pronunciation">
+               <pc join="right">[</pc>
+               <pron>désav-</pron>
+               <pc join="left">]</pc>
+            </form>
             <pc join="left">,</pc>
-            <form type="forename" n="OIME">Paul</form>
+            <form type="forename" n="OIME">
+               <name>Paul</name>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">nemški skladatelj in dirigent</def>
             <pc join="left">,</pc>
@@ -398,7 +443,13 @@
             <form type="lemma" n="G">
                <orth>dolgoglavi škržati</orth>
             </form>
-            <form n="FOR">(<form n="LIME">Fulgoridae</form>)</form>
+            <form n="FOR" type="variant">
+               <pc join="right">(</pc>
+               <form n="LIME" type="name">
+                  <name>Fulgoridae</name>
+               </form>
+               <pc join="left">)</pc>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">predvsem tropski <ref target="#dzs06751400.00" n="KP">škržati</ref> z zelo povečano in napihnjeno glavo.</def>
             <def n="OPI">Nekdaj so menili, da se tudi svetijo. V j. Evropi je pogost 8–9 mm velik mrežekrili škržat (<distinct type="form" n="LIMEX" xml:lang="la" rend="italic">Dictyophora europaea</distinct>). V srednji Evropi živi rjavo obarvan rebrasti škržat (<distinct type="form" n="LIMEX" xml:lang="la" rend="italic">Cixius nervosus</distinct>).</def>
@@ -421,7 +472,11 @@
             <form type="lemma" n="G">
                <orth>Eberndorf</orth>
             </form>
-            <form n="FOR">[ébərndorf]</form>
+            <form n="FOR" type="pronunciation">
+               <pc join="right">[</pc>
+               <pron>ébərndorf</pron>
+               <pc join="left">]</pc>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">
                <ref target="#dzs01565000.00" n="KP">Dobrla vas</ref>.</def>
@@ -436,7 +491,11 @@
             <form type="lemma" n="G">
                <orth>enantem</orth>
             </form>
-            <form n="FOR">[grško]</form>
+            <form n="FOR" type="etymology">
+               <pc join="right">[</pc>
+               <lang>grško</lang>
+               <pc join="left">]</pc>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">izpuščaj na sluznici.</def>
             <note type="admin" subtype="author" n="Z">
@@ -449,7 +508,13 @@
             <form type="lemma" n="G">
                <orth>expressis verbis</orth>
             </form>
-            <form n="FOR">[latinsko, eksprésis vêrbis]</form>
+            <form n="FOR" type="etymology">
+               <pc join="right">[</pc>
+               <lang>latinsko</lang>
+               <pc join="left">,</pc>
+               <pron>eksprésis vêrbis</pron>
+               <pc join="left">]</pc>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">jasno, izrecno.</def>
             <note type="admin" subtype="author" n="Z">
@@ -465,9 +530,15 @@
             <form type="lemma" n="G">
                <orth type="name">Fleming</orth>
             </form>
-            <form n="FOR">[fléming-]</form>
+            <form n="FOR" type="pronunciation">
+               <pc join="right">[</pc>
+               <pron>fléming-</pron>
+               <pc join="left">]</pc>
+            </form>
             <pc join="left">,</pc>
-            <form type="forename" n="OIME">Victor</form>
+            <form type="forename" n="OIME">
+               <name>Victor</name>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">ameriški filmski režiser</def>
             <pc join="left">,</pc>
@@ -508,9 +579,16 @@
             <form type="lemma" n="G">
                <orth type="name">Gajdusek</orth>
             </form>
-            <form n="FOR">[gejdúsək]</form>
+            <form n="FOR" type="pronunciation">
+               <pc join="right">[</pc>
+               <pron>gejdúsək</pron>
+               <pc join="left">]</pc>
+            </form>
             <pc join="left">,</pc>
-            <form type="forename" n="OIME">Daniel Carleton</form>
+            <form type="forename" n="OIME">
+               <name>Daniel</name>
+               <name>Carleton</name>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">ameriški otroški zdravnik in virolog</def>
             <pc join="left">,</pc>
@@ -551,7 +629,9 @@
             <form type="lemma" n="G">
                <orth type="name">Gregor I.</orth>
             </form>
-            <form type="addName" n="DOS" rend="italic">Veliki</form>
+            <form type="addName" n="DOS" rend="italic">
+               <name>Veliki</name>
+            </form>
             <pc join="left">,</pc>
             <lbl type="number" n="A2">1</lbl>
             <def n="BORN">
@@ -592,9 +672,15 @@
             <form type="lemma" n="G">
                <orth type="name">Harnoncourt</orth>
             </form>
-            <form n="FOR">[arnonkúr]</form>
+            <form n="FOR" type="pronunciation">
+               <pc join="right">[</pc>
+               <pron>arnonkúr</pron>
+               <pc join="left">]</pc>
+            </form>
             <pc join="left">,</pc>
-            <form type="forename" n="OIME">Nicolaus</form>
+            <form type="forename" n="OIME">
+               <name>Nicolaus</name>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">nemški dirigent</def>
             <pc join="left">,</pc>
@@ -638,9 +724,15 @@
             <form type="lemma" n="G">
                <orth type="name">Hiller</orth>
             </form>
-            <form n="FOR">[híler]</form>
+            <form n="FOR" type="pronunciation">
+               <pc join="right">[</pc>
+               <pron>híler</pron>
+               <pc join="left">]</pc>
+            </form>
             <pc join="left">,</pc>
-            <form type="forename" n="OIME">Arthur</form>
+            <form type="forename" n="OIME">
+               <name>Arthur</name>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">ameriški filmski režiser kanadskega rodu</def>
             <pc join="left">,</pc>
@@ -675,9 +767,15 @@
             <form type="lemma" n="G">
                <orth type="name">Hurt</orth>
             </form>
-            <form n="FOR">[hə́rt]</form>
+            <form n="FOR" type="pronunciation">
+               <pc join="right">[</pc>
+               <pron>hə́rt</pron>
+               <pc join="left">]</pc>
+            </form>
             <pc join="left">,</pc>
-            <form type="forename" n="OIME">William</form>
+            <form type="forename" n="OIME">
+               <name>William</name>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">ameriški filmski in gledališki igralec</def>
             <pc join="left">,</pc>
@@ -722,7 +820,13 @@
             <form type="lemma" n="G">
                <orth>jasperware</orth>
             </form>
-            <form n="FOR">[angleško, džéspərver]</form>
+            <form n="FOR" type="etymology">
+               <pc join="right">[</pc>
+               <lang>angleško</lang>
+               <pc join="left">,</pc>
+               <pron>džéspərver</pron>
+               <pc join="left">]</pc>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">keramika, ki jo izdeluje podjetje, ki ga je začel J. <ref target="#dzs07503900.00" n="KB">Wedgwood</ref>.</def>
             <note type="admin" subtype="author" n="Z">
@@ -749,7 +853,18 @@
             <form type="lemma" n="G">
                <orth>kavzalnost</orth>
             </form>
-            <form n="FOR">[latinsko <form n="LIME" rend="italic">causa</form>, ‚vzrok’]</form>
+            <form n="FOR" type="etymology">
+               <pc join="right">[</pc>
+               <lang>latinsko</lang>
+               <form n="LIME" rend="italic">
+                  <orth>causa</orth>
+               </form>
+               <pc join="left">,</pc>
+               <pc join="right">‚</pc>
+               <gloss>vzrok</gloss>
+               <pc join="left">’</pc>
+               <pc join="left">]</pc>
+            </form>
             <pc join="left">,</pc>
             <sense n="PO">
                <lbl type="number" n="A">1)</lbl>
@@ -864,7 +979,13 @@
             <form type="lemma" n="G">
                <orth>laktoza</orth>
             </form>
-            <form n="FOR">(<form n="ES1" rend="italic">mlečni sladkor</form>)</form>
+            <form n="FOR" type="variant">
+               <pc join="right">(</pc>
+               <form n="ES1" rend="italic">
+                  <orth>mlečni sladkor</orth>
+               </form>
+               <pc join="left">)</pc>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">iz D-glukoze in D-galaktoze sestavljen disaharid (<ref target="#dzs06045000.00" n="KP">saharidi</ref>) v obliki belih, malo sladkih kristalov.</def>
             <def n="OPI">Mlečni sladkor je v mleku sesalcev (kravje mleko 4,5 %, materino mleko 6,7 %). Bakterije ga razgradijo do <ref target="#dzs04361400.00" n="KP">mlečne kisline</ref> (<ref target="#dzs07444800.00" n="KP">vrenje</ref>, kisanje). Nastaja kot stranski izdelek pri pripravi sirov. Uporablja se za otroško prehrano, sredstvo za peko in v farmaciji.</def>
@@ -893,7 +1014,11 @@
             <form type="lemma" n="G">
                <orth>Łomża</orth>
             </form>
-            <form n="FOR">[lómža]</form>
+            <form n="FOR" type="pronunciation">
+               <pc join="right">[</pc>
+               <pron>lómža</pron>
+               <pc join="left">]</pc>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">mesto na Poljskem</def>
             <pc join="left">,</pc>
@@ -924,7 +1049,11 @@
             <form type="lemma" n="G">
                <orth>makrobiotika</orth>
             </form>
-            <form n="FOR">[grško]</form>
+            <form n="FOR" type="etymology">
+               <pc join="right">[</pc>
+               <lang>grško</lang>
+               <pc join="left">]</pc>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">način prehranjevanja</def>
             <pc join="left">,</pc>
@@ -940,7 +1069,11 @@
             <form type="lemma" n="G">
                <orth>Matsuyama</orth>
             </form>
-            <form n="FOR">[macujáma]</form>
+            <form n="FOR" type="pronunciation">
+               <pc join="right">[</pc>
+               <pron>macujáma</pron>
+               <pc join="left">]</pc>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">mesto na Japonskem</def>
             <pc join="left">,</pc>
@@ -959,7 +1092,11 @@
             <form type="lemma" n="G">
                <orth type="name">Metsys</orth>
             </form>
-            <form n="FOR">[métsejs]</form>
+            <form n="FOR" type="pronunciation">
+               <pc join="right">[</pc>
+               <pron>métsejs</pron>
+               <pc join="left">]</pc>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">nizozemska slikarska družina</def>
             <pc join="left">:</pc>
@@ -975,7 +1112,11 @@
             <form type="lemma" n="G">
                <orth>Molfetta</orth>
             </form>
-            <form n="FOR">[molféta]</form>
+            <form n="FOR" type="pronunciation">
+               <pc join="right">[</pc>
+               <pron>molféta</pron>
+               <pc join="left">]</pc>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">pristaniško in trgovsko mesto v Italiji</def>
             <pc join="left">,</pc>
@@ -998,7 +1139,11 @@
             <form type="lemma" n="G">
                <orth>Mustag</orth>
             </form>
-            <form n="FOR">[mustág-]</form>
+            <form n="FOR" type="pronunciation">
+               <pc join="right">[</pc>
+               <pron>mustág-</pron>
+               <pc join="left">]</pc>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">ime več gora v osrednji Aziji</def>
             <pc join="left">,</pc>
@@ -1038,7 +1183,11 @@
             <form type="lemma" n="G">
                <orth>Nouakchott</orth>
             </form>
-            <form n="FOR">[nuakšót]</form>
+            <form n="FOR" type="pronunciation">
+               <pc join="right">[</pc>
+               <pron>nuakšót</pron>
+               <pc join="left">]</pc>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">glavno mesto Mavretanije v sz. Afriki</def>
             <pc join="left">,</pc>
@@ -1118,7 +1267,11 @@
             <form type="lemma" n="G">
                <orth>parveni</orth>
             </form>
-            <form n="FOR">[francosko]</form>
+            <form n="FOR" type="etymology">
+               <pc join="right">[</pc>
+               <lang>francosko</lang>
+               <pc join="left">]</pc>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">povzpetnik, novopečeni bogataš.</def>
             <note type="admin" subtype="author" n="Z">
@@ -1153,7 +1306,11 @@
             <form type="lemma" n="G">
                <orth>pluvialna doba</orth>
             </form>
-            <form n="FOR">[latinsko]</form>
+            <form n="FOR" type="etymology">
+               <pc join="right">[</pc>
+               <lang>latinsko</lang>
+               <pc join="left">]</pc>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">obdobje izdatnejših padavin na nepoledenelih območjih v obdobju <ref target="#dzs05387300.01" n="KP">poledenitev</ref> v <ref target="#dzs05316800.00" n="KP">pleistocenu</ref>.</def>
             <note type="admin" subtype="author" n="Z">
@@ -1178,7 +1335,15 @@
             <form type="lemma" n="G">
                <orth>primo uomo</orth>
             </form>
-            <form n="FOR">[italijansko, ‚prvi mož’]</form>
+            <form n="FOR" type="etymology">
+               <pc join="right">[</pc>
+               <lang>italijansko</lang>
+               <pc join="left">,</pc>
+               <pc join="right">‚</pc>
+               <gloss>prvi mož</gloss>
+               <pc join="left">’</pc>
+               <pc join="left">]</pc>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">nosilec glavnih vlog v italijanskih operah.</def>
             <note type="admin" subtype="author" n="Z">
@@ -1208,8 +1373,15 @@
             <form type="lemma" n="G">
                <orth>rekonvalescenca</orth>
             </form>
-            <form n="FOR">[latinsko], <form n="AIME">
-                  <form n="ES">okrevanje</form>
+            <form n="FOR" type="etymology">
+               <pc join="right">[</pc>
+               <lang>latinsko</lang>
+               <pc join="left">]</pc>
+               <pc join="left">,</pc>
+               <form n="AIME">
+                  <form n="ES">
+                     <orth>okrevanje</orth>
+                  </form>
                </form>
                <pc join="left">,</pc>
             </form>
@@ -1238,10 +1410,24 @@
             <form type="lemma" n="G">
                <orth>Samarsko zajezitveno jezero</orth>
             </form>
-            <form n="FOR">(<form n="ES1">
+            <form n="FOR" type="variant">
+               <pc join="right">(</pc>
+               <form n="ES1">
                   <hi rend="italic" n="I">Samarskoe vodohranilišče</hi>
-                  <form n="FOR1">[samárskoje vodohranílišče]</form>
-               </form>), <form n="AIME">prej <form n="EN" rend="italic">Kujbyševsko zajezitveno jezero</form>
+                  <form n="FOR1" type="pronunciation">
+                     <pc join="right">[</pc>
+                     <pron>samárskoje vodohranílišče</pron>
+                     <pc join="left">]</pc>
+                  </form>
+               </form>
+               <pc join="left">)</pc>
+               <pc join="left">,</pc>
+               <form n="AIME">
+                  <lbl>prej </lbl>
+                  <form n="EN" rend="italic" type="name">
+                     <name>Kujbyševsko</name>
+                     <orth>zajezitveno jezero</orth>
+                  </form>
                </form>
                <pc join="left">,</pc>
             </form>
@@ -1321,7 +1507,13 @@
             <form type="lemma" n="G">
                <orth>steblikarice</orth>
             </form>
-            <form n="FOR">(<form n="LIME">Cephidae</form>)</form>
+            <form n="FOR" type="variant">
+               <pc join="right">(</pc>
+               <form n="LIME" type="name">
+                  <name>Cephidae</name>
+               </form>
+               <pc join="left">)</pc>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">družina <ref target="#dzs05772700.00" n="KP">rastlinskih os</ref>
             </def>
@@ -1375,7 +1567,11 @@
             <form type="lemma" n="G">
                <orth>Takasaki</orth>
             </form>
-            <form n="FOR">[takasáki]</form>
+            <form n="FOR" type="pronunciation">
+               <pc join="right">[</pc>
+               <pron>takasáki</pron>
+               <pc join="left">]</pc>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">mesto na Japonskem</def>
             <pc join="left">,</pc>
@@ -1405,7 +1601,18 @@
             <form type="lemma" n="G">
                <orth>trapila</orth>
             </form>
-            <form n="FOR">(nemško <form n="ES1" rend="italic">Angster</form>, <form n="ES1" rend="italic">Kuttrolf</form>)</form>
+            <form n="FOR" type="variant">
+               <pc join="right">(</pc>
+               <lang>nemško</lang>
+               <form n="ES1" rend="italic" type="name">
+                  <name>Angster</name>
+               </form>
+               <pc join="left">,</pc>
+               <form n="ES1" rend="italic" type="name">
+                  <name>Kuttrolf</name>
+               </form>
+               <pc join="left">)</pc>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">steklene pivske posode</def>
             <pc join="left">,</pc>
@@ -1483,11 +1690,19 @@
             </sense>
             <sense n="PO" xml:id="dzs07534100.01">
                <note type="admin" subtype="class" n="T">G4H</note>
-               <form n="FOR">(<form n="ES1">
+               <form n="FOR" type="variant">
+                  <pc join="right">(</pc>
+                  <form n="ES1">
                      <hi rend="italic" n="I">Mount <oRef type="headword" n="YI">Wilson</oRef>
                      </hi>
-                     <form n="FOR1">[máu̯nt vílson]</form>
-                  </form>)</form>
+                     <form n="FOR1" type="pronunciation">
+                        <pc join="right">[</pc>
+                        <pron>máu̯nt vílson</pron>
+                        <pc join="left">]</pc>
+                     </form>
+                  </form>
+                  <pc join="left">)</pc>
+               </form>
                <pc join="left">,</pc>
                <lbl type="number" n="A1">1)</lbl>
                <def n="KDE">gora v Skalnem gorovju v ZDA</def>
@@ -1505,7 +1720,11 @@
             <form type="lemma" n="G">
                <orth>Zemgale</orth>
             </form>
-            <form n="FOR">[zémgale]</form>
+            <form n="FOR" type="pronunciation">
+               <pc join="right">[</pc>
+               <pron>zémgale</pron>
+               <pc join="left">]</pc>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">zgodovinska pokrajina in nekdanja provinca v južni Latviji</def>
             <pc join="left">,</pc>
@@ -1524,9 +1743,15 @@
             <form type="lemma" n="G">
                <orth type="name">Cohen-Tannoudji</orth>
             </form>
-            <form n="FOR">[koén tanúdži]</form>
+            <form n="FOR" type="pronunciation">
+               <pc join="right">[</pc>
+               <pron>koén tanúdži</pron>
+               <pc join="left">]</pc>
+            </form>
             <pc join="left">,</pc>
-            <form type="forename" n="OIME">Claude</form>
+            <form type="forename" n="OIME">
+               <name>Claude</name>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">francoski fizik alžirskega rodu</def>
             <pc join="left">,</pc>
@@ -1550,7 +1775,23 @@
             <form type="lemma" n="G">
                <orth>balada</orth>
             </form>
-            <form n="FOR">[italijansko <form n="ES1" rend="italic">balatta</form>, provansalsko <form n="ES1" rend="italic">balada</form>, ‚plesna pesem’]</form>
+            <form n="FOR" type="etymology">
+               <pc join="right">[</pc>
+               <lang>italijansko</lang>
+               <form n="ES1" rend="italic">
+                  <orth>balatta</orth>
+               </form>
+               <pc join="left">,</pc>
+               <lang>provansalsko</lang>
+               <form n="ES1" rend="italic">
+                  <orth>balada</orth>
+               </form>
+               <pc join="left">,</pc>
+               <pc join="right">‚</pc>
+               <gloss>plesna pesem</gloss>
+               <pc join="left">’</pc>
+               <pc join="left">]</pc>
+            </form>
             <pc join="left">,</pc>
             <sense n="PO">
                <lbl type="number" n="A">1)</lbl>
@@ -1598,7 +1839,13 @@
             <form type="lemma" n="G">
                <orth>dvanajsttonska tehnika</orth>
             </form>
-            <form n="FOR">(<form n="ES1" rend="italic">dodekafonija</form>)</form>
+            <form n="FOR" type="variant">
+               <pc join="right">(</pc>
+               <form n="ES1" rend="italic">
+                  <orth>dodekafonija</orth>
+               </form>
+               <pc join="left">)</pc>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">pri skladanju atonalne glasbe (<ref target="#dzs00473700.00" n="KP">atonalnost</ref>) uporabljena tehnika.</def>
             <def n="OPI">
@@ -1613,10 +1860,18 @@
             <form type="lemma" n="G">
                <orth>Gdansk</orth>
             </form>
-            <form n="FOR">(<form n="ES1">
+            <form n="FOR" type="variant">
+               <pc join="right">(</pc>
+               <form n="ES1">
                   <hi rend="italic" n="I">Gdańsk</hi>
-                  <form n="FOR1">[gdánsk]</form>
-               </form>)</form>
+                  <form n="FOR1" type="pronunciation">
+                     <pc join="right">[</pc>
+                     <pron>gdánsk</pron>
+                     <pc join="left">]</pc>
+                  </form>
+               </form>
+               <pc join="left">)</pc>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">mesto na Poljskem in nekdanja svobodna država ob izlivu Visle v Baltsko morje</def>
             <pc join="left">,</pc>
@@ -1656,11 +1911,19 @@
             <form type="lemma" n="G">
                <orth>Hông</orth>
             </form>
-            <form n="FOR">(<form n="ES1">
+            <form n="FOR" type="variant">
+               <pc join="right">(</pc>
+               <form n="ES1">
                   <hi rend="italic" n="I">Sông <oRef type="headword" n="YI">Hông</oRef>
                   </hi>
-                  <form n="FOR1">[sóng hóng-]</form>
-               </form>)</form>
+                  <form n="FOR1" type="pronunciation">
+                     <pc join="right">[</pc>
+                     <pron>sóng hóng-</pron>
+                     <pc join="left">]</pc>
+                  </form>
+               </form>
+               <pc join="left">)</pc>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">
                <ref target="#dzs05800600.00" n="KP">Rdeča reka</ref>.</def>
@@ -1773,7 +2036,11 @@
             <form type="lemma" n="G">
                <orth>okultizem</orth>
             </form>
-            <form n="FOR">[latinsko]</form>
+            <form n="FOR" type="etymology">
+               <pc join="right">[</pc>
+               <lang>latinsko</lang>
+               <pc join="left">]</pc>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">nauk o skritih (okultnih)</def>
             <pc join="left">,</pc>
@@ -1800,9 +2067,20 @@
             <form type="lemma" n="G">
                <orth type="name">Poděbrad</orth>
             </form>
-            <form n="FOR">[pódjebrad-]</form>
+            <form n="FOR" type="pronunciation">
+               <pc join="right">[</pc>
+               <pron>pódjebrad-</pron>
+               <pc join="left">]</pc>
+            </form>
             <pc join="left">,</pc>
-            <form type="forename" n="OIME">Jurij, <form n="AIME">tudi <hi rend="italic" n="I">Poděbradski</hi> in <hi rend="italic" n="I">Kunštátski</hi>
+            <form type="forename" n="OIME">
+               <name>Jurij</name>
+               <pc join="left">,</pc>
+               <form n="AIME">
+                  <lbl>tudi </lbl>
+                  <hi rend="italic" n="I">Poděbradski</hi>
+                  <lbl>in </lbl>
+                  <hi rend="italic" n="I">Kunštátski</hi>
                </form>
             </form>
             <def n="KDE">češki kralj (<date n="ILT">1458</date>–<date when="1471">71</date>)</def>
@@ -1833,7 +2111,11 @@
             <form type="lemma" n="G">
                <orth>psihedelični rock</orth>
             </form>
-            <form n="FOR">[～ rók]</form>
+            <form n="FOR" type="pronunciation">
+               <pc join="right">[</pc>
+               <pron>～ rók</pron>
+               <pc join="left">]</pc>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">slogovna smer v rockovski glasbi 60. let, izhajajoča predvsem iz izkušenj glasbenikov z mamili ter iz uporabe električnih ojačevalnikov in potujitvenih učinkov (npr. protisklopi, popačenja) glasbe.</def>
             <def n="OPI">Prizadevanja, da bi se pri glasbenikih in poslušalcih z razl. mamili (posebej s hašišem, z marihuano in LSD) povečala ustvarjalnost oz. dojemanje. Pomembne skupine <oRef type="headword" n="YI">psihedeličnega rocka</oRef> so bile poleg skupin Doors in Flock predvsem Iron Butterfly (<distinct type="form" n="ENX" rend="italic">In a gadda da Vida</distinct>), Amon Düül, Vanilla Fudge, The Byrds, Jefferson Airplane, Pink Floyd, pa tudi skupina Beatles (<distinct type="form" n="ENX" rend="italic">Lucy in the Sky of Diamonds</distinct>). <oRef type="headword" n="YI">Psihedelični rock</oRef> je v 80. letih obnovil <ref target="#dzs02717400.00" n="KP">house</ref>.</def>
@@ -1850,9 +2132,20 @@
             <form type="lemma" n="G">
                <orth type="name">Santana</orth>
             </form>
-            <form n="FOR">[santána]</form>
+            <form n="FOR" type="pronunciation">
+               <pc join="right">[</pc>
+               <pron>santána</pron>
+               <pc join="left">]</pc>
+            </form>
             <pc join="left">,</pc>
-            <form type="forename" n="OIME">Carlos (od 1973) Devadip</form>
+            <form type="forename" n="OIME">
+               <name>Carlos</name>
+               <pc join="right">(</pc>
+               <lbl>od </lbl>
+               <date>1973</date>
+               <pc join="left">)</pc>
+               <name>Devadip</name>
+            </form>
             <pc join="left">,</pc>
             <def n="KDE">mehiški rockovski kitarist</def>
             <pc join="left">,</pc>
@@ -1903,7 +2196,9 @@
                <usg type="domain" n="PODR">ekonomija</usg>
                <pc join="left">:</pc>
                <form n="AIME">
-                  <form n="ES">premoženje</form>
+                  <form n="ES">
+                     <orth>premoženje</orth>
+                  </form>
                </form>
                <pc join="left">,</pc>
                <def n="KDE">celota stvari, pravic in denarja, ki jih ima kdo in mu omogočajo uresničevanje ekonomskih ciljev.</def>
@@ -1935,13 +2230,19 @@
             </sense>
             <sense n="PO" xml:id="dzs06911400.01">
                <note type="admin" subtype="class" n="T">P</note>
-               <form n="FOR">[grško]</form>
+               <form n="FOR" type="etymology">
+                  <pc join="right">[</pc>
+                  <lang>grško</lang>
+                  <pc join="left">]</pc>
+               </form>
                <pc join="left">,</pc>
                <lbl type="number" n="A">1)</lbl>
                <usg type="domain" n="PODR">medicina</usg>
                <pc join="left">:</pc>
                <form n="AIME">
-                  <form n="ES">otrpni krč</form>
+                  <form n="ES">
+                     <orth>otrpni krč</orth>
+                  </form>
                </form>
                <pc join="left">,</pc>
                <def n="KDE">huda infekcijska bolezen</def>
