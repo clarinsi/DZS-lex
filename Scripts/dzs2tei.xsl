@@ -380,7 +380,7 @@
     <xsl:apply-templates/>
   </xsl:template>
  
-  <!-- Forename -->
+  <!-- Name -->
   <!-- If directly in entry (i.e. BI,PO,DR), can't be name, must be form -->
   <xsl:template match="BI/OIME | PO/OIME | DR/OIME">
     <form type="forename" n="{name()}">
@@ -388,16 +388,15 @@
     </form>
   </xsl:template>
   <xsl:template match="OIME">
-    <forename n="{name()}">
+    <name n="{name()}">
       <xsl:apply-templates/>
-    </forename>
+    </name>
   </xsl:template>
-  
-  <!-- Surname -->
+  <!-- Name, no idea what is different from OIME -->
   <xsl:template match="PRIM">
-    <surname n="{name()}">
+    <name n="{name()}">
       <xsl:apply-templates/>
-    </surname>
+    </name>
   </xsl:template>
   
   <!-- Additional name, e.g.
