@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Convert TEI to plain text
-    new line is for each entry start and top-level sense -->
+     new line is for each entry start and top-level sense -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns="http://www.tei-c.org/ns/1.0" 
 		xmlns:tei="http://www.tei-c.org/ns/1.0" 
@@ -20,11 +20,12 @@
 
   <xsl:template match="tei:entry">
     <xsl:variable name="incipit">
-      <xsl:apply-templates select="tei:*[name() != 'sense']"/>
+      <xsl:apply-templates select="tei:*[name() != 'sense' and not(preceding-sibling::tei:sense)]"/>
     </xsl:variable>
     <xsl:value-of select="normalize-space($incipit)"/>
     <xsl:text>&#10;</xsl:text>
     <xsl:apply-templates select="tei:sense"/>
+    <xsl:text>&#10;</xsl:text>
   </xsl:template>
   
   <xsl:template match="tei:sense">
@@ -49,14 +50,8 @@
                     )">
         <xsl:text>&#32;</xsl:text>
       </xsl:if>
-      <xsl:choose>
-        <xsl:when test="not(../text()[normalize-space(.)][2])">
-          <xsl:value-of select="normalize-space(.)"/>
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:value-of select="normalize-space(.)"/>
-        </xsl:otherwise>
-      </xsl:choose>
+      <xsl:value-of select="replace(normalize-space(.),
+                            '\{.+?\}', '&#xFFFD;')"/>
       <xsl:if test="not(
                     parent::tei:pc[@join = 'right' or @join = 'both'] or
                     following::tei:*[1][@join = 'left' or @join = 'both'] or

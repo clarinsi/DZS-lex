@@ -29,8 +29,27 @@
     <xsl:copy/>
   </xsl:template>
   <xsl:template mode="pass6" match="text()">
-    <xsl:value-of select="."/>
+    <xsl:call-template name="g-text"/>
   </xsl:template>
 
+  <xsl:template name="g-text">
+    <xsl:param name="str" select="."/>
+    <xsl:choose>
+      <xsl:when test="contains($str, '{') and contains($str, '}')">
+        <xsl:value-of select="substring-before($str, '{')"/>
+        <g>
+          <xsl:text>{</xsl:text>
+          <xsl:value-of select="substring-before(substring-after($str, '{'), '}')"/>
+          <xsl:text>}</xsl:text>
+        </g>
+        <xsl:call-template name="g-text">
+          <xsl:with-param name="str" select="substring-after($str, '}')"/>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="$str"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
 
 </xsl:stylesheet>
