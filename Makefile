@@ -1,7 +1,25 @@
+test-2vert:
+	Scripts/conllu2vert.pl < Sample/DZS-lex.sample.id.conllu | Scripts/xml2vert.pl > Sample/DZS-lex.sample.vert
+test-conll:
+	$s -xsl:Scripts/tei2txt-ids.xsl Sample/DZS-lex.sample.xml > Sample/DZS-lex.sample.ids
+	Scripts/merge-conllu.pl Sample/DZS-lex.sample.ids < Sample/DZS-lex.sample.conllu > Sample/DZS-lex.sample.id.conllu
+test-ana:
+	${python} Scripts/anno.py < Sample/DZS-lex.sample.txt > Sample/DZS-lex.sample.conllu
 test-tei2txt:
 	$s -xsl:Scripts/tei2txt.xsl Sample/DZS-lex.sample.xml > Sample/DZS-lex.sample.txt
-test-teitext:
-	$s -xsl:Scripts/tei2text.xsl Sample/DZS-lex.sample.xml > Sample/DZS-lex.sample.text.xml
+
+
+gall:	tei2txt ana conll 2vert
+2vert:
+	Scripts/conllu2vert.pl < Lexicon/DZS-lex.id.conllu | Scripts/xml2vert.pl | gzip > Lexicon/DZS-lex.vert.gz
+conll:
+	$s -xsl:Scripts/tei2txt-ids.xsl Lexicon/DZS-lex.xml > Lexicon/DZS-lex.ids
+	Scripts/merge-conllu.pl Lexicon/DZS-lex.ids < Lexicon/DZS-lex.conllu > Lexicon/DZS-lex.id.conllu
+ana:
+	${python} Scripts/anno.py < Lexicon/DZS-lex.txt > Lexicon/DZS-lex.conllu
+tei2txt:
+	$s -xsl:Scripts/tei2txt.xsl Lexicon/DZS-lex.xml > Lexicon/DZS-lex.txt
+
 
 ### Targets for testing scripts on sample
 test-next:
@@ -14,6 +32,8 @@ test-next-large:
 
 test-small:
 	$s -xsl:Scripts/test.xsl Sample/test.xml
+test-large:
+	$s -xsl:Scripts/test.xsl Lexicon/DZS-lex.xml | sort | uniq > authors.txt
 
 #Dump text one word per line from original and TEI and comapre
 #There are legit differences between the two (lemma in senses, punctuation glue)
@@ -58,3 +78,5 @@ show-element:
 j = java -jar /usr/share/java/jing.jar
 s = java -jar /usr/share/java/saxon.jar
 P = parallel --gnu --halt 0
+venv = source Scripts/classla/bin/activate
+python = /usr/local/classla-venv/bin/python
