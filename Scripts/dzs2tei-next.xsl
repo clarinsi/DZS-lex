@@ -11,45 +11,24 @@
   
   <xsl:output indent="yes"/>
 
-  <!-- PASS 6: -->
+  <!-- PASS 7: -->
   <xsl:template match="tei:TEI">
     <xsl:copy>
-      <xsl:apply-templates mode="pass6" select="@*"/>
-      <xsl:apply-templates mode="pass6"/>
+      <xsl:apply-templates mode="pass7" select="@*"/>
+      <xsl:apply-templates mode="pass7"/>
     </xsl:copy>
   </xsl:template>
 
-  <xsl:template mode="pass6" match="tei:*">
+  <xsl:template mode="pass7" match="tei:*">
     <xsl:copy>
-      <xsl:apply-templates mode="pass6" select="@*"/>
-      <xsl:apply-templates mode="pass6" select="tei:*|text()"/>
+      <xsl:apply-templates mode="pass7" select="@*"/>
+      <xsl:apply-templates mode="pass7" select="tei:*|text()"/>
     </xsl:copy>
   </xsl:template>
-  <xsl:template mode="pass6" match="@*">
+  <xsl:template mode="pass7" match="@*">
     <xsl:copy/>
   </xsl:template>
-  <xsl:template mode="pass6" match="text()">
-    <xsl:call-template name="g-text"/>
+  <xsl:template mode="pass7" match="text()">
+    <xsl:value-of select="."/>
   </xsl:template>
-
-  <xsl:template name="g-text">
-    <xsl:param name="str" select="."/>
-    <xsl:choose>
-      <xsl:when test="contains($str, '{') and contains($str, '}')">
-        <xsl:value-of select="substring-before($str, '{')"/>
-        <g>
-          <xsl:text>{</xsl:text>
-          <xsl:value-of select="substring-before(substring-after($str, '{'), '}')"/>
-          <xsl:text>}</xsl:text>
-        </g>
-        <xsl:call-template name="g-text">
-          <xsl:with-param name="str" select="substring-after($str, '}')"/>
-        </xsl:call-template>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:value-of select="$str"/>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>
-
 </xsl:stylesheet>

@@ -1,27 +1,5 @@
-test-2vert:
-	Scripts/conllu2vert.pl < Sample/DZS-lex.sample.id.conllu | Scripts/xml2vert.pl > Sample/DZS-lex.sample.vert
-test-conll:
-	$s -xsl:Scripts/tei2txt-ids.xsl Sample/DZS-lex.sample.xml > Sample/DZS-lex.sample.ids
-	Scripts/merge-conllu.pl Sample/DZS-lex.sample.ids < Sample/DZS-lex.sample.conllu > Sample/DZS-lex.sample.id.conllu
-test-ana:
-	${python} Scripts/anno.py < Sample/DZS-lex.sample.txt > Sample/DZS-lex.sample.conllu
-test-tei2txt:
-	$s -xsl:Scripts/tei2txt.xsl Sample/DZS-lex.sample.xml > Sample/DZS-lex.sample.txt
-
-
-gall:	tei2txt ana conll 2vert
-2vert:
-	Scripts/conllu2vert.pl < Lexicon/DZS-lex.id.conllu | Scripts/xml2vert.pl | gzip > Lexicon/DZS-lex.vert.gz
-conll:
-	$s -xsl:Scripts/tei2txt-ids.xsl Lexicon/DZS-lex.xml > Lexicon/DZS-lex.ids
-	Scripts/merge-conllu.pl Lexicon/DZS-lex.ids < Lexicon/DZS-lex.conllu > Lexicon/DZS-lex.id.conllu
-ana:
-	${python} Scripts/anno.py < Lexicon/DZS-lex.txt > Lexicon/DZS-lex.conllu
-tei2txt:
-	$s -xsl:Scripts/tei2txt.xsl Lexicon/DZS-lex.xml > Lexicon/DZS-lex.txt
-
-
-### Targets for testing scripts on sample
+### Targets for testing scripts
+##  Take existing lexicon and run test dzs2tei-next.xsl on it
 test-next:
 	$s -xsl:Scripts/dzs2tei-next.xsl Sample/DZS-lex.sample.xml > Sample/DZS-lex.sample.test.xml
 	$j TEI/tei_dzslex.rng Sample/DZS-lex.sample.test.xml
@@ -29,11 +7,8 @@ test-next:
 test-next-large:
 	$s -xsl:Scripts/dzs2tei-next.xsl Lexicon/DZS-lex.xml > Lexicon/DZS-lex.test.xml
 	$j TEI/tei_dzslex.rng Lexicon/DZS-lex.test.xml
-
-test-small:
+test:
 	$s -xsl:Scripts/test.xsl Sample/test.xml
-test-large:
-	$s -xsl:Scripts/test.xsl Lexicon/DZS-lex.xml | sort | uniq > authors.txt
 
 #Dump text one word per line from original and TEI and comapre
 #There are legit differences between the two (lemma in senses, punctuation glue)
@@ -43,21 +18,37 @@ test-compare:
 	wc Sample/KNAUR.sample.txt Sample/DZS-lex.sample.txt
 	diff Sample/KNAUR.sample.txt Sample/DZS-lex.sample.txt
 
-test-all:	test-dzs2tei test-val
-test-val:
-	$j TEI/tei_dzslex.rng Sample/DZS-lex.sample.xml
 
-### Targets to run on complete source
-all:	prep sample-dzs2tei dzs2tei val 
-val:
-	$s -xsl:Scripts/check-links.xsl Lexicon/DZS-lex.xml
-	$j TEI/tei_dzslex.rng Lexicon/DZS-lex.xml
+### Targets for producing the GitHub sample
+sample-all:	sample-dzs2tei sample-tei2txt sample-ana sample-conll sample-2vert
+sample-2vert:
+	Scripts/conllu2vert.pl < Sample/DZS-lex.sample.id.conllu | Scripts/xml2vert.pl > Sample/DZS-lex.sample.vert
+sample-conll:
+	$s -xsl:Scripts/tei2txt-ids.xsl Sample/DZS-lex.sample.xml > Sample/DZS-lex.sample.ids
+	Scripts/merge-conllu.pl Sample/DZS-lex.sample.ids < Sample/DZS-lex.sample.conllu > Sample/DZS-lex.sample.id.conllu
+sample-ana:
+	${python} Scripts/anno.py < Sample/DZS-lex.sample.txt > Sample/DZS-lex.sample.conllu
+sample-tei2txt:
+	$s -xsl:Scripts/tei2txt.xsl Sample/DZS-lex.sample.xml > Sample/DZS-lex.sample.txt
 sample-dzs2tei:
 	$s -xsl:Scripts/dzs2tei.xsl Sample/KNAUR.sample.xml > Sample/DZS-lex.sample.xml
 	$j TEI/tei_dzslex.rng Sample/DZS-lex.sample.xml
 
+### Targets to run on complete source
+all:	prep sample-dzs2tei dzs2tei tei2txt ana conll 2vert
+2vert:
+	Scripts/conllu2vert.pl < Lexicon/DZS-lex.id.conllu | Scripts/xml2vert.pl | gzip > Lexicon/DZS-lex.vert.gz
+conll:
+	$s -xsl:Scripts/tei2txt-ids.xsl Lexicon/DZS-lex.xml > Lexicon/DZS-lex.ids
+	Scripts/merge-conllu.pl Lexicon/DZS-lex.ids < Lexicon/DZS-lex.conllu > Lexicon/DZS-lex.id.conllu
+ana:
+	${python} Scripts/anno.py < Lexicon/DZS-lex.txt > Lexicon/DZS-lex.conllu
+tei2txt:
+	$s -xsl:Scripts/tei2txt.xsl Lexicon/DZS-lex.xml > Lexicon/DZS-lex.txt
 dzs2tei:
 	$s -xsl:Scripts/dzs2tei.xsl Lexicon/KNAUR.xml > Lexicon/DZS-lex.xml
+	$j TEI/tei_dzslex.rng Lexicon/DZS-lex.xml
+	$s -xsl:Scripts/check-links.xsl Lexicon/DZS-lex.xml
 
 ### Preparation of the source lexicon
 prep: dzs2xml sample

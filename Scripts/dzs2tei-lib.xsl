@@ -489,9 +489,38 @@
   <!-- Year -->
   <xsl:variable name="year-re">1?(\d\d\d)</xsl:variable>
 
+  <!-- Names of months -->
+  <xsl:variable name="months">
+    <date when="1">januar</date>
+    <date when="2">februar</date>
+    <date when="3">marec</date>
+    <date when="4">april</date>
+    <date when="5">maj</date>
+    <date when="6">junij</date>
+    <date when="7">julij</date>
+    <date when="8">avgust</date>
+    <date when="9">september</date>
+    <date when="10">oktober</date>
+    <date when="11">november</date>
+    <date when="12">december</date>
+  </xsl:variable>
+
+  <!-- Regular expression that matches a month -->
+  <xsl:variable name="month-re">
+    <xsl:variable name="str">
+      <xsl:for-each select="$months/tei:date">
+        <xsl:value-of select="."/>
+        <xsl:text>|</xsl:text>
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:text>(</xsl:text>
+    <xsl:value-of select="replace($str, '\|$', '')"/>
+    <xsl:text>)</xsl:text>
+  </xsl:variable>
+
   <!-- Abbreviation, at least three letters -->
   <xsl:variable name="abbr-re">(\p{Lu}[\p{Lu}\p{Ll}]{3,})</xsl:variable>
-  
+
   <!-- Names -->
   <xsl:variable name="name-re">
     <!-- Frank or F(rank) -->

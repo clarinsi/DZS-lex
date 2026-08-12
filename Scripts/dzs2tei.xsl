@@ -50,7 +50,10 @@
           <xsl:variable name="pass4">
             <xsl:apply-templates mode="pass4" select="$pass3"/>
           </xsl:variable>
-          <xsl:apply-templates mode="pass5" select="$pass4"/>
+          <xsl:variable name="pass5">
+            <xsl:apply-templates mode="pass5" select="$pass4"/>
+          </xsl:variable>
+          <xsl:apply-templates mode="pass6" select="$pass5"/>
         </body>
       </text>
     </TEI>
@@ -74,6 +77,22 @@
             <xsl:when test="$head/DR">country</xsl:when>
           </xsl:choose>
         </xsl:attribute>
+        <!-- Too many exceptions to reliably determine! -->
+        <!--xsl:attribute name="subtype">
+          <xsl:variable name="hw" select="$head/*[1]/G[1]"/>
+          <xsl:choose>
+            <xsl:when test="matches($hw, '\.') and not(
+                            matches($hw, concat($roman-re, '\.[\p{P}\p{Z}]*$')) or 
+                            matches($hw, '[Inc\.|Co\.|Comp\.|Cie\.|S\. A.|Ltd\.|PLC|AG][\p{P}\p{Z}]*$')) or 
+                            matches($hw, ' sv\. ')) or 
+                            )">abbr</xsl:when>
+            <xsl:when test="matches($hw, '^''?\p{Lu}\p{Ll}')">name</xsl:when>
+            <xsl:when test="matches($hw, '^\p{Ll}')">regular</xsl:when>
+            <xsl:otherwise>
+              <xsl:text>regular</xsl:text>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:attribute-->
         <xsl:attribute name="xml:id" select="et:id(*[1]/N[1])"/>
         <xsl:attribute name="n" select="$head/*/name()"/>
         <xsl:apply-templates mode="head" select="$head/*"/>
@@ -173,7 +192,7 @@
     <xsl:if test="normalize-space(.)">
       <xsl:choose>
 	<!-- Various contexts where FOR(1) winds up in an element that doesn't allow form -->
-	<xsl:when test="ancestor::LIME">  <!-- or ancestor::ES1 -->
+	<xsl:when test="ancestor::LIME and not(ancestor::FOR)">  <!-- or ancestor::ES1 ? -->
 	  <distinct type="form" n="{name()}">
 	    <xsl:apply-templates/>
 	  </distinct>
@@ -491,41 +510,17 @@
     <xsl:apply-templates/>
   </xsl:template>
 
-  <!-- Birth info (why, as there is also RPOD1? -->
-  <xsl:template match="BORN">
-    <xsl:if test="normalize-space(.)">
-      <def n="{name()}">
-	<state type="birth" n="{name()}">
-          <desc>
-            <xsl:apply-templates/>
-          </desc>
-	</state>
-      </def>
-    </xsl:if>
-  </xsl:template>
-
   <!-- Birth/death info -->
   <xsl:template match="RPOD">
     <def n="{name()}">
       <xsl:apply-templates/>
     </def>
   </xsl:template>
-  <xsl:template match="RPOD1">
+  <xsl:template match="BORN | RPOD1 | RPOD2">
     <xsl:if test="normalize-space(.)">
-      <state type="birth" n="{name()}">
-        <desc>
-          <xsl:apply-templates/>
-        </desc>
-      </state>
-    </xsl:if>
-  </xsl:template>
-  <xsl:template match="RPOD2">
-    <xsl:if test="normalize-space(.)">
-      <state type="death" n="{name()}">
-        <desc>
-          <xsl:apply-templates/>
-        </desc>
-      </state>
+      <def n="{name()}">
+        <xsl:apply-templates/>
+      </def>
     </xsl:if>
   </xsl:template>
 
@@ -691,9 +686,11 @@
     </xsl:copy>
   </xsl:template>
 
-  <!-- PASS 2: MOVE DEF INTO PRECEDING SENSE (SOURCE HAS WRONG NESTING),
-       MOVE AIME form into preceding form
-       MARK UP ADDITIONAL DATES -->
+  <!-- PASS 2:
+       MOVE def INTO PRECEDING sense (SOURCE HAS WRONG NESTING),
+       MOVE AIME form INTO PRECEDING form
+       MARK UP ADDITIONAL DATES, ESP. FOR BIRTH/DEATH
+  -->
   
   <!-- Copy def into sense -->
   <xsl:template mode="pass2" match="tei:sense[@n = 'KDE']">
@@ -705,7 +702,7 @@
       </xsl:if>
     </xsl:copy>
   </xsl:template>
-  <!-- Remove original def -->
+  <!-- Remove original def that was rolled into preceding sense-->
   <xsl:template mode="pass2" match="tei:def">
     <xsl:if test="not(preceding-sibling::tei:*[1][self::tei:sense])">
       <xsl:copy>
@@ -713,6 +710,10 @@
         <xsl:apply-templates mode="pass2"/>
       </xsl:copy>
     </xsl:if>
+  </xsl:template>
+  <!-- Remove nested def (for birth and death) -->
+  <xsl:template mode="pass2" match="tei:def/tei:def">
+    <xsl:apply-templates mode="pass2"/>
   </xsl:template>
 
   <!-- Move AIME into preceding non-lemma form -->
@@ -740,6 +741,184 @@
     </xsl:choose>
   </xsl:template>
 
+  <!-- Mark up additional dates in state/desc i.e. birth and death, has BC dates, and dates in old calendar -->
+  <xsl:template mode="pass2" match="tei:def[@n = 'BORN' or @n = 'RPOD1'or @n = 'RPOD2']/
+                                    text()[matches(., '^[*†]')]">
+    <xsl:call-template name="date-and-name"/>
+  </xsl:template>
+  
+  <xsl:template name="date-and-name">
+    <xsl:param name="str" select="."/>
+    <xsl:param name="event"/>
+    <xsl:param name="cert"/>
+    <xsl:param name="carry"/>
+    <xsl:choose>
+      <xsl:when test="matches($str, '^\s')">
+        <xsl:text>&#32;</xsl:text>
+        <xsl:call-template name="date-and-name">
+          <xsl:with-param name="str" select="replace($str, '^.', '')"/>
+          <xsl:with-param name="event" select="$event"/>
+          <xsl:with-param name="cert" select="$cert"/>
+          <xsl:with-param name="carry" select="$carry"/>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="matches($str, '^[*†]')">
+        <xsl:variable name="event">
+          <xsl:choose>
+            <xsl:when test="matches($str, '^[*]')">birth</xsl:when>
+            <xsl:when test="matches($str, '^[†]')">death</xsl:when>
+          </xsl:choose>
+        </xsl:variable>
+        <pc join="right" type="{$event}">
+          <xsl:value-of select="replace($str, '^(.).+', '$1')"/>
+        </pc>
+        <xsl:call-template name="date-and-name">
+          <xsl:with-param name="str" select="replace($str, '^.', '')"/>
+          <xsl:with-param name="event" select="$event"/>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="matches($str, '^[,;:]')">
+        <pc join="left">
+          <xsl:value-of select="replace($str, '^(.).*', '$1')"/>
+        </pc>
+        <xsl:call-template name="date-and-name">
+          <xsl:with-param name="str" select="replace($str, '^.', '')"/>
+          <xsl:with-param name="event" select="$event"/>
+          <xsl:with-param name="carry" select="$carry"/>
+          <xsl:with-param name="cert" select="$cert"/>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="matches($str, '^[/]')">
+        <pc join="both">/</pc>
+        <xsl:call-template name="date-and-name">
+          <xsl:with-param name="str" select="replace($str, '^.', '')"/>
+          <xsl:with-param name="event" select="$event"/>
+          <xsl:with-param name="carry" select="$carry"/>
+          <xsl:with-param name="cert" select="$cert"/>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="matches($str, '^(verjetno )?ok\.')">
+        <xsl:text>&#32;</xsl:text>
+        <xsl:call-template name="date-and-name">
+          <xsl:with-param name="str" select="replace($str, '^(verjetno )?ok\.', '')"/>
+          <xsl:with-param name="event" select="$event"/>
+          <xsl:with-param name="cert">low</xsl:with-param>
+          <xsl:with-param name="carry" select="replace($str, '^((verjetno )?ok\.).*', '$1')"/>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="matches($str, '^verjetno ')">
+        <xsl:call-template name="date-and-name">
+          <xsl:with-param name="str" select="replace($str, '^verjetno ', '')"/>
+          <xsl:with-param name="event" select="$event"/>
+          <xsl:with-param name="cert">medium</xsl:with-param>
+          <xsl:with-param name="carry" select="replace($str, '^(verjetno ).+', '$1')"/>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="matches($str, '^(\(\?\))')">
+        <xsl:call-template name="date-and-name">
+          <xsl:with-param name="event" select="$event"/>
+          <xsl:with-param name="str" select="replace($str, '^(\(\?\))', '')"/>
+          <xsl:with-param name="cert">low</xsl:with-param>
+          <xsl:with-param name="carry">(?)</xsl:with-param>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="matches($str, concat('^', $month-re, ' (\d\d\d\d)'))">
+        <xsl:variable name="date" select="replace($str, concat('^(', $month-re, ' (\d\d\d\d)\s*)', '.+'), '$1')"/>
+        <xsl:variable name="iso-date" select="et:date2iso($date)"/>
+        <date>
+          <xsl:if test="normalize-space($iso-date)">
+            <xsl:attribute name="when" select="$iso-date"/>
+          </xsl:if>
+          <xsl:if test="normalize-space($event)">
+            <xsl:attribute name="type" select="$event"/>
+          </xsl:if>
+          <xsl:if test="normalize-space($cert)">
+            <xsl:attribute name="cert" select="$cert"/>
+          </xsl:if>
+          <xsl:if test="normalize-space($carry)">
+            <xsl:value-of select="concat($carry, '&#32;')"/>
+          </xsl:if>
+          <xsl:value-of select="normalize-space($date)"/>
+        </date>
+        <xsl:if test="ends-with($date, ' ')">
+          <xsl:text>&#32;</xsl:text>
+        </xsl:if>
+        <xsl:call-template name="date-and-name">
+          <xsl:with-param name="str" select="replace($str, et:protect($date), '')"/>
+          <xsl:with-param name="event" select="$event"/>
+        </xsl:call-template>
+      </xsl:when>
+
+      <xsl:when test="matches($str, '^(\d\d?\.)?(\d\d?\.)?( \([0-9.]+\) )?(\d\d?\d?\d?)\s?(pr\. )?(n\. š\.)?')">
+        <xsl:variable name="date" select="replace($str, '^((\d\d?\.)?(\d\d?\.)?( \([0-9.]+\) )?(\d\d?\d?\d?)\s?(pr\. )?(n\. š\.)?).+', '$1')"/>
+        <xsl:variable name="iso-date" select="et:date2iso($date)"/>
+        <date>
+          <xsl:if test="normalize-space($iso-date)">
+            <xsl:attribute name="when" select="$iso-date"/>
+          </xsl:if>
+          <xsl:if test="normalize-space($event)">
+            <xsl:attribute name="type" select="$event"/>
+          </xsl:if>
+          <xsl:if test="normalize-space($cert)">
+            <xsl:attribute name="cert" select="$cert"/>
+          </xsl:if>
+          <xsl:if test="normalize-space($carry)">
+            <xsl:value-of select="concat($carry, '&#32;')"/>
+          </xsl:if>
+          <xsl:value-of select="normalize-space($date)"/>
+        </date>
+        <xsl:if test="ends-with($date, ' ')">
+          <xsl:text>&#32;</xsl:text>
+        </xsl:if>
+        <xsl:call-template name="date-and-name">
+          <xsl:with-param name="str" select="replace($str, et:protect($date), '')"/>
+          <xsl:with-param name="event" select="$event"/>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="matches($str, '^([\p{L} ]+\(.+?\))')">
+        <xsl:variable name="placeName" select="replace($str, '^([\p{L} ]+\(.+?\)).*', '$1')"/>
+        <placeName>
+          <xsl:if test="normalize-space($event)">
+            <xsl:attribute name="type" select="$event"/>
+          </xsl:if>
+          <xsl:if test="normalize-space($carry)">
+            <xsl:value-of select="concat($carry, '&#32;')"/>
+          </xsl:if>
+          <xsl:value-of select="normalize-space($placeName)"/>
+        </placeName>
+        <xsl:if test="ends-with($placeName, ' ')">
+          <xsl:text>&#32;</xsl:text>
+        </xsl:if>
+        <xsl:call-template name="date-and-name">
+          <xsl:with-param name="str" select="replace($str, '^([\p{L} ]+\(.+?\))', '')"/>
+          <xsl:with-param name="event" select="$event"/>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="matches($str, '^[\p{L} ]+\p{L}')">
+        <xsl:variable name="placeName" select="replace($str, '^([\p{L} ]+\p{L}).*', '$1')"/>
+        <placeName>
+          <xsl:if test="normalize-space($event)">
+            <xsl:attribute name="type" select="$event"/>
+          </xsl:if>
+          <xsl:if test="normalize-space($carry)">
+            <xsl:value-of select="concat($carry, '&#32;')"/>
+          </xsl:if>
+          <xsl:value-of select="normalize-space($placeName)"/>
+        </placeName>
+        <xsl:if test="ends-with($placeName, ' ')">
+          <xsl:text>&#32;</xsl:text>
+        </xsl:if>
+        <xsl:call-template name="date-and-name">
+          <xsl:with-param name="str" select="replace($str, '^[\p{L} ]+\p{L}', '')"/>
+          <xsl:with-param name="event" select="$event"/>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="$str"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
   <!-- Mark up additional dates in date range -->
   <xsl:template mode="pass2" match="text()">
     <xsl:choose>
@@ -759,98 +938,6 @@
     </xsl:choose>
   </xsl:template>
 
-  <!-- Mark up additional dates in state/desc i.e. birth and death, has BC dates, and dates in old calendar -->
-  <xsl:template mode="pass2" match="tei:state[@type = 'birth' or @type = 'death']/tei:desc/
-                                    text()[matches(., '^[*†]')]">
-    <xsl:call-template name="date-and-name"/>
-  </xsl:template>
-  
-  <xsl:template name="date-and-name">
-    <xsl:param name="str" select="."/>
-    <xsl:param name="cert"/>
-    <xsl:choose>
-      <xsl:when test="matches($str, '^\s')">
-        <xsl:text>&#32;</xsl:text>
-        <xsl:call-template name="date-and-name">
-          <xsl:with-param name="str" select="replace($str, '^.', '')"/>
-        </xsl:call-template>
-      </xsl:when>
-      <xsl:when test="matches($str, '^[*†,;:]')">
-        <xsl:value-of select="replace($str, '^(.).+', '$1')"/>
-        <xsl:call-template name="date-and-name">
-          <xsl:with-param name="str" select="replace($str, '^.', '')"/>
-        </xsl:call-template>
-      </xsl:when>
-      <xsl:when test="matches($str, '^(verjetno )?ok\.')">
-        <xsl:value-of select="replace($str, '^((verjetno )?ok\.).*', '$1')"/>
-        <xsl:text>&#32;</xsl:text>
-        <xsl:call-template name="date-and-name">
-          <xsl:with-param name="str" select="replace($str, '^(verjetno )?ok\.', '')"/>
-          <xsl:with-param name="cert">low</xsl:with-param>
-        </xsl:call-template>
-      </xsl:when>
-      <xsl:when test="matches($str, '^verjetno ')">
-        <xsl:value-of select="replace($str, '^(verjetno ).+', '$1')"/>
-        <xsl:call-template name="date-and-name">
-          <xsl:with-param name="str" select="replace($str, '^verjetno ', '')"/>
-          <xsl:with-param name="cert">medium</xsl:with-param>
-        </xsl:call-template>
-      </xsl:when>
-      <xsl:when test="matches($str, '^(\(\?\))')">
-        <xsl:text>(?)</xsl:text>
-        <xsl:call-template name="date-and-name">
-          <xsl:with-param name="str" select="replace($str, '^(\(\?\))', '')"/>
-        </xsl:call-template>
-      </xsl:when>
-      <xsl:when test="matches($str, '^(\d\d?\.)?(\d\d?\.)?( \([0-9.]+\) )?(\d\d?\d?\d?)\s?(pr\. )?(n\. š\.)?')">
-        <xsl:variable name="date" select="replace($str, '^((\d\d?\.)?(\d\d?\.)?( \([0-9.]+\) )?(\d\d?\d?\d?)\s?(pr\. )?(n\. š\.)?).+', '$1')"/>
-        <xsl:variable name="iso-date" select="et:date2iso($date)"/>
-        <date>
-          <xsl:if test="normalize-space($iso-date)">
-            <xsl:attribute name="when" select="$iso-date"/>
-          </xsl:if>
-          <xsl:if test="normalize-space($cert)">
-            <xsl:attribute name="cert" select="$cert"/>
-          </xsl:if>
-          <xsl:value-of select="normalize-space($date)"/>
-        </date>
-        <xsl:if test="ends-with($date, ' ')">
-          <xsl:text>&#32;</xsl:text>
-        </xsl:if>
-        <xsl:call-template name="date-and-name">
-          <xsl:with-param name="str" select="replace($str, et:protect($date), '')"/>
-        </xsl:call-template>
-      </xsl:when>
-      <xsl:when test="matches($str, '^([\p{L} ]+\(.+?\))')">
-        <xsl:variable name="placeName" select="replace($str, '^([\p{L} ]+\(.+?\)).*', '$1')"/>
-        <placeName>
-          <xsl:value-of select="normalize-space($placeName)"/>
-        </placeName>
-        <xsl:if test="ends-with($placeName, ' ')">
-          <xsl:text>&#32;</xsl:text>
-        </xsl:if>
-        <xsl:call-template name="date-and-name">
-          <xsl:with-param name="str" select="replace($str, '^([\p{L} ]+\(.+?\))', '')"/>
-        </xsl:call-template>
-      </xsl:when>
-      <xsl:when test="matches($str, '^[\p{L} ]+\p{L}')">
-        <xsl:variable name="placeName" select="replace($str, '^([\p{L} ]+\p{L}).*', '$1')"/>
-        <placeName>
-          <xsl:value-of select="normalize-space($placeName)"/>
-        </placeName>
-        <xsl:if test="ends-with($placeName, ' ')">
-          <xsl:text>&#32;</xsl:text>
-        </xsl:if>
-        <xsl:call-template name="date-and-name">
-          <xsl:with-param name="str" select="replace($str, '^[\p{L} ]+\p{L}', '')"/>
-        </xsl:call-template>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:value-of select="$str"/>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>
-  
   <xsl:template mode="pass2" match="tei:*">
     <xsl:copy>
       <xsl:apply-templates mode="pass2" select="@*"/>
@@ -1217,6 +1304,43 @@
     </xsl:copy>
   </xsl:template>
 
+  <!-- PASS 6:
+       WRAP UNPROCESSED {...} CHARACTER CODES IN <g>
+  -->
+  
+  <xsl:template mode="pass6" match="tei:*">
+    <xsl:copy>
+      <xsl:apply-templates mode="pass6" select="@*"/>
+      <xsl:apply-templates mode="pass6" select="tei:*|text()"/>
+    </xsl:copy>
+  </xsl:template>
+  <xsl:template mode="pass6" match="@*">
+    <xsl:copy/>
+  </xsl:template>
+  <xsl:template mode="pass6" match="text()">
+    <xsl:call-template name="g-text"/>
+  </xsl:template>
+
+  <xsl:template name="g-text">
+    <xsl:param name="str" select="."/>
+    <xsl:choose>
+      <xsl:when test="contains($str, '{') and contains($str, '}')">
+        <xsl:value-of select="substring-before($str, '{')"/>
+        <g>
+          <xsl:text>{</xsl:text>
+          <xsl:value-of select="substring-before(substring-after($str, '{'), '}')"/>
+          <xsl:text>}</xsl:text>
+        </g>
+        <xsl:call-template name="g-text">
+          <xsl:with-param name="str" select="substring-after($str, '}')"/>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="$str"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
   <!-- FUNCTIONS -->
   
   <!-- Construct IDs for entries and senses -->
@@ -1276,7 +1400,7 @@
           </xsl:matching-substring>
         </xsl:analyze-string>
       </xsl:when>
-      <xsl:otherwise>
+      <xsl:when test="matches($date, '^(\d\d?\.)?(\d\d?\.)?( \([0-9.]+\) )?(\d\d\d\d?)')">
         <xsl:analyze-string select="$date" regex="^(\d\d?\.)?(\d\d?\.)?( \([0-9.]+\) )?(\d\d\d\d?)">
           <xsl:matching-substring>
             <xsl:variable name="day" select="replace(regex-group(1), '\.', '')"/>
@@ -1300,9 +1424,18 @@
             </xsl:choose>
           </xsl:matching-substring>
         </xsl:analyze-string>
-      </xsl:otherwise>
+      </xsl:when>
+      <!-- ???? -->
+      <xsl:when test="matches($date, concat('^(', $month-re, ') (\d\d\d\d)'))">
+        <xsl:analyze-string select="$date" regex="{concat('^(', $month-re, ') (\d\d\d\d)')}">
+          <xsl:matching-substring>
+            <xsl:variable name="month" select="$months/tei:date[. = regex-group(1)]/@when"/>
+            <xsl:variable name="year" select="regex-group(3)"/>
+            <xsl:value-of select="et:pad-date(concat($year, '-', $month))"/>
+          </xsl:matching-substring>
+        </xsl:analyze-string>
+      </xsl:when>
     </xsl:choose>
-    
   </xsl:function>
           
   <!-- Pad parts of date with 0 if necessary -->

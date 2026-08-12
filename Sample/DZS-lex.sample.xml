@@ -11,14 +11,211 @@
                <resp>Kodiranje TEI XML</resp>
                <resp xml:lang="en">TEI XML encoding</resp>
             </respStmt>
+            <respStmt>
+               <persName>Aleksander Sitar</persName>
+               <persName>Aleksander Zidanšek</persName>
+               <persName>Alenka Strdin</persName>
+               <persName>Aleš Galič</persName>
+               <persName>Aleš Pogačnik</persName>
+               <persName>Aleš Vesel</persName>
+               <persName>Alfred Trenz</persName>
+               <persName>Alojz Ihan</persName>
+               <persName>Amanda Valič</persName>
+               <persName>Andreja Bricelj</persName>
+               <persName>Andrej Pleterski</persName>
+               <persName>Anton Štuhec</persName>
+               <persName>Barbara Modec</persName>
+               <persName>Barbara Vrečko</persName>
+               <persName>B. Avbelj</persName>
+               <persName>Bibijana Mihevc</persName>
+               <persName>Blaž Mesec</persName>
+               <persName>Bogdan Horvat</persName>
+               <persName>Bojan Djurič</persName>
+               <persName>Bojan Kavčič</persName>
+               <persName>Bojan Mesec</persName>
+               <persName>Boris Jesih</persName>
+               <persName>Borut Drobnjak</persName>
+               <persName>Borut Jesih</persName>
+               <persName>Borut Korun</persName>
+               <persName>Borut Trapečar</persName>
+               <persName>Borut Trepčar</persName>
+               <persName>Breda Ilich-Klančnik</persName>
+               <persName>Breda Luthar</persName>
+               <persName>Breda Rajar</persName>
+               <persName>Bronislava Aubelj</persName>
+               <persName>Ciril Sorč</persName>
+               <persName>Črt Kostevc</persName>
+               <persName>Damir Globočnik</persName>
+               <persName>Damjana Zelnik</persName>
+               <persName>Damjan J. Ovsec</persName>
+               <persName>Dejan Žlajpah</persName>
+               <persName>Dragan Božič</persName>
+               <persName>Dragica Turnšek</persName>
+               <persName>Drago Kladnik</persName>
+               <persName>Drago Perko</persName>
+               <persName>Dušan Kos</persName>
+               <persName>Dušan Kuščer</persName>
+               <persName>Duška Meh</persName>
+               <persName>Franc Cimerman</persName>
+               <persName>France Bernot</persName>
+               <persName>Franci Deržanič</persName>
+               <persName>Franci Žibert</persName>
+               <persName>Francka Premk</persName>
+               <persName>Franc Merzelj</persName>
+               <persName>Franc Pavlin</persName>
+               <persName>Franc Pečelin</persName>
+               <persName>Frane Jerman</persName>
+               <persName>Furlan Metka</persName>
+               <persName>Gabrijel Seljak</persName>
+               <persName>Gorazd Lešnjak</persName>
+               <persName>Gorazd Lojen</persName>
+               <persName>Hanka Štular</persName>
+               <persName>Helena Mihelčič</persName>
+               <persName>Henrik Neubauer</persName>
+               <persName>Hilda Hašaj</persName>
+               <persName>Ida Knez</persName>
+               <persName>Ignac Sivec</persName>
+               <persName>Igor Evgen Bergant</persName>
+               <persName>Igor Maher</persName>
+               <persName>Ingrid Slavec Gradišnik</persName>
+               <persName>Irena Novak-Popov</persName>
+               <persName>Irena Samide</persName>
+               <persName>Irena Zavrl</persName>
+               <persName>Ivan Bele</persName>
+               <persName>Ivan Jakič</persName>
+               <persName>Ivan Kristan</persName>
+               <persName>Ivan Pucko</persName>
+               <persName>Ivan Štuhec</persName>
+               <persName>Ivan Turk</persName>
+               <persName>Iza Ciglenečki</persName>
+               <persName>Jana Horvat</persName>
+               <persName>Jan Carnelutti</persName>
+               <persName>Janez Dular</persName>
+               <persName>Janez Stergar</persName>
+               <persName>Janja Kogovšek</persName>
+               <persName>Jaro Lajovic</persName>
+               <persName>Jasna Štrus</persName>
+               <persName>Jelka Stergar</persName>
+               <persName>Jelka Strgar</persName>
+               <persName>Jerneja Fridl</persName>
+               <persName>Jerneja Petrič</persName>
+               <persName>Jože Hanc</persName>
+               <persName>Jože Maček</persName>
+               <persName>Jože Pavlič Damijan</persName>
+               <persName>Jože Resnik</persName>
+               <persName>Jože Vogrinc</persName>
+               <persName>Jurij Senegačnik</persName>
+               <persName>Karel Natek</persName>
+               <persName>Kogovšek Aleksander</persName>
+               <persName>Lena Holmqvist</persName>
+               <persName>Lidija Saje</persName>
+               <persName>Ljuba Fende</persName>
+               <persName>Lovro Stanovnik</persName>
+               <persName>Ludvik Jošar</persName>
+               <persName>Maček Jože</persName>
+               <persName>Maja Ondračka</persName>
+               <persName>Majda Zorec-Karlovšek</persName>
+               <persName>Marija Javornik</persName>
+               <persName>Marija Knez-Bergant</persName>
+               <persName>Marijan Medič</persName>
+               <persName>Marija Stankovič</persName>
+               <persName>Marija Štefančič</persName>
+               <persName>Mario Fakin</persName>
+               <persName>Mario Pleničar</persName>
+               <persName>Marja Bešter</persName>
+               <persName>Marjana Benčina</persName>
+               <persName>Marjana Križaj</persName>
+               <persName>Marjan Garbajs</persName>
+               <persName>Marko Aljančič</persName>
+               <persName>Marko Bertok</persName>
+               <persName>Marko Kumar</persName>
+               <persName>Marko Marinčič</persName>
+               <persName>Marko Urbanija</persName>
+               <persName>Martina Križaj-Ortar</persName>
+               <persName>Martin Žnideršič</persName>
+               <persName>Mateja Vraničar</persName>
+               <persName>Matej Gabrovec</persName>
+               <persName>Matej Vraničar</persName>
+               <persName>Matevž Lenarčič</persName>
+               <persName>Matjaž Štuhec</persName>
+               <persName>Mauro Hrvatin</persName>
+               <persName>Metka Bögel-Dodič</persName>
+               <persName>Metka Furlan</persName>
+               <persName>Metka Kralj</persName>
+               <persName>Mihael Jožef Toman</persName>
+               <persName>Miha Juhart</persName>
+               <persName>Miha Pavšek</persName>
+               <persName>Milan Klemenčič</persName>
+               <persName>Milan Orožen Adamič</persName>
+               <persName>Milena Pleničar</persName>
+               <persName>Milena Polanič</persName>
+               <persName>Milutin Stankovič</persName>
+               <persName>Miran Mihelčič</persName>
+               <persName>Mojca Dobnikar</persName>
+               <persName>Nada Colnar</persName>
+               <persName>Nataša Koselj</persName>
+               <persName>Nataša Smolar</persName>
+               <persName>Nataša Štefanič</persName>
+               <persName>Nedžad Žujo</persName>
+               <persName>Nevenka Zabavnik Cmok</persName>
+               <persName>Nikolaj Torelli</persName>
+               <persName>Nina Kozinc</persName>
+               <persName>Oskar Dolenc</persName>
+               <persName>Oto Luthar</persName>
+               <persName>Pavel Dolenc</persName>
+               <persName>Pavla Ranzinger</persName>
+               <persName>Peter Grilc</persName>
+               <persName>Peter Skoberne</persName>
+               <persName>Peter Trontelj</persName>
+               <persName>Polonca Svetlin-Gvardjančič</persName>
+               <persName>Primož Kuret</persName>
+               <persName>Rok Stergar</persName>
+               <persName>Samo Krušič</persName>
+               <persName>Samo Kuščer</persName>
+               <persName>Saša Pirkmaier</persName>
+               <persName>Sašo Avsec</persName>
+               <persName>Slavko Ciglenečki</persName>
+               <persName>Sonja Stergaršek</persName>
+               <persName>Stane Klemenc</persName>
+               <persName>Štefan Horvat</persName>
+               <persName>Štefan Oštir</persName>
+               <persName>Štefan Vevar</persName>
+               <persName>Tadej Markun</persName>
+               <persName>Tamara Bosnič</persName>
+               <persName>Tatjana Sabo</persName>
+               <persName>Tomaž Saksida</persName>
+               <persName>Tomislav Pirc</persName>
+               <persName>Tomo Pirc</persName>
+               <persName>Tomo Virk</persName>
+               <persName>Uroš Ilič</persName>
+               <persName>Vanesa Matajc</persName>
+               <persName>Vekoslav Mihevc</persName>
+               <persName>Vera Gregorač</persName>
+               <persName>Veronika Rot</persName>
+               <persName>Vesna Čopič</persName>
+               <persName>Vida Bonač</persName>
+               <persName>Vid Jakulin</persName>
+               <persName>Vinko Rozman</persName>
+               <persName>Vita Klinar</persName>
+               <persName>Vladimir Drozg</persName>
+               <persName>Vladimir Simič</persName>
+               <persName>Zdenka Erbežnik</persName>
+               <persName>Zdenko Medveš</persName>
+               <persName>Zdenko Rajher</persName>
+               <persName>Zdravko Petkovšek</persName>
+               <persName>Zoran Belec</persName>
+               <persName>Zvonka Zupanič-Slavec</persName>
+               <resp>Avtorji geselskih člankov</resp>
+               <resp xml:lang="en">Authors of the lexicon entries</resp>
+            </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>Version 0.1</edition>
+            <edition>Version 1.0</edition>
          </editionStmt>
-         <extent>XXXXX entries</extent>
+         <extent>77777 entries</extent>
          <publicationStmt>
             <publisher>CLARIN.SI</publisher>
-            <idno type="PID">http://hdl.handle.net/11356/xxxx</idno>
+            <idno type="PID">http://hdl.handle.net/11356/2332</idno>
             <availability>
                <p xml:lang="sl">Avtorske pravice za to izdajo ureja licenca
           <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
@@ -50,7 +247,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2026-08-04">
+         <change when="2026-08-11">
             <name>Tomaž Erjavec</name> First draft.</change>
       </revisionDesc>
    </teiHeader>
@@ -367,17 +564,15 @@
             <def n="KDE">švedski pripovednik, dramatik in lirik</def>
             <pc join="left">,</pc>
             <def n="RPOD">
-               <state type="birth" n="RPOD1">
-                  <desc>*<date when="1924-10-05">5.10.1924</date>
-                     <placeName>Ålvkarleby</placeName>
-                  </desc>
-               </state>
+               <pc join="right" type="birth">*</pc>
+               <date when="1924-10-05" type="birth">5.10.1924</date>
+               <placeName type="birth">Ålvkarleby</placeName>
+               <pc join="left"/>
                <pc join="left">,</pc>
-               <state type="death" n="RPOD2">
-                  <desc>†<date when="1954-11-04">4.11.1954</date>
-                     <placeName>Enebyberg</placeName>
-                  </desc>
-               </state>
+               <pc join="right" type="death">†</pc>
+               <date when="1954-11-04" type="death">4.11.1954</date>
+               <placeName type="death">Enebyberg</placeName>
+               <pc join="left"/>
                <pc join="left">;</pc>
             </def>
             <def n="OPI">
@@ -409,17 +604,15 @@
             <def n="KDE">nemški skladatelj in dirigent</def>
             <pc join="left">,</pc>
             <def n="RPOD">
-               <state type="birth" n="RPOD1">
-                  <desc>*<date when="1894-12-19">19.12.1894</date>
-                     <placeName>Hamburg</placeName>
-                  </desc>
-               </state>
+               <pc join="right" type="birth">*</pc>
+               <date when="1894-12-19" type="birth">19.12.1894</date>
+               <placeName type="birth">Hamburg</placeName>
+               <pc join="left"/>
                <pc join="left">,</pc>
-               <state type="death" n="RPOD2">
-                  <desc>†<date when="1979-06-28">28.6.1979</date>
-                     <placeName>Berlin</placeName>
-                  </desc>
-               </state>
+               <pc join="right" type="death">†</pc>
+               <date when="1979-06-28" type="death">28.6.1979</date>
+               <placeName type="death">Berlin</placeName>
+               <pc join="left"/>
                <pc join="left">;</pc>
             </def>
             <def n="OPI">
@@ -543,17 +736,14 @@
             <def n="KDE">ameriški filmski režiser</def>
             <pc join="left">,</pc>
             <def n="RPOD">
-               <state type="birth" n="RPOD1">
-                  <desc>*<date when="1883-02-23">23.2.1883</date>
-                     <placeName>Pasadena (CA)</placeName>
-                  </desc>
-               </state>
+               <pc join="right" type="birth">*</pc>
+               <date when="1883-02-23" type="birth">23.2.1883</date>
+               <placeName type="birth">Pasadena (CA)</placeName>
+               <pc join="left"/>
                <pc join="left">,</pc>
-               <state type="death" n="RPOD2">
-                  <desc>†<date when="1949-01-06">6.1.1949</date>
-                     <placeName>Cottonwood (AZ)</placeName>.</desc>
-               </state>
-            </def>
+               <pc join="right" type="death">†</pc>
+               <date when="1949-01-06" type="death">6.1.1949</date>
+               <placeName type="death">Cottonwood (AZ)</placeName>.</def>
             <def n="OPI">
                <floatingText type="list" n="RUB">
                   <body>
@@ -593,13 +783,12 @@
             <def n="KDE">ameriški otroški zdravnik in virolog</def>
             <pc join="left">,</pc>
             <def n="RPOD">
-               <state type="birth" n="RPOD1">
-                  <desc>*<date when="1923-09-09">9.9.1923</date>
-                     <placeName>Yonkers (NY)</placeName>
-                  </desc>
-               </state>
+               <pc join="right" type="birth">*</pc>
+               <date when="1923-09-09" type="birth">9.9.1923</date>
+               <placeName type="birth">Yonkers (NY)</placeName>
+               <pc join="left"/>
+               <pc join="left">;</pc>
             </def>
-            <pc join="left">;</pc>
             <def n="OPI">
                <date n="LX">1976</date> Nobelova nagrada za medicino skupaj z B. S. <ref target="#dzs00785700.00" n="KB">Blumbergom</ref> za odkritje novih mehanizmov nastajanja in širjenja infekcijskih bolezni.</def>
             <note type="admin" subtype="author" n="Z">
@@ -634,27 +823,21 @@
             </form>
             <pc join="left">,</pc>
             <lbl type="number" n="A2">1</lbl>
-            <def n="BORN">
-               <state type="birth" n="BORN">
-                  <desc>(590–604)</desc>
-               </state>
-            </def>
+            <def n="BORN">(590–604)</def>
             <pc join="left">,</pc>
             <def n="KDE">cerkveni učitelj</def>
             <pc join="left">,</pc>
             <def n="RPOD">
-               <state type="birth" n="RPOD1">
-                  <desc>*<placeName>pred</placeName>
-                     <date when="0540">540</date>
-                     <placeName>Rim</placeName>
-                  </desc>
-               </state>
+               <pc join="right" type="birth">*</pc>
+               <placeName type="birth">pred</placeName>
+               <date when="0540" type="birth">540</date>
+               <placeName type="birth">Rim</placeName>
+               <pc join="left"/>
                <pc join="left">,</pc>
-               <state type="death" n="RPOD2">
-                  <desc>†<date when="0604-03-12">12.3.604</date>
-                     <placeName>prav tam</placeName>
-                  </desc>
-               </state>
+               <pc join="right" type="death">†</pc>
+               <date when="0604-03-12" type="death">12.3.604</date>
+               <placeName type="death">prav tam</placeName>
+               <pc join="left"/>
                <pc join="left">;</pc>
             </def>
             <def n="OPI">prvi redovnik, ki je postal papež; utrl pot misijonu med Anglosasi (594 odposlal 40 redovnikov) in prestopu <ref target="#dzs03705700.00" n="KP">Langobardov</ref> h katoliški veri; nasprotno kot patriarh v Carigradu, ki je imel naslov <distinct type="form" n="ENX" rend="italic">oikumenikos</distinct>, je sebe imenoval <ref target="#dzs06225500.00" n="KP">servus servorum Dei</ref>. S svojimi številni spisi, polnimi vere v čudeže in poenostavljanj naukov cerkvenih učiteljev, predvsem njegovega vzora <ref target="#dzs00496200.01" n="KP">Avguština</ref>, je močno vplival na ves srednji vek. Svetnik, god: 3.9.</def>
@@ -685,13 +868,12 @@
             <def n="KDE">nemški dirigent</def>
             <pc join="left">,</pc>
             <def n="RPOD">
-               <state type="birth" n="RPOD1">
-                  <desc>*<date when="1929-12-06">6.12.1929</date>
-                     <placeName>Berlin</placeName>
-                  </desc>
-               </state>
+               <pc join="right" type="birth">*</pc>
+               <date when="1929-12-06" type="birth">6.12.1929</date>
+               <placeName type="birth">Berlin</placeName>
+               <pc join="left"/>
+               <pc join="left">;</pc>
             </def>
-            <pc join="left">;</pc>
             <def n="OPI">najprej nastopal kot violončelist, <date n="ILT">1952</date> na Dunaju ustanovil ansambel <distinct type="form" n="ENX" rend="italic">Concentus Musicus</distinct>, ki izvaja staro glasbo z izvirnimi glasbili in v <ref target="#dzs07663200.00" n="KP">zgodovinski izvajalni praksi</ref>; za zgledne veljajo njegove izvedbe Monteverdija (<date n="LT">1976</date>–<date when="1979">79</date>) in Mozarta (od <date n="LT">1980</date>).<floatingText type="list" n="RUB">
                   <body>
                      <div>
@@ -737,11 +919,9 @@
             <def n="KDE">ameriški filmski režiser kanadskega rodu</def>
             <pc join="left">,</pc>
             <def n="RPOD">
-               <state type="birth" n="RPOD1">
-                  <desc>*<date when="1923-11-22">22.11.1923</date>
-                     <placeName>Edmonton (Alberta)</placeName>.</desc>
-               </state>
-            </def>
+               <pc join="right" type="birth">*</pc>
+               <date when="1923-11-22" type="birth">22.11.1923</date>
+               <placeName type="birth">Edmonton (Alberta)</placeName>.</def>
             <def n="OPI">
                <floatingText type="list" n="RUB">
                   <body>
@@ -780,11 +960,9 @@
             <def n="KDE">ameriški filmski in gledališki igralec</def>
             <pc join="left">,</pc>
             <def n="RPOD">
-               <state type="birth" n="RPOD1">
-                  <desc>*<date when="1950-03-20">20.3.1950</date>
-                     <placeName>Washington</placeName>.</desc>
-               </state>
-            </def>
+               <pc join="right" type="birth">*</pc>
+               <date when="1950-03-20" type="birth">20.3.1950</date>
+               <placeName type="birth">Washington</placeName>.</def>
             <def n="OPI">
                <floatingText type="list" n="RUB">
                   <body>
@@ -1756,13 +1934,12 @@
             <def n="KDE">francoski fizik alžirskega rodu</def>
             <pc join="left">,</pc>
             <def n="RPOD">
-               <state type="birth" n="RPOD1">
-                  <desc>*<date when="1933-04-01">1.4.1933</date>
-                     <placeName>Constantine (Alžirija)</placeName>
-                  </desc>
-               </state>
+               <pc join="right" type="birth">*</pc>
+               <date when="1933-04-01" type="birth">1.4.1933</date>
+               <placeName type="birth">Constantine (Alžirija)</placeName>
+               <pc join="left"/>
+               <pc join="left">;</pc>
             </def>
-            <pc join="left">;</pc>
             <def n="OPI">teoretično razvijal metode hlajenja in lovljenja atomov z <ref target="#dzs03720800.00" n="KP">lasersko svetlobo</ref>. S pomočjo šestih laserskih snopov, ki so se sekali, so upočasnili atome helija do hitrosti 2 cm/s; <date n="ILT">1997</date> Nobelova nagrada za fiziko z S. <ref target="#dzsB0006600.00" n="KB">Chujem</ref> in W. D. <ref target="#dzsB0006800.00" n="KB">Phillipsom</ref>.</def>
             <note type="admin" subtype="author" n="Z">
                <name>Maja Ondračka</name>
@@ -2086,17 +2263,15 @@
             <def n="KDE">češki kralj (<date n="ILT">1458</date>–<date when="1471">71</date>)</def>
             <pc join="left">,</pc>
             <def n="RPOD">
-               <state type="birth" n="RPOD1">
-                  <desc>*<date when="1420-04-06">6.4.1420</date>
-                     <placeName>Poděbrady</placeName>
-                  </desc>
-               </state>
+               <pc join="right" type="birth">*</pc>
+               <date when="1420-04-06" type="birth">6.4.1420</date>
+               <placeName type="birth">Poděbrady</placeName>
+               <pc join="left"/>
                <pc join="left">,</pc>
-               <state type="death" n="RPOD2">
-                  <desc>†<date when="1471-03-22">22.3.1471</date>
-                     <placeName>Praga</placeName>
-                  </desc>
-               </state>
+               <pc join="right" type="death">†</pc>
+               <date when="1471-03-22" type="death">22.3.1471</date>
+               <placeName type="death">Praga</placeName>
+               <pc join="left"/>
                <pc join="left">;</pc>
             </def>
             <def n="OPI">od <date n="OLT">1444</date> politični vodja <ref target="#dzs07212300.00" n="KP">utrakvistov</ref>; češki stanovi so ga <date n="LT">1452</date> izvolili za oskrbnika (<distinct type="form" n="ENX" rend="italic">gubernatorja</distinct>) mladoletnemu <ref target="#dzs03671800.00" n="KP">Ladislavu Posthumusu</ref>. Po Ladislavovi smrti <date n="LT">1458</date> postal kralj; <date n="LT">1466</date> ga je papež Pavel II. izobčil. Medtem ko je <ref target="#dzs04155600.00" n="KP">Matija Korvin</ref> zasedel sosednje dežele Češke, se je <oRef type="headword" n="YI">Poděbrad</oRef> uveljavil v matični državi.</def>
@@ -2150,13 +2325,12 @@
             <def n="KDE">mehiški rockovski kitarist</def>
             <pc join="left">,</pc>
             <def n="RPOD">
-               <state type="birth" n="RPOD1">
-                  <desc>*<date when="1947-07-20">20.7.1947</date>
-                     <placeName>Autlán de Navarro</placeName>
-                  </desc>
-               </state>
+               <pc join="right" type="birth">*</pc>
+               <date when="1947-07-20" type="birth">20.7.1947</date>
+               <placeName type="birth">Autlán de Navarro</placeName>
+               <pc join="left"/>
+               <pc join="left">;</pc>
             </def>
-            <pc join="left">;</pc>
             <def n="OPI">
                <date n="ILT">1967</date> ustanovil v San Franciscu skupino <hi rend="italic" n="I">Santana</hi>, katere značilnost postanejo afrokubanska ritmika in pojoče kitare. Nastop <oRef type="headword" n="YI">Santane</oRef> v Woodstocku <date n="OLT">1969</date> je odločilno vplival na slog južnoameriškega rocka. Skladbe, kot so <hi rend="italic" n="I">Black Magic Woman</hi> (<date n="LT">1970</date>), <hi rend="italic" n="I">Samba Pa Ti</hi> (<date n="LT">1970</date>), <hi rend="italic" n="I">Jingo</hi> (<date n="LT">1973</date>) ali <hi rend="italic" n="I">She's not There</hi> (<date n="LT">1977</date>), so postale svetovne uspešnice.<floatingText type="list" n="RUB">
                   <body>
