@@ -1,0 +1,7 @@
+nohup*
+*test*
+*.tmp*
+*.zip
+*.gz
+*.tgz
+*.tar
