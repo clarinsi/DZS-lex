@@ -1280,7 +1280,7 @@
       </xsl:when>
       <xsl:when test="et:tst-str($str, $lbl-re)">
         <lbl>
-          <xsl:value-of select="et:get-str($str, $lbl-re)"/>
+          <xsl:value-of select="normalize-space(et:get-str($str, $lbl-re))"/>
         </lbl>
         <xsl:call-template name="form">
           <xsl:with-param name="str" select="et:del-str($str, $lbl-re)"/>

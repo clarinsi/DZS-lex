@@ -1644,7 +1644,7 @@
                <pc join="left">)</pc>
                <pc join="left">,</pc>
                <form n="AIME">
-                  <lbl>prej </lbl>
+                  <lbl>prej</lbl>
                   <form n="EN" rend="italic" type="name">
                      <name>Kujbyševsko</name>
                      <orth>zajezitveno jezero</orth>
@@ -2297,9 +2297,9 @@
                <name>Jurij</name>
                <pc join="left">,</pc>
                <form n="AIME">
-                  <lbl>tudi </lbl>
+                  <lbl>tudi</lbl>
                   <hi rend="italic" n="I">Poděbradski</hi>
-                  <lbl>in </lbl>
+                  <lbl>in</lbl>
                   <hi rend="italic" n="I">Kunštátski</hi>
                </form>
             </form>
@@ -2359,7 +2359,7 @@
             <form type="forename" n="OIME">
                <name>Carlos</name>
                <pc join="right">(</pc>
-               <lbl>od </lbl>
+               <lbl>od</lbl>
                <date>1973</date>
                <pc join="left">)</pc>
                <name>Devadip</name>
