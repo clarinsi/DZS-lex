@@ -20,46 +20,121 @@
   </xsl:template-->
   
   <xsl:template match="/">
-    <xsl:variable name="schema_url">TEILex0.rng</xsl:variable>
-    <xsl:variable name="namespace">http://relaxng.org/ns/structure/1.0</xsl:variable>
-    <xsl:text>&#10;</xsl:text>
-    <xsl:processing-instruction	name="xml-model">
-      <xsl:value-of select="concat(
-			    'href=&quot;', $schema_url,
-			    '&quot; type=&quot;application/xml&quot; schematypens=&quot;',
-			    $namespace,
-			    '&quot;'
-			    )"/>
-    </xsl:processing-instruction>
-    <xsl:text>&#10;</xsl:text>
+    <xsl:copy-of select="$xml-model"/>
     <TEI xmlns="http://www.tei-c.org/ns/1.0">
       <xsl:attribute name="xml:id" select="$id_prefix"/>
       <xsl:attribute name="xml:lang">sl</xsl:attribute>
-      <xsl:copy-of select="$teiHeader"/>
-      <text>
-        <body>
-          <xsl:variable name="pass1">
-            <xsl:apply-templates/>
-          </xsl:variable>
-          <xsl:variable name="pass2">
-            <xsl:apply-templates mode="pass2" select="$pass1"/>
-          </xsl:variable>
-          <xsl:variable name="pass3">
-            <xsl:apply-templates mode="pass3" select="$pass2"/>
-          </xsl:variable>
-          <xsl:variable name="pass4">
-            <xsl:apply-templates mode="pass4" select="$pass3"/>
-          </xsl:variable>
-          <xsl:variable name="pass5">
-            <xsl:apply-templates mode="pass5" select="$pass4"/>
-          </xsl:variable>
-          <xsl:apply-templates mode="pass6" select="$pass5"/>
-        </body>
-      </text>
+      <xsl:variable name="TEI-text">
+        <text>
+          <body>
+            <xsl:call-template name="run-passes"/>
+          </body>
+        </text>
+      </xsl:variable>
+      <!--xsl:copy-of select="$teiHeader"/-->
+      <xsl:apply-templates mode="header" select="$teiHeader">
+        <xsl:with-param name="TEI" select="$TEI-text"/>
+      </xsl:apply-templates>
+      <xsl:copy-of select="$TEI-text"/>
     </TEI>
   </xsl:template>
 
-  <!-- PASS 2: RENAME DZS ELEMENT TO TEI ONES -->
+  <!-- Process the document in several passes -->
+  <xsl:template name="run-passes">
+    <xsl:variable name="pass1">
+      <xsl:apply-templates/>
+    </xsl:variable>
+    <xsl:variable name="pass2">
+      <xsl:apply-templates mode="pass2" select="$pass1"/>
+    </xsl:variable>
+    <xsl:variable name="pass3">
+      <xsl:apply-templates mode="pass3" select="$pass2"/>
+    </xsl:variable>
+    <xsl:variable name="pass4">
+      <xsl:apply-templates mode="pass4" select="$pass3"/>
+    </xsl:variable>
+    <xsl:variable name="pass5">
+      <xsl:apply-templates mode="pass5" select="$pass4"/>
+    </xsl:variable>
+    <xsl:apply-templates mode="pass6" select="$pass5"/>
+  </xsl:template>
+  
+  <!-- PASS "header": INTO teiHeader INSERT CURRENT DATE, EXTENT AND TAGUSAGE -->
+
+  <xsl:template mode="header" match="tei:idno[@subtype='handle']">
+    <idno type="URI" subtype="handle">
+      <xsl:value-of select="$handle"/>
+    </idno>
+  </xsl:template>
+  
+  <xsl:template mode="header" match="tei:publicationStmt/tei:date">
+    <date when="{$today}">
+      <xsl:value-of select="$today"/>
+    </date>
+  </xsl:template>
+  
+  <xsl:template mode="header" match="tei:extent">
+    <xsl:param name="TEI"/>
+    <xsl:variable name="entries" select="count($TEI//tei:entry)"/>
+    <xsl:variable name="senses" select="$entries + count($TEI//tei:sense) "/>
+    <xsl:copy>
+      <measure unit="entries" quantity="{$entries}" xml:lang="sl">
+        <xsl:value-of select="$entries"/>
+        <xsl:text> vnosov</xsl:text>
+      </measure>
+      <measure unit="entries" quantity="{$entries}" xml:lang="sl">
+        <xsl:value-of select="$senses"/>
+        <xsl:text> pomenov</xsl:text>
+      </measure>
+    </xsl:copy>
+  </xsl:template>
+  
+  <xsl:template mode="header" match="tei:tagsDecl">
+    <xsl:param name="TEI"/>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+	<xsl:apply-templates mode="tagCount" select="$TEI"/>
+      </namespace>
+    </tagsDecl>
+  </xsl:template>
+  <xsl:template mode="tagCount" match="tei:*">
+    <xsl:variable name="self" select="name()"/>
+    <xsl:if test="not(following::*[name()=$self] or descendant::*[name()=$self] )">
+      <tagUsage gi="{$self}">
+	<xsl:attribute name="occurs">
+	  <xsl:number level="any" from="tei:group"/>
+	</xsl:attribute>
+      </tagUsage>
+    </xsl:if>
+    <xsl:apply-templates mode="tagCount"/>
+  </xsl:template>
+  <xsl:template mode="tagCount" match="text()"/>
+  
+  <xsl:template mode="header" match="tei:revisionDesc">
+    <xsl:copy>
+      <xsl:apply-templates mode="header" select="@*"/>
+      <change when="{$today}"><name>Tomaž Erjavec</name> Run conversion to TEI.</change>
+      <xsl:apply-templates mode="header"/>
+    </xsl:copy>
+  </xsl:template>
+  
+  <xsl:template mode="header" match="tei:*">
+    <xsl:param name="TEI"/>
+    <xsl:copy>
+      <xsl:apply-templates mode="header" select="@*"/>
+      <xsl:apply-templates mode="header" select="tei:*|text()">
+        <xsl:with-param name="TEI" select="$TEI"/>
+      </xsl:apply-templates>
+    </xsl:copy>
+  </xsl:template>
+  <xsl:template mode="header" match="@*">
+    <xsl:copy/>
+  </xsl:template>
+  <xsl:template mode="header" match="text()">
+    <xsl:value-of select="."/>
+  </xsl:template>
+
+  <!-- PASS 1: RENAME DZS ELEMENT TO TEI ONES -->
   
   <xsl:template match="DZS">
     <!-- Group by ID for entry e.g. <XX><PO><N>00000100+01</N> and for sense <XX><PO><N>00000100+02</N> etc. -->

@@ -7,6 +7,9 @@ test-next:
 test-next-large:
 	$s -xsl:Scripts/dzs2tei-next.xsl Lexicon/DZS-lex.xml > Lexicon/DZS-lex.test.xml
 	$j TEI/tei_dzslex.rng Lexicon/DZS-lex.test.xml
+test-classla:
+	${venv}; ${python} < Sample/test.txt
+
 test:
 	$s -xsl:Scripts/test.xsl Sample/test.xml
 
@@ -27,7 +30,7 @@ sample-conll:
 	$s -xsl:Scripts/tei2txt-ids.xsl Sample/DZS-lex.sample.xml > Sample/DZS-lex.sample.ids
 	Scripts/merge-conllu.pl Sample/DZS-lex.sample.ids < Sample/DZS-lex.sample.conllu > Sample/DZS-lex.sample.id.conllu
 sample-ana:
-	${python} Scripts/anno.py < Sample/DZS-lex.sample.txt > Sample/DZS-lex.sample.conllu
+	${venv}; ${python} Scripts/anno.py < Sample/DZS-lex.sample.txt > Sample/DZS-lex.sample.conllu
 sample-tei2txt:
 	$s -xsl:Scripts/tei2txt.xsl Sample/DZS-lex.sample.xml > Sample/DZS-lex.sample.txt
 sample-dzs2tei:
@@ -35,6 +38,8 @@ sample-dzs2tei:
 	$j TEI/tei_dzslex.rng Sample/DZS-lex.sample.xml
 
 ### Targets to run on complete source
+nohup:
+	nohup time make all > nohup.all &
 all:	prep sample-dzs2tei dzs2tei tei2txt ana conll 2vert
 2vert:
 	Scripts/conllu2vert.pl < Lexicon/DZS-lex.id.conllu | Scripts/xml2vert.pl | gzip > Lexicon/DZS-lex.vert.gz
@@ -69,5 +74,5 @@ show-element:
 j = java -jar /usr/share/java/jing.jar
 s = java -jar /usr/share/java/saxon.jar
 P = parallel --gnu --halt 0
-venv = source Scripts/classla/bin/activate
+venv = . Scripts/classla/bin/activate
 python = /usr/local/classla-venv/bin/python

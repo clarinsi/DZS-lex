@@ -6,6 +6,25 @@
 		exclude-result-prefixes="tei"
 		version="2.0">
 
+  <xsl:param name="handle">http://hdl.handle.net/11356/2332</xsl:param>
+  <xsl:param name="today" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
+  
+  <xsl:variable name="xml-model">
+    <xsl:variable name="schema_url">../TEI/tei_dzslex.rng</xsl:variable>
+    <!--xsl:variable name="schema_url">TEILex0.rng</xsl:variable-->
+    <xsl:variable name="namespace">http://relaxng.org/ns/structure/1.0</xsl:variable>
+    <xsl:text>&#10;</xsl:text>
+    <xsl:processing-instruction name="xml-model">
+      <xsl:value-of select="concat(
+			    'href=&quot;', $schema_url,
+			    '&quot; type=&quot;application/xml&quot; schematypens=&quot;',
+			    $namespace,
+			    '&quot;'
+			    )"/>
+    </xsl:processing-instruction>
+    <xsl:text>&#10;</xsl:text>
+  </xsl:variable>
+  
   <xsl:variable name="teiHeader">
     <teiHeader xml:lang="sl">
       <fileDesc>
@@ -218,18 +237,19 @@
         <editionStmt>
           <edition>Version 1.0</edition>
         </editionStmt>
-        <extent>77777 entries</extent>
+        <extent/>
         <publicationStmt>
           <publisher>CLARIN.SI</publisher>
-          <idno type="PID">http://hdl.handle.net/11356/2332</idno>
+          <idno type="PID" subtype="handle"/>
           <availability>
             <p xml:lang="sl">Avtorske pravice za to izdajo ureja licenca
-          <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
-          Priznanje avtorstva-Deljenje pod enakimi pogoji 4.0 mednarodna licenca</ref>.</p>
-               <p xml:lang="en">This work is licenced under the licence
-          <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
-          Attribution-ShareAlike 4.0 International</ref>.</p>
-            </availability>
+            <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+            Priznanje avtorstva-Deljenje pod enakimi pogoji 4.0 mednarodna licenca</ref>.</p>
+            <p xml:lang="en">This work is licenced under the licence
+            <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+            Attribution-ShareAlike 4.0 International</ref>.</p>
+          </availability>
+          <date/>
         </publicationStmt>
         <sourceDesc>
           <biblStruct>
@@ -245,6 +265,14 @@
           </biblStruct>
         </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+        <projectDesc>
+	  <p xml:lang="sl">Pretvorba leksikona v TEI je bila narejena, da omogoči prenos berljive
+	  različice leksikona z repozitorija CLARIN.SI zainteresiranim uporabniki ter, da omogoči
+	  jezikoslovno označevanje leksikona in instalacijo na konkordančnike CLARIN.SI.</p>
+        </projectDesc>
+        <tagsDecl/>
+    </encodingDesc>
       <profileDesc>
         <langUsage>
           <language ident="sl">slovenščina</language>

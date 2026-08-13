@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="TEILex0.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../TEI/tei_dzslex.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dzs" xml:lang="sl">
    <teiHeader xml:lang="sl">
       <fileDesc>
@@ -212,18 +212,22 @@
          <editionStmt>
             <edition>Version 1.0</edition>
          </editionStmt>
-         <extent>77777 entries</extent>
+         <extent>
+            <measure unit="entries" quantity="84" xml:lang="sl">84 vnosov</measure>
+            <measure unit="entries" quantity="84" xml:lang="sl">114 pomenov</measure>
+         </extent>
          <publicationStmt>
             <publisher>CLARIN.SI</publisher>
-            <idno type="PID">http://hdl.handle.net/11356/2332</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/2332</idno>
             <availability>
                <p xml:lang="sl">Avtorske pravice za to izdajo ureja licenca
-          <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
-          Priznanje avtorstva-Deljenje pod enakimi pogoji 4.0 mednarodna licenca</ref>.</p>
+            <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+            Priznanje avtorstva-Deljenje pod enakimi pogoji 4.0 mednarodna licenca</ref>.</p>
                <p xml:lang="en">This work is licenced under the licence
-          <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
-          Attribution-ShareAlike 4.0 International</ref>.</p>
+            <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+            Attribution-ShareAlike 4.0 International</ref>.</p>
             </availability>
+            <date when="2026-08-13">2026-08-13</date>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -239,6 +243,43 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="sl">Pretvorba leksikona v TEI je bila narejena, da omogoči prenos berljive
+	  različice leksikona z repozitorija CLARIN.SI zainteresiranim uporabniki ter, da omogoči
+	  jezikoslovno označevanje leksikona in instalacijo na konkordančnike CLARIN.SI.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="gloss" occurs="3"/>
+               <tagUsage gi="figure" occurs="13"/>
+               <tagUsage gi="pron" occurs="31"/>
+               <tagUsage gi="placeName" occurs="17"/>
+               <tagUsage gi="floatingText" occurs="10"/>
+               <tagUsage gi="body" occurs="11"/>
+               <tagUsage gi="div" occurs="9"/>
+               <tagUsage gi="head" occurs="23"/>
+               <tagUsage gi="p" occurs="10"/>
+               <tagUsage gi="date" occurs="106"/>
+               <tagUsage gi="lang" occurs="14"/>
+               <tagUsage gi="usg" occurs="22"/>
+               <tagUsage gi="entry" occurs="84"/>
+               <tagUsage gi="form" occurs="173"/>
+               <tagUsage gi="orth" occurs="94"/>
+               <tagUsage gi="pc" occurs="343"/>
+               <tagUsage gi="distinct" occurs="34"/>
+               <tagUsage gi="oRef" occurs="57"/>
+               <tagUsage gi="ref" occurs="163"/>
+               <tagUsage gi="lbl" occurs="35"/>
+               <tagUsage gi="sense" occurs="30"/>
+               <tagUsage gi="def" occurs="182"/>
+               <tagUsage gi="hi" occurs="70"/>
+               <tagUsage gi="name" occurs="122"/>
+               <tagUsage gi="note" occurs="411"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="sl">slovenščina</language>
@@ -247,6 +288,8 @@
          </langUsage>
       </profileDesc>
       <revisionDesc xml:lang="en">
+         <change when="2026-08-13">
+            <name>Tomaž Erjavec</name> Run conversion to TEI.</change>
          <change when="2026-08-11">
             <name>Tomaž Erjavec</name> First draft.</change>
       </revisionDesc>
