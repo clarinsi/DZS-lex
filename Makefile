@@ -74,5 +74,6 @@ show-element:
 j = java -jar /usr/share/java/jing.jar
 s = java -jar /usr/share/java/saxon.jar
 P = parallel --gnu --halt 0
-venv = . Scripts/classla/bin/activate
+#venv = . Scripts/classla/bin/activate
+venv = . /usr/local/classla-venv/bin/activate
 python = /usr/local/classla-venv/bin/python
