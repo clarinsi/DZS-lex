@@ -117,8 +117,7 @@
 {epsilon}	U+03B5	ε	GREEK SMALL LETTER EPSILON
 {$12}	-	-	No idea what this does (REMOVE)
 {e.}	U+0117	ė	LATIN SMALL LETTER E WITH DOT ABOVE
-{nl2}	U+000A	
-	<control>
+{nl2}	U+000A		<control> (to new line)
 {uo}	U+016F	ů	LATIN SMALL LETTER U WITH RING ABOVE
 {omega}	U+03C9	ω	GREEK SMALL LETTER OMEGA
 {i\}	U+00EC	ì	LATIN SMALL LETTER I WITH GRAVE
