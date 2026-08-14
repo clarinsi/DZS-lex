@@ -34,7 +34,7 @@ sample-ana:
 sample-tei2txt:
 	$s -xsl:Scripts/tei2txt.xsl Sample/DZS-lex.sample.xml > Sample/DZS-lex.sample.txt
 sample-dzs2tei:
-	$s -xsl:Scripts/dzs2tei.xsl Sample/KNAUR.sample.xml > Sample/DZS-lex.sample.xml
+	$s stamp="DZS-lex sample" -xsl:Scripts/dzs2tei.xsl Sample/KNAUR.sample.xml > Sample/DZS-lex.sample.xml
 	$j TEI/tei_dzslex.rng Sample/DZS-lex.sample.xml
 
 ### Targets to run on complete source

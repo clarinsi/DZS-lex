@@ -6,6 +6,8 @@
 		exclude-result-prefixes="tei"
 		version="2.0">
 
+  <xsl:param name="stamp">DZS-lex</xsl:param>
+  <xsl:param name="id_prefix">dzs</xsl:param>
   <xsl:param name="handle">http://hdl.handle.net/11356/2332</xsl:param>
   <xsl:param name="today" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
   
@@ -29,8 +31,13 @@
     <teiHeader xml:lang="sl">
       <fileDesc>
         <titleStmt>
-          <title xml:lang="sl">Veliki splošni leksikon DZS [dzslex]</title>
-          <title xml:lang="sl">Large General Lexicon DZS [dzslex]</title>
+          <title xml:lang="sl">Veliki splošni leksikon DZS</title>
+          <title xml:lang="sl">Large General Lexicon DZS</title>
+          <respStmt>
+            <persName>Miro Romih, Amebis</persName>
+            <resp>Izvorno digitalno kodiranje</resp>
+            <resp xml:lang="en">Source digital encoding</resp>
+          </respStmt>
           <respStmt>
             <persName ref="https://orcid.org/0000-0002-1560-4099">Tomaž Erjavec</persName>
             <resp>Kodiranje TEI XML</resp>

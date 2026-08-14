@@ -9,8 +9,6 @@
 
   <xsl:import href="dzs2tei-lib.xsl"/>
   
-  <xsl:param name="id_prefix">dzs</xsl:param>
-
   <xsl:output indent="yes"/>
   <xsl:strip-space elements="TEI teiHeader text body entry sense figure floatingText"/>
   <xsl:preserve-space elements="form def gloss hi head distinct p oRef orth note"/>
@@ -65,6 +63,13 @@
     <idno type="URI" subtype="handle">
       <xsl:value-of select="$handle"/>
     </idno>
+  </xsl:template>
+  
+  <xsl:template mode="header" match="tei:titleStmt/tei:title">
+    <xsl:copy>
+      <xsl:apply-templates mode="header" select="@*"/>
+      <xsl:value-of select="concat(., ' [', $stamp, ']')"/>
+    </xsl:copy>
   </xsl:template>
   
   <xsl:template mode="header" match="tei:publicationStmt/tei:date">
