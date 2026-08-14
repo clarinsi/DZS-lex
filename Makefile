@@ -40,7 +40,9 @@ sample-dzs2tei:
 ### Targets to run on complete source
 nohup:
 	nohup time make all > nohup.all &
-all:	prep sample-dzs2tei dzs2tei tei2txt ana conll 2vert
+all:	prep sample-dzs2tei dzs2tei tei2txt ana conll 2vert cqp
+cqp:
+	cd /project/clarinsi-cqp; make ske-beta CORPUS=dzslex
 2vert:
 	Scripts/conllu2vert.pl < Lexicon/DZS-lex.id.conllu | Scripts/xml2vert.pl | gzip > Lexicon/DZS-lex.vert.gz
 conll:
