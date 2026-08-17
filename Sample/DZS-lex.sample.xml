@@ -1029,6 +1029,7 @@
                <tagUsage gi="gloss" occurs="3"/>
                <tagUsage gi="figure" occurs="13"/>
                <tagUsage gi="pron" occurs="31"/>
+               <tagUsage gi="name" occurs="20"/>
                <tagUsage gi="placeName" occurs="17"/>
                <tagUsage gi="floatingText" occurs="10"/>
                <tagUsage gi="body" occurs="11"/>
@@ -1039,6 +1040,7 @@
                <tagUsage gi="lang" occurs="14"/>
                <tagUsage gi="usg" occurs="22"/>
                <tagUsage gi="entry" occurs="84"/>
+               <tagUsage gi="note" occurs="171"/>
                <tagUsage gi="form" occurs="173"/>
                <tagUsage gi="orth" occurs="94"/>
                <tagUsage gi="pc" occurs="343"/>
@@ -1049,8 +1051,6 @@
                <tagUsage gi="sense" occurs="30"/>
                <tagUsage gi="def" occurs="182"/>
                <tagUsage gi="hi" occurs="70"/>
-               <tagUsage gi="name" occurs="122"/>
-               <tagUsage gi="note" occurs="411"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -1088,11 +1088,6 @@
                   <note type="admin" subtype="class" n="TS">GI</note>
                   <note type="admin" subtype="comment" n="O">preglednica (črka)na str. 17!</note>
                </note>
-               <note type="admin" subtype="author" n="Z">
-                  <name>Dušan Kos</name>
-                  <note type="class" n="K">129</note>
-                  <note type="class" n="KR">1.1.3.4/2.1.1.1/1.2.1.3</note>
-               </note>
             </sense>
             <sense n="PO" xml:id="dzs00000100.02">
                <note type="admin" subtype="class" n="T">E10</note>
@@ -1112,10 +1107,6 @@
                   </def>
                   <def n="OPI">(= 10⁻¹⁸ = 1 trilijoninka).</def>
                </sense>
-               <note type="admin" subtype="author" n="Z">
-                  <name>Sašo Avsec</name>
-                  <note type="class" n="K">503m</note>
-               </note>
             </sense>
             <sense n="PO" xml:id="dzs00000100.03">
                <note type="admin" subtype="class" n="T">P</note>
@@ -1125,10 +1116,6 @@
                <def n="KDE">šesta stopnja diatonične osnovne C-durove lestvice</def>
                <pc join="left">;</pc>
                <def n="OPI">oznaka za trizvoke in tonske načine: a za a-mol, A za A-dur; kot uglaševalni ton a¹ (enočrtni a) od <date n="LX">1939</date> označevan s 440 Hz.</def>
-               <note type="admin" subtype="author" n="Z">
-                  <name>Vera Gregorač</name>
-                  <note type="class" n="K">141</note>
-               </note>
             </sense>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs00109700.00" n="PO">
@@ -1145,11 +1132,6 @@
             <def n="KDE">kraj v Veliki Britaniji</def>
             <pc join="left">,</pc>
             <def n="OPI">v sv. Angliji, s. od Liverpoola; znan po konjskih dirkah za nagrado Grand National (najtežavnejše dirke čez zapreke na svetu).</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Veronika Rot</name>
-               <note type="class" n="K">139</note>
-               <note type="class" n="KR">1.3.1.2.1</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs00218800.00" n="PO">
             <note type="admin" subtype="class" n="T">E01</note>
@@ -1159,10 +1141,6 @@
             <pc join="left">,</pc>
             <def n="KDE">
                <ref target="#dzs00748400.00" n="KP">biotično kmetijstvo</ref>.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Jože Maček</name>
-               <note type="class" n="K">452</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs00330900.00" n="PO">
             <note type="admin" subtype="class" n="T">E01</note>
@@ -1172,10 +1150,6 @@
             <pc join="left">,</pc>
             <def n="KDE">
                <ref target="#dzs00349800.00" n="KP">antribide</ref>.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Ignac Sivec</name>
-               <note type="class" n="K">412z</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs00445100.00" n="PO">
             <note type="admin" subtype="class" n="T">R</note>
@@ -1202,10 +1176,6 @@
                </figure>
                <note type="admin" subtype="comment" n="O">(str. 341)</note>
             </note>
-            <note type="admin" subtype="author" n="Z">
-               <name>Alojz Ihan/Gabrijel Seljak</name>
-               <note type="class" n="K">422g</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs00560500.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
@@ -1216,10 +1186,6 @@
             <def n="KDE">velikost prvega nihaja balističnega merilnega instrumenta</def>
             <pc join="left">,</pc>
             <def n="OPI">ki ga poženemo s kratkim sunkom. Balistični galvanometer rabi za merjenje zelo kratkih tokovnih sunkov, balistično nihalo pa za merjenje hitrosti izstrelkov.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Sašo Avsec</name>
-               <note type="class" n="K">503</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs00673600.00" n="PO">
             <note type="admin" subtype="class" n="T">BM</note>
@@ -1235,11 +1201,6 @@
             </form>
             <pc join="left">,</pc>
             <def n="KDE">traška boginja lova, njen orgiastični kult so v Atenah uvedli v dobi <ref target="#dzs05186400.00" n="KP">Perikla</ref>.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Samo Krušič</name>
-               <note type="class" n="K">137a</note>
-               <note type="class" n="KR">1.2.1.3</note>
-            </note>
          </entry>
          <entry xml:lang="sl"
                 type="personOrGroup"
@@ -1257,11 +1218,6 @@
             <pc join="left">,</pc>
             <def n="KDE">nemška evangeličanska duhovnika</def>
             <pc join="left">:</pc>
-            <note type="admin" subtype="author" n="Z">
-               <name>Ludvik Jošar</name>
-               <note type="class" n="K">144</note>
-               <note type="class" n="KR">1.1.1.3</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs00899500.00" n="PO">
             <note type="admin" subtype="class" n="T">E01</note>
@@ -1271,10 +1227,6 @@
             <pc join="left">,</pc>
             <def n="KDE">
                <ref target="#dzs06415600.00" n="KP">sočlenkarji</ref>.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Marko Aljančič</name>
-               <note type="class" n="K">412s</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs01009800.00" n="PO">
             <note type="admin" subtype="class" n="T">G3</note>
@@ -1290,11 +1242,6 @@
             <def n="KDE">trgovsko in oskrbovalno središče v Kanadi</def>
             <pc join="left">,</pc>
             <def n="OPI">na jz. obali <ref target="#dzs00536600.00" n="KP">Baffinovega otoka</ref>; eskimsko naselje z ok. 600 preb.; v bližini pomembno arheološko najdišče t. i. dorsetske kulture (Eskimi).</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Karel Natek</name>
-               <note type="class" n="K">361</note>
-               <note type="class" n="KR">4.1.1</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs01123100.00" n="PO">
             <note type="admin" subtype="class" n="T">G3</note>
@@ -1313,14 +1260,6 @@
             <note type="admin" n="SN">
                <note type="pointer" n="DX">01123100+00+88</note>
                <note type="admin" subtype="class" n="TS">EGY</note>
-               <note type="admin" subtype="author" n="Z">
-                  <name>DZS, d. d.</name>
-               </note>
-            </note>
-            <note type="admin" subtype="author" n="Z">
-               <name>Veronika Rot</name>
-               <note type="class" n="K">325</note>
-               <note type="class" n="KR">1.3.1.2.1</note>
             </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs01232900.01" n="PO">
@@ -1339,10 +1278,6 @@
                <usg type="domain" n="PODR">katoliška Cerkev</usg>
                <pc join="left">:</pc>
                <def n="KDE">združitev katoliških državnih stanov na državnem zboru <date n="LX">1633</date> v Regensburgu pod predsedstvom majnškega dvora.</def>
-               <note type="admin" subtype="author" n="Z">
-                  <name>Bronislava Aubelj</name>
-                  <note type="class" n="K">145</note>
-               </note>
             </sense>
             <sense n="PO" xml:id="dzs01232900.02">
                <note type="admin" subtype="class" n="T">L1-L2</note>
@@ -1352,11 +1287,6 @@
                <def n="KDE">založniška družba za izdajanje del katoliških piscev s sedežem v Bonnu</def>
                <pc join="left">,</pc>
                <def n="OPI">ustanovljena <date n="LX">1917</date>.</def>
-               <note type="admin" subtype="author" n="Z">
-                  <name>Bronislava Aubelj</name>
-                  <note type="class" n="K">130/145</note>
-                  <note type="class" n="KR">1.1.1.3</note>
-               </note>
             </sense>
          </entry>
          <entry xml:lang="sl"
@@ -1394,11 +1324,6 @@
             </def>
             <def n="OPI">
                <ref target="#dzs06785500.00" n="KP">švedska književnost</ref>.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Lena Holmqvist</name>
-               <note type="class" n="K">121</note>
-               <note type="class" n="KR">1.5.2.5</note>
-            </note>
          </entry>
          <entry xml:lang="sl"
                 type="personOrGroup"
@@ -1442,11 +1367,6 @@
                      <head rend="bold">Paul Dessau</head>
                   </figure>(str. 1063 B)</note>
             </note>
-            <note type="admin" subtype="author" n="Z">
-               <name>Vera Gregorač</name>
-               <note type="class" n="K">131/141</note>
-               <note type="class" n="KR">1.1.1.3</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs01577900.00" n="PO">
             <note type="admin" subtype="class" n="T">R</note>
@@ -1472,10 +1392,6 @@
                </figure>
                <note type="admin" subtype="comment" n="O">(str. 2981 B)</note>
             </note>
-            <note type="admin" subtype="author" n="Z">
-               <name>Ignac Sivec/Bogdan Horvat</name>
-               <note type="class" n="K">412z</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs01696100.00" n="PO">
             <note type="admin" subtype="class" n="T">E02</note>
@@ -1490,11 +1406,6 @@
             <pc join="left">,</pc>
             <def n="KDE">
                <ref target="#dzs01565000.00" n="KP">Dobrla vas</ref>.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Marija Javornik</name>
-               <note type="class" n="K">321</note>
-               <note type="class" n="KR">1.1.1.1</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs01808800.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
@@ -1508,10 +1419,6 @@
             </form>
             <pc join="left">,</pc>
             <def n="KDE">izpuščaj na sluznici.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Iza Ciglenečki</name>
-               <note type="class" n="K">402</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs01924900.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
@@ -1527,10 +1434,6 @@
             </form>
             <pc join="left">,</pc>
             <def n="KDE">jasno, izrecno.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Zdenka Erbežnik</name>
-               <note type="class" n="K">101</note>
-            </note>
          </entry>
          <entry xml:lang="sl"
                 type="personOrGroup"
@@ -1572,11 +1475,6 @@
                   </body>
                </floatingText>
             </def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Bojan Kavčič</name>
-               <note type="class" n="K">131</note>
-               <note type="class" n="KR">4.1.2</note>
-            </note>
          </entry>
          <entry xml:lang="sl"
                 type="personOrGroup"
@@ -1608,11 +1506,6 @@
             </def>
             <def n="OPI">
                <date n="LX">1976</date> Nobelova nagrada za medicino skupaj z B. S. <ref target="#dzs00785700.00" n="KB">Blumbergom</ref> za odkritje novih mehanizmov nastajanja in širjenja infekcijskih bolezni.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Metka Kralj</name>
-               <note type="class" n="K">405</note>
-               <note type="class" n="KR">4.1.2</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs02276400.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
@@ -1621,10 +1514,6 @@
             </form>
             <pc join="left">,</pc>
             <def n="KDE">veda o glasovih, in sicer o njihovih pomenskorazločevalnih (<ref target="#dzs02061900.00" n="KP">fonologija</ref>) ter artikulacijskih in akustičnih lastnostih (<ref target="#dzs02061000.00" n="KP">fonetika</ref>).</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Marja Bešter</name>
-               <note type="class" n="K">105</note>
-            </note>
             <note type="admin" subtype="comment" n="O">Opomba: novo geslo.</note>
          </entry>
          <entry xml:lang="sl"
@@ -1658,11 +1547,6 @@
                <pc join="left">;</pc>
             </def>
             <def n="OPI">prvi redovnik, ki je postal papež; utrl pot misijonu med Anglosasi (594 odposlal 40 redovnikov) in prestopu <ref target="#dzs03705700.00" n="KP">Langobardov</ref> h katoliški veri; nasprotno kot patriarh v Carigradu, ki je imel naslov <distinct type="form" n="ENX" rend="italic">oikumenikos</distinct>, je sebe imenoval <ref target="#dzs06225500.00" n="KP">servus servorum Dei</ref>. S svojimi številni spisi, polnimi vere v čudeže in poenostavljanj naukov cerkvenih učiteljev, predvsem njegovega vzora <ref target="#dzs00496200.01" n="KP">Avguština</ref>, je močno vplival na ves srednji vek. Svetnik, god: 3.9.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Marko Urbanija</name>
-               <note type="class" n="K">145</note>
-               <note type="class" n="KR">1.4.1.1</note>
-            </note>
          </entry>
          <entry xml:lang="sl"
                 type="personOrGroup"
@@ -1709,11 +1593,6 @@
                </figure>
                <note type="admin" subtype="comment" n="O">(str. 2081 C)</note>
             </note>
-            <note type="admin" subtype="author" n="Z">
-               <name>Vera Gregorač</name>
-               <note type="class" n="K">141</note>
-               <note type="class" n="KR">1.1.1.3</note>
-            </note>
          </entry>
          <entry xml:lang="sl"
                 type="personOrGroup"
@@ -1750,11 +1629,6 @@
                   </body>
                </floatingText>
             </def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Bojan Kavčič</name>
-               <note type="class" n="K">131</note>
-               <note type="class" n="KR">4.1.2/4.1.1</note>
-            </note>
          </entry>
          <entry xml:lang="sl"
                 type="personOrGroup"
@@ -1791,11 +1665,6 @@
                   </body>
                </floatingText>
             </def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Bojan Kavčič</name>
-               <note type="class" n="K">131/132</note>
-               <note type="class" n="KR">4.1.2</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs02863300.00" n="PO">
             <note type="admin" subtype="class" n="T">E01</note>
@@ -1805,10 +1674,6 @@
             <pc join="left">,</pc>
             <def n="KDE">
                <ref target="#dzs05162100.00" n="KP">pelod</ref>.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Jelka Strgar</name>
-               <note type="class" n="K">423</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs02981900.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
@@ -1824,10 +1689,6 @@
             </form>
             <pc join="left">,</pc>
             <def n="KDE">keramika, ki jo izdeluje podjetje, ki ga je začel J. <ref target="#dzs07503900.00" n="KB">Wedgwood</ref>.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Jože Pavlič Damijan</name>
-               <note type="class" n="K">214</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs03100400.00" n="PO">
             <note type="admin" subtype="class" n="T">E01</note>
@@ -1837,10 +1698,6 @@
             <pc join="left">,</pc>
             <def n="KDE">
                <ref target="#dzs00244300.00" n="KP">ameriški kapar</ref>.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Ignac Sivec/Bogdan Horvat</name>
-               <note type="class" n="K">412z</note>
-            </note>
             <note type="admin" subtype="comment" n="O">Op.: novo</note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs03216700.01" n="PO">
@@ -1868,10 +1725,6 @@
                <def n="KDE">vzročnost</def>
                <pc join="left">;</pc>
                <def n="OPI">medsebojno razmerje med vzrokom in učinkom.</def>
-               <note type="admin" subtype="author" n="Z">
-                  <name>Zdenka Erbežnik</name>
-                  <note type="class" n="K">101</note>
-               </note>
             </sense>
             <sense n="PO" xml:id="dzs03216700.03">
                <note type="admin" subtype="class" n="T">P</note>
@@ -1880,10 +1733,6 @@
                <pc join="left">:</pc>
                <def n="KDE">fizika skuša dogodke pojasniti na osnovi prejšnjih dogodkov ali iz razpoložljivih podatkov napovedati dogodke v prihodnosti.</def>
                <def n="OPI">V klasični fiziki lahko vsi »prejšnji« dogodki, ne glede na to, kje so se zgodili, vplivajo na poznejše dogodke. Ta misel temelji na privzetku neskončno hitrega razširjanja učinkov (signalov), ki jih ti dogodki povzročijo (teorija o <ref target="#dzs07143400.02" n="KP">učinkovanju na daljavo</ref>). Sodobna fizika je prišla do spoznanja, da je največja hitrost za razširjanje signalov <ref target="#dzs06686400.00" n="KP">svetlobna hitrost</ref>, ki je končna (3 · 10⁸ m/s); s tem je pokazala, da je stari privzetek o neomejeni vzročnosti napačen in da v pogojih, ki jih opisuje <ref target="#dzs05847700.00" n="KP">relativnostna teorija</ref>, ne velja več. Dogodki se razdelijo v takšne, ki so z dogodkom A lahko v vzročni (<distinct type="form" n="ENX" rend="italic">kavzalni</distinct>) zvezi (tj. povezani ali odvisni), in takšne, ki niso in ne morejo biti povezani in je zanje nepomembna, kdaj so se glede na dogodek A zgodili in kje. Dogodke, ki so z danim dogodkom lahko v vzročni zvezi, in tiste, ki ne morejo biti v <ref target="#dzs05645100.00" n="KP">prostoru-času</ref>, razmejuje <ref target="#dzs06688500.00" n="KP">svetlobni stožec</ref>.V <ref target="#dzs03647800.00" n="KP">kvantni mehaniki</ref> velja <ref target="#dzs04534500.00" n="KP">načelo nedoločenosti</ref>, ki pravi, da v mikrofizikalnih pojavih niso <distinct type="form" n="ENX" rend="italic">hkrati</distinct> določljive vse količine, npr. kraj in gibalna količina (oz. hitrost) elektrona, ki bi bili potrebne za napoved pojava in njegovega vnaprejšnjega razvoja (npr. potovanja elektrona po njegovi »tirnici«). Opis in napovedi pojavov zato temeljijo le na statističnih izrazih, ki podajajo verjetnosti in porazdelitve. Opazljivih količin (npr. lego in hitrost delca) tako z matematičnimi metodami ni mogoče kavzalno povezati med seboj.V zadnjem času večino makroskopskih dinamičnih sistemov obravnavajo kot <distinct type="form" n="ENX" rend="italic">kaotične</distinct> (<ref target="#dzs03140400.02" n="KP">kaos</ref>). To pomeni, da lahko že neskončno majhna sprememba začetnih pogojev neke dinamične spremenljivke v sistemu privede do nepredvidljivih in nenapovedljivih sprememb v vedenju vsega sistema. Strogo deterministično se vedejo le zelo posebni sistemi, ki jim pot skozi kaos preprečujejo ustrezne zapore. Čeprav novi pogledi vzročnosti načeloma ne omejujejo, pa znatno zmanjšajo preračunljivost in napovedljivost realnih sistemov. V tej zvezi, a nekoliko pretirano formulirano, se lahko vprašamo, »ali lahko zamah metulja s krilci vpliva na gibanje planetov?«.</def>
-               <note type="admin" subtype="author" n="Z">
-                  <name>Sašo Avsec</name>
-                  <note type="class" n="K">503</note>
-               </note>
             </sense>
             <sense n="PO" xml:id="dzs03216700.02">
                <note type="admin" subtype="class" n="T">P</note>
@@ -1893,10 +1742,6 @@
                <def n="KDE">ker <distinct type="form" n="EN" rend="italic">vzročni zakon</distinct> pomeni, da ima vsako dogajanje nujno vsaj en vzrok in je to dogajanje vzrok naslednjega dogajanja, pri čemer enaki vzroki porajajo enake učinke, si <oRef type="headword" n="YI">kavzalnost</oRef> po navadi lasti univerzalno veljavo.</def>
                <def n="OPI">Ker naj bi bila časovno strukturirana <distinct type="form" n="ENX">
                      <hi rend="italic" n="I">vzročna povezanost</hi> (<distinct type="form" n="ES1X" rend="italic">kavzalni neksus</distinct>)</distinct> vsega dogajanja neprekinjena in popolna, vodi k vprašanju o začetku in koncu oz. končnosti in neskončnosti vzročne verige v filozofski <ref target="#dzs00369200.00" n="KP">aporiji</ref>. Kot temeljna struktura vsega dogajanja <oRef type="headword" n="YI">kavzalnost</oRef> nasprotuje drugemu temeljnemu filozofskemu pojmu, svobodi; povezava med <oRef type="headword" n="YI">kavzalnostjo</oRef> in svobodo pa je filozofsko relevantno vprašanje (<ref target="#dzs01468100.00" n="KP">determinizem</ref>, <ref target="#dzs02811700.02" n="KP">indeterminizem</ref>). – Aristotel je razlikoval štiri vzroke: materialnega, formalnega, gibalnega in smotrnostnega, ki šele v svoji enotnosti oblikujejo skupni vzrok; novoveško naravoslovno mišljenje je od B. Spinoze, G. Galilea in I. Newtona naprej zožilo <oRef type="headword" n="YI">kavzalnost</oRef> na mehansko zvezo gibalnega učinka. Empirizem in skepticizem soglašata, da <oRef type="headword" n="YI">kavzalnosti</oRef> kot zakona v stvareh samih ni mogoče dokazati, zato se lahko po D. <ref target="#dzs02743700.00" n="KB">Humu</ref> sprašujemo le o duši kot o mestu <oRef type="headword" n="YI">kavzalnosti</oRef>, pri čemer naj bi bila <oRef type="headword" n="YI">kavzalnost</oRef> neka asociacija, ki nastane na podlagi navade in pričakovanja. Za I. <ref target="#dzs03136600.00" n="KB">Kanta</ref> pripada <oRef type="headword" n="YI">kavzalnost</oRef> apriornim <ref target="#dzs03202500.02" n="KP">kategorijam</ref>; veljavnost vzročnega načela naj bi bila dana zgolj na področju izkušnje. A. <ref target="#dzs06152500.00" n="KB">Schopenhauer</ref> je razlikoval tri oblike <oRef type="headword" n="YI">kavzalnosti</oRef>: vzrok na anorganskem področju, dražljaj na organsko-vegetativnem področju in motiv kot instanco zavesti, ki vodi delovanje. Logična analiza <oRef type="headword" n="YI">kavzalnosti</oRef> vodi k zunanjim okoliščinam, ki šele ustvarijo in sprožijo celotno dogajanje.</def>
-               <note type="admin" subtype="author" n="Z">
-                  <name>Zdenka Erbežnik</name>
-                  <note type="class" n="K">102</note>
-               </note>
             </sense>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs03337600.00" n="PO">
@@ -1907,11 +1752,6 @@
             <pc join="left">,</pc>
             <def n="KDE">seznam luteranskih <ref target="#dzs07305200.00" n="KP">veroizpovednih spisov</ref>, med katerimi so tudi tri starocerkvene veroizpovedi.</def>
             <def n="OPI">Nastala <date n="LX">1580</date> ob prizadevanju za združitev vseh luteranskih Cerkva.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Ludvik Jošar</name>
-               <note type="class" n="K">144</note>
-               <note type="class" n="KR">1.1.1.3</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs03452300.00" n="PO">
             <note type="admin" subtype="class" n="T">E01</note>
@@ -1921,10 +1761,6 @@
             <pc join="left">,</pc>
             <def n="KDE">
                <ref target="#dzs04831000.00" n="KP">octovec</ref>.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Peter Skoberne</name>
-               <note type="class" n="K">422</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs03569500.01" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
@@ -1939,10 +1775,6 @@
                <def n="KDE">zadnji del ladje, čolna</def>
                <pc join="left">;</pc>
                <def n="OPI">nasprotno <ref target="#dzs05554800.00" n="KP">premec</ref>.</def>
-               <note type="admin" subtype="author" n="Z">
-                  <name>Štefan Oštir</name>
-                  <note type="class" n="K">516n</note>
-               </note>
             </sense>
             <sense n="PO" xml:id="dzs03569500.02">
                <note type="admin" subtype="class" n="T">P</note>
@@ -1963,10 +1795,6 @@
                      </body>
                   </floatingText>
                </def>
-               <note type="admin" subtype="author" n="Z">
-                  <name>Štefan Oštir</name>
-                  <note type="class" n="K">452</note>
-               </note>
             </sense>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs03689100.00" n="PO">
@@ -1984,10 +1812,6 @@
             <pc join="left">,</pc>
             <def n="KDE">iz D-glukoze in D-galaktoze sestavljen disaharid (<ref target="#dzs06045000.00" n="KP">saharidi</ref>) v obliki belih, malo sladkih kristalov.</def>
             <def n="OPI">Mlečni sladkor je v mleku sesalcev (kravje mleko 4,5 %, materino mleko 6,7 %). Bakterije ga razgradijo do <ref target="#dzs04361400.00" n="KP">mlečne kisline</ref> (<ref target="#dzs07444800.00" n="KP">vrenje</ref>, kisanje). Nastaja kot stranski izdelek pri pripravi sirov. Uporablja se za otroško prehrano, sredstvo za peko in v farmaciji.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Majda Zorec-Karlovšek</name>
-               <note type="class" n="K">506</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs03803500.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
@@ -1999,10 +1823,6 @@
             </def>
             <pc join="left">,</pc>
             <def n="OPI">ki ustvarjajo <ref target="#dzs03799000.00" n="KP">les</ref>.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Nikolaj Torelli</name>
-               <note type="class" n="K">514</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs03925700.00" n="PO">
             <note type="admin" subtype="class" n="T">G2/G3</note>
@@ -2029,14 +1849,6 @@
             <note type="admin" n="SN">
                <note type="pointer" n="DX">03925700+00+88</note>
                <note type="admin" subtype="class" n="TS">EGY</note>
-               <note type="admin" subtype="author" n="Z">
-                  <name>DZS, d. d.</name>
-               </note>
-            </note>
-            <note type="admin" subtype="author" n="Z">
-               <name>Jurij Senegačnik</name>
-               <note type="class" n="K">330</note>
-               <note type="class" n="KR">1.1.3.2</note>
             </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs04041100.00" n="PO">
@@ -2053,11 +1865,6 @@
             <def n="KDE">način prehranjevanja</def>
             <pc join="left">,</pc>
             <def n="OPI">ki temelji na kitajskem sistemu jin in jang (negativna in pozitivna moč); skrajna makrobiotična prehrana je sestavljena skoraj samo iz nemletih žit, povzroči lahko pomanjkanje beljakovin in vitaminov.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Duška Meh</name>
-               <note type="class" n="K">402</note>
-               <note type="class" n="KR">2.4.3</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs04159400.00" n="PO">
             <note type="admin" subtype="class" n="T">G3</note>
@@ -2073,11 +1880,6 @@
             <def n="KDE">mesto na Japonskem</def>
             <pc join="left">,</pc>
             <def n="OPI">na SZ Šikokuja, 450.000 preb.; grad (16. st.), univerza (ustanovljena <date n="LX">1949</date>), kovinskopredelovalna, živilska in tekstilna industrija, rafinerija nafte.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Tamara Bosnič</name>
-               <note type="class" n="K">345</note>
-               <note type="class" n="KR">2.4.1</note>
-            </note>
          </entry>
          <entry xml:lang="sl"
                 type="personOrGroup"
@@ -2096,11 +1898,6 @@
             <def n="KDE">nizozemska slikarska družina</def>
             <pc join="left">:</pc>
             <def n="OPIX">Q. <ref target="#dzs04144900.00" n="KB">Massys</ref>.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Damir Globočnik</name>
-               <note type="class" n="K">214</note>
-               <note type="class" n="KR">1.3.2.3</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs04397600.00" n="PO">
             <note type="admin" subtype="class" n="T">G3</note>
@@ -2119,14 +1916,6 @@
             <note type="admin" n="SN">
                <note type="pointer" n="DX">04397600+00+88</note>
                <note type="admin" subtype="class" n="TS">EGY</note>
-               <note type="admin" subtype="author" n="Z">
-                  <name>DZS, d. d.</name>
-               </note>
-            </note>
-            <note type="admin" subtype="author" n="Z">
-               <name>Ida Knez</name>
-               <note type="class" n="K">328</note>
-               <note type="class" n="KR">1.4.1.1</note>
             </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs04516300.00" n="PO">
@@ -2143,11 +1932,6 @@
             <def n="KDE">ime več gora v osrednji Aziji</def>
             <pc join="left">,</pc>
             <def n="OPI">nekdaj tudi gorske verige <ref target="#dzs03155500.01" n="KP">Karakorum</ref>.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Drago Kladnik</name>
-               <note type="class" n="K">343</note>
-               <note type="class" n="KR">2.1.3</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs04638600.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
@@ -2167,11 +1951,6 @@
                </figure>
                <note type="admin" subtype="comment" n="O">(str. 4214 A)</note>
             </note>
-            <note type="admin" subtype="author" n="Z">
-               <name>Oto Luthar</name>
-               <note type="class" n="K">137b</note>
-               <note type="class" n="KR">1.1.1.3</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs04759400.00" n="PO">
             <note type="admin" subtype="class" n="T">G3</note>
@@ -2187,11 +1966,6 @@
             <def n="KDE">glavno mesto Mavretanije v sz. Afriki</def>
             <pc join="left">,</pc>
             <def n="OPI">7 km od Atlantskega oceana, 480.000 preb.; sedež katoliške škofije, univerza (ustanovljena <date n="LX">1983</date>), bolnišnica; različna industrija, razsoljevanje morske vode; mednarodno letališče. Ostanki starih utrdb.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Matej Gabrovec</name>
-               <note type="class" n="K">352</note>
-               <note type="class" n="KR">3.1.5</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs04878800.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
@@ -2201,10 +1975,6 @@
             <pc join="left">,</pc>
             <def n="KDE">zapisan začetni del pogosto rabljene besede ali besedne zveze, zaznamovan z malimi črkami in piko</def>
             <def n="OPI">(npr. <hi rend="italic" n="I">tj.</hi> za <hi rend="italic" n="I">to je</hi>, <hi rend="italic" n="I">itd.</hi> za <hi rend="italic" n="I">in tako dalje</hi>).</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Marja Bešter/Sašo Avsec</name>
-               <note type="class" n="K">105</note>
-            </note>
             <note type="admin" subtype="comment" n="O">Opomba: novo geslo</note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs04994900.01" n="PO">
@@ -2225,10 +1995,6 @@
                </def>
                <pc join="left">;</pc>
                <def n="OPI">klobuk postrani priraščen na bet ali brez njega; rastejo na lesu; užitni; med najbolj znane sodi <ref target="#dzs00947300.00" n="KP">bukov ostrigar</ref> (<distinct type="form" n="LIMEX" xml:lang="la" rend="italic">Pleurotus ostreatus</distinct>), ki raste v šopih; precej ga tudi gojijo.</def>
-               <note type="admin" subtype="author" n="Z">
-                  <name>Gabrijel Seljak</name>
-                  <note type="class" n="K">422g</note>
-               </note>
             </sense>
             <sense n="PO" xml:id="dzs04994900.02">
                <note type="admin" subtype="class" n="T">R</note>
@@ -2251,10 +2017,6 @@
                   </figure>
                   <note type="admin" subtype="comment" n="O">(str. 4639 B)</note>
                </note>
-               <note type="admin" subtype="author" n="Z">
-                  <name>Mihael Jožef Toman</name>
-                  <note type="class" n="K">412rb</note>
-               </note>
             </sense>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs05109700.00" n="PO">
@@ -2269,10 +2031,6 @@
             </form>
             <pc join="left">,</pc>
             <def n="KDE">povzpetnik, novopečeni bogataš.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Zdenka Erbežnik</name>
-               <note type="class" n="K">101</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs05224900.00" n="PO">
             <note type="admin" subtype="class" n="T">G3</note>
@@ -2286,14 +2044,6 @@
             <note type="admin" n="SN">
                <note type="pointer" n="DX">05224900+00+88</note>
                <note type="admin" subtype="class" n="TS">EGY</note>
-               <note type="admin" subtype="author" n="Z">
-                  <name>DZS, d. d.</name>
-               </note>
-            </note>
-            <note type="admin" subtype="author" n="Z">
-               <name>Borut Drobnjak</name>
-               <note type="class" n="K">333d</note>
-               <note type="class" n="KR">1.2.1.5</note>
             </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs05343400.00" n="PO">
@@ -2308,10 +2058,6 @@
             </form>
             <pc join="left">,</pc>
             <def n="KDE">obdobje izdatnejših padavin na nepoledenelih območjih v obdobju <ref target="#dzs05387300.01" n="KP">poledenitev</ref> v <ref target="#dzs05316800.00" n="KP">pleistocenu</ref>.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Franc Cimerman</name>
-               <note type="class" n="K">302</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs05471200.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
@@ -2320,10 +2066,6 @@
             </form>
             <pc join="left">,</pc>
             <def n="KDE">pravila za vodenje sej, razprav in glasovanj na zasedanjih, skupščinah v gospodarskih družbah, parlamentih ipd.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Jože Pavlič Damijan</name>
-               <note type="class" n="K">211</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs05598200.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
@@ -2341,11 +2083,6 @@
             </form>
             <pc join="left">,</pc>
             <def n="KDE">nosilec glavnih vlog v italijanskih operah.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Vera Gregorač</name>
-               <note type="class" n="K">141</note>
-               <note type="class" n="KR">1.4.1.1</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs05721400.00" n="PO">
             <note type="admin" subtype="class" n="T">G4O</note>
@@ -2357,11 +2094,6 @@
             </def>
             <pc join="left">,</pc>
             <def n="OPI">med Krkom in Pagom, 91 km², gorat in gozdnat; vinogradi, oljčni nasadi, ribištvo, turizem; središče letovišče Rab (2500 preb.); romanske in benečanske stavbe, obzidje iz 12./13. st. Od julija <date n="ILT">1942</date> do septembra <date n="LT">1943</date> italijansko koncentracijsko taborišče; v njem je bilo ok. 15.000 Slovencev, Hrvatov in Judov, umrlo je ok. 4400 ljudi (4000 Slovencev), med njimi veliko otrok in žensk. Po kapitulaciji Italije so taboriščniki razorožili italijanske vojake in ustanovil <distinct type="form" n="ENX" rend="italic">Rabsko brigado</distinct>; štela je 60 borcev (ok. 300 Judov); osvobodila je tudi otoka Cres in Lošinj. Slovenski bataljoni so se po 15.9. prebili v Slovenijo. Vključeni so bili v 14. partizansko divizijo, vendar so brigado oktobra zaradi izčrpanosti večine borcev razpustili.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Borut Drobnjak</name>
-               <note type="class" n="K">333b</note>
-               <note type="class" n="KR">1.2.1.4</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs05844100.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
@@ -2383,10 +2115,6 @@
             <def n="KDE">obdobje po preboleli bolezni ali poškodbi</def>
             <pc join="left">,</pc>
             <def n="OPI">ko si bolnik z razl. ukrepi (dieta, krepilna sredstva) krepi zmanjšano telesno odpornost.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Alenka Strdin</name>
-               <note type="class" n="K">402</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs05958600.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
@@ -2395,10 +2123,6 @@
             </form>
             <pc join="left">,</pc>
             <def n="KDE">vilasta razraščenost drevja na dve debli ali več pred začetkom krošnje.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Zoran Belec</name>
-               <note type="class" n="K">456</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs06074800.00" n="PO">
             <note type="admin" subtype="class" n="T">G4J</note>
@@ -2429,11 +2153,6 @@
             <def n="KDE">umetno jezero v Rusiji</def>
             <pc join="left">,</pc>
             <def n="OPI">na srednji Volgi in njenih pritokih <ref target="#dzs03111900.02" n="KP">Kama</ref> in Bol'šoj Čeremšan, 70 km nad <ref target="#dzs06073900.02" n="KP">Samaro</ref>, ok. 6000 km², dolgo več kot 500 km, široko do 40 km, dolžina jezu 5 km, višina jezu 27 m, 58 mlr. m³ vode; <date n="LX">1958</date> zgrajena hidrolektrarna z 20 agregati in z močjo 2,3 mln. kW, letna proizvodnja 10,9 mlr. kWh električne energije.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Jurij Senegačnik</name>
-               <note type="class" n="K">337</note>
-               <note type="class" n="KR">1.6.2</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs06186200.01" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
@@ -2446,10 +2165,6 @@
                <usg type="domain" n="PODR">kmetijstvo</usg>
                <pc join="left">:</pc>
                <def n="KDE">dajanje semena v zemljo.</def>
-               <note type="admin" subtype="author" n="Z">
-                  <name>Sašo Avsec</name>
-                  <note type="class" n="K">452</note>
-               </note>
             </sense>
             <sense n="PO" xml:id="dzs06186200.02">
                <note type="admin" subtype="class" n="T">P</note>
@@ -2464,10 +2179,6 @@
                <sense n="KDE">
                   <def n="KDE">določanje <ref target="#dzs07708000.00" n="KP">zrnatosti</ref> z umerjenimi siti oz. natančno izdelanimi mrežicami.</def>
                </sense>
-               <note type="admin" subtype="author" n="Z">
-                  <name>Sašo Avsec</name>
-                  <note type="class" n="K">508</note>
-               </note>
             </sense>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs06302400.00" n="PO">
@@ -2479,10 +2190,6 @@
             <def n="KDE">stroj na vrtilni ali izmenični tok (<ref target="#dzs02215100.02" n="KP">generator</ref>, <ref target="#dzs01774800.00" n="KP">elektromotor</ref>)</def>
             <pc join="left">,</pc>
             <def n="OPI">pri katerem število vrtljajev prisilno ustreza frekvenci električnega toka in številu parov polov.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Tomaž Saksida</name>
-               <note type="class" n="K">510</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs06428900.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
@@ -2491,11 +2198,6 @@
             </form>
             <pc join="left">,</pc>
             <def n="KDE">v srednjem veku italijanski srebrni novec, pozneje bakreni drobiž.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Ivan Turk (1)</name>
-               <note type="class" n="K">136</note>
-               <note type="class" n="KR">1.4.1.1</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs06554500.00" n="PO">
             <note type="admin" subtype="class" n="T">R</note>
@@ -2523,10 +2225,6 @@
                </figure>
                <note type="admin" subtype="comment" n="O">(str. 2052 C)</note>
             </note>
-            <note type="admin" subtype="author" n="Z">
-               <name>Ignac Sivec/Bogdan Horvat</name>
-               <note type="class" n="K">412z</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs06676400.01" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
@@ -2539,10 +2237,6 @@
                <usg type="domain" n="PODR">splošno</usg>
                <pc join="left">:</pc>
                <def n="KDE">držalo za sveče.</def>
-               <note type="admin" subtype="author" n="Z">
-                  <name>Peter Skoberne</name>
-                  <note type="class" n="K">516</note>
-               </note>
             </sense>
             <sense n="PO" xml:id="dzs06676400.02">
                <note type="admin" subtype="class" n="T">E01</note>
@@ -2551,10 +2245,6 @@
                <pc join="left">:</pc>
                <def n="KDE">
                   <ref target="#dzs06700400.00" n="KP">sviščevke</ref>.</def>
-               <note type="admin" subtype="author" n="Z">
-                  <name>Peter Skoberne</name>
-                  <note type="class" n="K">422</note>
-               </note>
             </sense>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs06802400.00" n="PO">
@@ -2571,11 +2261,6 @@
             <def n="KDE">mesto na Japonskem</def>
             <pc join="left">,</pc>
             <def n="OPI">na Honšuju, sz. od Tokia, 240.000 preb.; svilarska, živilska in kovinska industrija.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Tamara Bosnič</name>
-               <note type="class" n="K">345</note>
-               <note type="class" n="KR">2.4.1</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs06924200.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
@@ -2586,10 +2271,6 @@
             <def n="KDE">tapeta za toplotno izolacijo z zelo majhno toplotno prevodnostjo</def>
             <pc join="left">:</pc>
             <def n="OPI">2–5 mm debela plast penaste umetne smole izolira enako kot 5–12 cm debel opečni zid. Kot osnovno tapeto jo prilepimo na stene sobe in prelepimo z okrasno tapeto ali prepleskamo. Uporabljamo jo kot dodatno zaščito pred izgubo toplote in izolacijo pred vlago.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Mario Fakin</name>
-               <note type="class" n="K">516</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs07043100.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
@@ -2621,10 +2302,6 @@
                </figure>
                <note type="admin" subtype="comment" n="O">(str. 2922 D)</note>
             </note>
-            <note type="admin" subtype="author" n="Z">
-               <name>Damir Globočnik</name>
-               <note type="class" n="K">214</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs07166700.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
@@ -2635,10 +2312,6 @@
             <def n="KDE">artikulirana predstavitev podatkov, elektroakustično posnemanje naravnega govora</def>
             <pc join="left">;</pc>
             <def n="OPI">posebej za predstavitev rezultatov računalniških operacij v neposrednem strojno formuliranem jeziku prek telefonskih slušalk ali zvočnikov.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Dejan Žlajpah</name>
-               <note type="class" n="K">515</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs07289700.00" n="PO">
             <note type="admin" subtype="class" n="T">E01</note>
@@ -2648,10 +2321,6 @@
             <pc join="left">,</pc>
             <def n="KDE">
                <ref target="#dzs04493300.00" n="KP">mulasti jelen</ref>.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Marija Javornik</name>
-               <note type="class" n="K">412</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs07414500.00" n="PO">
             <note type="admin" subtype="class" n="T">E01</note>
@@ -2661,10 +2330,6 @@
             <pc join="left">,</pc>
             <def n="KDE">
                <ref target="#dzs06077000.00" n="KP">samoglasnik</ref>.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Marja Bešter</name>
-               <note type="class" n="K">105</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs07534100.02" n="PO">
             <note type="admin" subtype="class" n="T">G4H</note>
@@ -2677,11 +2342,6 @@
                <def n="KDE">hrib pri Los Angelesu v ZDA</def>
                <pc join="left">,</pc>
                <def n="OPI">v zvezni državi Kalifornija, 1742 m; z <ref target="#dzs07534900.00" n="KP">wilsonskim observatorijem</ref>.</def>
-               <note type="admin" subtype="author" n="Z">
-                  <name>Karel Natek</name>
-                  <note type="class" n="K">362</note>
-                  <note type="class" n="KR">4.1.2</note>
-               </note>
             </sense>
             <sense n="PO" xml:id="dzs07534100.01">
                <note type="admin" subtype="class" n="T">G4H</note>
@@ -2703,11 +2363,6 @@
                <def n="KDE">gora v Skalnem gorovju v ZDA</def>
                <pc join="left">,</pc>
                <def n="OPI">v zvezni državi Kolorado, 4342 m.</def>
-               <note type="admin" subtype="author" n="Z">
-                  <name>Karel Natek</name>
-                  <note type="class" n="K">362</note>
-                  <note type="class" n="KR">4.1.2</note>
-               </note>
             </sense>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs07654400.00" n="PO">
@@ -2724,11 +2379,6 @@
             <def n="KDE">zgodovinska pokrajina in nekdanja provinca v južni Latviji</def>
             <pc join="left">,</pc>
             <def n="OPI">glavno mesto Jelgava.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Jurij Senegačnik</name>
-               <note type="class" n="K">137a</note>
-               <note type="class" n="KR">1.5.1.2</note>
-            </note>
          </entry>
          <entry xml:lang="sl"
                 type="personOrGroup"
@@ -2758,11 +2408,6 @@
                <pc join="left">;</pc>
             </def>
             <def n="OPI">teoretično razvijal metode hlajenja in lovljenja atomov z <ref target="#dzs03720800.00" n="KP">lasersko svetlobo</ref>. S pomočjo šestih laserskih snopov, ki so se sekali, so upočasnili atome helija do hitrosti 2 cm/s; <date n="ILT">1997</date> Nobelova nagrada za fiziko z S. <ref target="#dzsB0006600.00" n="KB">Chujem</ref> in W. D. <ref target="#dzsB0006800.00" n="KB">Phillipsom</ref>.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Maja Ondračka</name>
-               <note type="class" n="K">503</note>
-               <note type="class" n="KR">1.3.3/3.1.1</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs00553300.01" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
@@ -2794,11 +2439,6 @@
                <def n="KDE">v srednjem veku v romanskih deželah kratka pesem</def>
                <pc join="left">,</pc>
                <def n="OPI">ki so jo peli plesalci, v 14./15. st. se je v Franciji (posebej pri F. <ref target="#dzs07344300.00" n="KB">Villonu</ref>) izoblikovala v strogo obliko. V Angliji se je v 18. st. ta označitev prenesla na stare ljudske pesmi, ki dramatično in pogosto z dialogom pripovedujejo o nenavadnih dogodkih ter v nasprotju z <ref target="#dzs05964800.01" n="KP">romanco</ref> posegajo po temačni snovi (izvor v germanskih junaških pesnitvah). Th. <ref target="#dzs05177500.00" n="KB">Percy</ref> je z zbirko angleških ljudskih <oRef type="headword" n="YI">balad</oRef> spodbudil zbiranje ljudskih <oRef type="headword" n="YI">balad</oRef>. V Nemčiji so J. G. <ref target="#dzs02581900.00" n="KB">Herder</ref>, A. von <ref target="#dzs00416400.01" n="KB">Arnim</ref>, C. <ref target="#dzs00892000.00" n="KB">Brentano</ref> zbirali ljudske <oRef type="headword" n="YI">balada</oRef> 13.–15. st. Iz teoretičnega zanimanja za te <oRef type="headword" n="YI">balada</oRef> je po <date n="LX">1770</date> nastala umetna <oRef type="headword" n="YI">balada</oRef>, v Nemčiji posebej pri G. A. <ref target="#dzs00955700.00" n="KB">Bürgerju</ref>, J. W. von <ref target="#dzs02310500.00" n="KB">Goetheju</ref>, F. von <ref target="#dzs06142100.00" n="KB">Schillerju</ref>, L. <ref target="#dzs07152300.00" n="KB">Uhlandu</ref>, Th. <ref target="#dzs02063600.00" n="KB">Fontaneju</ref>; pri Slovencih pri F. <ref target="#dzs05573200.00" n="KB">Prešernu</ref> in A. <ref target="#dzs00458400.00" n="KB">Aškercu</ref>, J. <ref target="#dzs04225100.00" n="KB">Menartu</ref>. Zdaj se nadaljuje kot pripovedna pesem, ki se ne drži več strogo prvotne oblike; pri F. <ref target="#dzs07503800.00" n="KB">Wedekindu</ref>, B. <ref target="#dzs00887200.00" n="KB">Brechtu</ref> blizu sejmarskim pesmim.</def>
-               <note type="admin" subtype="author" n="Z">
-                  <name>Hilda Hašaj</name>
-                  <note type="class" n="K">108</note>
-                  <note type="class" n="KR">1.3.1.2.1</note>
-               </note>
             </sense>
             <sense n="PO" xml:id="dzs00553300.02">
                <note type="admin" subtype="class" n="T">P</note>
@@ -2808,10 +2448,6 @@
                <def n="KDE">označitev za številne srednjeveške vokalne oblike</def>
                <pc join="left">;</pc>
                <def n="OPI">od 18. st. pomeni <oRef type="headword" n="YI">balada</oRef> uglasbeno epsko pesniško obliko s tem imenom za solistični glas in klavirsko ali orkestrsko spremljavo (F. <ref target="#dzs06155200.00" n="KB">Schubert</ref>, F. <ref target="#dzs03912100.00" n="KB">Loewe</ref>). V 19. st. je R. <ref target="#dzs06157700.01" n="KB">Schumann</ref> ustvaril zborovsko balado, F. <ref target="#dzs01135200.00" n="KB">Chopin</ref> je balado uvedel v instrumentalno glasbo (klavirska balada).</def>
-               <note type="admin" subtype="author" n="Z">
-                  <name>Vera Gregorač</name>
-                  <note type="class" n="K">141</note>
-               </note>
             </sense>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs01156900.00" n="PO">
@@ -2823,10 +2459,6 @@
             <def n="KDE">galvansko nanašanje tanke plasti <ref target="#dzs01156800.01" n="KP">cinka</ref> na površino manj plemenitih kovin</def>
             <def n="OPI">(npr. železa). Uporablja se za protikorozijsko zaščito; posebej za pločevino, vijake in druge predmete, ki jih ogroža rja. <hi rend="italic" n="I">
                   <oRef type="headword" n="YI">Cinkanje</oRef> z ognjem</hi>, potapljanje predmeta v kopel s staljenim cinkom.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Sašo Avsec</name>
-               <note type="class" n="K">508</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs01672300.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
@@ -2844,10 +2476,6 @@
             <def n="KDE">pri skladanju atonalne glasbe (<ref target="#dzs00473700.00" n="KP">atonalnost</ref>) uporabljena tehnika.</def>
             <def n="OPI">
                <oRef type="headword" n="YI">Dvanajsttonska tehnika</oRef> odpravlja vodilno vlogo na osnovnem tonu temelječe <ref target="#dzs06993000.00" n="KP">tonalnosti</ref> in jo nadomesti s tonskimi vrstami, katerih osnova je 12 med seboj enakovrednih in harmonsko-funkcionalno povsem nevezanih poltonov. Iz 12 poltonov je mogoče sestaviti več kot 400,000.000 različnih tonskih vrst. Tonska vrsta je osnova, ki dobi kompozicijsko obliko s kontrapunktno obdelavo (<ref target="#dzs03442600.00" n="KP">kontrapunkt</ref>, <ref target="#dzs05754400.00" n="KP">rakov postop</ref>, <ref target="#dzs04817300.00" n="KP">obrnitev</ref>), variiranjem (<ref target="#dzs07246500.02" n="KP">variacija</ref>) in <ref target="#dzs07038800.00" n="KP">transponiranjem</ref>. Iz tonske vrste je mogoče izpeljati melodijo in harmonijo. – Po razmeroma kratkem obdobju sproščene atonalnosti (<ref target="#dzs02803200.02" n="KP">impresionizem</ref>, <ref target="#dzs01749000.00" n="KP">ekspresionizem</ref>) so iz potrebe po novi urejenosti tonskega gradiva <oRef type="headword" n="YI">dvanajsttonsko tehniko</oRef> skoraj hkrati odkrili A. <ref target="#dzs06151500.00" n="KB">Schönberg</ref>, J. M. <ref target="#dzs02526400.00" n="KB">Hauer</ref>, E. <ref target="#dzs07245400.00" n="KB">Varèse</ref> in Jefim Golišev (<date n="LX">1895</date>–<date n="LX">1970</date>); za glavnega predstavnika pa vendarle velja Schönberg, ki je <oRef type="headword" n="YI">dvanajsttonsko tehniko</oRef> uporabljal od <date n="OLT">1923</date>/24.Naslednja stopnja v razvoju <oRef type="headword" n="YI">dvanajsttonske tehnike</oRef> je <ref target="#dzs06218800.00" n="KP">serialna glasba</ref>; poleg Schönberga so skladatelji serialne glasbe A. <ref target="#dzs00690600.00" n="KB">Berg</ref>, L. <ref target="#dzs01355500.00" n="KB">Dallapiccola</ref>, H. <ref target="#dzs01725400.00" n="KB">Eimert</ref>, H. <ref target="#dzs01728100.00" n="KB">Eisler</ref>, W. <ref target="#dzs02075100.00" n="KB">Fortner</ref>, K. A. <ref target="#dzs02519000.00" n="KB">Hartmann</ref>, H. W. <ref target="#dzs02576400.00" n="KB">Henze</ref>, E. <ref target="#dzs03540300.00" n="KB">Křenek</ref>, René Leibowitz (<date n="OLT">1913</date>–<date n="OLT">1972</date>), I. <ref target="#dzs06602700.00" n="KB">Stravinski</ref>, A. <ref target="#dzs07503000.00" n="KB">Webern</ref> idr.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Vera Gregorač</name>
-               <note type="class" n="K">141</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs02202100.00" n="PO">
             <note type="admin" subtype="class" n="T">G3</note>
@@ -2881,9 +2509,6 @@
             <note type="admin" n="SN">
                <note type="pointer" n="DX">02202100+00+88</note>
                <note type="admin" subtype="class" n="TS">EGY</note>
-               <note type="admin" subtype="author" n="Z">
-                  <name>DZS, d. d.</name>
-               </note>
             </note>
             <note type="margin" subtype="figure" n="SK">
                <note type="pointer" n="DX">02202100+00+01</note>
@@ -2893,11 +2518,6 @@
                      <hi rend="bold" n="B">Gdansk</hi>: Zelena vrata (iz leta <date n="ILT">1568</date>) </head>
                </figure>
                <note type="admin" subtype="comment" n="O">(str. 1021 A)</note>
-            </note>
-            <note type="admin" subtype="author" n="Z">
-               <name>Jurij Senegačnik</name>
-               <note type="class" n="K">330</note>
-               <note type="class" n="KR">1.1.3.2</note>
             </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs02699700.00" n="PO">
@@ -2921,11 +2541,6 @@
             <pc join="left">,</pc>
             <def n="KDE">
                <ref target="#dzs05800600.00" n="KP">Rdeča reka</ref>.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Drago Kladnik</name>
-               <note type="class" n="K">346</note>
-               <note type="class" n="KR">2.3</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs03146700.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
@@ -2941,10 +2556,6 @@
                   </body>
                </floatingText>
             </def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Sašo Avsec</name>
-               <note type="class" n="K">503</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs03560200.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
@@ -2955,10 +2566,6 @@
             <def n="KDE">temperatura, pri kateri se v snoveh zgodi kakšna pomembna sprememba</def>
             <pc join="left">,</pc>
             <def n="OPI">npr. prehod v superprevodno fazo (<ref target="#dzs06660400.00" n="KP">superprevodnost</ref>), prehod iz feromagnetne (<ref target="#dzs01984800.00" n="KP">feromagnetizem</ref>) v paramagnetno fazo (<ref target="#dzs01275700.00" n="KP">Curiejeva temperatura</ref>). Pri <ref target="#dzs05326800.00" n="KP">plinih</ref> je <oRef type="headword" n="YI">kritična temperatura</oRef> najvišja temperatura, pod katero snov pri nobenem tlaku ne nastopa v kapljevinskem stanju.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Sašo Avsec</name>
-               <note type="class" n="K">503</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs04033300.00" n="PO">
             <note type="admin" subtype="class" n="T">N</note>
@@ -3005,11 +2612,6 @@
                </figure>
                <note type="admin" subtype="comment" n="O">(str. 3300 C)</note>
             </note>
-            <note type="admin" subtype="author" n="Z">
-               <name>Borut Korun</name>
-               <note type="class" n="K">363</note>
-               <note type="class" n="KR">4.2</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs04474500.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
@@ -3020,10 +2622,6 @@
             <def n="KDE">krvavitev v možganih ali okoli njih</def>
             <pc join="left">,</pc>
             <def n="OPI">ki je posledica poškodbe ali spontanega pretrganja krvne žile. Posledica topih poškodb lobanje je krvavitev med lobanjsko kostjo in trdo možgansko ovojnico (<distinct type="form" n="ENX" rend="italic">epiduralna krvavitev</distinct>), ali med trdo in mehko možgansko ovojnico (<distinct type="form" n="ENX" rend="italic">subduralna krvavitev</distinct>). Znaki: postopen nastanek glavobola, zmedenosti, ohromitve dela telesa. Zdravljenje: kirurška odstranitev krvi (<ref target="#dzs07057600.00" n="KP">trepanacija</ref>). – Pri spontanem raztrganju razširjene krvne žile (anevrizme) nastane krvavitev v prostor med mehkima ovojnicama (<distinct type="form" n="ENX" rend="italic">subarahnoidalna krvavitev</distinct>) ali v možganovino (<distinct type="form" n="ENX" rend="italic">intracerebralna krvavitev</distinct>). Posebej ogroženi so starejši ljudje z nezdravljeno <ref target="#dzs02642800.00" n="KP">hipertenzijo</ref>. Znaki: pri subarahnoidalni <oRef type="headword" n="YI">možganski krvavitvi</oRef> nenaden močan glavobol, nenadna izguba zavesti; intracerebralna <oRef type="headword" n="YI">možganska krvavitev</oRef> je ena od oblik <ref target="#dzs04474700.00" n="KP">možganskega inzulta</ref> z enakimi znaki. Obe sta življenjsko nevarni. Zdravljenje: kirurško, a le izjemoma.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Iza Ciglenečki</name>
-               <note type="class" n="K">402</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs04887300.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
@@ -3048,10 +2646,6 @@
                   </body>
                </floatingText>
             </def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Zdenka Erbežnik</name>
-               <note type="class" n="K">102</note>
-            </note>
          </entry>
          <entry xml:lang="sl"
                 type="personOrGroup"
@@ -3092,11 +2686,6 @@
                <pc join="left">;</pc>
             </def>
             <def n="OPI">od <date n="OLT">1444</date> politični vodja <ref target="#dzs07212300.00" n="KP">utrakvistov</ref>; češki stanovi so ga <date n="LT">1452</date> izvolili za oskrbnika (<distinct type="form" n="ENX" rend="italic">gubernatorja</distinct>) mladoletnemu <ref target="#dzs03671800.00" n="KP">Ladislavu Posthumusu</ref>. Po Ladislavovi smrti <date n="LT">1458</date> postal kralj; <date n="LT">1466</date> ga je papež Pavel II. izobčil. Medtem ko je <ref target="#dzs04155600.00" n="KP">Matija Korvin</ref> zasedel sosednje dežele Češke, se je <oRef type="headword" n="YI">Poděbrad</oRef> uveljavil v matični državi.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Oto Luthar</name>
-               <note type="class" n="K">137b</note>
-               <note type="class" n="KR">1.1.3.1</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs05671500.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
@@ -3111,10 +2700,6 @@
             <pc join="left">,</pc>
             <def n="KDE">slogovna smer v rockovski glasbi 60. let, izhajajoča predvsem iz izkušenj glasbenikov z mamili ter iz uporabe električnih ojačevalnikov in potujitvenih učinkov (npr. protisklopi, popačenja) glasbe.</def>
             <def n="OPI">Prizadevanja, da bi se pri glasbenikih in poslušalcih z razl. mamili (posebej s hašišem, z marihuano in LSD) povečala ustvarjalnost oz. dojemanje. Pomembne skupine <oRef type="headword" n="YI">psihedeličnega rocka</oRef> so bile poleg skupin Doors in Flock predvsem Iron Butterfly (<distinct type="form" n="ENX" rend="italic">In a gadda da Vida</distinct>), Amon Düül, Vanilla Fudge, The Byrds, Jefferson Airplane, Pink Floyd, pa tudi skupina Beatles (<distinct type="form" n="ENX" rend="italic">Lucy in the Sky of Diamonds</distinct>). <oRef type="headword" n="YI">Psihedelični rock</oRef> je v 80. letih obnovil <ref target="#dzs02717400.00" n="KP">house</ref>.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Vera Gregorač</name>
-               <note type="class" n="K">141z</note>
-            </note>
          </entry>
          <entry xml:lang="sl"
                 type="personOrGroup"
@@ -3159,11 +2744,6 @@
                   </body>
                </floatingText>
             </def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Vera Gregorač</name>
-               <note type="class" n="K">141z</note>
-               <note type="class" n="KR">4.2.5</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs06519900.01" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
@@ -3176,10 +2756,6 @@
                <usg type="domain" n="PODR">splošno</usg>
                <pc join="left">:</pc>
                <def n="KDE">snov, priprava, naprava ipd., uporabljena za dosego kakšnega cilja ipd.</def>
-               <note type="admin" subtype="author" n="Z">
-                  <name>Ivan Turk (1)</name>
-                  <note type="class" n="K">150</note>
-               </note>
             </sense>
             <sense n="PO" xml:id="dzs06519900.02">
                <note type="admin" subtype="class" n="T">P</note>
@@ -3194,10 +2770,6 @@
                <pc join="left">,</pc>
                <def n="KDE">celota stvari, pravic in denarja, ki jih ima kdo in mu omogočajo uresničevanje ekonomskih ciljev.</def>
                <def n="OPI">Izražena so v denarni merski enoti in ovrednotena največ z zneskom, za katerega je mogoče predpostaviti, da ga bo mogoče dobiti v denarni obliki, kadar imajo <oRef type="headword" n="YI">sredstva</oRef> nedenarne oblike. V <ref target="#dzs00735400.00" n="KP">bilanci stanja</ref> so navedena na levi strani in označena tudi z izrazom <hi rend="italic" n="I">aktiva</hi>. Glede na značilnosti se delijo na <ref target="#dzs06531300.00" n="KP">stalna sredstva</ref> in <ref target="#dzs02250600.00" n="KP">gibljiva sredstva</ref>, glede na čas vezave v danih oblikah na <ref target="#dzs01578700.00" n="KP">dolgoročna sredstva</ref> in <ref target="#dzs03529100.00" n="KP">kratkoročna sredstva</ref>, glede na funkcionalnost pri ustvarjanju prihodkov pa na <ref target="#dzs04983600.00" n="KP">osnovna sredstva</ref>, <ref target="#dzs04812800.00" n="KP">obratna sredstva</ref> in <ref target="#dzs02014300.00" n="KP">finančne naložbe</ref>.</def>
-               <note type="admin" subtype="author" n="Z">
-                  <name>Ivan Turk (1)</name>
-                  <note type="class" n="K">211</note>
-               </note>
             </sense>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs06911400.02" n="PO">
@@ -3214,10 +2786,6 @@
                </def>
                <pc join="left">,</pc>
                <def n="OPI">posledica <ref target="#dzs06653500.02" n="KP">sumacije</ref> posameznih trzljajev; pojavlja se pri velikih mišičnih obremenitvah.</def>
-               <note type="admin" subtype="author" n="Z">
-                  <name>Jaro Lajovic</name>
-                  <note type="class" n="K">442</note>
-               </note>
             </sense>
             <sense n="PO" xml:id="dzs06911400.01">
                <note type="admin" subtype="class" n="T">P</note>
@@ -3239,10 +2807,6 @@
                <def n="KDE">huda infekcijska bolezen</def>
                <pc join="left">,</pc>
                <def n="OPI">ki jo povzroča bacil <distinct type="form" n="ENX" rend="italic">Clostridium tetani</distinct>. Spore klostridija živijo v zemlji, v telo vstopajo skozi rane, se razmnožijo in tvorijo <ref target="#dzs06983500.00" n="KP">toksin</ref>; ta deluje na živčne sinapse. Bolezenski znaki: 5–20 dni po okužbi utrujenost, neješčnost, tonični krči (<ref target="#dzs06996700.00" n="KP">tonus</ref>) mišičja (najprej na mišicah obraza, nato zatilja, hrbta in okončin), pri polni zavesti. Zaradi visoke temperature, <ref target="#dzs06796000.00" n="KP">tahikardije</ref>, <ref target="#dzs06796400.00" n="KP">tahipnoe</ref> in mišičnih krčev je potrebno intenzivno zdravljenje z umetnim dihanjem, pomirjevali, parenteralnim hranjenjem, mišičnimi relaksanti in antibiotiki. <oRef type="headword" n="YI">Tetanus</oRef> je v svetu (nerazvite dežele) še vedno zelo razširjena smrtna bolezen, pri nas je zaradi aktivne in pasivne imunizacije (<ref target="#dzs01079600.01" n="KP">cepljenje</ref>) bolezen redka, večinoma se pojavlja pri starejših. Cepljenje proti <oRef type="headword" n="YI">tetanusu</oRef> je del obveznega cepilnega programa, cepijo (diteper cepivo – davica, tetanus, oslovski kašelj) otroke v starosti 3, 6, 9 in 15–18 mesecev ter ponovno ob vstopu v šolo. Cepljenje je treba ponoviti vsakih deset let. Cepijo tudi osebe, ki so se ranile, če je od zadnjega cepljenja poteklo več kot deset let. Pri preprečevanju je pomembna tudi pravilna oskrba ran.</def>
-               <note type="admin" subtype="author" n="Z">
-                  <name>Andreja Bricelj</name>
-                  <note type="class" n="K">405</note>
-               </note>
             </sense>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs07302500.00" n="PO">
@@ -3253,10 +2817,6 @@
             <pc join="left">,</pc>
             <def n="KDE">zaporedje pogojnih in nepogojnih refleksov.</def>
             <def n="OPI">Mnenje, da so zapleteni poteki vedenja zgolj <oRef type="headword" n="YI">verižni refleksi</oRef>, je že dolgo zastarelo.</def>
-            <note type="admin" subtype="author" n="Z">
-               <name>Ivan Štuhec</name>
-               <note type="class" n="K">436</note>
-            </note>
          </entry>
          <entry xml:lang="sl" type="regular" xml:id="dzs07691700.00" n="PO">
             <note type="admin" subtype="class" n="T">P</note>
@@ -3274,10 +2834,6 @@
             <sense n="KDE">
                <def n="KDE">pojav, pri katerem se zaradi <hi rend="italic" n="I">povečanega tlaka</hi> zniža temperatura zmrzovanja kapljevine.</def>
             </sense>
-            <note type="admin" subtype="author" n="Z">
-               <name>Matjaž Štuhec</name>
-               <note type="class" n="K">503</note>
-            </note>
          </entry>
       </body>
    </text>

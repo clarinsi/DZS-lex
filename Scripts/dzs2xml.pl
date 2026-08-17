@@ -24,6 +24,10 @@ while (<>) {
     s|<0LT>|<OLT>|g;
     s|</0LT>|</OLT>|g;
     
+    #Remove included info on authors
+    s|<Z>.+?</Z>||g;
+    s|<Z/>||g;
+    
     # {vektor}: most common: {vektor}a but also {vektor}<I>c</I>, {vektor}OP, {vektor}ω
     # Need to switch around, as combining char comes after char
     s|{vektor}<I>|<I>{vektor}|g;

@@ -566,22 +566,14 @@
   </xsl:template>
 
   <!-- Author / editor of entry -->
-  <xsl:template match="Z">
-    <xsl:if test="normalize-space(.)">
-      <note type="admin" subtype="author" n="{name()}">
-        <name>
-          <xsl:apply-templates/>
-        </name>
-        <xsl:apply-templates mode="nest" select="following-sibling::K | following-sibling::KR"/>
-      </note>
-    </xsl:if>
-  </xsl:template>
-  
+  <!-- Should be removed already in source, as we don't want DB authors -->
+  <xsl:template match="Z"/>
+
   <!-- Some sort of numeric key, for internal use? -->
   <xsl:template match="K | KR"/>
   <xsl:template mode="nest" match="K | KR">
     <xsl:if test="normalize-space(.)">
-      <note type="class" n="{name()}">
+      <note type="admin" subtype="class" n="{name()}">
         <xsl:apply-templates/>
       </note>
     </xsl:if>
