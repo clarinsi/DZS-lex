@@ -34,7 +34,8 @@ sample-ana:
 sample-tei2txt:
 	$s -xsl:Scripts/tei2txt.xsl Sample/DZS-lex.sample.xml > Sample/DZS-lex.sample.txt
 sample-dzs2tei:
-	$s stamp="DZS-lex sample" -xsl:Scripts/dzs2tei.xsl Sample/KNAUR.sample.xml > Sample/DZS-lex.sample.xml
+	$s stamp="DZS-lex sample" authors-file=../Scripts/authors.xml -xsl:Scripts/dzs2tei.xsl \
+	Sample/KNAUR.sample.xml > Sample/DZS-lex.sample.xml
 	$j TEI/tei_dzslex.rng Sample/DZS-lex.sample.xml
 
 ### Targets to run on complete source
@@ -53,7 +54,7 @@ ana:
 tei2txt:
 	$s -xsl:Scripts/tei2txt.xsl Lexicon/DZS-lex.xml > Lexicon/DZS-lex.txt
 dzs2tei:
-	$s -xsl:Scripts/dzs2tei.xsl Lexicon/KNAUR.xml > Lexicon/DZS-lex.xml
+	$s authors-file=../Scripts/authors.xml -xsl:Scripts/dzs2tei.xsl Lexicon/KNAUR.xml > Lexicon/DZS-lex.xml
 	$j TEI/tei_dzslex.rng Lexicon/DZS-lex.xml
 	$s -xsl:Scripts/check-links.xsl Lexicon/DZS-lex.xml
 
