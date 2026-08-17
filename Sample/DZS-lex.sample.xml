@@ -1028,7 +1028,7 @@
                <tagUsage gi="text" occurs="1"/>
                <tagUsage gi="gloss" occurs="3"/>
                <tagUsage gi="figure" occurs="13"/>
-               <tagUsage gi="pron" occurs="31"/>
+               <tagUsage gi="pron" occurs="30"/>
                <tagUsage gi="name" occurs="20"/>
                <tagUsage gi="placeName" occurs="17"/>
                <tagUsage gi="floatingText" occurs="10"/>
@@ -1043,7 +1043,7 @@
                <tagUsage gi="note" occurs="171"/>
                <tagUsage gi="form" occurs="173"/>
                <tagUsage gi="orth" occurs="94"/>
-               <tagUsage gi="pc" occurs="343"/>
+               <tagUsage gi="pc" occurs="342"/>
                <tagUsage gi="distinct" occurs="34"/>
                <tagUsage gi="oRef" occurs="57"/>
                <tagUsage gi="ref" occurs="163"/>
@@ -1732,7 +1732,7 @@
                <usg type="domain" n="PODR">fizika</usg>
                <pc join="left">:</pc>
                <def n="KDE">fizika skuša dogodke pojasniti na osnovi prejšnjih dogodkov ali iz razpoložljivih podatkov napovedati dogodke v prihodnosti.</def>
-               <def n="OPI">V klasični fiziki lahko vsi »prejšnji« dogodki, ne glede na to, kje so se zgodili, vplivajo na poznejše dogodke. Ta misel temelji na privzetku neskončno hitrega razširjanja učinkov (signalov), ki jih ti dogodki povzročijo (teorija o <ref target="#dzs07143400.02" n="KP">učinkovanju na daljavo</ref>). Sodobna fizika je prišla do spoznanja, da je največja hitrost za razširjanje signalov <ref target="#dzs06686400.00" n="KP">svetlobna hitrost</ref>, ki je končna (3 · 10⁸ m/s); s tem je pokazala, da je stari privzetek o neomejeni vzročnosti napačen in da v pogojih, ki jih opisuje <ref target="#dzs05847700.00" n="KP">relativnostna teorija</ref>, ne velja več. Dogodki se razdelijo v takšne, ki so z dogodkom A lahko v vzročni (<distinct type="form" n="ENX" rend="italic">kavzalni</distinct>) zvezi (tj. povezani ali odvisni), in takšne, ki niso in ne morejo biti povezani in je zanje nepomembna, kdaj so se glede na dogodek A zgodili in kje. Dogodke, ki so z danim dogodkom lahko v vzročni zvezi, in tiste, ki ne morejo biti v <ref target="#dzs05645100.00" n="KP">prostoru-času</ref>, razmejuje <ref target="#dzs06688500.00" n="KP">svetlobni stožec</ref>.V <ref target="#dzs03647800.00" n="KP">kvantni mehaniki</ref> velja <ref target="#dzs04534500.00" n="KP">načelo nedoločenosti</ref>, ki pravi, da v mikrofizikalnih pojavih niso <distinct type="form" n="ENX" rend="italic">hkrati</distinct> določljive vse količine, npr. kraj in gibalna količina (oz. hitrost) elektrona, ki bi bili potrebne za napoved pojava in njegovega vnaprejšnjega razvoja (npr. potovanja elektrona po njegovi »tirnici«). Opis in napovedi pojavov zato temeljijo le na statističnih izrazih, ki podajajo verjetnosti in porazdelitve. Opazljivih količin (npr. lego in hitrost delca) tako z matematičnimi metodami ni mogoče kavzalno povezati med seboj.V zadnjem času večino makroskopskih dinamičnih sistemov obravnavajo kot <distinct type="form" n="ENX" rend="italic">kaotične</distinct> (<ref target="#dzs03140400.02" n="KP">kaos</ref>). To pomeni, da lahko že neskončno majhna sprememba začetnih pogojev neke dinamične spremenljivke v sistemu privede do nepredvidljivih in nenapovedljivih sprememb v vedenju vsega sistema. Strogo deterministično se vedejo le zelo posebni sistemi, ki jim pot skozi kaos preprečujejo ustrezne zapore. Čeprav novi pogledi vzročnosti načeloma ne omejujejo, pa znatno zmanjšajo preračunljivost in napovedljivost realnih sistemov. V tej zvezi, a nekoliko pretirano formulirano, se lahko vprašamo, »ali lahko zamah metulja s krilci vpliva na gibanje planetov?«.</def>
+               <def n="OPI">V klasični fiziki lahko vsi »prejšnji« dogodki, ne glede na to, kje so se zgodili, vplivajo na poznejše dogodke. Ta misel temelji na privzetku neskončno hitrega razširjanja učinkov (signalov), ki jih ti dogodki povzročijo (teorija o <ref target="#dzs07143400.02" n="KP">učinkovanju na daljavo</ref>). Sodobna fizika je prišla do spoznanja, da je največja hitrost za razširjanje signalov <ref target="#dzs06686400.00" n="KP">svetlobna hitrost</ref>, ki je končna (3 • 10⁸ m/s); s tem je pokazala, da je stari privzetek o neomejeni vzročnosti napačen in da v pogojih, ki jih opisuje <ref target="#dzs05847700.00" n="KP">relativnostna teorija</ref>, ne velja več. Dogodki se razdelijo v takšne, ki so z dogodkom A lahko v vzročni (<distinct type="form" n="ENX" rend="italic">kavzalni</distinct>) zvezi (tj. povezani ali odvisni), in takšne, ki niso in ne morejo biti povezani in je zanje nepomembna, kdaj so se glede na dogodek A zgodili in kje. Dogodke, ki so z danim dogodkom lahko v vzročni zvezi, in tiste, ki ne morejo biti v <ref target="#dzs05645100.00" n="KP">prostoru-času</ref>, razmejuje <ref target="#dzs06688500.00" n="KP">svetlobni stožec</ref>.V <ref target="#dzs03647800.00" n="KP">kvantni mehaniki</ref> velja <ref target="#dzs04534500.00" n="KP">načelo nedoločenosti</ref>, ki pravi, da v mikrofizikalnih pojavih niso <distinct type="form" n="ENX" rend="italic">hkrati</distinct> določljive vse količine, npr. kraj in gibalna količina (oz. hitrost) elektrona, ki bi bili potrebne za napoved pojava in njegovega vnaprejšnjega razvoja (npr. potovanja elektrona po njegovi »tirnici«). Opis in napovedi pojavov zato temeljijo le na statističnih izrazih, ki podajajo verjetnosti in porazdelitve. Opazljivih količin (npr. lego in hitrost delca) tako z matematičnimi metodami ni mogoče kavzalno povezati med seboj.V zadnjem času večino makroskopskih dinamičnih sistemov obravnavajo kot <distinct type="form" n="ENX" rend="italic">kaotične</distinct> (<ref target="#dzs03140400.02" n="KP">kaos</ref>). To pomeni, da lahko že neskončno majhna sprememba začetnih pogojev neke dinamične spremenljivke v sistemu privede do nepredvidljivih in nenapovedljivih sprememb v vedenju vsega sistema. Strogo deterministično se vedejo le zelo posebni sistemi, ki jim pot skozi kaos preprečujejo ustrezne zapore. Čeprav novi pogledi vzročnosti načeloma ne omejujejo, pa znatno zmanjšajo preračunljivost in napovedljivost realnih sistemov. V tej zvezi, a nekoliko pretirano formulirano, se lahko vprašamo, »ali lahko zamah metulja s krilci vpliva na gibanje planetov?«.</def>
             </sense>
             <sense n="PO" xml:id="dzs03216700.02">
                <note type="admin" subtype="class" n="T">P</note>
@@ -2692,11 +2692,8 @@
             <form type="lemma" n="G">
                <orth>psihedelični rock</orth>
             </form>
-            <form n="FOR" type="pronunciation">
-               <pc join="right">[</pc>
-               <pron>～ rók</pron>
-               <pc join="left">]</pc>
-            </form>
+            <form n="FOR">
+               <pc join="right">[</pc>~ rók]</form>
             <pc join="left">,</pc>
             <def n="KDE">slogovna smer v rockovski glasbi 60. let, izhajajoča predvsem iz izkušenj glasbenikov z mamili ter iz uporabe električnih ojačevalnikov in potujitvenih učinkov (npr. protisklopi, popačenja) glasbe.</def>
             <def n="OPI">Prizadevanja, da bi se pri glasbenikih in poslušalcih z razl. mamili (posebej s hašišem, z marihuano in LSD) povečala ustvarjalnost oz. dojemanje. Pomembne skupine <oRef type="headword" n="YI">psihedeličnega rocka</oRef> so bile poleg skupin Doors in Flock predvsem Iron Butterfly (<distinct type="form" n="ENX" rend="italic">In a gadda da Vida</distinct>), Amon Düül, Vanilla Fudge, The Byrds, Jefferson Airplane, Pink Floyd, pa tudi skupina Beatles (<distinct type="form" n="ENX" rend="italic">Lucy in the Sky of Diamonds</distinct>). <oRef type="headword" n="YI">Psihedelični rock</oRef> je v 80. letih obnovil <ref target="#dzs02717400.00" n="KP">house</ref>.</def>
