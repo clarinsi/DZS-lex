@@ -7,211 +7,980 @@
             <title xml:lang="sl">Veliki splošni leksikon DZS [DZS-lex sample]</title>
             <title xml:lang="sl">Large General Lexicon DZS [DZS-lex sample]</title>
             <respStmt>
-               <persName>Miro Romih, Amebis</persName>
-               <resp>Izvorno digitalno kodiranje</resp>
-               <resp xml:lang="en">Source digital encoding</resp>
-            </respStmt>
-            <respStmt>
-               <persName ref="https://orcid.org/0000-0002-1560-4099">Tomaž Erjavec</persName>
                <resp>Kodiranje TEI XML</resp>
                <resp xml:lang="en">TEI XML encoding</resp>
+               <persName ref="https://orcid.org/0000-0002-1560-4099">Tomaž Erjavec</persName>
             </respStmt>
             <respStmt>
-               <persName>Aleksander Sitar</persName>
-               <persName>Aleksander Zidanšek</persName>
-               <persName>Alenka Strdin</persName>
-               <persName>Aleš Galič</persName>
-               <persName>Aleš Pogačnik</persName>
-               <persName>Aleš Vesel</persName>
-               <persName>Alfred Trenz</persName>
-               <persName>Alojz Ihan</persName>
-               <persName>Amanda Valič</persName>
-               <persName>Andreja Bricelj</persName>
-               <persName>Andrej Pleterski</persName>
-               <persName>Anton Štuhec</persName>
-               <persName>Barbara Modec</persName>
-               <persName>Barbara Vrečko</persName>
-               <persName>B. Avbelj</persName>
-               <persName>Bibijana Mihevc</persName>
-               <persName>Blaž Mesec</persName>
-               <persName>Bogdan Horvat</persName>
-               <persName>Bojan Djurič</persName>
-               <persName>Bojan Kavčič</persName>
-               <persName>Bojan Mesec</persName>
-               <persName>Boris Jesih</persName>
-               <persName>Borut Drobnjak</persName>
-               <persName>Borut Jesih</persName>
-               <persName>Borut Korun</persName>
-               <persName>Borut Trapečar</persName>
-               <persName>Borut Trepčar</persName>
-               <persName>Breda Ilich-Klančnik</persName>
-               <persName>Breda Luthar</persName>
-               <persName>Breda Rajar</persName>
-               <persName>Bronislava Aubelj</persName>
-               <persName>Ciril Sorč</persName>
-               <persName>Črt Kostevc</persName>
-               <persName>Damir Globočnik</persName>
-               <persName>Damjana Zelnik</persName>
-               <persName>Damjan J. Ovsec</persName>
-               <persName>Dejan Žlajpah</persName>
-               <persName>Dragan Božič</persName>
-               <persName>Dragica Turnšek</persName>
-               <persName>Drago Kladnik</persName>
-               <persName>Drago Perko</persName>
-               <persName>Dušan Kos</persName>
-               <persName>Dušan Kuščer</persName>
-               <persName>Duška Meh</persName>
-               <persName>Franc Cimerman</persName>
-               <persName>France Bernot</persName>
-               <persName>Franci Deržanič</persName>
-               <persName>Franci Žibert</persName>
-               <persName>Francka Premk</persName>
-               <persName>Franc Merzelj</persName>
-               <persName>Franc Pavlin</persName>
-               <persName>Franc Pečelin</persName>
-               <persName>Frane Jerman</persName>
-               <persName>Furlan Metka</persName>
-               <persName>Gabrijel Seljak</persName>
-               <persName>Gorazd Lešnjak</persName>
-               <persName>Gorazd Lojen</persName>
-               <persName>Hanka Štular</persName>
-               <persName>Helena Mihelčič</persName>
-               <persName>Henrik Neubauer</persName>
-               <persName>Hilda Hašaj</persName>
-               <persName>Ida Knez</persName>
-               <persName>Ignac Sivec</persName>
-               <persName>Igor Evgen Bergant</persName>
-               <persName>Igor Maher</persName>
-               <persName>Ingrid Slavec Gradišnik</persName>
-               <persName>Irena Novak-Popov</persName>
-               <persName>Irena Samide</persName>
-               <persName>Irena Zavrl</persName>
-               <persName>Ivan Bele</persName>
-               <persName>Ivan Jakič</persName>
-               <persName>Ivan Kristan</persName>
-               <persName>Ivan Pucko</persName>
-               <persName>Ivan Štuhec</persName>
-               <persName>Ivan Turk</persName>
-               <persName>Iza Ciglenečki</persName>
-               <persName>Jana Horvat</persName>
-               <persName>Jan Carnelutti</persName>
-               <persName>Janez Dular</persName>
-               <persName>Janez Stergar</persName>
-               <persName>Janja Kogovšek</persName>
-               <persName>Jaro Lajovic</persName>
-               <persName>Jasna Štrus</persName>
-               <persName>Jelka Stergar</persName>
-               <persName>Jelka Strgar</persName>
-               <persName>Jerneja Fridl</persName>
-               <persName>Jerneja Petrič</persName>
-               <persName>Jože Hanc</persName>
-               <persName>Jože Maček</persName>
-               <persName>Jože Pavlič Damijan</persName>
-               <persName>Jože Resnik</persName>
-               <persName>Jože Vogrinc</persName>
-               <persName>Jurij Senegačnik</persName>
-               <persName>Karel Natek</persName>
-               <persName>Kogovšek Aleksander</persName>
-               <persName>Lena Holmqvist</persName>
-               <persName>Lidija Saje</persName>
-               <persName>Ljuba Fende</persName>
-               <persName>Lovro Stanovnik</persName>
-               <persName>Ludvik Jošar</persName>
-               <persName>Maček Jože</persName>
-               <persName>Maja Ondračka</persName>
-               <persName>Majda Zorec-Karlovšek</persName>
-               <persName>Marija Javornik</persName>
-               <persName>Marija Knez-Bergant</persName>
-               <persName>Marijan Medič</persName>
-               <persName>Marija Stankovič</persName>
-               <persName>Marija Štefančič</persName>
-               <persName>Mario Fakin</persName>
-               <persName>Mario Pleničar</persName>
-               <persName>Marja Bešter</persName>
-               <persName>Marjana Benčina</persName>
-               <persName>Marjana Križaj</persName>
-               <persName>Marjan Garbajs</persName>
-               <persName>Marko Aljančič</persName>
-               <persName>Marko Bertok</persName>
-               <persName>Marko Kumar</persName>
-               <persName>Marko Marinčič</persName>
-               <persName>Marko Urbanija</persName>
-               <persName>Martina Križaj-Ortar</persName>
-               <persName>Martin Žnideršič</persName>
-               <persName>Mateja Vraničar</persName>
-               <persName>Matej Gabrovec</persName>
-               <persName>Matej Vraničar</persName>
-               <persName>Matevž Lenarčič</persName>
-               <persName>Matjaž Štuhec</persName>
-               <persName>Mauro Hrvatin</persName>
-               <persName>Metka Bögel-Dodič</persName>
-               <persName>Metka Furlan</persName>
-               <persName>Metka Kralj</persName>
-               <persName>Mihael Jožef Toman</persName>
-               <persName>Miha Juhart</persName>
-               <persName>Miha Pavšek</persName>
-               <persName>Milan Klemenčič</persName>
-               <persName>Milan Orožen Adamič</persName>
-               <persName>Milena Pleničar</persName>
-               <persName>Milena Polanič</persName>
-               <persName>Milutin Stankovič</persName>
-               <persName>Miran Mihelčič</persName>
-               <persName>Mojca Dobnikar</persName>
-               <persName>Nada Colnar</persName>
-               <persName>Nataša Koselj</persName>
-               <persName>Nataša Smolar</persName>
-               <persName>Nataša Štefanič</persName>
-               <persName>Nedžad Žujo</persName>
-               <persName>Nevenka Zabavnik Cmok</persName>
-               <persName>Nikolaj Torelli</persName>
-               <persName>Nina Kozinc</persName>
-               <persName>Oskar Dolenc</persName>
-               <persName>Oto Luthar</persName>
-               <persName>Pavel Dolenc</persName>
-               <persName>Pavla Ranzinger</persName>
-               <persName>Peter Grilc</persName>
-               <persName>Peter Skoberne</persName>
-               <persName>Peter Trontelj</persName>
-               <persName>Polonca Svetlin-Gvardjančič</persName>
-               <persName>Primož Kuret</persName>
-               <persName>Rok Stergar</persName>
-               <persName>Samo Krušič</persName>
-               <persName>Samo Kuščer</persName>
-               <persName>Saša Pirkmaier</persName>
-               <persName>Sašo Avsec</persName>
-               <persName>Slavko Ciglenečki</persName>
-               <persName>Sonja Stergaršek</persName>
-               <persName>Stane Klemenc</persName>
-               <persName>Štefan Horvat</persName>
-               <persName>Štefan Oštir</persName>
-               <persName>Štefan Vevar</persName>
-               <persName>Tadej Markun</persName>
-               <persName>Tamara Bosnič</persName>
-               <persName>Tatjana Sabo</persName>
-               <persName>Tomaž Saksida</persName>
-               <persName>Tomislav Pirc</persName>
-               <persName>Tomo Pirc</persName>
-               <persName>Tomo Virk</persName>
-               <persName>Uroš Ilič</persName>
-               <persName>Vanesa Matajc</persName>
-               <persName>Vekoslav Mihevc</persName>
-               <persName>Vera Gregorač</persName>
-               <persName>Veronika Rot</persName>
-               <persName>Vesna Čopič</persName>
-               <persName>Vida Bonač</persName>
-               <persName>Vid Jakulin</persName>
-               <persName>Vinko Rozman</persName>
-               <persName>Vita Klinar</persName>
-               <persName>Vladimir Drozg</persName>
-               <persName>Vladimir Simič</persName>
-               <persName>Zdenka Erbežnik</persName>
-               <persName>Zdenko Medveš</persName>
-               <persName>Zdenko Rajher</persName>
-               <persName>Zdravko Petkovšek</persName>
-               <persName>Zoran Belec</persName>
-               <persName>Zvonka Zupanič-Slavec</persName>
-               <resp>Avtorji geselskih člankov</resp>
-               <resp xml:lang="en">Authors of the lexicon entries</resp>
+               <resp>Urednica prve knjižne izdaje</resp>
+               <persName>mag. MARIJA JAVORNIK</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Urednik kasnejših izdaj</resp>
+               <persName>mag. ALEŠ POGAČNIK</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Računalniška priprava</resp>
+               <persName>AMEBIS, d. o. o., Kamnik</persName>
+            </respStmt>
+            <respStmt>
+               <persName>dr. MILAN ADAMIČ</persName>
+               <resp>lovstvo, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>MARKO ALJANČIČ</persName>
+               <resp>zoologija/sesalci, splošna biologija, prevod, priredba</resp>
+            </respStmt>
+            <respStmt>
+               <persName>mag. VLADIMIR ALKALAJ</persName>
+               <resp>vinarstvo, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>BRONISLAVA AUBELJ</persName>
+               <resp>pregled grških in latinskih imen, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>SAŠO AVSEC</persName>
+               <resp>fizika, kemijska procesna tehnika, splošna tehnika, strojništvo, prevod, priredba, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. MATJAŽ BARBO</persName>
+               <resp>glasba, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. ANDREJ BAUER</persName>
+               <resp>matematika, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. MARJA BEŠTER</persName>
+               <resp>jezikoslovje, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. IVAN BELE</persName>
+               <resp>kazensko pravo, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>mag. ZORAN BELEC</persName>
+               <resp>gozdarstvo, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>MARJANA BENČINA</persName>
+               <resp>ameriška, nemška in nizozemska književnost, prevod</resp>
+            </respStmt>
+            <respStmt>
+               <persName>IGOR EVGEN BERGANT</persName>
+               <resp>šport, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. FRANCE BERNOT</persName>
+               <resp>meteorologija, prevod</resp>
+            </respStmt>
+            <respStmt>
+               <persName>MARKO BERTOK</persName>
+               <resp>ribištvo, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>VIDA BONAČ</persName>
+               <resp>zavarovalništvo, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>ANDREJA BRICELJ</persName>
+               <resp>medicina, prevod, lovstvo, prevod, priredba</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. MIHAEL BRICELJ</persName>
+               <resp>farmakologija, mikrobiologija, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. JAN CARNELUTTI</persName>
+               <resp>zoologija/metulji, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>IZA CIGLENEČKI</persName>
+               <resp>medicina, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. BOJAN DJURIĆ</persName>
+               <resp>antična umetnost, antična zgodovina, prevod, priredba</resp>
+            </respStmt>
+            <respStmt>
+               <persName>MOJCA DOBNIKAR</persName>
+               <resp>sociologija, prevod</resp>
+            </respStmt>
+            <respStmt>
+               <persName>PAVEL DOLENC</persName>
+               <resp>kazensko pravo, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>ZDENKA ERBEŽNIK</persName>
+               <resp>filozofija, tujke, prevod, priredba</resp>
+            </respStmt>
+            <respStmt>
+               <persName>MARIO FAKIN</persName>
+               <resp>splošna tehnika, prevod</resp>
+            </respStmt>
+            <respStmt>
+               <persName>LJUBA FENDE</persName>
+               <resp>tisk, prevod, priredba</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. ALEŠ GALIČ</persName>
+               <resp>civilno pravo, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. JOŽE GASPERIČ</persName>
+               <resp>elektrotehnika, elektronika, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>TOMAŽ GERDEN</persName>
+               <resp>sodobna zgodovina, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>DAMIR GLOBOČNIK</persName>
+               <resp>likovna umetnost, prevod, priredba</resp>
+            </respStmt>
+            <respStmt>
+               <persName>TINKA GOLOB</persName>
+               <resp>portugalska književnost, prevod naslovov posameznih del</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. DOMINIK GREGL</persName>
+               <resp>letalstvo, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>VERA GREGORAČ</persName>
+               <resp>glasba, prevod, priredba</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. PETER GRILC</persName>
+               <resp>civilno pravo, prevod, priredba, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>HILDA HAŠAJ</persName>
+               <resp>nemška književnost, prevod</resp>
+            </respStmt>
+            <respStmt>
+               <persName>LENA HOLMQVIST</persName>
+               <resp>nordijska književnost, prevod</resp>
+            </respStmt>
+            <respStmt>
+               <persName>BOGDAN HORVAT</persName>
+               <resp>zoologija/žuželke, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>mag. ŠTEFAN HORVAT</persName>
+               <resp>kazensko pravo, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. BOŽO IGLIČ</persName>
+               <resp>kemijska procesna tehnika, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. ALOJZ IHAN</persName>
+               <resp>bakteriologija, prevod, priredba</resp>
+            </respStmt>
+            <respStmt>
+               <persName>BREDA ILICH-KLANČNIK</persName>
+               <resp>likovna umetnost, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. FRANC JAKOPIN</persName>
+               <resp>romunska književnost, prevod naslovov posameznih del</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. VID JAKULIN</persName>
+               <resp>kazensko pravo, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. ANTON JANKO</persName>
+               <resp>nemška književnost, izbor gesel v nemškem geslovniku</resp>
+            </respStmt>
+            <respStmt>
+               <persName>mag. MARIJA JAVORNIK</persName>
+               <resp>rodoslovna debla, prevod</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. FRANE JERMAN</persName>
+               <resp>filozofija, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>mag. BORIS JESIH</persName>
+               <resp>zgodovina, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>mag. LUDVIK JOŠAR</persName>
+               <resp>protestantska teologija, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. MIHAEL JOŽEF TOMAN</persName>
+               <resp>zoologija/ribe, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. MIHA JUHART</persName>
+               <resp>civilno pravo, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. BRANKA KALENIČ-RAMŠAK</persName>
+               <resp>španska književnost, prevod naslovov posameznih del</resp>
+            </respStmt>
+            <respStmt>
+               <persName>BOJAN KAVČIČ</persName>
+               <resp>film, prevod, priredba, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>VITA KILAR</persName>
+               <resp>baltska, italijanska, novogrška, novolatinska, španska, portugalska, južnoameriška, romunska književnost, prevod</resp>
+            </respStmt>
+            <respStmt>
+               <persName>IDA KNEZ</persName>
+               <resp>geografija, prevod, priredba</resp>
+            </respStmt>
+            <respStmt>
+               <persName>MARIJA KNEZ-BERGANT</persName>
+               <resp>šport, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. PETER KOBE</persName>
+               <resp>kazensko pravo, priprava geslovnika</resp>
+            </respStmt>
+            <respStmt>
+               <persName>SUZANA KONCUT</persName>
+               <resp>romanska književnost, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>BORUT KORUN, dr. med.</persName>
+               <resp>indijanska ljudstva, prevod, priredba</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. JANKO KOS</persName>
+               <resp>slovenska književnost, predlog novih gesel, geslo slovenska književnost</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. NATAŠA KOSELJ</persName>
+               <resp>arhitektura, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>mag. ČRT KOSTEVC</persName>
+               <resp>ekonomija, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>mag. ADRIJAN KOŠIR</persName>
+               <resp>geologija, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. MIHA KOVAČ</persName>
+               <resp>založništvo, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>NINA KOZINC</persName>
+               <resp>afriška umetnost, etnologija, prevod</resp>
+            </respStmt>
+            <respStmt>
+               <persName>MATEJ KRAJNC</persName>
+               <resp>glasba, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>mag. METKA KRALJ</persName>
+               <resp>antropologija, biokemija, genetika, okolje, raziskovalci, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. FEDOR KREJČI</persName>
+               <resp>medicina, preglednica o zastrupitvah</resp>
+            </respStmt>
+            <respStmt>
+               <persName>MARJANA KRIŽAJ</persName>
+               <resp>ples, prevod</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. MARTINA KRIŽAJ-ORTAR</persName>
+               <resp>jezikoslovje, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. ALOJZ KRIŽMAN</persName>
+               <resp>splošna tehnika, strojništvo, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. IVAN KRISTAN</persName>
+               <resp>ustavno pravo, prevod, priredba, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>SAMO KRUŠIČ</persName>
+               <resp>splošna religiologija, prevod</resp>
+            </respStmt>
+            <respStmt>
+               <persName>MARKO KUMAR</persName>
+               <resp>tisk, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. PRIMOŽ KURET</persName>
+               <resp>glasba, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>SAMO KUŠČER</persName>
+               <resp>računalništvo, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>JARO LAJOVIC, dr. med.</persName>
+               <resp>medicina, strokovna redakcija, fiziologija, prevod, priredba</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. GORAZD LEŠNJAK</persName>
+               <resp>matematika, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>JANKO LOJEN</persName>
+               <resp>splošna tehnika, strojništvo, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>mag. GORAZD LOJEN</persName>
+               <resp>splošna tehnika, strojništvo, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. MILAN LOVKA</persName>
+               <resp>biologija, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>JANEZ LUŠTREK</persName>
+               <resp>denarne enote, preglednica</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. BREDA LUTHAR</persName>
+               <resp>mediji, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. JOŽE MAČEK</persName>
+               <resp>fitomedicina, kmetijstvo, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>TADEJ MARKUN</persName>
+               <resp>elektronika, kemijska procesna tehnika, lesarstvo, regulacijska tehnika, prevod</resp>
+            </respStmt>
+            <respStmt>
+               <persName>VANESA MATAJC</persName>
+               <resp>češka, poljska, hrvaška, bosanska, jugoslovanska, ruska, bolgarska književnost, prevod</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. MARIJAN MEDIČ</persName>
+               <resp>lesarstvo, pregled prevoda, priredba</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. ZDENKO MEDVEŠ</persName>
+               <resp>pedagogika, prevod, priredba, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. DUŠKA MEH</persName>
+               <resp>medicina, prevod, priredba</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. FRANC MERZELJ</persName>
+               <resp>lesarstvo, pregled prevoda, priredba</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. BLAŽ MESEC</persName>
+               <resp>psihologija, prevod, priredba, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>mag. HELENA MIHELČIČ</persName>
+               <resp>ekonomija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. MIRAN MIHELČIČ</persName>
+               <resp>ekonomija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. VEKOSLAV MIHEVC</persName>
+               <resp>lesarstvo, pregled prevoda, priredba</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. MIRA MILADINOVIČ-ZALAZNIK</persName>
+               <resp>nemška književnost, izbor gesel v nemškem geslovniku</resp>
+            </respStmt>
+            <respStmt>
+               <persName>JASNA MILINKOVIČ</persName>
+               <resp>šport, igre, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. BARBARA MODEC</persName>
+               <resp>kemija, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>HENRIK NEUBAUER, dr. med.</persName>
+               <resp>ples, prevod, priredba</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. IRENA NOVAK-POPOV</persName>
+               <resp>slovenska književnost, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>MAJA ONDRAČKA</persName>
+               <resp>fizika, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. JANEZ OREŠNIK</persName>
+               <resp>jeziki, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>ŠTEFAN OŠTIR</persName>
+               <resp>kmetijstvo, mlekarstvo, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>DAMJAN J. OVSEC</persName>
+               <resp>slovanska in slovenska mitologija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>mag. JOŽE PAVLIČ DAMIJAN</persName>
+               <resp>ekonomija, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. ANDREJ PAULIN</persName>
+               <resp>metalurgija, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>FRANC PAVLIN</persName>
+               <resp>kmetijstvo, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>FRANC PEČELIN</persName>
+               <resp>vojaško področje, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. ZDRAVKO PETKOVŠEK</persName>
+               <resp>meteorologija, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>TOMISLAV PIRC</persName>
+               <resp>glasba, pregled gesel, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. SAŠA PIRKMAIER</persName>
+               <resp>lesarstvo, pregled prevoda, priredba</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. KLEMEN PODOBNIK</persName>
+               <resp>pravo, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>mag. ALEŠ POGAČNIK</persName>
+               <resp>filozofija, strokovna redakcija, nova gesla, glasba, pregled gesel, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>JELKA POGAČNIK</persName>
+               <resp>koordinacija avtorjev za področje zoologije in botanike</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. DRAŽIGOST POKORN</persName>
+               <resp>medicina, pregled gesel o prehrani</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. ADA POLAJNAR-PAUČNIK</persName>
+               <resp>civilno pravo, priprava geslovnika</resp>
+            </respStmt>
+            <respStmt>
+               <persName>MILENA POLANIČ</persName>
+               <resp>indijska, japonska, kitajska, orientalska književnost, prevod</resp>
+            </respStmt>
+            <respStmt>
+               <persName>JURE POTOKAR</persName>
+               <resp>glasba, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>mag. MARKO PRPIČ</persName>
+               <resp>RTV, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>IVAN PUCKO</persName>
+               <resp>vzhodna Cerkev, prevod</resp>
+            </respStmt>
+            <respStmt>
+               <persName>BREDA RAJAR</persName>
+               <resp>moda, prevod, priredba, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>mag. ZDENKO RAJHER</persName>
+               <resp>vinarstvo, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>mag. PAVLA RANZINGER</persName>
+               <resp>astronomija, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. JOŽE RESNIK</persName>
+               <resp>lesarstvo, pregled prevoda, priredba</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. TATJANA RIJAVEC</persName>
+               <resp>tekstilstvo, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. JANEZ ROTAR</persName>
+               <resp>gesla bosanska, hrvaška, makedonska, srbska in črnogorska književnost</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. VINKO ROZMAN</persName>
+               <resp>lesarstvo, pregled prevoda, priredba</resp>
+            </respStmt>
+            <respStmt>
+               <persName>LIDIJA SAJE</persName>
+               <resp>igre, prehrana, prevod</resp>
+            </respStmt>
+            <respStmt>
+               <persName>MARIJA SAKSIDA</persName>
+               <resp>elektrotehnika, prevod</resp>
+            </respStmt>
+            <respStmt>
+               <persName>TOMAŽ SAKSIDA</persName>
+               <resp>elektrotehnika, kemijska procesna tehnika, podjetja, prevod</resp>
+            </respStmt>
+            <respStmt>
+               <persName>IRENA SAMIDE</persName>
+               <resp>gledališče, založništvo, germanska književnost prevod, priredba, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>mag. GABRIJEL SELJAK</persName>
+               <resp>botanika/glive, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. VLADIMIR SIMIČ</persName>
+               <resp>pravna zgodovina, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. ALEKSANDER SITAR</persName>
+               <resp>slovenski znanstveniki, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. IGNAC SIVEC</persName>
+               <resp>zoologija/žuželke, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. PETER SKOBERNE</persName>
+               <resp>botanika, prevod, priredba, nova gesla, okolje, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. ANDREJ E. SKUBIC</persName>
+               <resp>jezikoslovje, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. INGRID SLAVEC-GRADIŠNIK</persName>
+               <resp>etnologija, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>NATAŠA SMOLAR</persName>
+               <resp>botanika/alge, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>VID SNOJ</persName>
+               <resp>splošna religiologija, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. CIRIL SORČ</persName>
+               <resp>katoliška teologija, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>MARIJA STANKOVIČ</persName>
+               <resp>tekstil, prevod, priredba</resp>
+            </respStmt>
+            <respStmt>
+               <persName>MILUTIN STANKOVIČ</persName>
+               <resp>tekstil, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. LOVRO STANOVNIK</persName>
+               <resp>farmakologija, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>ROK STERGAR</persName>
+               <resp>zgodovina, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>JANEZ STERGAR</persName>
+               <resp>urednik za zgodovino, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>ALENKA STRDIN</persName>
+               <resp>medicina, prevod, priredba, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>mag. JELKA STRGAR</persName>
+               <resp>botanika, vrtnarstvo, prevod, priredba</resp>
+            </respStmt>
+            <respStmt>
+               <persName>MILENA SUWA STANOJEVIČ</persName>
+               <resp>prehrana, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>POLONCA SVETLIN-GVARDJANČIČ</persName>
+               <resp>ugrofinska književnost, prevod</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. MARJAN ŠIMENC</persName>
+               <resp>filozofija, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>GORAN ŠIŠKA</persName>
+               <resp>pravo, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. ALENKA ŠIVIC-DULAR</persName>
+               <resp>jeziki, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. NEVA ŠLIBAR</persName>
+               <resp>nemška književnost, izbor gesel v nemškem geslovniku</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. ZMAGO ŠMITEK</persName>
+               <resp>ljudstva, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. FRANCI ŠTAMPAR</persName>
+               <resp>kmetijstvo, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. MARIJA ŠTEFANČIČ</persName>
+               <resp>antropologija, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>NIKOLAJ ŠTRITOF</persName>
+               <resp>astronomija, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. PAVLA ŠTRUKELJ</persName>
+               <resp>neevropske umetnosti, kulture in religije, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. JASNA ŠTRUS</persName>
+               <resp>citologija, embriologija, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>ANTON ŠTUHEC</persName>
+               <resp>strojništvo, prevod</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. IVAN ŠTUHEC</persName>
+               <resp>etologija, prevod</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. MATJAŽ ŠTUHEC</persName>
+               <resp>fizika, prevod</resp>
+            </respStmt>
+            <respStmt>
+               <persName>HANKA ŠTULAR</persName>
+               <resp>likovna umetnost, prevod, priredba, nova gesla, dodatki o umetnostnozgodovinskih spomenikih v Sloveniji</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. KAZIMIR TARMAN</persName>
+               <resp>ekologija, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. NIKOLAJ TORELLI</persName>
+               <resp>lesarstvo, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>BORUT TRAPEČAR, dr. vet. med.</persName>
+               <resp>veterina, zoologija, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>VERA TROHA</persName>
+               <resp>italijanska književnost, prevod naslovov posameznih del</resp>
+            </respStmt>
+            <respStmt>
+               <persName>PETER TRONTELJ</persName>
+               <resp>zoologija/ptiči, prevod, priredba</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. IVAN TURK</persName>
+               <resp>ekonomija, strokovna redakcija, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>MIROSLAV ULČAR</persName>
+               <resp>vojaštvo, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>MARKO URBANIJA</persName>
+               <resp>katoliška teologija, religija, mitologija, prevod, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>PAVLA URŠIČ-KUNEJ</persName>
+               <resp>koordinacija avtorjev za področje glasbe</resp>
+            </respStmt>
+            <respStmt>
+               <persName>AMANDA VALIČ</persName>
+               <resp>ribištvo, prevod</resp>
+            </respStmt>
+            <respStmt>
+               <persName>ŠTEFAN VEVAR</persName>
+               <resp>gledališče, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>NADA VILHAR</persName>
+               <resp>zgodovina, prevod</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. KSENIJA H. VIDMAR</persName>
+               <resp>sociologija, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. TOMO VIRK</persName>
+               <resp>urednik za književnost, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. JOŽE VOGRINC</persName>
+               <resp>sociologija, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>MATEJA VRANIČAR</persName>
+               <resp>ekonomija, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>mag. BARBARA VREČKO</persName>
+               <resp>mednarodno pravo, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>TONE VRHOVNIK STRAKA</persName>
+               <resp>književnost, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. DANI VRHOVŠEK</persName>
+               <resp>botanika/alge, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>mag. NEVENKA ZABAVNIK-CMOK</persName>
+               <resp>živinoreja, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>IGOR ZABEL</persName>
+               <resp>likovna umetnost, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>IRENA ZAVRL</persName>
+               <resp>ekonomija, prevod</resp>
+            </respStmt>
+            <respStmt>
+               <persName>DAMJANA ZELNIK</persName>
+               <resp>zgodovina, prevod, priredba</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. ALEKSANDER ZIDANŠEK</persName>
+               <resp>fizika, prevod</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. JANEZ ZOR</persName>
+               <resp>glagolica in cirilica, preglednica</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. MAJDA ZOREC-KARLOVŠEK</persName>
+               <resp>kemija, prevod, priredba</resp>
+            </respStmt>
+            <respStmt>
+               <persName>mag. ZVONKA ZUPANIČ-SLAVEC, dr. med.</persName>
+               <resp>slovenski zdravniki, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. FRANCI ŽIBERT</persName>
+               <resp>ekonomija, strokovna redakcija za področje javnih financ</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. DEJAN ŽLAJPAH</persName>
+               <resp>gradbeništvo, računalništvo, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. MARTIN ŽNIDERŠIČ</persName>
+               <resp>založništvo, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. METKA BÖGEL-DODIČ, ZRC SAZU</persName>
+               <resp>ekologija, prevod</resp>
+            </respStmt>
+            <respStmt>
+               <persName>TAMARA BOSNIČ, ZRC SAZU</persName>
+               <resp>geografija, prevod</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. DRAGAN BOŽIČ, ZRC SAZU</persName>
+               <resp>arheologija, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. SLAVKO CIGLENEČKI, ZRC SAZU</persName>
+               <resp>arheologija, prevod, priredba, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>mag. FRANC CIMERMAN, ZRC SAZU</persName>
+               <resp>geologija, mineralogija, paleontologija, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>BORUT DROBNJAK, ZRC SAZU</persName>
+               <resp>geografija, prevod</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. JANEZ DULAR, ZRC SAZU</persName>
+               <resp>arheologija, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>JERNEJA FRIDL, ZRC SAZU</persName>
+               <resp>geografija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. METKA FURLAN, ZRC SAZU</persName>
+               <resp>indoevropeistika, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. MATEJ GABROVEC, ZRC SAZU</persName>
+               <resp>geografija, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. STANKO GRANDA, ZRC SAZU</persName>
+               <resp>rodoslovna debla, pregled</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. JANA HORVAT, ZRC SAZU</persName>
+               <resp>arheologija, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>MAURO HRVATIN, ZRC SAZU</persName>
+               <resp>geografija, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>mag. DRAGO KLADNIK, ZRC SAZU</persName>
+               <resp>geografija, prevod, priredba, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>mag. JANJA KOGOVŠEK, ZRC SAZU</persName>
+               <resp>kras, prevod</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. DUŠAN KOS, ZRC SAZU</persName>
+               <resp>zgodovina, pisave, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. MIHA KOSI, ZRC SAZU</persName>
+               <resp>zgodovina, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>POLONA KOSTANJEVEC, ZRC SAZU</persName>
+               <resp>izgovarjava</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. DUŠAN KUŠČER, ZRC SAZU</persName>
+               <resp>geologija, mineralogija, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. OTO LUTHAR, ZRC SAZU</persName>
+               <resp>zgodovina, prevod, priredba</resp>
+            </respStmt>
+            <respStmt>
+               <persName>MARKO MARINČIČ, ZRC SAZU</persName>
+               <resp>antična zgodovina, prevod, priredba</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. KAREL NATEK, ZRC SAZU</persName>
+               <resp>geografija, oceanografija, kartografija, raziskovalci, izbor gesel v nemških geslovnikih, prevod, priredba</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. MILAN OROŽEN ADAMIČ, ZRC SAZU</persName>
+               <resp>geografija, nova gesla, sodelovanje pri pripravi zemljevidov</resp>
+            </respStmt>
+            <respStmt>
+               <persName>mag. MIHA PAVŠEK, ZRC SAZU</persName>
+               <resp>geografija, prevod zemljevidov, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. DRAGO PERKO, ZRC SAZU</persName>
+               <resp>geografija, strokovna redakcija, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. MARIO PLENIČAR, ZRC SAZU</persName>
+               <resp>geologija, mineralogija, paleontologija, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. ANDREJ PLETERSKI, ZRC SAZU</persName>
+               <resp>arheologija, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. FRANCKA PREMK, ZRC SAZU</persName>
+               <resp>judovska književnost, prevod, priredba</resp>
+            </respStmt>
+            <respStmt>
+               <persName>PETER REPOLUSK, ZRC SAZU</persName>
+               <resp>geografija, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>VERONIKA ROT, ZRC SAZU</persName>
+               <resp>geografija, prevod</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. JURIJ SENEGAČNIK, ZRC SAZU</persName>
+               <resp>geografija, prevod, priredba</resp>
+            </respStmt>
+            <respStmt>
+               <persName>JURIJ SENEGAČNIK, ZRC SAZU</persName>
+               <resp>geografija, prevod, priredba</resp>
+            </respStmt>
+            <respStmt>
+               <persName>SONJA STERGARŠEK, ZRC SAZU</persName>
+               <resp>angleška in francoska književnost, prevod</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. MARJETA ŠAŠEL KOS, ZRC SAZU</persName>
+               <resp>antična zgodovina, priprava geslovnika, pregled gesel</resp>
+            </respStmt>
+            <respStmt>
+               <persName>NATAŠA ŠTEFANIČ, ZRC SAZU</persName>
+               <resp>geografija, prevod</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. MAJA TOPOLE, ZRC SAZU</persName>
+               <resp>geografija, prevod zemljevidov</resp>
+            </respStmt>
+            <respStmt>
+               <persName>ALFRED TRENZ, ZRC SAZU</persName>
+               <resp>antična zgodovina, prevod, priredba</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. IVAN TURK, ZRC SAZU</persName>
+               <resp>arheologija, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>dr. DRAGICA TURNŠEK, ZRC SAZU</persName>
+               <resp>geologija, mineralogija, prevod, priredba, nova gesla</resp>
+            </respStmt>
+            <respStmt>
+               <persName>MIMI URBANC, ZRC SAZU</persName>
+               <resp>geografija, strokovna redakcija</resp>
+            </respStmt>
+            <respStmt>
+               <persName>MILOJKA ŽALIK HUZJAN, ZRC SAZU</persName>
+               <resp>navodila za oblikovanje gesel in računalniška obdelava gesel; koordinacija med DZS in ZRC SAZU ob prvi knjižni izdaji</resp>
+            </respStmt>
+            <respStmt>
+               <resp>S posameznimi prispevki so sodelovali</resp>
+               <persName>FRANCI DERŽANIČ</persName>
+               <persName>ALEKSANDER KOGOVŠEK</persName>
+               <persName>mag. IGOR KRANJC</persName>
+               <persName>dr. LJUBICA MARJANOVIČ UMEK</persName>
+               <persName>BRANE NASTRAN</persName>
+               <persName>PRIMOŽ PAVLIN</persName>
+               <persName>dr. BORIS SKET</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Lektorji</resp>
+               <persName>IRENA ANDROJNA-MENCINGER</persName>
+               <persName>EVA BLUMAUER</persName>
+               <persName>TATJANA CAPUDER</persName>
+               <persName>NADA COLNAR</persName>
+               <persName>VESNA ČOPIČ</persName>
+               <persName>TATJANA HOSTA</persName>
+               <persName>LIDIJA JURMAN</persName>
+               <persName>LUDVIK KALUŽA</persName>
+               <persName>TINKA KOS</persName>
+               <persName>ALEKSANDRA KOZAROV</persName>
+               <persName>MARJANA LAVRIČ</persName>
+               <persName>DORA MALI</persName>
+               <persName>NUŠA RADINJA</persName>
+               <persName>ANA STAREŠINIČ</persName>
+               <persName>ĐURĐA STRSOGLAVEC</persName>
+               <persName>NIVES VIDRIH</persName>
+               <persName>BARBARA ZUPAN ROGELJ</persName>
+               <persName>ALEKSANDER ZUPANC </persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -232,7 +1001,7 @@
             <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
             Attribution-ShareAlike 4.0 International</ref>.</p>
             </availability>
-            <date when="2026-08-14">2026-08-14</date>
+            <date when="2026-08-17">2026-08-17</date>
          </publicationStmt>
          <sourceDesc>
             <biblStruct>
@@ -293,7 +1062,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2026-08-14">
+         <change when="2026-08-17">
             <name>Tomaž Erjavec</name> Run conversion to TEI.</change>
          <change when="2026-08-11">
             <name>Tomaž Erjavec</name> First draft.</change>

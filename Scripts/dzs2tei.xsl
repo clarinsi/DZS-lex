@@ -13,6 +13,8 @@
   <xsl:strip-space elements="TEI teiHeader text body entry sense figure floatingText"/>
   <xsl:preserve-space elements="form def gloss hi head distinct p oRef orth note"/>
   
+  <xsl:param name="authors-file"/>
+  
   <!--xsl:template match="/">
     <xsl:apply-templates select="//FOR"/>
   </xsl:template-->
@@ -70,6 +72,10 @@
       <xsl:apply-templates mode="header" select="@*"/>
       <xsl:value-of select="concat(., ' [', $stamp, ']')"/>
     </xsl:copy>
+  </xsl:template>
+  
+  <xsl:template mode="header" match="tei:titleStmt/tei:respStmt">
+    <xsl:copy-of select="document($authors-file)/tei:titleStmt/tei:respStmt"/>
   </xsl:template>
   
   <xsl:template mode="header" match="tei:publicationStmt/tei:date">
