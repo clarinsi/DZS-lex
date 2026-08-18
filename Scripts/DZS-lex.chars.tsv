@@ -1,7 +1,7 @@
 { }	U+0020	 	(NO-BREAK) SPACE (CHANGE TO ORDINARY SPACE, to keep is U+00A0)
 {-}	U+2013	–	EN DASH
-{nl}	-	-	<control>  (REMOVE)
-{tab}	U+0009	-	<control>
+{nl}	U+0020	 	<control>  (NEW LINE, CHANGE TO SPACE)
+{tab}	U+0009		<control>  (RETAIN TAB)
 {e/}	U+00E9	é	LATIN SMALL LETTER E WITH ACUTE
 {kriz}	U+2020	†	DAGGER
 {a/}	U+00E1	á	LATIN SMALL LETTER A WITH ACUTE
