@@ -70,7 +70,7 @@ dzs2xml:
 
 ### Support scripts for analysing the source
 show-element:
-	$s element=FOR -xsl:Scripts/show-element.xsl Lexicon/KNAUR.xml
+	$s element=T -xsl:Scripts/show-element.xsl Lexicon/KNAUR.xml | sort | uniq -c
 
 
 ############################################
