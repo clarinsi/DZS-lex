@@ -1,0 +1,1006 @@
+<front xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sl">
+  <titlePage>
+    <docTitle>
+      <titlePart>VELIKI SPLOŠNI LEKSIKON</titlePart>
+      <titlePart>Priročna izdaja v dvajsetih knjigah</titlePart>
+      <titlePart>Prva knjiga</titlePart>
+    </docTitle>
+    <byline>
+      <lb/>Urednik: ALEŠ POGAČNIK
+      <lb/>Knjižna oprema: MARKO TUŠEK
+      <lb/>Likovno-grafični urednik: BOŠTJAN LAPAJNE
+      <lb/>Računalniška priprava: Amebis, d. o. o., Kamnik
+      <lb/>Računalniški prelom: SYNCOMP, d. o. o.
+      <lb/>Glavna urednica: TANJA ŽELEZNIK Za Divizijo založništev: ADA DE COSTA PETAN
+      <lb/>Založila: DZS, d. d. Za založbo: BOJAN PETAN
+      <lb/>Natisnila: MKT Print, d. d. Ljubljana 2006
+      <lb/>© 1997‒1998, 2005‒2006, DZS, d. d., Ljubljana © 1991 Wissen Media Verlag GmbH, Gütersloh/München (nekdaj Verlagshaus Stuttgart)
+      <lb/>Avtorji so navedeni v prvi knjigi, na straneh VI‒X.
+      <lb/>Leksikon je sistematično posodobljen s podatki do 1. maja 2004, kasnejši podatki so naključni.
+      <lb/>Domača stran: http://www.dzs.si/vsl.
+      <lb/>Mnenja, popravke in opombe lahko pošljete na naslov VSL (Izobraževalno uredništvo DZS), Dalmatinova 2, 1538 Ljubljana,
+      ali po elektronski pošti na naslov vsl@dzs.si.
+    </byline>
+    <docImprint>
+      <lb/>CIP ‒ Kataložni zapis o publikaciji Narodna in univerzitetna knjižnica, Ljubljana
+      <lb/>030.3=163.6
+      <lb/>VELIKI splošni leksikon : priročna izdaja v dvajsetih knjigah / [urednik Aleš Pogačnik]. ‒ Ljubljana : DZS, 2006‒
+      <lb/>Knj. 1: A‒August. ‒ 2006
+      <lb/>ISBN 86-341-4129-2 (zv. 1)
+      <lb/>1. Pogačnik, Aleš 224226304
+    </docImprint>
+  </titlePage>
+
+  <div>
+    <head>PREDGOVOR</head>
+    <p>Priročna izdaja VELIKEGA SPLOŠNEGA LEKSIKONA je malenkostno popravljena oblika leksikona, ki
+    je leta 2005 izšla na plošči CD-ROM. Prva splošno-leksikografska vsebina v slovenščini na
+    elektronskem mediju je nastala na osnovi knjižne izdaje VELIKEGA SPLOŠNEGA LEKSIKONA, ki ga je
+    med letoma 1994‒1997 za založbo DZS, d. d., uredila Marija Javornik. Predloga slovenske izdaje v
+    osmih knjigah z več kot 5000 stranmi in več kot 20.000 ilustracijami je bila nemška. Knaurov
+    splošni leksikon je delo sodelavcev Leksikografskega inštituta iz Münchna, leta 1994 je postal
+    Bertelsmannov splošni leksikon. Slovenska izdaja je povzela dopolnitve in spremembe kasnejše
+    nemške predloge, predvsem pa je bila v veliki meri prirejena, skrajšana in dopolnjena s
+    slovenskimi gesli oziroma podatki, značilnimi za naš prostor. Tudi z nekaterimi jezikoslovnimi
+    rešitvami je orala ledino. Ob pripravljanju elektronske izdaje v letih 2001‒2005 je VELIKI
+    SPLOŠNI LEKSIKON postal podatkovna baza, ki je olajšala delo z obsežnim besedilom. Vsebina
+    leksikona je bila posodobljena, sistematično s podatki do 1. maja 2004 (nekateri podatki so tudi
+    novejši). Dodanih je bilo tudi več kot 1000 gesel in odpravljena marsikatera napaka, ki jo je
+    vsebovala prva knjižna izdaja VELIKEGA SPLOŠNEGA LEKSIKONA. Leksikon je z več kot 85.000
+    iztočnicami oziroma več kot 100.000 gesli in podgesli še vedno najobsežnejši leksikon v
+    Sloveniji. Tokratna izdaja v priročnem formatu je plod dvanajstletnega dela več kot 250
+    slovenskih strokovnjakov. V njem je nešteto, večkrat preverjenih odgovorov na najrazličnejša
+    vprašanja, zato upam, da boste radi posegali po teh knjigah.</p>
+    <byline>urednik, decembra 2005</byline>
+  </div>
+
+  <div>
+    <head>SODELAVCI</head>
+    <div>
+      <head>Pri nemški izdaji</head>
+      <p>Urednika WOLF KEIENBURG, RUDOLF RADLER</p>
+      <p>Avtorji
+      <list>
+        <item>dr. BARBARA BACKHAUS (genetika)</item>
+        <item>GABRIELE BADER-GRIEẞMEYER (moda)</item>
+        <item>dr. ELMAR BERNHARD (kultura jv. Azije)</item>
+        <item>dr. KARL BINSWANGER (orientalistika)</item>
+        <item>dr. HENNING BISCHOF (predkolumbijske kulture)</item>
+        <item>ROLAND BISCHOFF (zoologija, kmetijstvo, gozdarstvo)</item>
+        <item>dr. ULRICH VON BOCK UND POLACH (medicina, farmakologija)</item>
+        <item>JULIUS BOHUS (šport)</item>
+        <item>dr. KLAUS BORN (ljudstva)</item>
+        <item>WILHELM BRANDL (filozofija)</item>
+        <item>dr. KAI BRODERSEN (antična zgodovina)</item>
+        <item>dr. DIETER BROSCHE (strojništvo)</item>
+        <item>dr. RÜDIGER VON BRUCH (zgodovina)</item>
+        <item>dr. HANS JOACHIM BRÜNING (pravo)</item>
+        <item>PETER BUDDEBERG (arhitektura)</item>
+        <item>PETRA CHRISTOHERSEN (indologija)</item>
+        <item>dr. ADOLF DENZ (jezikoslovje)</item>
+        <item>JOHANNES DETERMANN (tisk)</item>
+        <item>dr. KARL DICKOPF (zgodovina)</item>
+        <item>dr. HERBERT DINKEL (zgodovina)</item>
+        <item>dr. UWE EBEL (nordijska književnost)</item>
+        <item>dr. WOLFGANG EITEL (romanska književnost)</item>
+        <item>FELICITAS ENGLISCH (filozofija)</item>
+        <item>CHRISTIAN EPPELSHEIM (kemija, računalništvo, strojništvo)</item>
+        <item>THORWALD EWE (biokemija)</item>
+        <item>dr. EBERHARD FAHRBACH (oceanografija)</item>
+        <item>dr. JUTTA FEIST-KOHLER (zoologija)</item>
+        <item>ERNST FERBER (vojaško področje)</item>
+        <item>dr. NIKOLAUS FLUELER (Švica)</item>
+        <item>HANNELORE FORSTER (etnologija)</item>
+        <item>dr. ULRICH FREITAG (kartografija)</item>
+        <item>dr. AUGUST FRÖSCHLE-FIRNMANN (geografija)</item>
+        <item>dr. JÜRGEN GERSTENMAIER (pedagogika)</item>
+        <item>dr. ELISABETH GIESE (antična umetnost)</item>
+        <item>dr. GUNTER GLAUERT (geografija)</item>
+        <item>dr. STEPHAN VON GNIELINSKI (geografija)</item>
+        <item>dr. KLAUS GÖTZE (medicina, farmakologija)</item>
+        <item>dr. LUTZ GÖTZE (jezikoslovje)</item>
+        <item>dr. PETER GRÄF (geografija)</item>
+        <item>dr. HANS JOACHIM GREGOR (antropologija)</item>
+        <item>dr. ERWIN GRÖTZBACH (geografija)</item>
+        <item>dr. CAREL TER HAAR (nizozemska književnost)</item>
+        <item>dr. BRIGITTE HABERER (nemška književnost)</item>
+        <item>dr. HANS HALBEY (pisave, založništvo)</item>
+        <item>dr. HANS-JOACHIM HÄRTEL (književnost vzhodne in jugovzhodne Evrope)</item>
+        <item>dr. GÜNTHER HARTUNG (kemija)</item>
+        <item>EDGAR HARVOLK (etnologija)</item>
+        <item>URSULA HERMANN (tujke)</item>
+        <item>dr. HANS HEUSER (vinarstvo)</item>
+        <item>HELMUT HILLER (pisave, založništvo)</item>
+        <item>dr. BURKHARD HOFMEISTER (geografija)</item>
+        <item>dr. KLAUS HORMANN (geografija)</item>
+        <item>dr. DIETER HUHN (hematologija)</item>
+        <item>dr. FRITZ JENSCH, M. A. (glasba)</item>
+        <item>dr. HANS KALETSCH (zgodovina)</item>
+        <item>dr. WILHELM KALFF (filozofija, psihologija, pedagogika)</item>
+        <item>HARTMUT KAMP (zgodovina)</item>
+        <item>dr. ADOLF KARGER (geografija)</item>
+        <item>ANNE-ROSE KATZ-STEINER (film, gledališče, ples, mediji)</item>
+        <item>dr. GUNTER KEIZ (ribištvo)</item>
+        <item>dr. WILFRIED KELLER (geografija)</item>
+        <item>dr. GÜNTHER KIEẞLING (vojaško področje)</item>
+        <item>dr. MILAN KLIMA (anatomija, histologija, embriologija)</item>
+        <item>dr. INGE-LORE KLUGE (japonska književnost in umetnost)</item>
+        <item>dr. RICHARD KNERR (fizika, matematika, igre)</item>
+        <item>dr. HANS-PETER KOSAC (geografija)</item>
+        <item>dr. GEORG KOSSAK (zgodovina)</item>
+        <item>dr. CHRISTOPH KRAIKER (psihologija)</item>
+        <item>dr. JÖRG KRÄMER (glasba)</item>
+        <item>dr. HORST KREẞ (embriologija, fiziologija)</item>
+        <item>GUDRUN KRÜGER (geografija)</item>
+        <item>dr. ANNEMARIE KUHN-WENGENMAYR (umetnost)</item>
+        <item>dr. FRED KURT (splošna biologija, zoologija)</item>
+        <item>dr. MICHAEL LACHNER (sinologija)</item>
+        <item>dr. AMEI LANG (zgodovina)</item>
+        <item>GEORG LEDIG (sociologija)</item>
+        <item>dr. KARL LENZ (geografija)</item>
+        <item>dr. BARBARA LINNER (judaistika)</item>
+        <item>dr. WOLFGANG LIPPERT (botanika)</item>
+        <item>dr. JÜRGEN MARKL (fiziologija, citologija)</item>
+        <item>dr. ADELHEID METTE (indologija)</item>
+        <item>THOMAS METZGER (sociologija)</item>
+        <item>KLAUS MITTERMAIER (geografija)</item>
+        <item>dr. MAX MITTLER (geografija)</item>
+        <item>dr. DOROTHÉE MÜLLER (evropska umetnost)</item>
+        <item>dr. HANS-PETER MÜLLER (teologija)</item>
+        <item>de. RAINER A. MÜLLER (zgodovina)</item>
+        <item>dr. STEFAN MÜLLER-KUNZ (Švica)</item>
+        <item>CLAUS NIEDERMAIER (podjetja)</item>
+        <item>MARIANNE NUẞ (ljudstva)</item>
+        <item>dr. OTTO OBERHOLZER (nordijska književnost)</item>
+        <item>dr. REINHARD PAESLER (geografija)</item>
+        <item>KLAUS PESTER (poklici)</item>
+        <item>dr. WOLFGANG PFEIFFER (zoologija)</item>
+        <item>dr. ULRICH PIETRUSKY (geografija)</item>
+        <item>dr. ALBRECHT FREIHERR VON PÖLNITZ (geografija)</item>
+        <item>dr. INGEBORG VON POSER UND GROẞ-NAEDLITZ (živilska tehnologija)</item>
+        <item>dr. HELMUT PRESSER (pisave, založništvo)</item>
+        <item>dr. HOLGER PREUSCHOFT (antropologija, paleontologija)</item>
+        <item>SIGNE PREUSCHOFT (psihologija)</item>
+        <item>dr. LEO PRIJS (judaistika)</item>
+        <item>ADAM QUINTUS (tehnika)</item>
+        <item>dr. JOSEF H. REICHHOLF (ekologija)</item>
+        <item>dr. GISLIND M. RITZ (etnologija)</item>
+        <item>dr. ALBRECHT ROESELER (glasba)</item>
+        <item>WOLFGANG RÖSSIG (romanska književnost)</item>
+        <item>HORST-HENNEK ROHLFS (geografija)</item>
+        <item>ATTILA J. ROOS (tehnika)</item>
+        <item>dr. RAINER ROTH (meteorologija, klimatologija)</item>
+        <item>dr. PAUL RUMP (gospodarstvo)</item>
+        <item>dr. KARL RUPPERT (geografija)</item>
+        <item>dr. KARL-FERDINAND SCHÄDLER (afriška umetnost)</item>
+        <item>PETER-JOCHEN SCHÄFER (meteorologija)</item>
+        <item>dr. HEINZ SCHAMP (geografija)</item>
+        <item>dr. ERHARD SCHIEFER (ugrofinska književnost)</item>
+        <item>dr. HELMUT SCHINDLER (predkolumbijske kulture)</item>
+        <item>KLARA SCHREINER (psihologija)</item>
+        <item>LOTHAR SCHUCKERT (zgodovina)</item>
+        <item>dr. WALTER SCHUMANN (geologija, mineralogija)</item>
+        <item>ROBERT SPENGLER (tehnika)</item>
+        <item>dr. WALTER SPERLING (geografija)</item>
+        <item>dr. THOMAS STEIB (vrtnarstvo)</item>
+        <item>dr. REINHARD STEINER (umetnost)</item>
+        <item>dr. CLEMENS MARIA STEUER (Avstrija)</item>
+        <item>mag. HEINZ STEUER (geografija, Avstrija)</item>
+        <item>dr. GUSTAV STRATIL-SAUER (geografija)</item>
+        <item>RENATE STRAUBE (zgodovina odkritij)</item>
+        <item>dr. WOLF TIETZE (geografija)</item>
+        <item>dr. GERHARD TOMCZAK (oceanografija)</item>
+        <item>dr. LOTHAR TRÄGER (biokemija, fiziologija)</item>
+        <item>MANFRED VEIT M. A. (geografija)</item>
+        <item>dr. FRIEDRICH VETTER (geografija)</item>
+        <item>dr. PETER P. WALLER (geografija)</item>
+        <item>THOMAS WEYH (tehnika)</item>
+        <item>dr. HANS-THEO WEYHOFEN (katoliška teologija)</item>
+        <item>dr. ULRICH WIECZOREK (geografija)</item>
+        <item>HERBERT WIESNER (nemška književnost)</item>
+        <item>dr. DIETER WITT (živilska tehnologija)</item>
+        <item>dr. KLAUS-JÜRGEN ZAADHOF (bakteriologija)</item>
+        <item>dr. HEINRICH ZECH (šport)</item>
+        <item>ROLF ANDREAS ZELL (genetika, citologija, hematologija)</item>
+        <item>RENATE ZESCHNITZ (anglosaška književnost)</item>
+        <item>dr. HEINZ-GERHARD ZIMPEL (geografija)</item>
+      </list>
+    </p>
+  </div>
+  <div>
+    <head>Pri slovenskih izdajah</head>
+    <p>Urednica prve knjižne izdaje mag. MARIJA JAVORNIK</p>
+    <p>Urednik kasnejših izdaj mag. ALEŠ POGAČNIK</p>
+    <p>Računalniška priprava AMEBIS, d. o. o., Kamnik</p>
+    <p>Avtorji
+    <list>
+      <item>dr. MILAN ADAMIČ (lovstvo, strokovna redakcija)</item>
+      <item>MARKO ALJANČIČ (zoologija/sesalci, splošna biologija, prevod, priredba)</item>
+      <item>mag. VLADIMIR ALKALAJ (vinarstvo, strokovna redakcija)</item>
+      <item>BRONISLAVA AUBELJ (pregled grških in latinskih imen, nova gesla)</item>
+      <item>SAŠO AVSEC (fizika, kemijska procesna tehnika, splošna tehnika, strojništvo, prevod,
+      priredba, strokovna redakcija, nova gesla)</item>
+      <item>dr. MATJAŽ BARBO (glasba, strokovna redakcija)</item>
+      <item>dr. ANDREJ BAUER (matematika, strokovna redakcija)</item>
+      <item>dr. MARJA BEŠTER (jezikoslovje, prevod, priredba, nova gesla)</item>
+      <item>dr. IVAN BELE (kazensko pravo, prevod, priredba, nova gesla)</item>
+      <item>mag. ZORAN BELEC (gozdarstvo, prevod, priredba, nova gesla)</item>
+      <item>MARJANA BENČINA (ameriška, nemška in nizozemska književnost, prevod)</item>
+      <item>IGOR EVGEN BERGANT (šport, strokovna redakcija, nova gesla)</item>
+      <item>dr. FRANCE BERNOT (meteorologija, prevod)</item>
+      <item>MARKO BERTOK (ribištvo, strokovna redakcija, nova gesla)</item>
+      <item>VIDA BONAČ (zavarovalništvo, prevod, priredba, nova gesla)</item>
+      <item>ANDREJA BRICELJ (medicina, prevod, lovstvo, prevod, priredba)</item>
+      <item>dr. MIHAEL BRICELJ (farmakologija, mikrobiologija, strokovna redakcija)</item>
+      <item>dr. JAN CARNELUTTI (zoologija/metulji, prevod, priredba, nova gesla)</item>
+      <item>IZA CIGLENEČKI (medicina, prevod, priredba, nova gesla)</item>
+      <item>dr. BOJAN DJURIĆ (antična umetnost, antična zgodovina, prevod, priredba)</item>
+      <item>MOJCA DOBNIKAR (sociologija, prevod)</item>
+      <item>PAVEL DOLENC (kazensko pravo, prevod, priredba, nova gesla)</item>
+      <item>ZDENKA ERBEŽNIK (filozofija, tujke, prevod, priredba)</item>
+      <item>MARIO FAKIN (splošna tehnika, prevod)</item>
+      <item>LJUBA FENDE (tisk, prevod, priredba)</item>
+      <item>dr. ALEŠ GALIČ (civilno pravo, prevod, priredba, nova gesla)</item>
+      <item>dr. JOŽE GASPERIČ (elektrotehnika, elektronika, strokovna redakcija)</item>
+      <item>TOMAŽ GERDEN (sodobna zgodovina, strokovna redakcija, nova gesla)</item>
+      <item>DAMIR GLOBOČNIK (likovna umetnost, prevod, priredba)</item>
+      <item>TINKA GOLOB (portugalska književnost, prevod naslovov posameznih del)</item>
+      <item>dr. DOMINIK GREGL (letalstvo, strokovna redakcija)</item>
+      <item>VERA GREGORAČ (glasba, prevod, priredba)</item>
+      <item>dr. PETER GRILC (civilno pravo, prevod, priredba, strokovna redakcija, nova gesla)</item>
+      <item>HILDA HAŠAJ (nemška književnost, prevod)</item>
+      <item>LENA HOLMQVIST (nordijska književnost, prevod)</item>
+      <item>BOGDAN HORVAT (zoologija/žuželke, prevod, priredba, nova gesla)</item>
+      <item>mag. ŠTEFAN HORVAT (kazensko pravo, prevod, priredba, nova gesla)</item>
+      <item>dr. BOŽO IGLIČ (kemijska procesna tehnika, strokovna redakcija)</item>
+      <item>dr. ALOJZ IHAN (bakteriologija, prevod, priredba)</item>
+      <item>BREDA ILICH-KLANČNIK (likovna umetnost, prevod, priredba, nova gesla)</item>
+      <item>dr. FRANC JAKOPIN (romunska književnost, prevod naslovov posameznih del)</item>
+      <item>dr. VID JAKULIN (kazensko pravo, prevod, priredba, nova gesla)</item>
+      <item>dr. ANTON JANKO (nemška književnost, izbor gesel v nemškem geslovniku)</item>
+      <item>mag. MARIJA JAVORNIK (rodoslovna debla, prevod)</item>
+      <item>dr. FRANE JERMAN (filozofija, strokovna redakcija, nova gesla)</item>
+      <item>mag. BORIS JESIH (zgodovina, prevod, priredba, nova gesla)</item>
+      <item>mag. LUDVIK JOŠAR (protestantska teologija, prevod, priredba, nova gesla)</item>
+      <item>dr. MIHAEL JOŽEF TOMAN (zoologija/ribe, prevod, priredba, nova gesla)</item>
+      <item>dr. MIHA JUHART (civilno pravo, prevod, priredba, nova gesla)</item>
+      <item>dr. BRANKA KALENIČ-RAMŠAK (španska književnost, prevod naslovov posameznih del)</item>
+      <item>BOJAN KAVČIČ (film, prevod, priredba, strokovna redakcija, nova gesla)</item>
+      <item>VITA KILAR (baltska, italijanska, novogrška, novolatinska, španska, portugalska,
+      južnoameriška, romunska književnost, prevod)</item>
+      <item>IDA KNEZ (geografija, prevod, priredba)</item>
+      <item>MARIJA KNEZ-BERGANT (šport, prevod, priredba, nova gesla)</item>
+      <item>dr. PETER KOBE (kazensko pravo, priprava geslovnika)</item>
+      <item>SUZANA KONCUT (romanska književnost, strokovna redakcija, nova gesla)</item>
+      <item>BORUT KORUN, dr. med. (indijanska ljudstva, prevod, priredba)</item>
+      <item>dr. JANKO KOS (slovenska književnost, predlog novih gesel, geslo slovenska književnost)</item>
+      <item>dr. NATAŠA KOSELJ (arhitektura, strokovna redakcija, nova gesla)</item>
+      <item>mag. ČRT KOSTEVC (ekonomija, strokovna redakcija, nova gesla)</item>
+      <item>mag. ADRIJAN KOŠIR (geologija, strokovna redakcija)</item>
+      <item>dr. MIHA KOVAČ (založništvo, strokovna redakcija)</item>
+      <item>NINA KOZINC (afriška umetnost, etnologija, prevod)</item>
+      <item>MATEJ KRAJNC (glasba, strokovna redakcija, nova gesla)</item>
+      <item>mag. METKA KRALJ (antropologija, biokemija, genetika, okolje, raziskovalci, prevod, priredba, nova gesla)</item>
+      <item>dr. FEDOR KREJČI (medicina, preglednica o zastrupitvah) MARJANA KRIŽAJ (ples, prevod)</item>
+      <item>dr. MARTINA KRIŽAJ-ORTAR (jezikoslovje, nova gesla)</item>
+      <item>dr. ALOJZ KRIŽMAN (splošna tehnika, strojništvo, strokovna redakcija)</item>
+      <item>dr. IVAN KRISTAN (ustavno pravo, prevod, priredba, strokovna redakcija, nova gesla)</item>
+      <item>SAMO KRUŠIČ (splošna religiologija, prevod)</item>
+      <item>MARKO KUMAR (tisk, strokovna redakcija, nova gesla)</item>
+      <item>dr. PRIMOŽ KURET (glasba, strokovna redakcija, nova gesla)</item>
+      <item>SAMO KUŠČER (računalništvo, strokovna redakcija, nova gesla)</item>
+      <item>JARO LAJOVIC, dr. med. (medicina, strokovna redakcija, fiziologija, prevod, priredba)</item>
+      <item>dr. GORAZD LEŠNJAK (matematika, prevod, priredba, nova gesla)</item>
+      <item>JANKO LOJEN (splošna tehnika, strojništvo, strokovna redakcija)</item>
+      <item>mag. GORAZD LOJEN (splošna tehnika, strojništvo, strokovna redakcija)</item>
+      <item>dr. MILAN LOVKA (biologija, strokovna redakcija)</item>
+      <item>JANEZ LUŠTREK (denarne enote, preglednica)</item>
+      <item>dr. BREDA LUTHAR (mediji, prevod, priredba, nova gesla)</item>
+      <item>dr. JOŽE MAČEK (fitomedicina, kmetijstvo, prevod, priredba, nova gesla)</item>
+      <item>TADEJ MARKUN (elektronika, kemijska procesna tehnika, lesarstvo, regulacijska tehnika, prevod)</item>
+      <item>VANESA MATAJC (češka, poljska, hrvaška, bosanska, jugoslovanska, ruska, bolgarska književnost, prevod)</item>
+      <item>dr. MARIJAN MEDIČ (lesarstvo, pregled prevoda, priredba)</item>
+      <item>dr. ZDENKO MEDVEŠ (pedagogika, prevod, priredba, strokovna redakcija, nova gesla)</item>
+      <item>dr. DUŠKA MEH (medicina, prevod, priredba)</item>
+      <item>dr. FRANC MERZELJ (lesarstvo, pregled prevoda, priredba)</item>
+      <item>dr. BLAŽ MESEC (psihologija, prevod, priredba, strokovna redakcija, nova gesla)</item>
+      <item>mag. HELENA MIHELČIČ (ekonomija, nova gesla)</item>
+      <item>dr. MIRAN MIHELČIČ (ekonomija, nova gesla)</item>
+      <item>dr. VEKOSLAV MIHEVC (lesarstvo, pregled prevoda, priredba)</item>
+      <item>dr. MIRA MILADINOVIČ-ZALAZNIK (nemška književnost, izbor gesel v nemškem geslovniku)</item>
+      <item>JASNA MILINKOVIČ (šport, igre, strokovna redakcija, nova gesla)</item>
+      <item>dr. BARBARA MODEC (kemija, strokovna redakcija)</item>
+      <item>HENRIK NEUBAUER, dr. med. (ples, prevod, priredba)</item>
+      <item>dr. IRENA NOVAK-POPOV (slovenska književnost, strokovna redakcija, nova gesla)</item>
+      <item>MAJA ONDRAČKA (fizika, strokovna redakcija)</item>
+      <item>dr. JANEZ OREŠNIK (jeziki, strokovna redakcija)</item>
+      <item>ŠTEFAN OŠTIR (kmetijstvo, mlekarstvo, prevod, priredba, nova gesla)</item>
+      <item>DAMJAN J. OVSEC (slovanska in slovenska mitologija, nova gesla)</item>
+      <item>mag. JOŽE PAVLIČ DAMIJAN (ekonomija, prevod, priredba, nova gesla)</item>
+      <item>dr. ANDREJ PAULIN (metalurgija, strokovna redakcija)</item>
+      <item>FRANC PAVLIN (kmetijstvo, nova gesla)</item>
+      <item>FRANC PEČELIN (vojaško področje, prevod, priredba, nova gesla)</item>
+      <item>dr. ZDRAVKO PETKOVŠEK (meteorologija, strokovna redakcija, nova gesla)</item>
+      <item>TOMISLAV PIRC (glasba, pregled gesel, nova gesla)</item>
+      <item>dr. SAŠA PIRKMAIER (lesarstvo, pregled prevoda, priredba)</item>
+      <item>dr. KLEMEN PODOBNIK (pravo, strokovna redakcija)</item>
+      <item>mag. ALEŠ POGAČNIK (filozofija, strokovna redakcija, nova gesla, glasba, pregled gesel,
+      nova gesla)</item>
+      <item>JELKA POGAČNIK (koordinacija avtorjev za področje zoologije in botanike)</item>
+      <item>dr. DRAŽIGOST POKORN (medicina, pregled gesel o prehrani)</item>
+      <item>dr. ADA POLAJNAR-PAUČNIK (civilno pravo, priprava geslovnika)</item>
+      <item>MILENA POLANIČ (indijska, japonska, kitajska, orientalska književnost, prevod)</item>
+      <item>JURE POTOKAR (glasba, strokovna redakcija)</item>
+      <item>mag. MARKO PRPIČ (RTV, strokovna redakcija, nova gesla)</item>
+      <item>IVAN PUCKO (vzhodna Cerkev, prevod)</item>
+      <item>BREDA RAJAR (moda, prevod, priredba, strokovna redakcija, nova gesla)</item>
+      <item>mag. ZDENKO RAJHER (vinarstvo, prevod, priredba, nova gesla)</item>
+      <item>mag. PAVLA RANZINGER (astronomija, prevod, priredba, nova gesla)</item>
+      <item>dr. JOŽE RESNIK (lesarstvo, pregled prevoda, priredba)</item>
+      <item>dr. TATJANA RIJAVEC (tekstilstvo, strokovna redakcija)</item>
+      <item>dr. JANEZ ROTAR (gesla bosanska, hrvaška, makedonska, srbska in črnogorska
+      književnost)</item>
+      <item>dr. VINKO ROZMAN (lesarstvo, pregled prevoda, priredba)</item>
+      <item>LIDIJA SAJE (igre, prehrana, prevod)</item>
+      <item>MARIJA SAKSIDA (elektrotehnika, prevod)</item>
+      <item>TOMAŽ SAKSIDA (elektrotehnika, kemijska procesna tehnika, podjetja, prevod)</item>
+      <item>IRENA SAMIDE (gledališče, založništvo, germanska književnost prevod, priredba, strokovna
+      redakcija, nova gesla)</item>
+      <item>mag. GABRIJEL SELJAK (botanika/glive, prevod, priredba, nova gesla)</item>
+      <item>dr. VLADIMIR SIMIČ (pravna zgodovina, prevod, priredba, nova gesla)</item>
+      <item>dr. ALEKSANDER SITAR (slovenski znanstveniki, nova gesla)</item>
+      <item>dr. IGNAC SIVEC (zoologija/žuželke, prevod, priredba, nova gesla)</item>
+      <item>dr. PETER SKOBERNE (botanika, prevod, priredba, nova gesla, okolje, nova gesla)</item>
+      <item>dr. ANDREJ E. SKUBIC (jezikoslovje, strokovna redakcija, nova gesla)</item>
+      <item>dr. INGRID SLAVEC-GRADIŠNIK (etnologija, strokovna redakcija, nova gesla)</item>
+      <item>NATAŠA SMOLAR (botanika/alge, prevod, priredba, nova gesla)</item>
+      <item>VID SNOJ (splošna religiologija, strokovna redakcija)</item>
+      <item>dr. CIRIL SORČ (katoliška teologija, strokovna redakcija, nova gesla)</item>
+      <item>MARIJA STANKOVIČ (tekstil, prevod, priredba)</item>
+      <item>MILUTIN STANKOVIČ (tekstil, strokovna redakcija)</item>
+      <item>dr. LOVRO STANOVNIK (farmakologija, prevod, priredba, nova gesla)</item>
+      <item>ROK STERGAR (zgodovina, prevod, priredba, nova gesla)</item>
+      <item>JANEZ STERGAR (urednik za zgodovino, strokovna redakcija, nova gesla)</item>
+      <item>ALENKA STRDIN (medicina, prevod, priredba, strokovna redakcija, nova gesla)</item>
+      <item>mag. JELKA STRGAR (botanika, vrtnarstvo, prevod, priredba)</item>
+      <item>MILENA SUWA STANOJEVIČ (prehrana, strokovna redakcija)</item>
+      <item>POLONCA SVETLIN-GVARDJANČIČ (ugrofinska književnost, prevod)</item>
+      <item>dr. MARJAN ŠIMENC (filozofija, strokovna redakcija)</item>
+      <item>GORAN ŠIŠKA (pravo, strokovna redakcija)</item>
+      <item>dr. ALENKA ŠIVIC-DULAR (jeziki, strokovna redakcija)</item>
+      <item>dr. NEVA ŠLIBAR (nemška književnost, izbor gesel v nemškem geslovniku)</item>
+      <item>dr. ZMAGO ŠMITEK (ljudstva, strokovna redakcija)</item>
+      <item>dr. FRANCI ŠTAMPAR (kmetijstvo, strokovna redakcija)</item>
+      <item>dr. MARIJA ŠTEFANČIČ (antropologija, strokovna redakcija, nova gesla)</item>
+      <item>NIKOLAJ ŠTRITOF (astronomija, strokovna redakcija)</item>
+      <item>dr. PAVLA ŠTRUKELJ (neevropske umetnosti, kulture in religije, strokovna redakcija, nova
+      gesla)</item>
+      <item>dr. JASNA ŠTRUS (citologija, embriologija, prevod, priredba, nova gesla)</item>
+      <item>ANTON ŠTUHEC (strojništvo, prevod)</item>
+      <item>dr. IVAN ŠTUHEC (etologija, prevod)</item>
+      <item>dr. MATJAŽ ŠTUHEC (fizika, prevod)</item>
+      <item>HANKA ŠTULAR (likovna umetnost, prevod, priredba, nova gesla, dodatki o
+      umetnostnozgodovinskih spomenikih v Sloveniji)</item>
+      <item>dr. KAZIMIR TARMAN (ekologija, strokovna redakcija)</item>
+      <item>dr. NIKOLAJ TORELLI (lesarstvo, strokovna redakcija, nova gesla)</item>
+      <item>BORUT TRAPEČAR, dr. vet. med. (veterina, zoologija, prevod, priredba, nova gesla)</item>
+      <item>VERA TROHA (italijanska književnost, prevod naslovov posameznih del)</item>
+      <item>PETER TRONTELJ (zoologija/ptiči, prevod, priredba)</item>
+      <item>dr. IVAN TURK (ekonomija, strokovna redakcija, prevod, priredba, nova gesla)</item>
+      <item>MIROSLAV ULČAR (vojaštvo, strokovna redakcija)</item>
+      <item>MARKO URBANIJA (katoliška teologija, religija, mitologija, prevod, strokovna
+      redakcija)</item>
+      <item>PAVLA URŠIČ-KUNEJ (koordinacija avtorjev za področje glasbe)</item>
+      <item>AMANDA VALIČ (ribištvo, prevod)</item>
+      <item>ŠTEFAN VEVAR (gledališče, strokovna redakcija, nova gesla)</item>
+      <item>NADA VILHAR (zgodovina, prevod)</item>
+      <item>dr. KSENIJA H. VIDMAR (sociologija, strokovna redakcija)</item>
+      <item>dr. TOMO VIRK (urednik za književnost, strokovna redakcija, nova gesla)</item>
+      <item>dr. JOŽE VOGRINC (sociologija, strokovna redakcija, nova gesla)</item>
+      <item>MATEJA VRANIČAR (ekonomija, priredba, nova gesla)</item>
+      <item>mag. BARBARA VREČKO (mednarodno pravo, prevod, priredba, nova gesla)</item>
+      <item>TONE VRHOVNIK STRAKA (književnost, strokovna redakcija)</item>
+      <item>dr. DANI VRHOVŠEK (botanika/alge, strokovna redakcija, nova gesla)</item>
+      <item>mag. NEVENKA ZABAVNIK-CMOK (živinoreja, strokovna redakcija, nova gesla)</item>
+      <item>IGOR ZABEL (likovna umetnost, strokovna redakcija)</item>
+      <item>IRENA ZAVRL (ekonomija, prevod)</item>
+      <item>DAMJANA ZELNIK (zgodovina, prevod, priredba)</item>
+      <item>dr. ALEKSANDER ZIDANŠEK (fizika, prevod)</item>
+      <item>dr. JANEZ ZOR (glagolica in cirilica, preglednica)</item>
+      <item>dr. MAJDA ZOREC-KARLOVŠEK (kemija, prevod, priredba)</item>
+      <item>mag. ZVONKA ZUPANIČ-SLAVEC, dr. med. (slovenski zdravniki, nova gesla)</item>
+      <item>dr. FRANCI ŽIBERT (ekonomija, strokovna redakcija za področje javnih financ)</item>
+      <item>dr. DEJAN ŽLAJPAH (gradbeništvo, računalništvo, prevod, priredba, nova gesla)</item>
+      <item>dr. MARTIN ŽNIDERŠIČ (založništvo, strokovna redakcija, nova gesla)</item>
+    </list>
+    </p>
+    <p>Sodelavci Znanstvenoraziskovalnega centra Slovenske akademije znanosti in umetnosti
+    <list>
+      <item>dr. METKA BÖGEL-DODIČ (ekologija, prevod)</item>
+      <item>TAMARA BOSNIČ (geografija, prevod)</item>
+      <item>dr. DRAGAN BOŽIČ (arheologija, prevod, priredba, nova gesla)</item>
+      <item>dr. SLAVKO CIGLENEČKI (arheologija, prevod, priredba, strokovna redakcija, nova
+      gesla)</item>
+      <item>mag. FRANC CIMERMAN (geologija, mineralogija, paleontologija, prevod, priredba, nova
+      gesla)</item>
+      <item>BORUT DROBNJAK (geografija, prevod)</item>
+      <item>dr. JANEZ DULAR (arheologija, prevod, priredba, nova gesla)</item>
+      <item>JERNEJA FRIDL (geografija, nova gesla)</item>
+      <item>dr. METKA FURLAN (indoevropeistika, prevod, priredba, nova gesla)</item>
+      <item>dr. MATEJ GABROVEC (geografija, prevod, priredba, nova gesla)</item>
+      <item>dr. STANKO GRANDA (rodoslovna debla, pregled)</item>
+      <item>dr. JANA HORVAT (arheologija, prevod, priredba, nova gesla)</item>
+      <item>MAURO HRVATIN (geografija, strokovna redakcija, nova gesla)</item>
+      <item>mag. DRAGO KLADNIK (geografija, prevod, priredba, strokovna redakcija, nova gesla)</item>
+      <item>mag. JANJA KOGOVŠEK (kras, prevod)</item>
+      <item>dr. DUŠAN KOS (zgodovina, pisave, prevod, priredba, nova gesla)</item>
+      <item>dr. MIHA KOSI (zgodovina, strokovna redakcija)</item>
+      <item>POLONA KOSTANJEVEC (izgovarjava)</item>
+      <item>dr. DUŠAN KUŠČER (geologija, mineralogija, prevod, priredba, nova gesla)</item>
+      <item>dr. OTO LUTHAR (zgodovina, prevod, priredba)</item>
+      <item>MARKO MARINČIČ (antična zgodovina, prevod, priredba)</item>
+      <item>dr. KAREL NATEK (geografija, oceanografija, kartografija, raziskovalci, izbor gesel v
+      nemških geslovnikih, prevod, priredba)</item>
+      <item>dr. MILAN OROŽEN ADAMIČ (geografija, nova gesla, sodelovanje pri pripravi zemljevidov)</item>
+      <item>mag. MIHA PAVŠEK (geografija, prevod zemljevidov, strokovna redakcija, nova gesla)</item>
+      <item>dr. DRAGO PERKO (geografija, strokovna redakcija, nova gesla)</item>
+      <item>dr. MARIO PLENIČAR (geologija, mineralogija, paleontologija, prevod, priredba, nova
+      gesla)</item>
+      <item>dr. ANDREJ PLETERSKI (arheologija, prevod, priredba, nova gesla)</item>
+      <item>dr. FRANCKA PREMK (judovska književnost, prevod, priredba)</item>
+      <item>PETER REPOLUSK (geografija, strokovna redakcija)</item>
+      <item>VERONIKA ROT (geografija, prevod)</item>
+      <item>dr. JURIJ SENEGAČNIK (geografija, prevod, priredba)</item>
+      <item>JURIJ SENEGAČNIK (geografija, prevod, priredba)</item>
+      <item>SONJA STERGARŠEK (angleška in francoska književnost, prevod)</item>
+      <item>dr. MARJETA ŠAŠEL KOS (antična zgodovina, priprava geslovnika, pregled gesel)</item>
+      <item>NATAŠA ŠTEFANIČ (geografija, prevod)</item>
+      <item>dr. MAJA TOPOLE (geografija, prevod zemljevidov)</item>
+      <item>ALFRED TRENZ (antična zgodovina, prevod, priredba)</item>
+      <item>dr. IVAN TURK (arheologija, prevod, priredba, nova gesla)</item>
+      <item>dr. DRAGICA TURNŠEK (geologija, mineralogija, prevod, priredba, nova gesla)</item>
+      <item>MIMI URBANC (geografija, strokovna redakcija)</item>
+      <item>MILOJKA ŽALIK HUZJAN (navodila za oblikovanje gesel in računalniška obdelava gesel;
+      koordinacija med DZS in ZRC SAZU ob prvi knjižni izdaji)</item>
+    </list>
+    </p>
+    <p>S posameznimi prispevki so sodelovali
+    <list>
+      <item>FRANCI DERŽANIČ</item>
+      <item>ALEKSANDER KOGOVŠEK</item>
+      <item>mag. IGOR KRANJC</item>
+      <item>dr. LJUBICA MARJANOVIČ UMEK</item>
+      <item>BRANE NASTRAN</item>
+      <item>PRIMOŽ PAVLIN</item>
+      <item>dr. BORIS SKET</item>
+    </list>
+    </p>
+    <p>Lektorji
+    <list>
+      <item>IRENA ANDROJNA-MENCINGER</item>
+      <item>EVA BLUMAUER</item>
+      <item>TATJANA CAPUDER</item>
+      <item>NADA COLNAR</item>
+      <item>VESNA ČOPIČ</item>
+      <item>TATJANA HOSTA</item>
+      <item>LIDIJA JURMAN</item>
+      <item>LUDVIK KALUŽA</item>
+      <item>TINKA KOS A</item>
+      <item>LEKSANDRA KOZAROV</item>
+      <item>MARJANA LAVRIČ</item>
+      <item>DORA MALI</item>
+      <item>NUŠA RADINJA</item>
+      <item>ANA STAREŠINIČ</item>
+      <item>ĐURĐA STRSOGLAVEC</item>
+      <item>NIVES VIDRIH</item>
+      <item>BARBARA ZUPAN ROGELJ</item>
+      <item>ALEKSANDER ZUPANC</item>
+    </list>
+    </p>
+  </div>
+
+  <div>
+    <head>NAPOTKI ZA UPORABNIKA</head>
+    <p>Za geselsko besedo (iztočnico) je najprej navedena izgovorjava, izvor ali (tujejezična)
+    sopomenka. Opisno besedilo gesel je opremljeno z navzkrižnimi referencami. Daljša gesla so
+    razdeljena v pregledna poglavja. Nekatera gesla imajo še slikovno gradivo in
+    preglednice. Iztočnice geselskih besed so navedene v krepki pisavi. Splošni pojmi z enakopisno
+    iztočnico in različnim področjem so združeni v geselske članke ter razmejeni s krepko natisnjenimi
+    številkami, npr. alpaka 1) zoologija … 2) tekstil … 3) metalurgija. Če ima pojem različne pomene
+    na istem strokovnem področju, področje ni izpisano, Abakan 1) … 2) ali luping 1) …  2). Področje
+    prav tako nikoli ni navedeno pri geselskih člankih sorodnih oseb. Osebna imena so v geselski
+    članek združena takrat, kadar gre za osebe v sorodstvu, ki imajo isti priimek (npr. igralci
+    Bridget, Henry, Jane in Peter iz družine Fonda) ali je njihovo ime (tj. iztočnica) katero od
+    starih imen in sodi v enako področje (npr. papeži Pij II., Pij IV., Pij V. idr. s sorodnim imenom
+    Pij).</p>
+
+    <div>
+      <head>1 Abecedni red iztočnic</head>
+      <p>Presledki v razvrščanju niso bili upoštevani: npr. alpaka, al pari, Alpe … Arabske številke in
+      druga ločila so uvrščena pred črko a, razen če niso prvi znak iztočnice (npr. V2A pred VA, toda
+      2-propanol pred propanol, ne pa na začetku leksikona). Če je v geselski besedi črka z diakritičnim
+      znamenjem, npr. ä, é, í, je beseda uvrščena, kot da črka ne bi imela diakritičnega znamenja,
+      npr. Bacon, Bácska, Bács-Kiskun, Bacső, Bacteria. Če se geselski besedi razlikujeta samo po črki z
+      diakritičnim znamenjem, ima prednost tista s črko brez diakritičnega znamenja, npr. Burger,
+      Bürger; Camus, Camús. Če se geselski besedi razlikujeta samo po začetnici, ima prednost tista z
+      malo začetnico, npr. atlas [knjiga zemljevidov], Atlas [gorovje]. Če so gesla z enakimi
+      iztočnicami imena oseb, večinoma torej priimki, si sledijo glede na drugi del imena, večinoma
+      torej evropskega osebnega imena (npr. Baker Carroll, Baker Chet, Baker Ginger, Baker
+      James). Pridobljeni naslovi, kot sta npr. angleška sir oz. dame, niso bili upoštevani v abecednem
+      redu: zato je npr. Barry sir Charles uvrščen pred Barry James. V geselskih člankih je prvo
+      področje vedno najsplošnejše; pri geslu dinamika je npr. 1) splošno, nato sledijo razlage pojma,
+      kot ga razumejo v fiziki, glasbi in elektrotehniki. V geselskem članku osebnih imen so osebe
+      razvrščene po starosti, od najstarejšega do najmlajšega, npr. Astor 1) Johann Jakob, …; 2) William
+      Waldorf, pravnuk J. J. Astorja, … Vladarji, cerkveni dostojanstveniki in druge osebe z enakim
+      imenom (tj. iztočnico v obliki katerega od starih imen) so v geselskem članku razvrščeni glede na
+      datum rojstva; npr. Albert I. von Boxhoeveden …*1229 …, Albert I. …*1255 …, Albert Saški …*
+      ok. 1316 …, Albert II. …*1934 … Pri enakopisnih iztočnicah, kjer nobeden od omenjenih kriterijev
+      ne zadošča, je najprej naveden splošen pojem, nato osebno ime in nato sodobna država ali celina
+      (npr. Evropa mitologija / astronomija / tisk je pred Evropa [celina], iztočnice z geografskim
+      imenom Viktorija pred osebami s tem imenom).</p>
+    </div>
+    
+    <div>
+      <head>2 Struktura vsebine</head>
+      
+      <div>
+        <head>2.1 Izgovorjava</head>
+        <p>Izgovor iz različnih tujih jezikov prevzetih lastnih in nekaterih občnih imen je v VELIKEM
+        SPLOŠNEM LEKSIKONU zapisan v oglatem oklepaju, in sicer v skladu s Pravili Slovenskega pravopisa
+        (Ljubljana 1994‒2001). Če je beseda pisno podomačena in naglasno mesto ni sporno (npr. Kápua,
+        Baleári) ali če se zapisin izgovor ujemata in naglasno mesto prav tako ni sporno (npr. Êrnst,
+        Éms, Élk Ríver), ni podatka v oglatem oklepaju.</p>
+        
+        <note>V tu navedene uredniške napotke za uporabnika so vključeni deli besedila, ki so ga za
+        poglavje z enakim naslovom v prejšnjih izdajah pripravili Nada Colnar, Marija Javornik, Polona
+        Kostanjevec, Aleš Pogačnik in Ana Starešinič. Razlike med nekaterimi načeli prve knjižne in
+        kasnejše elektronske verzije VELIKEGA SPLOŠNEGA LEKSIKONA, torej tudi te priročne izdaje, so
+        podrobneje opisane v različici na plošči CD-ROM.</note>
+        
+        <p>Če je za slovenskim polcitatnim imenom (to je deloma poslovenjeno lastno ime) navedeno ime,
+        zapisano v izvirni pisavi, tj. citatno, je izgovor praviloma naveden samo pri originalnem
+        zapisu, pri polcitatni besedi pa je v izgovoru treba dodati priponsko
+        obrazilo. Npr. Cumberlandska planota (Cumberland Plateau [kámberlend pléto]) se torej bere
+        kámberlendska planota, izgovor pa je naveden pri tujejezičnem imenu Cumberland Plateau. Stični
+        vezaj v oglatem oklepaju zaznamuje ali izgovor soglasnika pred samoglasnikom v skladu s
+        pravili o razvrstitvi soglasnikov, npr. Cruise [krúz-]se izgovarja [krús, krúza], Wood
+        [vúd-][vút, vúda], ali pa izpust priponskega obrazila, npr. Curtisova turbina [k8rtis-č], kar
+        se bere k8rtisova turbina. Tilda pomeni ponovitev osnovnih oblik geselske besede, kjer se
+        zapis in izgovor ujemata, npr. Barnettov pojav [bárnit-č], kar se bere bárnitov pojav. Izgovor
+        ni naveden pri latinskih imenih rastlin in živali, krajšavah, zaščitenih imenih (®) in pri
+        podomačenih imenih (npr. iz geografije, zgodovine, mitologije, Svetega pisma ipd.). Pri
+        citatnih besedah smo glede izgovora in naglasnega mesta poleg Knaurovega oz. Bertelsmannovega
+        splošnega leksikona upoštevali še tale dela: Meyers Enzyklopädisches Lexikon in 25 Bänden
+        (Bibliographisches Institut, Mannheim/Wien, Zürich 1971‒79), Der Große Duden,
+        Aussprachewörterbuch (Bibliographisches Institut, Mannheim/Wien, Zürich 1962), Everyman's
+        English Pronoucing Dictionary (Everyman's Reference Library 1967), Webster's Biographical
+        Dictionary (Springfield 1953).</p> </div> <div> <head>2.2 Izvor besed</head> <p>Pri tujkah je
+        izvor naveden v oglatem oklepaju, npr. akademija [grško], akcidenca [latinsko], ponekod je
+        naveden tudi prvotni pomen, npr. abaton [‘kamor naj se ne stopi’]. Če so deli besede iz
+        različnih jezikov, so navedeni vsi ti jeziki, npr. akropetalen [grško-latinsko].</p> </div>
+        <div> <head>2.3 Sopomenke</head> <p>Če ima geselska beseda sopomenko, je ta navedena za
+        geselsko besedo, in to v ležečem tisku, npr. alotropija … alomorfija. Pri imenih živali in
+        rastlin je takoj za geselsko besedo navedeno znanstveno ime, sledijo morebitne sopomenke,
+        npr. aloja (Aloë), lopatika,… Pri prevzetih besedah in tujih lastnih imenih so navadno
+        navedene tudi tujejezične oblike in različne oblike zapisa, npr. Pariz (Paris), vudu (voodoo,
+        vaudou, wodu, wudu). Pri osebnih imenih so kot sopomenke obravnavana prava imena, psevdonimi,
+        vzdevki, cela, dekliška imena ipd.; npr. Muddy Waters …, pravo ime McKinley Morganfield;
+        Blixen Karen, psevdonimi Tania Blixen, Isak Dinesen, Pierre Andrézel; Destovnik Karel,
+        psevdonim Kajuh. Sopomenke so večinoma navedene še enkrat, in sicer kot indeksna gesla na
+        ustreznem mestu v geslovniku, z navzkrižno referenco h geselski besedi, kjer najdete razlago,
+        npr. alomorfija, →alotropija. To po pravilu ne velja za vsa prava imena, psevdonime in
+        vzdevke, ki so samostojna gesla le izjemoma.</p> </div> <div> <head>2.4 Navzkrižne
+        reference</head> <p>V opisu so nekatere besede označene s puščico (→). Puščica opozarja na
+        navzkrižno referenco, na to, da je beseda ali besedna zveza za njo v leksikonu samostojna
+        iztočnica; npr. odlomek »…ga je vpeljal →Novalis z delom …« opozarja na geslo Novalis, odlomek
+        »… v →haaških konvencijah iz …« pa napotuje na geslo haaške konvencije. V enem geslu je
+        puščica na drugo geslo navedena le enkrat, ne glede na to, da se omemba te navzkrižne
+        reference v geslu pojavlja večkrat (v primerih, navedenih zgoraj, puščice nima nobena dodatna
+        omemba iztočnic Novalis ali haaške konvencije). Pri osebnih imenih je v navzkrižno referenco
+        največkrat vključena tudi okrajšava osebnega imena, npr. »… pod vplivom Th. →Dreiserja,
+        J. →Joycea in M. →Prousta …«. Navzkrižne reference se v besedilu pojavljajo samo tam, kjer je
+        s tem zagotovljeno boljše razumevanje gesla, in niso navedene pri vseh imenih, dogodkih,
+        pojmih ipd., ki so samostojna gesla.</p>
+      </div>
+    </div>
+    <div>
+      <head>3 Nekaj splošnih vsebinskih pojasnil</head>
+      <div>
+        <head>3.1 Lastna imena</head>
+        <p>V VELIKEM SPLOŠNEM LEKSIKONU so lastna imena zapisana v (a) podomačeni (v skladu z
+        izgovorjavo oz. so delno ali v celoti prevedena) in (b) izvirni (latinični)
+        obliki. Razširjenost podo mačenih imen je zelo relativna, odvisna od kulturne dediščine in
+        izročila, od dela sveta in od vrste lastnega imena. Podomačena oblika je bila izbrana na
+        osnovi strokovne odločitve ali ustaljene slovenske rabe. Pri imenih, ki so izvirno zapisana v
+        kateri od nelatiničnih pisav, smo kot osnovno obliko (iztočnico) obravnavali najpogostejšo
+        mednarodno obliko. Izjema so le nekateri izrazi, izvorno zapisani v cirilični pisavi, ki smo
+        jih glasovno domačili. S tem smo zavestno odstopili od slovenskega pravopisnega pravila o
+        formalnem domačenju tujih lastnih imen. Drugačna normativna odločitev sledi mednarodnim
+        načelom. Razlog za to je preprosto dejstvo: danes z latinično pisavo pišejo vse svetovne
+        jezike, prečrkovanja prav vseh nelatiničnih pisav so standardizirana in uporabljana. Slovenci
+        dokazljivo, zaradi zgodovinskih razlogov, precej dosledno domačimo le izraze, prevzete iz
+        nekaterih jezikov s cirilično pisavo, in stara imena (ne glede na izvor). Vsa izvirna imena so
+        v VELIKEM SPLOŠNEM LEKSIKONU odsev dejanskega stanja tudi v zapisni obliki, torej so zapisana
+        z vsemi izvirnimi črkami in diakritičnimi znamenji, morebitnimi naglasi, preglasi,
+        ponovljenimi črkami, dolžinami in drugimi drobnimi dodatki, ki jih za zapisovanje ali
+        prečrkovanje imen uporabljajo izvirni govorci.
+        <note>O tem podrobneje Aleš Pogačnik: Prevzemanje besed v slovenščini (Jezik in slovstvo 48/6, 2003,
+        str. 25‒48; http://www.jezikinslovstvo.com/) in Aleš Pogačnik: O lastnih imenih (Veliki
+        angleško-slovenski slovar Oxford, DZS, d. d., 2005, str. XL‒LVI).</note></p>
+
+        <div>
+          <head>3.1.1 Zemljepisna imena</head>
+          <p>Podomačitve zemljepisnih imen so uporabljene v skladu z normo, ki so jo vpeljali strokovni
+          sodelavci Geografskega inštituta Antona Melika ZRC SAZU, in usklajene s prenovljeno izdajo
+          Velikega atlasa sveta (DZS, d. d., 2005). Če je za tuje zemljepisno ime pri nas uveljavljena
+          podomačena oblika, je ta v leksikonu vedno geselska beseda z opisom, razlago, v oklepaju pa
+          vedno navajamo izvirno uradno ime oz. pri nelatiničnih pisavah njegov uraden prepis ali
+          prečrkovanje v latinico; v katerem jeziku je izvirno (citatno) ime, posebej ne navajamo, ker se
+          je o tem mogoče poučiti pri podatkih za določeno državo. Npr. Aljaško gorovje (Alaska Range),
+          Beringov otok (ostrov Beringa), Rumena reka (Huang He). Nepodomačena zemljepisna imena navajamo
+          samo v uradnem jeziku države, zapisana so torej tako, kot za svoje območje zahtevajo nacionalne
+          standardizacije: npr. Melbourne, New Jersey, Rio Grande do Norte, Han Gang. Če je v državi več
+          uradnih jezikov in to vpliva na zemljepisna poimenovanja (npr. Belgija, Švica), navajamo
+          zemljepisno ime v vseh oblikah: npr. Antwerpen (francosko Anvers), Bern (francosko Berne), Švica
+          (nemško Schweiz, francosko Suisse, italijansko Svizzera). Isto velja za nacionalno mešana
+          ozemlja; glavno geslo je v uradnem jeziku države: npr. Bolzano (Bozen), Priština (Prishtië). Pri
+          toponimih na slovenskih dvojezičnih obmejnih območjih je na prvem mestu seveda sloven-ska
+          oblika: npr. Čedad (Cividale del Friuli), Gradec (Graz), Monošter (Szentgotthárd), Koper
+          (Capodistria). Druge oblike imena ‒ npr. antično ime, latinsko, na drugih celinah imena v
+          jezikih prvotnih naseljencev in domačinov ‒ so navedena v ležeči pisavi, med sinonimi ali v
+          poglavju o zgodovini: npr. Don (antični Tanais), Kalkuta (angleško Calcutta, hindijsko Kalikata
+          [po boginji Kali]), Amfisa … v srednjem veku Salona, Sankt Peterburg, 1709‒1914 Sankt Peterburg,
+          1914‒24 Petrograd, 1924‒91 Leningrad, Kaliningrad, do 1954 Königsberg, Kinšasa (Kinshasa), do
+          1966 Léopoldville. Stara zemljepisna imena niso dosledno navajana in so omejena le na oblike, ki
+          so najbolj zanimive za splošno bralstvo. Kraji rojstva in smrti pri modernih osebnih imenih so
+          navedeni s sedanjimi imeni, npr. ne Straßburg, ampak Strasbourg, ne Königsberg, ampak
+          Kaliningrad, ne Leningrad, ampak Sankt Peterburg ipd. Staro krajevno ime je pogosto (ne pa
+          vedno) navedeno le pri antičnih in srednjeveških imenih. Če reke, gorske verige, pokrajine
+          ipd. segajo čez več jezikovnih območij, prav tako navajamo vsa imena ali oblike imen:
+          npr. Donava (nemško Donau, slovaško-ukrajinsko Dunaj …, madžarsko Duna …,
+          hrvaško-srbsko-bolgarsko Dunav …, romunsko DunWrea …), Dneper (ukrajinsko Dnipro, rusko Dnepr),
+          Pireneji (špansko Pirineos, francosko Pyrénées). Imena držav so v slovenščini zapisana v skladu
+          s standardom ISO 3166 iz leta 1995; geselska beseda je kratko ime države. Edini odmik je Velika
+          Britanija (namesto standardizirane oblike Združeno kraljestvo, ki pa je navedena v sinonimu
+          oz. kot indeksno geslo). Zaradi političnih sprememb po letu 1995 smo upoštevali še naslednje
+          spremembe: Kongo Kinšasa (namesto Zair, sprememba imena 1997), Kongo Brazzaville (namesto Kongo,
+          posledica prej omenjene spremembe imena sosednje države iz 1997), Vzhodni Timor (nova država od
+          1999), Srbija in Črna gora (namesto Jugoslavija, sprememba imena 2003).</p>
+
+          <p>Vsa zemljepisna imena so podomačena v oblikoslovju in skladenjski rabi: npr. Queensland,
+          Queenslanda; Cairns, Cairnsa; Cochabamba, Cochabambe; Alessandria, Alessandrie; Spa, Spaja;
+          Melbourne, Melbourna; Cambridge, Cambridgea; Macquarie, Macquarieja; Zaporožje, Zaporožja;
+          Dušanbe, Dušanbeja; Lázng, Lázen; Né, Néja; Nairobi, Nairobija; Helsinki, Helsinkov; Grozni,
+          Groznega; Forlì, Forlìja; Ohio, Ohia; Molodečno, Molodečnega; Saint-Malo, Saint-Maloja; Turku,
+          Turkuja; Baku, Bakuja; Londonderry, Londonderryja; Loreley, Loreleya. Če je prva beseda
+          zemljepisnega imena obča beseda, razložena tudi v leksikonu (kot npr. mount ali Bad), je
+          zemljepisno ime v spisku razporejeno po lastnoimenskem delu imena, polno ime pa je navedeno kot
+          sopomenka (npr. Everest … Mont Everest, Buchau … Bad Buchau). Večbesedna zemljepisna imena so
+          sklanjana, če se med seboj po spolu ujemajo vsi deli in občutimo samostojnost sestavin: Krivoj
+          Rog, Krivega Roga; Malá Straná, Male Strane; Mato Grosso, Mata Grossa; Río Atrato, Ría
+          Atrata. Samo eno sestavino smo sklanjali, če ne občutimo samostojnosti sestavin ali se deli ne
+          ujemajo: Han Gang, Han Ganga; Tunder Bay, Tunder Baya; Red Rock River, Red Rock Riverja; Playón
+          Chico, Playón Chica; Sierra Leone, Sierra Leoneja; Rapa Nui, Rapa Nuija; Viti Levu, Viti Levuja;
+          Burkina Faso, Burkine Faso; Isola Madre, Isole Madre; Baía de Marajó, Baíe de Marajó; Sierra de
+          los Alamitos, Sierre de los Alamitos; Passo dello Stelvio, Passa dello Stelvio; Rio Paraíba do
+          Sul, Ria Paraíba do Sul. Tujih imen, ki imajo za kakšno število ali spol netipične končaje,
+          nismo sklanjali z glasovno končnico: ob slikovitih Boise Falls, na tihooceanskih Islas
+          Desventuradas, v Saint Anne na Alderneyju, v Nomuka Group. Seveda pa so v praksi tudi
+          težave. Včasih so imena na videz istega tipa, občutek za pregibanje pa je drugačen:
+          <list>
+            <item n="a)">Ciudad de México, Ciudad de Méxica; Santiago de Cuba, Santiaga de Cuba; Rio de
+              Janeiro, Ria de Janeira/Rio de Janeira</item>
+            <item n="b)">Punta Entinas, Punte Entinas; Puerto Morelos, Puerto Morelosa</item>
+            <item n="c)">Isla de Malpelo, Isle de Malpelo; Mar del Plata, Mar del Plate č) Isla
+              Desolación, Isle Desolación; Thurston Island, Thurston Islanda</item>
+            <item n="d)">Rio Capim, Ria Capim; Mobile River, Mobile Riverja</item>
+            <item n="e)">Cabo Freu, Caba Freu; Cape Fear, Cape Feara</item>
+            <item n="f)">Black Hills, Black Hills; Beverly Hills, Beverly Hillsa</item>
+          </list>
+          </p>
+        
+          <p>Pri otoškem in rečnem paru (c in d) je različen občutek mogoče pojasniti z različnim
+          mestom jedrne besede. Toda zakaj je občutek različen tudi pri rtih (e)? Zanimiv par sta imeni
+          Black Hills in Beverly Hills (f). Množinsko nenaselbinsko ime Black Hills sklanjamo z ničto
+          končnico, Beverly Hills pa se v slovenski jezikovni sistem vključuje kot samostalnik v
+          ednini. To velja še za mnoga naselbinska imena, ki bi se kot nenaselbinska gotovo pregibala
+          drugače. Npr. Puerto Morelos in Mar del Plata (v paru b in c) in še nekaj imen krajev: Grand
+          Rapids, Grand Rapidsa; Monte Carlos de Goiás, Monte Carlos de Goiása; Port-au-Prince,
+          Port-au-Princea; Baia Mare, Baia Mareja. Vendar pa je kakšen dokončen sistem in red pri
+          pregibanju večbesednih zemljepisnih imen le težko vzpostaviti. In včasih se zdi od vseh možnosti
+          še najbolj pametna pustiti ime v citatni obliki prvega sklona in dodati pojasnjevalni
+          samostalnik. Samo nekaj primerov iz Poljske in Italije: v kraju Aleksadrów Kujawski, v hribovju
+          Góry Sowie, v pogorju Monti Sicani, v gričevju Colline Metallifere, na vrhovih Tre Cime, v
+          dolini Paludi Pontine Agro Romano.</p>
+       </div>
+
+       <div>
+         <head>3.1.2 Osebna imena</head>
+         <p>Geselske besede osebnih imen so bile določene v skladu z navodili za določenje bibliografskih
+         iztočnic osebnih imen iz posameznih držav, in sicer v skladu s knjigo Names of Persons: National
+         Usages for Entry in Catalogues, 4. izdaja, K. G. Saur, München 1996. Iztočnica geselske besede
+         je priimek oz. družinsko ime, najbolj znan del imena ipd. Npr. [angleško ime] De Havilland
+         Olivia, [nemško] Goethe Johann Wolfgang von, [arabsko] Al Afghani Jamaludin, [kitajsko] Jiang
+         Zemin. Pri nekaterih imenih je po pravilih iztočnica celo ime (npr. Janez Ljubljanski, Ngugi wa
+         Thiong'o). Evropska imena vladarjev, cerkvenih dostojanstvenikov in drugih zgodovinskih oseb so
+         večinoma prevedena ‒ npr. Janez od Križa, Ludvik, Jurij ‒ ali (delno) glasovno podomačena ‒
+         npr. Herman, Henrik, Marija; to ne velja za nekatera sodobna imena tega tipa, saj bi bilo to v
+         nasprotju s sodobno rabo (npr. waleški princ Charles [ne Karel]). Neevropska imena tega tipa so
+         podomačena glede na izgovorjavo, praviloma pa je ob njih navedena (najpogostejša ali pravilna)
+         latinična oblika, npr. Ciši (Cixi), Ašoka (Ashoka), Harun Ar Rašid … Harun Al Rashid. Enako je
+         pravilo pri antičnih, grških in latinskih imenih: iztočnica je podomačena v skladu z
+         izgovorjavo, med sinonimi pa so navedene morebitne druge slovenske oblike in po grškem izvirniku
+         transliterirana oblika imena; npr. Tales (Thales), Sofokles, (Sophokles), Filon Aleksandrijski
+         (Philon … Filon Judaj). Pri grških imenih, ki so podomačena iz latinizirane oblike, navajamo
+         transliteracijo izvirnika in latinizirano obliko (Narcis, Narkissos, Narcissus). Pri latinskih
+         osebnih imenih je navedeno polno ime, večinoma sestavljeno iz treh ali štirih delov (podrobneje
+         o tem v geslih agnomen, cognomen, nomen gentile, praenomen); prvo ime je okrajšano. Drugi del
+         imena osebe, tj. največkrat osebno ime evropskega tipa, je lahko okrajšano, če je táko
+         največkrat v rabi. Če je neposredno za osebnim imenom v oklepaju ena ali več samostojnih besed,
+         potem je to izpeljanka, okrajšava, vzdevek ipd., tj. oblika, ki je neposredno izpeljana iz
+         uradnega imena (ne pa iztočnice, tj. priimka); npr. Walt(er) za Walt iz Walter, J(ean) J(acques)
+         za osebno ime J. J. Oblika Dick (Richard) je npr. uporabljena za osebo, ki je najbolj znana le z
+         imenom Dick. Podatek v oklepaju pove, da je to ime bodisi izpeljanka iz imena Richard, ali pa da
+         je to drugo ime te osebe (tj. ima oseba dve imeni, toda drugega navadno ne uporablja).</p>
+      </div>
+
+      <div>
+        <head>3.1.3 Ljudstva in jeziki</head>
+        <p>V dosedanjih priročnikih je v zvezi s poimenovanjem ljudstev opaziti veliko razgibanost pri
+        zapisovanju in besedotvorju in ob tem veliko pomanjkljivo in nesistematično rešenih vprašanj. V
+        VELIKEM SPLOŠNEM LEKSIKONU smo se ravnali po priporočilu slovenskega pravopisa in imena plemen
+        in ljudstev ter poimenovanja pojmov in predmetov iz njihove kulture in civilizacije pisali po
+        domače, iz imen ljudstev smo izpeljevali poimenovanja za pripadnike (to je potem tudi vedno
+        geselska beseda), izpeljevali smo pridevnike … Brez posebnega priponskega obrazila smo tvorili
+        ime pripadnikov ljudstev, če se ime ljudstva končuje na soglasnik (Iban, Aravak, Alakaluf,
+        Algonkin) ali samoglasnik, ki ga pri sklanjanju obravnavamo kot končnico. Takšna končna
+        samoglasnika sta zlasti nenaglašena -a in -o (Kuma, Sulka, Havsa, Munda, Čamoro, Pano, Otavalo,
+        Miskito). Torej: Ibani, ibanski; Aravaki, aravaški; Alakalufi, alakalufski; Algonkini,
+        algonkinski; Kumi, kumski; Sulki, sulški; Havsi, havški; Mundi, mundski; Čamori, čamorski;
+        Otavali, otavalski; Miskiti, miskitski. Po že ustaljenih zgledih: Bušmani, Berberi, Čečeni,
+        Mongoli, Baski, kreoli; Maji (ljudstvo Maja), Inki (ljudstvo Inka), Dakoti (pleme Dakota); zambi
+        (edn. zambo), kafuzi (edn. kafuzo). S priponskim obrazilom -ec (tipičnim za imena prebivalcev iz
+        nenaselbinskih imen) smo tvorili ime pripadnikov ljudstva, če se njegovo ime končuje na -e/-é
+        (Eve, Že), -i/-í (Gvajmi, Tupi), -u/ú (Urdu, Čimu), -á (Ava), -ó (Ibo) in se podstava pri
+        sklanjanju podaljšuje z -j-. Torej: Evejci, evejski; Žejci, žejski; Gvajmijci, gvajmijski;
+        Tupijci, tupijski; Urdujci, urdujski; Čimujci, čimujski; Avajci, avajski; Ibojci, ibojski. Za
+        sicer tudi možno obliko brez pripone (Evi, Urdi, Avi, Gvajmi …) se nismo odločili zato, da ni
+        zadrege z edninskimi oblikami (Evejec, Žejec, Ibojec …) in ker se tako ne oddaljujemo od
+        izhodiščne oblike, to pa je bilo na sploh eno od naših pomembnih vodil. Vendar smo včasih tudi
+        te končne samoglasnike obravnavali kot končnico in tvorili ime pripadnikov plemena brez pripone,
+        zlasti pri večzložnih imenih ali če je tako že uveljavljeno: Mapuči (ljudstvo Mapuče), Gorotiri
+        (ljudstvo Gorotire), Sjuji (pleme Sju), Tivanaki (iz Tivanaku). Od tvorb s priponskim obrazilom
+        je, zanimivo, zelo produktivna tudi pripona -anec (oz. -ec zosnovo, podaljšano z -an-), in sicer
+        pri nekaterih imenih ženskega spola na -a, predvsem dvozložnih (Kečva, Muiska, Tonga), ali če je
+        pred končnim -a še kakšen samoglasnik (Samoa, Papua, Goa). Torej: Kečvanci, kečvanski;
+        Muiskanci, muiskanski; Tonganci, tonganski; Samoanci, samoanski; Papuanci, papuanski; Goanci,
+        goanski. Omenimo še priponi -inec (Osetinec, po zgledu Gruzinec, Dalmatinec) in -ar (Maražoar,
+        iz zemljepisnega imena Ilha de Marajó, po zgledu Švicar, Madžar). Seveda je besedotvorna paleta
+        še veliko pestrejša in ljudstev nismo želeli utesnjevati s preveč šablonsko poenotenimi
+        pravili. Ves čas smo se ravnali po slovenskem občutku za izgovorne in zapisne značilnosti: Čibča
+        ‒ Čibči, toda čibčevski (prim. Maja ‒ Maji, majevski; Inka ‒ Inki, inkovski); Pueblo ‒ Puebli,
+        toda pueblovski; Nikarao ‒ Nikarajci, nikarajski; Jao ‒ Jaojci, jaojski; mesto Cuzco ‒ kuskovsko
+        obdobje, mesto Nazca ‒ naskansko obdobje. Z besedotvorjem imen ljudstev so tesno povezani tudi
+        jeziki. Praviloma jih navajamo kot pridevnik na -ski, tvorjen po zakonitostih izpeljevanja imen
+        pripadnikov ljudstev. Nekaj primerov: hindi ‒ hindijski jezik, afrikaans ‒ afrikanški jezik,
+        telugu ‒ teluški jezik. V samostalniški obliki jih puščamo le izjemoma: sranan tongo (uradni
+        jezik v Surinamu), patois (francoski nižji pogovorni jezik), bajan (kreolska angleščina). Kadar
+        je prvi ali zadnji del izhodiščnega samostalnika zloženka z besedo ‚jezik’, ta del pri
+        izpeljevanju opuščamo: kisvahili (ki v bantujščini jezik + pleme Svahili) ‒ svahilijski
+        jezik.</p>
+      </div>
+
+      <div>
+        <head>3.1.4 Naslovi umetniških del</head>
+        <p>Dela pisateljev, znanstvenikov ipd. so navedena bodisi med besedilom ali na koncu
+        gesla. Poskrbeli smo za prevod vseh knjižnih naslovov, ne glede na to, ali so bila dela pri nas
+        prevedena ali ne; pri tistih, ki so že izšla v slovenskem prevodu, je dodano leto izida v
+        slovenščini. Naslov dela v slovenskem jeziku je natisnjen ležeče, v oklepaju smo ohranili
+        izvirni naslov in leto izida originalnega besedila (razen nekaterih izjem, npr. pri ruskih in
+        grških delih ali pri naslovih umetniških del). Primer: Adamov Arthur, … Dela: Parodija (La
+        parodie, 1947), Vsi proti vsem (Tous contre tous, 1952), Mrtve duše (Les âmes mortes, 1960;
+        sl. 1963), Pomlad 71 (Le printemps 71, 1959; sl. 1964), Če bi se poletje vrnilo (Si l'été
+        revenait, 1970). Pri glasbenih delih, sploh s področja zabavne glasbe, so te oblike velikokrat
+        le tujejezične. Primer: Beatles … Please Please Me (1963), Help (1965), Revolver (1966). Pri
+        filmih so navedeni naslovi, s katerimi so bili predvajani pri nas in se pomensko velikokrat
+        razlikujejo od izvirnih naslovov. To je pogosteje kot pri knjižnih naslovih, zato smo jih
+        dosledno zapisovali tudi v izvirnih oblikah. Primer: Altman Robert, …  Filmi: … Kockar in
+        prostitutka (McCabe and Mrs. Miller, 1970) … Pri gledaliških delih je navedeno leto prve
+        uprizoritve, če jo je delo doživelo pred izidom v tiskani obliki. Številka, stavljena visoko
+        pred letnico, pove, za katero zaporedno izdajo gre (npr. 31972).</p>
+      </div>
+
+      <div>
+        <head>3.1.5 Druga lastna imena</head>
+        <p>Podomačena oblika z izvirnim zapisom v sinonimu je uporabljena za svetopisemska, mitična ter
+        druga bajeslovna ali izmišljena imena. Npr. Mojzes, Zevs, Lisica Zvitorepka. Pri nekaterih od
+        teh imen, predvsem mitoloških, so med sopomenkami navedene tudi druge oblike; npr. Frigga
+        (Frigg, Frija). Pri splošnih izobraževalnih ustanovah in organizacijah je iztočnica v večini
+        primerov podomačena oblika, izvirna oblika pa je navedena med sopomenkami; npr. Kolumbijska
+        univerza (Columbia University), Britanski muzej (British Museum), Organizacija ameriških držav
+        (angleško Organization of American States), Frakcija Rdeče armade (Rote Armee Fraktion). Če je
+        organizacija v slovenščini znana le po tujem imenu, tj. je prevedena oblika izredno redka ali
+        neobstoječa, je iztočnica tuje ime; npr. Amnesty International, Rijksmuseum, Deutscher Werkbund,
+        Nuori Suomi, Sinn Féin. Le v izvirni obliki so navedena tudi vsa tuja podjetja; npr. Hitachi,
+        Globe TV, Air France. Pri tistih organizacijah, kjer je kratica bolj znana kot njeno polno ime,
+        je iztočnica kratica, navadno tuja; npr. CIA, NATO, MIT, PHARE. Med lastna imena bi lahko
+        uvrstili tudi zaščitene znamke, ki so zapisane z dostavkom ®. Če so avtorji menili, da je
+        zaščitena blagovna znamka že postala obča beseda, je blagovna znamka navedena kot sopomenka;
+        npr. aspirin (Aspirin®), kevlar (Kevlar®), stiropor (Styropor®). To načelo velja le za novejše,
+        še vedno zaščitene blagovne znamke; v leksikonu npr. ni oblik gramofon (Gramophone®) ali
+        celuloid (Celluloid®).</p>
+      </div>
+    </div>
+    <div>
+      <head>3.2 Številke in datumi</head>
+      <p>Pri številih, večjih od 10.000, so tisoči ločeni s piko, milijoni pa z vejico; npr. 50.000
+      preb., 2,766.889 ha. Milijoni in milijarde so pogosto okrajšani, npr. 2,4 mln. preb., 1,2
+      mlr. USD. Pri številu prebivalcev države, njenega glavnega mesta, številčnih podatkih o
+      gospodarstvu ipd. so navedeni najnovejši podatki, ki so nam bili na voljo. Letnice podatka so
+      navedene le pri državah, pri drugih geografskih enotah so bili to zadnji dostopni
+      podatki. Datumi so navedeni stično (brez presledkov): mesec.dan.leto; npr. 16.6.1904. Pred
+      podatkom o rojstvu je zvezdica (*), pred podatkom o smrti pa križ (ő). Na splošno so navedeni po
+      koledarju, ki je veljal, ko se je kakšen dogodek zgodil. Gregorijanski koledar (1582) ni bil
+      uveden v vseh evropskih državah hkrati (to se je zgodilo med letoma 1562 in 1926; podrobneje v
+      geslih koledar, časovno štetje, staro štetje). Če so bili dostopni zanesljivi viri, sta za
+      obdobje med razglasitvijo in uveljavitvijo gregorijanskega koledarja navedena dva datuma,
+      20.11. (31.11.). Prvi datum se nanaša na julijanski koledar, drugi je preračunan na
+      gregorijanski koledar (npr. v geslih Newton sir Isaac, Bakunin Mihail Aleksandrovič).</p>
+    </div>
+  </div>
+</div>
+</div>
+<div>
+  <head>OKRAJŠAVE</head>
+  <p>Standardne okrajšave so:
+  <list>
+    <item n="‒">simboli za merske enote, opisane v geslih merske enote in predpona,</item>
+    <item n="‒">kemijski simboli, opisani v istoimenskem geslu,</item>
+    <item n="‒">okrajšave za zvezne države ZDA, navedene v geslu Združene države Amerike,</item>
+    <item n="‒">okrajšave za svetopisemske knjige, navedene v geslu Sveto pismo.</item>
+  </list>
+  </p>
+  
+  <p>Nekatere druge pogoste okrajšave:
+  <list type="gloss">
+    <label>ACM</label>
+    <item>Arab Common Market, Arabski skupni trg</item>
+    <label>AKP</label>
+    <item>države v razvoju na afriškem, karibskem in pacifiškem območju (loméjski sporazumi z EU)</item>
+    <label>ALADI</label>
+    <item>Asociación Latinoamericana de Integración, Latinskoameriško integracijsko združenje</item>
+    <label>APEC</label>
+    <item>Asia-Pacific Economic Cooperation, Azijsko-pacifiško gospodarsko sodelovanje</item>
+    <label>ASEAN</label>
+    <item>Association of South East Asian Nations, Združenje narodov jugovzhodne Azije</item>
+    <label>AU</label>
+    <item>African Union / Union Africaine, Afriška unija</item>
+    <label>CARICOM</label>
+    <item>Caribbean Community and Common Market, Karibska skupnost in skupni trg</item>
+    <label>CEDEAO/ECOWAS</label>
+    <item>Communauté économique des Etats de l'Afrique de l'Ouest / Economic Community of West
+    African States, Zahodnoafriška gospodarska skupnost</item>
+    <label>EFTA</label>
+    <item>European Free Trade Association, Evropsko območje proste trgovine</item>
+    <label>ES</label>
+    <item>evropske skupnosti</item>
+    <label>EU</label>
+    <item>Evropska unija</item>
+    <label>GCC</label>
+    <item>Gulf Cooperation Council, Svet za sodelovanje arabskih držav Zaliva</item>
+    <label>i.</label>
+    <item>imenovan</item>
+    <label>idr.</label>
+    <item>in drugi</item>
+    <label>ipd.</label>
+    <item>in podobno</item>
+    <label>itd.</label>
+    <item>in tako dalje</item>
+    <label>J, j.</label>
+    <item>jug, južni</item>
+    <label>JV, jv.</label>
+    <item>jugovzhod, jugovzhodni</item>
+    <label>JZ, jz.</label>
+    <item>jugozahod, jugozahodni</item>
+    <label>MCCA</label>
+    <item>Mercado Commun Centro Americano, Srednjeameriški skupni trg</item>
+    <label>mdr.</label>
+    <item>med drugim</item>
+    <label>mln.</label>
+    <item>milijon</item>
+    <label>mlr.</label>
+    <item>milijarda</item>
+    <label>n.š.</label>
+    <item>našega štetja</item>
+    <label>NATO</label>
+    <item>North Atlantic Treaty Organization, Severnoatlantska zveza</item>
+    <label>npr.</label>
+    <item>na primer</item>
+    <label>OAPEC</label>
+    <item>Organization of Arab Petroleum Exporting Countries, Organizacija arabskih  držav izvoznic nafte</item>
+    <label>OAS</label>
+    <item>Organization of American States, Organizacija ameriških držav</item>
+    <label>OAU</label>
+    <item>Organization of African Unity, Organizacija afriške enotnosti</item>
+    <label>ODECA</label>
+    <item>Organización de Estados Centroamericanos, Organizacija srednjeameriških držav</item>
+    <label>OECD</label>
+    <item>Organization for Economic Cooperation and Development, Organizacija za ekonomsko
+    sodelovanje in razvoj</item>
+    <label>OIC</label>
+    <item>Organization of the Islamic Conference, Organizacija islamske konference</item>
+    <label>ok.</label>
+    <item>okoli</item>
+    <label>OPEC</label>
+    <item>Organization of Petroleum Exporting Countries, Organizacija držav izvoznic nafte</item>
+    <label>OVSE</label>
+    <item>Organizacija za varnost in sodelovanje v Evropi</item>
+    <label>oz.</label>
+    <item>oziroma</item>
+    <label>OZN</label>
+    <item>Organizacija združenih narodov</item>
+    <label>pom.</label>
+    <item>pomemben</item>
+    <label>pos.</label>
+    <item>posebno, posebej</item>
+    <label>pr. n. š.</label>
+    <item>pred našim štetjem</item>
+    <label>preb.</label>
+    <item>prebivalcev</item>
+    <label>pribl.</label>
+    <item>približno</item>
+    <label>razl.</label>
+    <item>različen</item>
+    <label>RS</label>
+    <item>Republika Slovenija</item>
+    <label>S, s.</label>
+    <item>sever, severni</item>
+    <label>SAARC</label>
+    <item>South Asian Association for Regional Cooperation, Združenje za regionalno sodelovanje v
+    južni Aziji</item>
+    <label>SADC</label>
+    <item>Southern African Development Community, Razvojna skupnost južnoafriških držav</item>
+    <label>SAEMU</label>
+    <item>South African Economic and Monetary Union, Južnoafriška ekonomska in monetarna
+    unija</item>
+    <label>SELA</label>
+    <item>Sistema Económico Latinoamericano, Latinskoameriški gospodarski sistem</item>
+    <label>sl.</label>
+    <item>slovenski prevod</item>
+    <label>SND</label>
+    <item>Skupnost neodvisnih držav</item>
+    <label>SPC</label>
+    <item>South Pacific Commission, Južnopacifiška komisija</item>
+    <label>SPF</label>
+    <item>South Pacific Forum, Južnopacifiški forum</item>
+    <label>st.</label>
+    <item>stoletje</item>
+    <label>sv.</label>
+    <item>sveti</item>
+    <label>SV, sv.</label>
+    <item>severovzhod, severovzhodni</item>
+    <label>SZ, sz.</label>
+    <item>severozahod, severozahodni</item>
+    <label>t. i.</label>
+    <item>tako imenovani</item>
+    <label>tj.</label>
+    <item>to je, to pomeni</item>
+    <label>tl.</label>
+    <item>tisočletje</item>
+    <label>UDEAC</label>
+    <item>Union Dounaiére et Economique de l'Afrique Centrale, Carinska in ekonomska zveza centralne
+    Afrike</item>
+    <label>UMA</label>
+    <item>Union du Maghreb Arabe, Arabska unija držav Magreba</item>
+    <label>UMOA</label>
+    <item>Union Monétaire Ouest Africaine, Zahodnoafriška monetarna unija</item>
+    <label>V,v.</label>
+    <item>vzhod, vzhodni</item>
+    <label>Z, z.</label>
+    <item>zahod, zahodni</item>
+    <label>ZEU</label>
+    <item>Zahodnoevropska unija</item>
+  </list>
+</p>
+</div>
+</front>

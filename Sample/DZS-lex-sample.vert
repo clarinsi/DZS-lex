@@ -2342,92 +2342,93 @@ vzročni	vzročen-p	Agpfsl	Ppnzem	ADJ	Case=Loc Degree=Pos Gender=Fem Number=Sing
 zvezi	zveza-s	Ncfsl	Sozem	NOUN	Case=Loc Gender=Fem Number=Sing	11	obl	biti	Va-r3p-n	Gp-stm-n	VERB	Mood=Ind Number=Plur Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	4
 <g/>
 ,	,-u	Z	U	PUNCT	_	12	punct	biti	Va-r3p-n	Gp-stm-n	VERB	Mood=Ind Number=Plur Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	4
-in	in-v	Cc	Vp	CCONJ	_	13	cc	tisti	Pd-fpn	Zk-zmi	DET	Case=Nom Gender=Fem Number=Plur PronType=Dem	14
+in	in-v	Cc	Vp	CCONJ	_	13	cc	razmejevati	Vmpr3s	Ggnste	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	25
 tiste	tisti-z	Pd-fpn	Zk-zmi	DET	Case=Nom Gender=Fem Number=Plur PronType=Dem	14	nsubj	razmejevati	Vmpr3s	Ggnste	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	25
 <g/>
 ,	,-u	Z	U	PUNCT	_	15	punct	moči	Vmpr3p	Ggnstm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	18
 ki	ki-v	Cs	Vd	SCONJ	_	16	mark	moči	Vmpr3p	Ggnstm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	18
 ne	ne-l	Q	L	PART	Polarity=Neg	17	advmod	moči	Vmpr3p	Ggnstm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	18
 morejo	moči-g	Vmpr3p	Ggnstm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	18	acl	tisti	Pd-fpn	Zk-zmi	DET	Case=Nom Gender=Fem Number=Plur PronType=Dem	14
-biti	biti-g	Va-n	Gp-n	AUX	VerbForm=Inf	19	aux	razmejevati	Vmpr3s	Ggnste	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	25
+biti	biti-g	Va-n	Gp-n	AUX	VerbForm=Inf	19	cop	čas	Ncmsl	Somem	NOUN	Case=Loc Gender=Masc Number=Sing	23
 v	v-d	Sl	Dm	ADP	Case=Loc	20	case	prostor	Ncmsl	Somem	NOUN	Case=Loc Gender=Masc Number=Sing	21
-prostoru	prostor-s	Ncmsl	Somem	NOUN	Case=Loc Gender=Masc Number=Sing	21	obl	razmejevati	Vmpr3s	Ggnste	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	25
+prostoru	prostor-s	Ncmsl	Somem	NOUN	Case=Loc Gender=Masc Number=Sing	21	obl	moči	Vmpr3p	Ggnstm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	18
 <g/>
 -	--u	Z	U	PUNCT	_	22	punct	čas	Ncmsl	Somem	NOUN	Case=Loc Gender=Masc Number=Sing	23
 <g/>
 času	čas-s	Ncmsl	Somem	NOUN	Case=Loc Gender=Masc Number=Sing	23	nmod	prostor	Ncmsl	Somem	NOUN	Case=Loc Gender=Masc Number=Sing	21
 <g/>
 ,	,-u	Z	U	PUNCT	_	24	punct	čas	Ncmsl	Somem	NOUN	Case=Loc Gender=Masc Number=Sing	23
-razmejuje	razmejevati-g	Vmpr3s	Ggnste	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	25	parataxis	veljati	Vmpr3s	Ggnste	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	32
+razmejuje	razmejevati-g	Vmpr3s	Ggnste	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	25	root	_	_	_	_	_	0
 svetlobni	svetloben-p	Agpmsny	Ppnmeid	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing	26	amod	stožec	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	27
 stožec	stožec-s	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	27	nsubj	razmejevati	Vmpr3s	Ggnste	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	25
 <g/>
 .	.-u	Z	U	PUNCT	_	28	punct	razmejevati	Vmpr3s	Ggnste	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	25
+</s>
+<s>
+V	v-d	Sl	Dm	ADP	Case=Loc	1	case	mehanika	Ncfsl	Sozem	NOUN	Case=Loc Gender=Fem Number=Sing	3
+kvantni	kvanten-p	Agpfsl	Ppnzem	ADJ	Case=Loc Degree=Pos Gender=Fem Number=Sing	2	amod	mehanika	Ncfsl	Sozem	NOUN	Case=Loc Gender=Fem Number=Sing	3
+mehaniki	mehanika-s	Ncfsl	Sozem	NOUN	Case=Loc Gender=Fem Number=Sing	3	obl	veljati	Vmpr3s	Ggnste	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
+velja	veljati-g	Vmpr3s	Ggnste	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4	root	_	_	_	_	_	0
+načelo	načelo-s	Ncnsn	Sosei	NOUN	Case=Nom Gender=Neut Number=Sing	5	nsubj	veljati	Vmpr3s	Ggnste	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
+nedoločenosti	nedoločenost-s	Ncfsg	Sozer	NOUN	Case=Gen Gender=Fem Number=Sing	6	nmod	načelo	Ncnsn	Sosei	NOUN	Case=Nom Gender=Neut Number=Sing	5
 <g/>
-V	v-d	Sl	Dm	ADP	Case=Loc	29	case	mehanika	Ncfsl	Sozem	NOUN	Case=Loc Gender=Fem Number=Sing	31
-kvantni	kvanten-p	Agpfsl	Ppnzem	ADJ	Case=Loc Degree=Pos Gender=Fem Number=Sing	30	amod	mehanika	Ncfsl	Sozem	NOUN	Case=Loc Gender=Fem Number=Sing	31
-mehaniki	mehanika-s	Ncfsl	Sozem	NOUN	Case=Loc Gender=Fem Number=Sing	31	obl	veljati	Vmpr3s	Ggnste	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	32
-velja	veljati-g	Vmpr3s	Ggnste	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	32	root	_	_	_	_	_	0
-načelo	načelo-s	Ncnsn	Sosei	NOUN	Case=Nom Gender=Neut Number=Sing	33	nsubj	veljati	Vmpr3s	Ggnste	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	32
-nedoločenosti	nedoločenost-s	Ncfsg	Sozer	NOUN	Case=Gen Gender=Fem Number=Sing	34	nmod	načelo	Ncnsn	Sosei	NOUN	Case=Nom Gender=Neut Number=Sing	33
+,	,-u	Z	U	PUNCT	_	7	punct	praviti	Vmbr3s	Ggvste	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	9
+ki	ki-v	Cs	Vd	SCONJ	_	8	mark	praviti	Vmbr3s	Ggvste	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	9
+pravi	praviti-g	Vmbr3s	Ggvste	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	9	acl	nedoločenost	Ncfsg	Sozer	NOUN	Case=Gen Gender=Fem Number=Sing	6
 <g/>
-,	,-u	Z	U	PUNCT	_	35	punct	praviti	Vmbr3s	Ggvste	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	37
-ki	ki-v	Cs	Vd	SCONJ	_	36	mark	praviti	Vmbr3s	Ggvste	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	37
-pravi	praviti-g	Vmbr3s	Ggvste	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	37	acl	nedoločenost	Ncfsg	Sozer	NOUN	Case=Gen Gender=Fem Number=Sing	34
+,	,-u	Z	U	PUNCT	_	10	punct	določljiv	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	17
+da	da-v	Cs	Vd	SCONJ	_	11	mark	določljiv	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	17
+v	v-d	Sl	Dm	ADP	Case=Loc	12	case	pojav	Ncmpl	Sommm	NOUN	Case=Loc Gender=Masc Number=Plur	14
+mikrofizikalnih	mikrofizikalen-p	Agpmpl	Ppnmmm	ADJ	Case=Loc Degree=Pos Gender=Masc Number=Plur	13	amod	pojav	Ncmpl	Sommm	NOUN	Case=Loc Gender=Masc Number=Plur	14
+pojavih	pojav-s	Ncmpl	Sommm	NOUN	Case=Loc Gender=Masc Number=Plur	14	obl	določljiv	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	17
+niso	biti-g	Va-r3p-y	Gp-stm-d	AUX	Mood=Ind Number=Plur Person=3 Polarity=Neg Tense=Pres VerbForm=Fin	15	cop	določljiv	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	17
+hkrati	hkrati-r	Rgp	Rsn	ADV	Degree=Pos	16	advmod	določljiv	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	17
+določljive	določljiv-p	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	17	ccomp	praviti	Vmbr3s	Ggvste	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	9
+vse	ves-z	Pg-fpn	Zc-zmi	DET	Case=Nom Gender=Fem Number=Plur PronType=Tot	18	det	količina	Ncfpn	Sozmi	NOUN	Case=Nom Gender=Fem Number=Plur	19
+količine	količina-s	Ncfpn	Sozmi	NOUN	Case=Nom Gender=Fem Number=Plur	19	nsubj	določljiv	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	17
 <g/>
-,	,-u	Z	U	PUNCT	_	38	punct	določljiv	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	45
-da	da-v	Cs	Vd	SCONJ	_	39	mark	določljiv	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	45
-v	v-d	Sl	Dm	ADP	Case=Loc	40	case	pojav	Ncmpl	Sommm	NOUN	Case=Loc Gender=Masc Number=Plur	42
-mikrofizikalnih	mikrofizikalen-p	Agpmpl	Ppnmmm	ADJ	Case=Loc Degree=Pos Gender=Masc Number=Plur	41	amod	pojav	Ncmpl	Sommm	NOUN	Case=Loc Gender=Masc Number=Plur	42
-pojavih	pojav-s	Ncmpl	Sommm	NOUN	Case=Loc Gender=Masc Number=Plur	42	obl	določljiv	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	45
-niso	biti-g	Va-r3p-y	Gp-stm-d	AUX	Mood=Ind Number=Plur Person=3 Polarity=Neg Tense=Pres VerbForm=Fin	43	cop	določljiv	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	45
-hkrati	hkrati-r	Rgp	Rsn	ADV	Degree=Pos	44	advmod	določljiv	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	45
-določljive	določljiv-p	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	45	ccomp	praviti	Vmbr3s	Ggvste	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	37
-vse	ves-z	Pg-fpn	Zc-zmi	DET	Case=Nom Gender=Fem Number=Plur PronType=Tot	46	det	količina	Ncfpn	Sozmi	NOUN	Case=Nom Gender=Fem Number=Plur	47
-količine	količina-s	Ncfpn	Sozmi	NOUN	Case=Nom Gender=Fem Number=Plur	47	nsubj	določljiv	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	45
+,	,-u	Z	U	PUNCT	_	20	punct	kraj	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	22
+npr.	npr.-o	Y	O	X	Abbr=Yes	21	cc	kraj	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	22
+kraj	kraj-s	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	22	appos	količina	Ncfpn	Sozmi	NOUN	Case=Nom Gender=Fem Number=Plur	19
+in	in-v	Cc	Vp	CCONJ	_	23	cc	količina	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	25
+gibalna	gibalen-p	Agpfsn	Ppnzei	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	24	amod	količina	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	25
+količina	količina-s	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	25	conj	kraj	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	22
+(	(-u	Z	U	PUNCT	_	26	punct	hitrost	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	28
 <g/>
-,	,-u	Z	U	PUNCT	_	48	punct	kraj	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	50
-npr.	npr.-o	Y	O	X	Abbr=Yes	49	cc	kraj	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	50
-kraj	kraj-s	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	50	appos	količina	Ncfpn	Sozmi	NOUN	Case=Nom Gender=Fem Number=Plur	47
-in	in-v	Cc	Vp	CCONJ	_	51	cc	količina	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	53
-gibalna	gibalen-p	Agpfsn	Ppnzei	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	52	amod	količina	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	53
-količina	količina-s	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	53	conj	kraj	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	50
-(	(-u	Z	U	PUNCT	_	54	punct	hitrost	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	56
+oz.	oz.-o	Y	O	X	Abbr=Yes	27	cc	hitrost	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	28
+hitrost	hitrost-s	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	28	conj	kraj	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	22
 <g/>
-oz.	oz.-o	Y	O	X	Abbr=Yes	55	cc	hitrost	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	56
-hitrost	hitrost-s	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	56	conj	kraj	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	50
+)	)-u	Z	U	PUNCT	_	29	punct	hitrost	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	28
+elektrona	elektron-s	Ncmsg	Somer	NOUN	Case=Gen Gender=Masc Number=Sing	30	nmod	količina	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	25
 <g/>
-)	)-u	Z	U	PUNCT	_	57	punct	hitrost	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	56
-elektrona	elektron-s	Ncmsg	Somer	NOUN	Case=Gen Gender=Masc Number=Sing	58	nmod	kraj	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	50
+,	,-u	Z	U	PUNCT	_	31	punct	potreben	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	35
+ki	ki-v	Cs	Vd	SCONJ	_	32	mark	potreben	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	35
+bi	biti-g	Va-c	Gp-g	AUX	Mood=Cnd VerbForm=Fin	33	aux	potreben	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	35
+bili	biti-g	Va-p-pm	Gp-d-mm	AUX	Gender=Masc Number=Plur VerbForm=Part	34	cop	potreben	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	35
+potrebne	potreben-p	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	35	acl	elektron	Ncmsg	Somer	NOUN	Case=Gen Gender=Masc Number=Sing	30
+za	za-d	Sa	Dt	ADP	Case=Acc	36	case	napoved	Ncfsa	Sozet	NOUN	Case=Acc Gender=Fem Number=Sing	37
+napoved	napoved-s	Ncfsa	Sozet	NOUN	Case=Acc Gender=Fem Number=Sing	37	obl	potreben	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	35
+pojava	pojav-s	Ncmsg	Somer	NOUN	Case=Gen Gender=Masc Number=Sing	38	nmod	napoved	Ncfsa	Sozet	NOUN	Case=Acc Gender=Fem Number=Sing	37
+in	in-v	Cc	Vp	CCONJ	_	39	cc	razvoj	Ncmsg	Somer	NOUN	Case=Gen Gender=Masc Number=Sing	42
+njegovega	njegov-z	Ps3msgsm	Zstmerem	DET	Case=Gen Gender=Masc Gender[psor]=Masc Number=Sing Number[psor]=Sing Person=3 Poss=Yes PronType=Prs	40	det	razvoj	Ncmsg	Somer	NOUN	Case=Gen Gender=Masc Number=Sing	42
+vnaprejšnjega	vnaprejšnji-p	Agpmsg	Ppnmer	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Sing	41	amod	razvoj	Ncmsg	Somer	NOUN	Case=Gen Gender=Masc Number=Sing	42
+razvoja	razvoj-s	Ncmsg	Somer	NOUN	Case=Gen Gender=Masc Number=Sing	42	conj	pojav	Ncmsg	Somer	NOUN	Case=Gen Gender=Masc Number=Sing	38
+(	(-u	Z	U	PUNCT	_	43	punct	potovanje	Ncnsg	Soser	NOUN	Case=Gen Gender=Neut Number=Sing	45
 <g/>
-,	,-u	Z	U	PUNCT	_	59	punct	potreben	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	63
-ki	ki-v	Cs	Vd	SCONJ	_	60	mark	potreben	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	63
-bi	biti-g	Va-c	Gp-g	AUX	Mood=Cnd VerbForm=Fin	61	aux	potreben	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	63
-bili	biti-g	Va-p-pm	Gp-d-mm	AUX	Gender=Masc Number=Plur VerbForm=Part	62	cop	potreben	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	63
-potrebne	potreben-p	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	63	acl	elektron	Ncmsg	Somer	NOUN	Case=Gen Gender=Masc Number=Sing	58
-za	za-d	Sa	Dt	ADP	Case=Acc	64	case	napoved	Ncfsa	Sozet	NOUN	Case=Acc Gender=Fem Number=Sing	65
-napoved	napoved-s	Ncfsa	Sozet	NOUN	Case=Acc Gender=Fem Number=Sing	65	obl	potreben	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	63
-pojava	pojav-s	Ncmsg	Somer	NOUN	Case=Gen Gender=Masc Number=Sing	66	nmod	napoved	Ncfsa	Sozet	NOUN	Case=Acc Gender=Fem Number=Sing	65
-in	in-v	Cc	Vp	CCONJ	_	67	cc	razvoj	Ncmsg	Somer	NOUN	Case=Gen Gender=Masc Number=Sing	70
-njegovega	njegov-z	Ps3msgsm	Zstmerem	DET	Case=Gen Gender=Masc Gender[psor]=Masc Number=Sing Number[psor]=Sing Person=3 Poss=Yes PronType=Prs	68	det	razvoj	Ncmsg	Somer	NOUN	Case=Gen Gender=Masc Number=Sing	70
-vnaprejšnjega	vnaprejšnji-p	Agpmsg	Ppnmer	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Sing	69	amod	razvoj	Ncmsg	Somer	NOUN	Case=Gen Gender=Masc Number=Sing	70
-razvoja	razvoj-s	Ncmsg	Somer	NOUN	Case=Gen Gender=Masc Number=Sing	70	conj	pojav	Ncmsg	Somer	NOUN	Case=Gen Gender=Masc Number=Sing	66
-(	(-u	Z	U	PUNCT	_	71	punct	potovanje	Ncnsg	Soser	NOUN	Case=Gen Gender=Neut Number=Sing	73
+npr.	npr.-o	Y	O	X	Abbr=Yes	44	cc	potovanje	Ncnsg	Soser	NOUN	Case=Gen Gender=Neut Number=Sing	45
+potovanja	potovanje-s	Ncnsg	Soser	NOUN	Case=Gen Gender=Neut Number=Sing	45	appos	razvoj	Ncmsg	Somer	NOUN	Case=Gen Gender=Masc Number=Sing	42
+elektrona	elektron-s	Ncmsg	Somer	NOUN	Case=Gen Gender=Masc Number=Sing	46	nmod	potovanje	Ncnsg	Soser	NOUN	Case=Gen Gender=Neut Number=Sing	45
+po	po-d	Sl	Dm	ADP	Case=Loc	47	case	tirnica	Ncfsl	Sozem	NOUN	Case=Loc Gender=Fem Number=Sing	50
+njegovi	njegov-z	Ps3fslsm	Zstzemem	DET	Case=Loc Gender=Fem Gender[psor]=Masc Number=Sing Number[psor]=Sing Person=3 Poss=Yes PronType=Prs	48	det	tirnica	Ncfsl	Sozem	NOUN	Case=Loc Gender=Fem Number=Sing	50
+»	»-u	Z	U	PUNCT	_	49	punct	tirnica	Ncfsl	Sozem	NOUN	Case=Loc Gender=Fem Number=Sing	50
 <g/>
-npr.	npr.-o	Y	O	X	Abbr=Yes	72	cc	potovanje	Ncnsg	Soser	NOUN	Case=Gen Gender=Neut Number=Sing	73
-potovanja	potovanje-s	Ncnsg	Soser	NOUN	Case=Gen Gender=Neut Number=Sing	73	appos	razvoj	Ncmsg	Somer	NOUN	Case=Gen Gender=Masc Number=Sing	70
-elektrona	elektron-s	Ncmsg	Somer	NOUN	Case=Gen Gender=Masc Number=Sing	74	nmod	potovanje	Ncnsg	Soser	NOUN	Case=Gen Gender=Neut Number=Sing	73
-po	po-d	Sl	Dm	ADP	Case=Loc	75	case	tirnica	Ncfsl	Sozem	NOUN	Case=Loc Gender=Fem Number=Sing	78
-njegovi	njegov-z	Ps3fslsm	Zstzemem	DET	Case=Loc Gender=Fem Gender[psor]=Masc Number=Sing Number[psor]=Sing Person=3 Poss=Yes PronType=Prs	76	det	tirnica	Ncfsl	Sozem	NOUN	Case=Loc Gender=Fem Number=Sing	78
-»	»-u	Z	U	PUNCT	_	77	punct	tirnica	Ncfsl	Sozem	NOUN	Case=Loc Gender=Fem Number=Sing	78
+tirnici	tirnica-s	Ncfsl	Sozem	NOUN	Case=Loc Gender=Fem Number=Sing	50	nmod	potovanje	Ncnsg	Soser	NOUN	Case=Gen Gender=Neut Number=Sing	45
 <g/>
-tirnici	tirnica-s	Ncfsl	Sozem	NOUN	Case=Loc Gender=Fem Number=Sing	78	nmod	potovanje	Ncnsg	Soser	NOUN	Case=Gen Gender=Neut Number=Sing	73
+«	«-u	Z	U	PUNCT	_	51	punct	tirnica	Ncfsl	Sozem	NOUN	Case=Loc Gender=Fem Number=Sing	50
 <g/>
-«	«-u	Z	U	PUNCT	_	79	punct	tirnica	Ncfsl	Sozem	NOUN	Case=Loc Gender=Fem Number=Sing	78
+)	)-u	Z	U	PUNCT	_	52	punct	potovanje	Ncnsg	Soser	NOUN	Case=Gen Gender=Neut Number=Sing	45
 <g/>
-)	)-u	Z	U	PUNCT	_	80	punct	potovanje	Ncnsg	Soser	NOUN	Case=Gen Gender=Neut Number=Sing	73
-<g/>
-.	.-u	Z	U	PUNCT	_	81	punct	veljati	Vmpr3s	Ggnste	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	32
+.	.-u	Z	U	PUNCT	_	53	punct	veljati	Vmpr3s	Ggnste	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
 </s>
 <s>
 Opis	opis-s	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	1	nsubj	temeljiti	Vmpr3p	Ggnstm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	6
@@ -2473,25 +2474,26 @@ povezati	povezati-g	Vmen	Ggdn	VERB	Aspect=Perf VerbForm=Inf	17	csubj	biti	Va-r3s
 med	med-d	Si	Do	ADP	Case=Ins	18	case	se	Px---i	Zp---o	PRON	Case=Ins PronType=Prs Reflex=Yes	19
 seboj	se-z	Px---i	Zp---o	PRON	Case=Ins PronType=Prs Reflex=Yes	19	obl	povezati	Vmen	Ggdn	VERB	Aspect=Perf VerbForm=Inf	17
 <g/>
-.	.-u	Z	U	PUNCT	_	20	punct	obravnavati	Vmpr3p	Ggnstm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	28
+.	.-u	Z	U	PUNCT	_	20	punct	biti	Va-r3s-y	Gp-ste-d	VERB	Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin	14
+</s>
+<s>
+V	v-d	Sl	Dm	ADP	Case=Loc	1	case	čas	Ncmsl	Somem	NOUN	Case=Loc Gender=Masc Number=Sing	3
+zadnjem	zadnji-p	Agpmsl	Ppnmem	ADJ	Case=Loc Degree=Pos Gender=Masc Number=Sing	2	amod	čas	Ncmsl	Somem	NOUN	Case=Loc Gender=Masc Number=Sing	3
+času	čas-s	Ncmsl	Somem	NOUN	Case=Loc Gender=Masc Number=Sing	3	obl	obravnavati	Vmpr3p	Ggnstm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	8
+večino	večina-s	Ncfsa	Sozet	NOUN	Case=Acc Gender=Fem Number=Sing	4	obj	obravnavati	Vmpr3p	Ggnstm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	8
+makroskopskih	makroskopski-p	Agpmpg	Ppnmmr	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	5	amod	sistem	Ncmpg	Sommr	NOUN	Case=Gen Gender=Masc Number=Plur	7
+dinamičnih	dinamičen-p	Agpmpg	Ppnmmr	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	6	amod	sistem	Ncmpg	Sommr	NOUN	Case=Gen Gender=Masc Number=Plur	7
+sistemov	sistem-s	Ncmpg	Sommr	NOUN	Case=Gen Gender=Masc Number=Plur	7	nmod	večina	Ncfsa	Sozet	NOUN	Case=Acc Gender=Fem Number=Sing	4
+obravnavajo	obravnavati-g	Vmpr3p	Ggnstm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	8	root	_	_	_	_	_	0
+kot	kot-v	Cs	Vd	SCONJ	_	9	case	kaotičen	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	10
+kaotične	kaotičen-p	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	10	obl	obravnavati	Vmpr3p	Ggnstm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	8
+(	(-u	Z	U	PUNCT	_	11	punct	kaos	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	12
 <g/>
-V	v-d	Sl	Dm	ADP	Case=Loc	21	case	čas	Ncmsl	Somem	NOUN	Case=Loc Gender=Masc Number=Sing	23
-zadnjem	zadnji-p	Agpmsl	Ppnmem	ADJ	Case=Loc Degree=Pos Gender=Masc Number=Sing	22	amod	čas	Ncmsl	Somem	NOUN	Case=Loc Gender=Masc Number=Sing	23
-času	čas-s	Ncmsl	Somem	NOUN	Case=Loc Gender=Masc Number=Sing	23	obl	obravnavati	Vmpr3p	Ggnstm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	28
-večino	večina-s	Ncfsa	Sozet	NOUN	Case=Acc Gender=Fem Number=Sing	24	obj	obravnavati	Vmpr3p	Ggnstm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	28
-makroskopskih	makroskopski-p	Agpmpg	Ppnmmr	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	25	amod	sistem	Ncmpg	Sommr	NOUN	Case=Gen Gender=Masc Number=Plur	27
-dinamičnih	dinamičen-p	Agpmpg	Ppnmmr	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	26	amod	sistem	Ncmpg	Sommr	NOUN	Case=Gen Gender=Masc Number=Plur	27
-sistemov	sistem-s	Ncmpg	Sommr	NOUN	Case=Gen Gender=Masc Number=Plur	27	nmod	večina	Ncfsa	Sozet	NOUN	Case=Acc Gender=Fem Number=Sing	24
-obravnavajo	obravnavati-g	Vmpr3p	Ggnstm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	28	parataxis	biti	Va-r3s-y	Gp-ste-d	VERB	Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin	14
-kot	kot-v	Cs	Vd	SCONJ	_	29	case	kaotičen	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	30
-kaotične	kaotičen-p	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	30	obl	obravnavati	Vmpr3p	Ggnstm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	28
-(	(-u	Z	U	PUNCT	_	31	punct	kaos	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	32
+kaos	kaos-s	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	12	appos	kaotičen	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	10
 <g/>
-kaos	kaos-s	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	32	appos	kaotičen	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	30
+)	)-u	Z	U	PUNCT	_	13	punct	kaos	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	12
 <g/>
-)	)-u	Z	U	PUNCT	_	33	punct	kaos	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	32
-<g/>
-.	.-u	Z	U	PUNCT	_	34	punct	biti	Va-r3s-y	Gp-ste-d	VERB	Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin	14
+.	.-u	Z	U	PUNCT	_	14	punct	obravnavati	Vmpr3p	Ggnstm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	8
 </s>
 <s>
 To	ta-z	Pd-nsn	Zk-sei	DET	Case=Nom Gender=Neut Number=Sing PronType=Dem	1	nsubj	pomeniti	Vmbr3s	Ggvste	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
@@ -6077,95 +6079,96 @@ od	od-d	Sg	Dr	ADP	Case=Gen	57	case	1923	Mdc	Kag	NUM	NumForm=Digit NumType=Card	5
 <g/>
 24	24-k	Mdc	Kag	NUM	NumForm=Digit NumType=Card	60	conj	1923	Mdc	Kag	NUM	NumForm=Digit NumType=Card	58
 <g/>
-.	.-u	Z	U	PUNCT	_	61	punct	glasba	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	70
+.	.-u	Z	U	PUNCT	_	61	punct	odkriti	Vmep-pm	Ggdd-mm	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	25
+</s>
+<s>
+Naslednja	naslednji-p	Agpfsn	Ppnzei	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	1	amod	stopnja	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	2
+stopnja	stopnja-s	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	2	nsubj	glasba	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	9
+v	v-d	Sl	Dm	ADP	Case=Loc	3	case	razvoj	Ncmsl	Somem	NOUN	Case=Loc Gender=Masc Number=Sing	4
+razvoju	razvoj-s	Ncmsl	Somem	NOUN	Case=Loc Gender=Masc Number=Sing	4	nmod	stopnja	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	2
+dvanajsttonske	dvanajsttonski-p	Agpfsg	Ppnzer	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Sing	5	amod	tehnika	Ncfsg	Sozer	NOUN	Case=Gen Gender=Fem Number=Sing	6
+tehnike	tehnika-s	Ncfsg	Sozer	NOUN	Case=Gen Gender=Fem Number=Sing	6	nmod	razvoj	Ncmsl	Somem	NOUN	Case=Loc Gender=Masc Number=Sing	4
+je	biti-g	Va-r3s-n	Gp-ste-n	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	7	cop	glasba	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	9
+serialna	serialen-p	Agpfsn	Ppnzei	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	8	amod	glasba	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	9
+glasba	glasba-s	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	9	root	_	_	_	_	_	0
 <g/>
-Naslednja	naslednji-p	Agpfsn	Ppnzei	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	62	amod	stopnja	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	63
-stopnja	stopnja-s	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	63	nsubj	glasba	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	70
-v	v-d	Sl	Dm	ADP	Case=Loc	64	case	razvoj	Ncmsl	Somem	NOUN	Case=Loc Gender=Masc Number=Sing	65
-razvoju	razvoj-s	Ncmsl	Somem	NOUN	Case=Loc Gender=Masc Number=Sing	65	nmod	stopnja	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	63
-dvanajsttonske	dvanajsttonski-p	Agpfsg	Ppnzer	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Sing	66	amod	tehnika	Ncfsg	Sozer	NOUN	Case=Gen Gender=Fem Number=Sing	67
-tehnike	tehnika-s	Ncfsg	Sozer	NOUN	Case=Gen Gender=Fem Number=Sing	67	nmod	razvoj	Ncmsl	Somem	NOUN	Case=Loc Gender=Masc Number=Sing	65
-je	biti-g	Va-r3s-n	Gp-ste-n	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	68	cop	glasba	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	70
-serialna	serialen-p	Agpfsn	Ppnzei	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	69	amod	glasba	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	70
-glasba	glasba-s	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	70	parataxis	veljati	Vmpr3s	Ggnste	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	49
-<g/>
-;	;-u	Z	U	PUNCT	_	71	punct	skladatelj	Ncmpn	Sommi	NOUN	Case=Nom Gender=Masc Number=Plur	75
-poleg	poleg-d	Sg	Dr	ADP	Case=Gen	72	case	Schönberg	Npmsg	Slmer	PROPN	Case=Gen Gender=Masc Number=Sing	73
-Schönberga	Schönberg-s	Npmsg	Slmer	PROPN	Case=Gen Gender=Masc Number=Sing	73	obl	skladatelj	Ncmpn	Sommi	NOUN	Case=Nom Gender=Masc Number=Plur	75
-so	biti-g	Va-r3p-n	Gp-stm-n	AUX	Mood=Ind Number=Plur Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	74	cop	skladatelj	Ncmpn	Sommi	NOUN	Case=Nom Gender=Masc Number=Plur	75
-skladatelji	skladatelj-s	Ncmpn	Sommi	NOUN	Case=Nom Gender=Masc Number=Plur	75	parataxis	glasba	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	70
-serialne	serialen-p	Agpfsg	Ppnzer	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Sing	76	amod	glasba	Ncfsg	Sozer	NOUN	Case=Gen Gender=Fem Number=Sing	77
-glasbe	glasba-s	Ncfsg	Sozer	NOUN	Case=Gen Gender=Fem Number=Sing	77	nmod	skladatelj	Ncmpn	Sommi	NOUN	Case=Nom Gender=Masc Number=Plur	75
+;	;-u	Z	U	PUNCT	_	10	punct	skladatelj	Ncmpn	Sommi	NOUN	Case=Nom Gender=Masc Number=Plur	14
+poleg	poleg-d	Sg	Dr	ADP	Case=Gen	11	case	Schönberg	Npmsg	Slmer	PROPN	Case=Gen Gender=Masc Number=Sing	12
+Schönberga	Schönberg-s	Npmsg	Slmer	PROPN	Case=Gen Gender=Masc Number=Sing	12	obl	skladatelj	Ncmpn	Sommi	NOUN	Case=Nom Gender=Masc Number=Plur	14
+so	biti-g	Va-r3p-n	Gp-stm-n	AUX	Mood=Ind Number=Plur Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	13	cop	skladatelj	Ncmpn	Sommi	NOUN	Case=Nom Gender=Masc Number=Plur	14
+skladatelji	skladatelj-s	Ncmpn	Sommi	NOUN	Case=Nom Gender=Masc Number=Plur	14	parataxis	glasba	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	9
+serialne	serialen-p	Agpfsg	Ppnzer	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Sing	15	amod	glasba	Ncfsg	Sozer	NOUN	Case=Gen Gender=Fem Number=Sing	16
+glasbe	glasba-s	Ncfsg	Sozer	NOUN	Case=Gen Gender=Fem Number=Sing	16	nmod	skladatelj	Ncmpn	Sommi	NOUN	Case=Nom Gender=Masc Number=Plur	14
 <name type="PER">
-A.	a.-o	Y	O	X	Abbr=Yes	78	nmod	glasba	Ncfsg	Sozer	NOUN	Case=Gen Gender=Fem Number=Sing	77
-Berg	Berg-s	Npmsn	Slmei	PROPN	Case=Nom Gender=Masc Number=Sing	79	flat:name	a.	Y	O	X	Abbr=Yes	78
+A.	a.-o	Y	O	X	Abbr=Yes	17	nmod	glasba	Ncfsg	Sozer	NOUN	Case=Gen Gender=Fem Number=Sing	16
+Berg	Berg-s	Npmsn	Slmei	PROPN	Case=Nom Gender=Masc Number=Sing	18	flat:name	a.	Y	O	X	Abbr=Yes	17
 <g/>
 </name>
-,	,-u	Z	U	PUNCT	_	80	punct	l.	Y	O	X	Abbr=Yes	81
+,	,-u	Z	U	PUNCT	_	19	punct	l.	Y	O	X	Abbr=Yes	20
 <name type="PER">
-L.	l.-o	Y	O	X	Abbr=Yes	81	conj	a.	Y	O	X	Abbr=Yes	78
-Dallapiccola	Dallapiccola-s	Npmsn	Slmei	PROPN	Case=Nom Gender=Masc Number=Sing	82	flat:name	l.	Y	O	X	Abbr=Yes	81
+L.	l.-o	Y	O	X	Abbr=Yes	20	conj	a.	Y	O	X	Abbr=Yes	17
+Dallapiccola	Dallapiccola-s	Npmsn	Slmei	PROPN	Case=Nom Gender=Masc Number=Sing	21	flat:name	l.	Y	O	X	Abbr=Yes	20
 <g/>
 </name>
-,	,-u	Z	U	PUNCT	_	83	punct	H.	Y	O	X	Abbr=Yes	84
+,	,-u	Z	U	PUNCT	_	22	punct	H.	Y	O	X	Abbr=Yes	23
 <name type="PER">
-H.	H.-o	Y	O	X	Abbr=Yes	84	conj	a.	Y	O	X	Abbr=Yes	78
-Eimert	Eimert-s	Npmsn	Slmei	PROPN	Case=Nom Gender=Masc Number=Sing	85	flat:name	H.	Y	O	X	Abbr=Yes	84
+H.	H.-o	Y	O	X	Abbr=Yes	23	conj	a.	Y	O	X	Abbr=Yes	17
+Eimert	Eimert-s	Npmsn	Slmei	PROPN	Case=Nom Gender=Masc Number=Sing	24	flat:name	H.	Y	O	X	Abbr=Yes	23
 <g/>
 </name>
-,	,-u	Z	U	PUNCT	_	86	punct	H.	Y	O	X	Abbr=Yes	87
+,	,-u	Z	U	PUNCT	_	25	punct	H.	Y	O	X	Abbr=Yes	26
 <name type="PER">
-H.	H.-o	Y	O	X	Abbr=Yes	87	conj	a.	Y	O	X	Abbr=Yes	78
-Eisler	Eisler-s	Npmsn	Slmei	PROPN	Case=Nom Gender=Masc Number=Sing	88	flat:name	H.	Y	O	X	Abbr=Yes	87
+H.	H.-o	Y	O	X	Abbr=Yes	26	conj	a.	Y	O	X	Abbr=Yes	17
+Eisler	Eisler-s	Npmsn	Slmei	PROPN	Case=Nom Gender=Masc Number=Sing	27	flat:name	H.	Y	O	X	Abbr=Yes	26
 <g/>
 </name>
-,	,-u	Z	U	PUNCT	_	89	punct	W.	Y	O	X	Abbr=Yes	90
+,	,-u	Z	U	PUNCT	_	28	punct	W.	Y	O	X	Abbr=Yes	29
 <name type="PER">
-W.	W.-o	Y	O	X	Abbr=Yes	90	conj	a.	Y	O	X	Abbr=Yes	78
-Fortner	Fortner-s	Npmsn	Slmei	PROPN	Case=Nom Gender=Masc Number=Sing	91	flat:name	W.	Y	O	X	Abbr=Yes	90
+W.	W.-o	Y	O	X	Abbr=Yes	29	conj	a.	Y	O	X	Abbr=Yes	17
+Fortner	Fortner-s	Npmsn	Slmei	PROPN	Case=Nom Gender=Masc Number=Sing	30	flat:name	W.	Y	O	X	Abbr=Yes	29
 <g/>
-,	,-u	Z	U	PUNCT	_	92	punct	k.	Y	O	X	Abbr=Yes	93
-K.	k.-o	Y	O	X	Abbr=Yes	93	conj	a.	Y	O	X	Abbr=Yes	78
-A.	a.-o	Y	O	X	Abbr=Yes	94	flat:name	k.	Y	O	X	Abbr=Yes	93
-Hartmann	Hartmann-s	Npmsn	Slmei	PROPN	Case=Nom Gender=Masc Number=Sing	95	flat:name	k.	Y	O	X	Abbr=Yes	93
+,	,-u	Z	U	PUNCT	_	31	punct	k.	Y	O	X	Abbr=Yes	32
+K.	k.-o	Y	O	X	Abbr=Yes	32	conj	a.	Y	O	X	Abbr=Yes	17
+A.	a.-o	Y	O	X	Abbr=Yes	33	flat:name	k.	Y	O	X	Abbr=Yes	32
+Hartmann	Hartmann-s	Npmsn	Slmei	PROPN	Case=Nom Gender=Masc Number=Sing	34	flat:name	k.	Y	O	X	Abbr=Yes	32
 <g/>
-,	,-u	Z	U	PUNCT	_	96	punct	H.	Y	O	X	Abbr=Yes	97
-H.	H.-o	Y	O	X	Abbr=Yes	97	conj	a.	Y	O	X	Abbr=Yes	78
-W.	W.-o	Y	O	X	Abbr=Yes	98	flat:name	H.	Y	O	X	Abbr=Yes	97
-Henze	Henze-s	Npmsn	Slmei	PROPN	Case=Nom Gender=Masc Number=Sing	99	flat:name	H.	Y	O	X	Abbr=Yes	97
+,	,-u	Z	U	PUNCT	_	35	punct	H.	Y	O	X	Abbr=Yes	36
+H.	H.-o	Y	O	X	Abbr=Yes	36	conj	a.	Y	O	X	Abbr=Yes	17
+W.	W.-o	Y	O	X	Abbr=Yes	37	flat:name	H.	Y	O	X	Abbr=Yes	36
+Henze	Henze-s	Npmsn	Slmei	PROPN	Case=Nom Gender=Masc Number=Sing	38	flat:name	H.	Y	O	X	Abbr=Yes	36
 <g/>
 </name>
-,	,-u	Z	U	PUNCT	_	100	punct	E.	Y	O	X	Abbr=Yes	101
+,	,-u	Z	U	PUNCT	_	39	punct	E.	Y	O	X	Abbr=Yes	40
 <name type="PER">
-E.	E.-o	Y	O	X	Abbr=Yes	101	conj	a.	Y	O	X	Abbr=Yes	78
-Křenek	křenek-s	Npmsn	Slmei	PROPN	Case=Nom Gender=Masc Number=Sing	102	flat:name	E.	Y	O	X	Abbr=Yes	101
+E.	E.-o	Y	O	X	Abbr=Yes	40	conj	a.	Y	O	X	Abbr=Yes	17
+Křenek	křenek-s	Npmsn	Slmei	PROPN	Case=Nom Gender=Masc Number=Sing	41	flat:name	E.	Y	O	X	Abbr=Yes	40
 <g/>
 </name>
-,	,-u	Z	U	PUNCT	_	103	punct	René	Npmsn	Slmei	PROPN	Case=Nom Gender=Masc Number=Sing	104
+,	,-u	Z	U	PUNCT	_	42	punct	René	Npmsn	Slmei	PROPN	Case=Nom Gender=Masc Number=Sing	43
 <name type="PER">
-René	René-s	Npmsn	Slmei	PROPN	Case=Nom Gender=Masc Number=Sing	104	conj	a.	Y	O	X	Abbr=Yes	78
-Leibowitz	Leibowitz-s	Npmsn	Slmei	PROPN	Case=Nom Gender=Masc Number=Sing	105	flat:name	René	Npmsn	Slmei	PROPN	Case=Nom Gender=Masc Number=Sing	104
+René	René-s	Npmsn	Slmei	PROPN	Case=Nom Gender=Masc Number=Sing	43	conj	a.	Y	O	X	Abbr=Yes	17
+Leibowitz	Leibowitz-s	Npmsn	Slmei	PROPN	Case=Nom Gender=Masc Number=Sing	44	flat:name	René	Npmsn	Slmei	PROPN	Case=Nom Gender=Masc Number=Sing	43
 </name>
-(	(-u	Z	U	PUNCT	_	106	punct	1913	Mdc	Kag	NUM	NumForm=Digit NumType=Card	107
+(	(-u	Z	U	PUNCT	_	45	punct	1913	Mdc	Kag	NUM	NumForm=Digit NumType=Card	46
 <g/>
-1913	1913-k	Mdc	Kag	NUM	NumForm=Digit NumType=Card	107	nummod	René	Npmsn	Slmei	PROPN	Case=Nom Gender=Masc Number=Sing	104
-–	–-u	Z	U	PUNCT	_	108	punct	1972	Mdc	Kag	NUM	NumForm=Digit NumType=Card	109
-1972	1972-k	Mdc	Kag	NUM	NumForm=Digit NumType=Card	109	conj	1913	Mdc	Kag	NUM	NumForm=Digit NumType=Card	107
+1913	1913-k	Mdc	Kag	NUM	NumForm=Digit NumType=Card	46	nummod	René	Npmsn	Slmei	PROPN	Case=Nom Gender=Masc Number=Sing	43
+–	–-u	Z	U	PUNCT	_	47	punct	1972	Mdc	Kag	NUM	NumForm=Digit NumType=Card	48
+1972	1972-k	Mdc	Kag	NUM	NumForm=Digit NumType=Card	48	conj	1913	Mdc	Kag	NUM	NumForm=Digit NumType=Card	46
 <g/>
-)	)-u	Z	U	PUNCT	_	110	punct	1913	Mdc	Kag	NUM	NumForm=Digit NumType=Card	107
+)	)-u	Z	U	PUNCT	_	49	punct	1913	Mdc	Kag	NUM	NumForm=Digit NumType=Card	46
 <g/>
-,	,-u	Z	U	PUNCT	_	111	punct	i.	Y	O	X	Abbr=Yes	112
+,	,-u	Z	U	PUNCT	_	50	punct	i.	Y	O	X	Abbr=Yes	51
 <name type="PER">
-I.	i.-o	Y	O	X	Abbr=Yes	112	conj	a.	Y	O	X	Abbr=Yes	78
-Stravinski	Stravinski-s	Npmsn	Slmei	PROPN	Case=Nom Gender=Masc Number=Sing	113	flat:name	i.	Y	O	X	Abbr=Yes	112
+I.	i.-o	Y	O	X	Abbr=Yes	51	conj	a.	Y	O	X	Abbr=Yes	17
+Stravinski	Stravinski-s	Npmsn	Slmei	PROPN	Case=Nom Gender=Masc Number=Sing	52	flat:name	i.	Y	O	X	Abbr=Yes	51
 <g/>
 </name>
-,	,-u	Z	U	PUNCT	_	114	punct	a.	Y	O	X	Abbr=Yes	115
+,	,-u	Z	U	PUNCT	_	53	punct	a.	Y	O	X	Abbr=Yes	54
 <name type="PER">
-A.	a.-o	Y	O	X	Abbr=Yes	115	conj	a.	Y	O	X	Abbr=Yes	78
-Webern	Webern-s	Npmsn	Slmei	PROPN	Case=Nom Gender=Masc Number=Sing	116	flat:name	a.	Y	O	X	Abbr=Yes	115
+A.	a.-o	Y	O	X	Abbr=Yes	54	conj	a.	Y	O	X	Abbr=Yes	17
+Webern	Webern-s	Npmsn	Slmei	PROPN	Case=Nom Gender=Masc Number=Sing	55	flat:name	a.	Y	O	X	Abbr=Yes	54
 </name>
-idr.	idr.-o	Y	O	X	Abbr=Yes	117	cc	a.	Y	O	X	Abbr=Yes	115
+idr.	idr.-o	Y	O	X	Abbr=Yes	56	conj	i.	Y	O	X	Abbr=Yes	51
 </s>
 </p>
 </text>
@@ -7076,23 +7079,24 @@ zavzamejo	zavzeti-g	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3
 obliko	oblika-s	Ncfsa	Sozet	NOUN	Case=Acc Gender=Fem Number=Sing	16	obj	zavzeti	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	15
 krogle	krogla-s	Ncfsg	Sozer	NOUN	Case=Gen Gender=Fem Number=Sing	17	nmod	oblika	Ncfsa	Sozet	NOUN	Case=Acc Gender=Fem Number=Sing	16
 <g/>
-.	.-u	Z	U	PUNCT	_	18	punct	raztapljati	Vmpr3p	Ggnstm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	21
+.	.-u	Z	U	PUNCT	_	18	punct	povzročiti	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	3
+</s>
+<s>
+Kapljevine	kapljevina-s	Ncfpn	Sozmi	NOUN	Case=Nom Gender=Fem Number=Plur	1	nsubj	raztapljati	Vmpr3p	Ggnstm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	3
+lahko	lahko-r	Rgp	Rsn	ADV	Degree=Pos	2	advmod	raztapljati	Vmpr3p	Ggnstm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	3
+raztapljajo	raztapljati-g	Vmpr3p	Ggnstm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	3	root	_	_	_	_	_	0
+druge	drug-k	Mlpfpa	Kbzzmt	ADJ	Case=Acc Gender=Fem Number=Plur	4	amod	snov	Ncfpa	Sozmt	NOUN	Case=Acc Gender=Fem Number=Plur	5
+snovi	snov-s	Ncfpa	Sozmt	NOUN	Case=Acc Gender=Fem Number=Plur	5	obj	raztapljati	Vmpr3p	Ggnstm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	3
 <g/>
-Kapljevine	kapljevina-s	Ncfsg	Sozer	NOUN	Case=Gen Gender=Fem Number=Sing	19	nsubj	raztapljati	Vmpr3p	Ggnstm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	21
-lahko	lahko-r	Rgp	Rsn	ADV	Degree=Pos	20	advmod	raztapljati	Vmpr3p	Ggnstm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	21
-raztapljajo	raztapljati-g	Vmpr3p	Ggnstm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	21	parataxis	zavzeti	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	15
-druge	drug-k	Mlpfpa	Kbzzmt	ADJ	Case=Acc Gender=Fem Number=Plur	22	amod	snov	Ncfpa	Sozmt	NOUN	Case=Acc Gender=Fem Number=Plur	23
-snovi	snov-s	Ncfpa	Sozmt	NOUN	Case=Acc Gender=Fem Number=Plur	23	obj	raztapljati	Vmpr3p	Ggnstm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	21
+,	,-u	Z	U	PUNCT	_	6	punct	uporabljati	Vmpr1p	Ggnspm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	9
+zato	zato-v	Cc	Vp	CCONJ	_	7	cc	uporabljati	Vmpr1p	Ggnspm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	9
+jih	on-z	Pp3mpa--y	Zotmmt--k	PRON	Case=Acc Gender=Masc Number=Plur Person=3 PronType=Prs Variant=Short	8	obj	uporabljati	Vmpr1p	Ggnspm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	9
+uporabljamo	uporabljati-g	Vmpr1p	Ggnspm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	9	conj	raztapljati	Vmpr3p	Ggnstm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	3
+tudi	tudi-l	Q	L	PART	_	10	advmod	uporabljati	Vmpr1p	Ggnspm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	9
+za	za-d	Sa	Dt	ADP	Case=Acc	11	case	pranje	Ncnsa	Soset	NOUN	Case=Acc Gender=Neut Number=Sing	12
+pranje	pranje-s	Ncnsa	Soset	NOUN	Case=Acc Gender=Neut Number=Sing	12	obl	uporabljati	Vmpr1p	Ggnspm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	9
 <g/>
-,	,-u	Z	U	PUNCT	_	24	punct	uporabljati	Vmpr1p	Ggnspm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	27
-zato	zato-v	Cc	Vp	CCONJ	_	25	cc	uporabljati	Vmpr1p	Ggnspm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	27
-jih	on-z	Pp3mpa--y	Zotmmt--k	PRON	Case=Acc Gender=Masc Number=Plur Person=3 PronType=Prs Variant=Short	26	obj	uporabljati	Vmpr1p	Ggnspm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	27
-uporabljamo	uporabljati-g	Vmpr1p	Ggnspm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	27	conj	raztapljati	Vmpr3p	Ggnstm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	21
-tudi	tudi-l	Q	L	PART	_	28	advmod	uporabljati	Vmpr1p	Ggnspm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	27
-za	za-d	Sa	Dt	ADP	Case=Acc	29	case	pranje	Ncnsa	Soset	NOUN	Case=Acc Gender=Neut Number=Sing	30
-pranje	pranje-s	Ncnsa	Soset	NOUN	Case=Acc Gender=Neut Number=Sing	30	obl	uporabljati	Vmpr1p	Ggnspm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	27
-<g/>
-.	.-u	Z	U	PUNCT	_	31	punct	povzročiti	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	3
+.	.-u	Z	U	PUNCT	_	13	punct	raztapljati	Vmpr3p	Ggnstm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	3
 </s>
 <s>
 Voda	voda-s	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	1	nsubj	pomemben	Agpfsn	Ppnzei	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	6
@@ -7135,7 +7139,6 @@ transportnih	transporten-p	Agpfpl	Ppnzmm	ADJ	Case=Loc Degree=Pos Gender=Fem Numb
 lastnostih	lastnost-s	Ncfpl	Sozmm	NOUN	Case=Loc Gender=Fem Number=Plur	18	conj	voda	Ncfsl	Sozem	NOUN	Case=Loc Gender=Fem Number=Sing	14
 <g/>
 .	.-u	Z	U	PUNCT	_	19	punct	temeljiti	Vmpr3s	Ggnste	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	10
-<g/>
 </s>
 <s>
 Vsaka	vsak-z	Pg-fsn	Zc-zei	DET	Case=Nom Gender=Fem Number=Sing PronType=Tot	1	det	molekula	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	2
@@ -7286,25 +7289,26 @@ nad	nad-d	Si	Do	ADP	Case=Ins	5	case	sila	Ncfsi	Sozeo	NOUN	Case=Ins Gender=Fem Nu
 silo	sila-s	Ncfsi	Sozeo	NOUN	Case=Ins Gender=Fem Number=Sing	6	obl	prevladati	Vmer3s	Ggdste	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
 teže	teža-s	Ncfsg	Sozer	NOUN	Case=Gen Gender=Fem Number=Sing	7	nmod	sila	Ncfsi	Sozeo	NOUN	Case=Ins Gender=Fem Number=Sing	6
 <g/>
-.	.-u	Z	U	PUNCT	_	8	punct	dotakniti	Vmer3s	Ggdste	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	12
+.	.-u	Z	U	PUNCT	_	8	punct	prevladati	Vmer3s	Ggdste	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
+</s>
+<s>
+Ko	ko-v	Cs	Vd	SCONJ	_	1	mark	dotakniti	Vmer3s	Ggdste	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
+se	se-z	Px------y	Zp------k	PRON	PronType=Prs Reflex=Yes Variant=Short	2	expl	dotakniti	Vmer3s	Ggdste	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
+kapljevina	kapljevina-s	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	3	nsubj	dotakniti	Vmer3s	Ggdste	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
+dotakne	dotakniti-g	Vmer3s	Ggdste	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4	advcl	prikazati	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	11
+trdne	trden-p	Agpfsg	Ppnzer	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Sing	5	amod	snov	Ncfsg	Sozer	NOUN	Case=Gen Gender=Fem Number=Sing	6
+snovi	snov-s	Ncfsg	Sozer	NOUN	Case=Gen Gender=Fem Number=Sing	6	obj	dotakniti	Vmer3s	Ggdste	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
 <g/>
-Ko	ko-v	Cs	Vd	SCONJ	_	9	mark	dotakniti	Vmer3s	Ggdste	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	12
-se	se-z	Px------y	Zp------k	PRON	PronType=Prs Reflex=Yes Variant=Short	10	expl	dotakniti	Vmer3s	Ggdste	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	12
-kapljevina	kapljevina-s	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	11	nsubj	dotakniti	Vmer3s	Ggdste	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	12
-dotakne	dotakniti-g	Vmer3s	Ggdste	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	12	advcl	prikazati	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	19
-trdne	trden-p	Agpfsg	Ppnzer	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Sing	13	amod	snov	Ncfsg	Sozer	NOUN	Case=Gen Gender=Fem Number=Sing	14
-snovi	snov-s	Ncfsg	Sozer	NOUN	Case=Gen Gender=Fem Number=Sing	14	obj	dotakniti	Vmer3s	Ggdste	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	12
+,	,-u	Z	U	PUNCT	_	7	punct	dotakniti	Vmer3s	Ggdste	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
+se	se-z	Px------y	Zp------k	PRON	PronType=Prs Reflex=Yes Variant=Short	8	expl	prikazati	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	11
+na	na-d	Sl	Dm	ADP	Case=Loc	9	case	meja	Ncfpl	Sozmm	NOUN	Case=Loc Gender=Fem Number=Plur	10
+mejah	meja-s	Ncfpl	Sozmm	NOUN	Case=Loc Gender=Fem Number=Plur	10	obl	prikazati	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	11
+prikažejo	prikazati-g	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	11	root	_	_	_	_	_	0
+medmolekularne	medmolekularen-p	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	12	amod	sila	Ncfpn	Sozmi	NOUN	Case=Nom Gender=Fem Number=Plur	14
+privlačne	privlačen-p	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	13	amod	sila	Ncfpn	Sozmi	NOUN	Case=Nom Gender=Fem Number=Plur	14
+sile	sila-s	Ncfpn	Sozmi	NOUN	Case=Nom Gender=Fem Number=Plur	14	nsubj	prikazati	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	11
 <g/>
-,	,-u	Z	U	PUNCT	_	15	punct	dotakniti	Vmer3s	Ggdste	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	12
-se	se-z	Px------y	Zp------k	PRON	PronType=Prs Reflex=Yes Variant=Short	16	expl	prikazati	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	19
-na	na-d	Sl	Dm	ADP	Case=Loc	17	case	meja	Ncfpl	Sozmm	NOUN	Case=Loc Gender=Fem Number=Plur	18
-mejah	meja-s	Ncfpl	Sozmm	NOUN	Case=Loc Gender=Fem Number=Plur	18	obl	prikazati	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	19
-prikažejo	prikazati-g	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	19	parataxis	prevladati	Vmer3s	Ggdste	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
-medmolekularne	medmolekularen-p	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	20	amod	sila	Ncfpn	Sozmi	NOUN	Case=Nom Gender=Fem Number=Plur	22
-privlačne	privlačen-p	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	21	amod	sila	Ncfpn	Sozmi	NOUN	Case=Nom Gender=Fem Number=Plur	22
-sile	sila-s	Ncfpn	Sozmi	NOUN	Case=Nom Gender=Fem Number=Plur	22	nsubj	prikazati	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	19
-<g/>
-.	.-u	Z	U	PUNCT	_	23	punct	prevladati	Vmer3s	Ggdste	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
+.	.-u	Z	U	PUNCT	_	15	punct	prikazati	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	11
 </s>
 <s>
 Pojav	pojav-s	Ncmsan	Sometn	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	1	obj	imenovati	Vmbr1p	Ggvspm	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	2
@@ -7445,31 +7449,32 @@ pomemben	pomemben-p	Agpmsnn	Ppnmein	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=
 pri	pri-d	Sl	Dm	ADP	Case=Loc	6	case	izmenjava	Ncfsl	Sozem	NOUN	Case=Loc Gender=Fem Number=Sing	7
 izmenjavi	izmenjava-s	Ncfsl	Sozem	NOUN	Case=Loc Gender=Fem Number=Sing	7	obl	pomemben	Agpmsnn	Ppnmein	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing	5
 snovi	snov-s	Ncfsg	Sozer	NOUN	Case=Gen Gender=Fem Number=Sing	8	nmod	izmenjava	Ncfsl	Sozem	NOUN	Case=Loc Gender=Fem Number=Sing	7
-v	v-d	Sl	Dm	ADP	Case=Loc	9	case	rastilen	Agpfpl	Ppnzmm	ADJ	Case=Loc Degree=Pos Gender=Fem Number=Plur	10
+v	v-d	Sl	Dm	ADP	Case=Loc	9	case	prehrana	Ncfsl	Sozem	NOUN	Case=Loc Gender=Fem Number=Sing	14
 rastilnah	rastilen-p	Agpfpl	Ppnzmm	ADJ	Case=Loc Degree=Pos Gender=Fem Number=Plur	10	amod	prehrana	Ncfsl	Sozem	NOUN	Case=Loc Gender=Fem Number=Sing	14
 oz.	oz.-o	Y	O	X	Abbr=Yes	11	cc	prehrana	Ncfsl	Sozem	NOUN	Case=Loc Gender=Fem Number=Sing	14
 pri	pri-d	Sl	Dm	ADP	Case=Loc	12	case	prehrana	Ncfsl	Sozem	NOUN	Case=Loc Gender=Fem Number=Sing	14
 njihovi	njihov-z	Ps3fslp	Zstzemm	DET	Case=Loc Gender=Fem Number=Sing Number[psor]=Plur Person=3 Poss=Yes PronType=Prs	13	det	prehrana	Ncfsl	Sozem	NOUN	Case=Loc Gender=Fem Number=Sing	14
 prehrani	prehrana-s	Ncfsl	Sozem	NOUN	Case=Loc Gender=Fem Number=Sing	14	conj	izmenjava	Ncfsl	Sozem	NOUN	Case=Loc Gender=Fem Number=Sing	7
 <g/>
-.	.-u	Z	U	PUNCT	_	15	punct	nestisljiv	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	19
+.	.-u	Z	U	PUNCT	_	15	punct	pomemben	Agpmsnn	Ppnmein	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing	5
+</s>
+<s>
+Kapljevine	kapljevina-s	Ncfpn	Sozmi	NOUN	Case=Nom Gender=Fem Number=Plur	1	nsubj	nestisljiv	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	4
+so	biti-g	Va-r3p-n	Gp-stm-n	AUX	Mood=Ind Number=Plur Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	2	cop	nestisljiv	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	4
+skoraj	skoraj-l	Q	L	PART	_	3	advmod	nestisljiv	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	4
+nestisljive	nestisljiv-p	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	4	root	_	_	_	_	_	0
+–	–-u	Z	U	PUNCT	_	5	punct	spremeniti	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	12
+tudi	tudi-l	Q	L	PART	_	6	advmod	spremeniti	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	12
+pri	pri-d	Sl	Dm	ADP	Case=Loc	7	case	tlak	Ncmpl	Sommm	NOUN	Case=Loc Gender=Masc Number=Plur	9
+velikih	velik-p	Agpmpl	Ppnmmm	ADJ	Case=Loc Degree=Pos Gender=Masc Number=Plur	8	amod	tlak	Ncmpl	Sommm	NOUN	Case=Loc Gender=Masc Number=Plur	9
+tlakih	tlak-s	Ncmpl	Sommm	NOUN	Case=Loc Gender=Masc Number=Plur	9	obl	spremeniti	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	12
+le	le-l	Q	L	PART	_	10	advmod	spremeniti	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	12
+malo	malo-r	Rgp	Rsn	DET	PronType=Ind	11	advmod	spremeniti	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	12
+spremenijo	spremeniti-g	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	12	parataxis	nestisljiv	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	4
+svojo	svoj-z	Px-fsa	Zp-zet	DET	Case=Acc Gender=Fem Number=Sing Poss=Yes PronType=Prs Reflex=Yes	13	det	prostornina	Ncfsa	Sozet	NOUN	Case=Acc Gender=Fem Number=Sing	14
+prostornino	prostornina-s	Ncfsa	Sozet	NOUN	Case=Acc Gender=Fem Number=Sing	14	obj	spremeniti	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	12
 <g/>
-Kapljevine	kapljevina-s	Ncfpn	Sozmi	NOUN	Case=Nom Gender=Fem Number=Plur	16	nsubj	nestisljiv	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	19
-so	biti-g	Va-r3p-n	Gp-stm-n	AUX	Mood=Ind Number=Plur Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	17	cop	nestisljiv	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	19
-skoraj	skoraj-l	Q	L	PART	_	18	advmod	nestisljiv	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	19
-nestisljive	nestisljiv-p	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	19	parataxis	pomemben	Agpmsnn	Ppnmein	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing	5
-–	–-u	Z	U	PUNCT	_	20	punct	spremeniti	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	27
-tudi	tudi-l	Q	L	PART	_	21	advmod	tlak	Ncmpl	Sommm	NOUN	Case=Loc Gender=Masc Number=Plur	24
-pri	pri-d	Sl	Dm	ADP	Case=Loc	22	case	tlak	Ncmpl	Sommm	NOUN	Case=Loc Gender=Masc Number=Plur	24
-velikih	velik-p	Agpmpl	Ppnmmm	ADJ	Case=Loc Degree=Pos Gender=Masc Number=Plur	23	amod	tlak	Ncmpl	Sommm	NOUN	Case=Loc Gender=Masc Number=Plur	24
-tlakih	tlak-s	Ncmpl	Sommm	NOUN	Case=Loc Gender=Masc Number=Plur	24	obl	spremeniti	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	27
-le	le-l	Q	L	PART	_	25	advmod	spremeniti	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	27
-malo	malo-r	Rgp	Rsn	DET	PronType=Ind	26	advmod	spremeniti	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	27
-spremenijo	spremeniti-g	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	27	parataxis	nestisljiv	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	19
-svojo	svoj-z	Px-fsa	Zp-zet	DET	Case=Acc Gender=Fem Number=Sing Poss=Yes PronType=Prs Reflex=Yes	28	det	prostornina	Ncfsa	Sozet	NOUN	Case=Acc Gender=Fem Number=Sing	29
-prostornino	prostornina-s	Ncfsa	Sozet	NOUN	Case=Acc Gender=Fem Number=Sing	29	obj	spremeniti	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	27
-<g/>
-.	.-u	Z	U	PUNCT	_	30	punct	pomemben	Agpmsnn	Ppnmein	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing	5
+.	.-u	Z	U	PUNCT	_	15	punct	nestisljiv	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	4
 </s>
 <s>
 Zaradi	zaradi-d	Sg	Dr	ADP	Case=Gen	1	case	lastnost	Ncfsg	Sozer	NOUN	Case=Gen Gender=Fem Number=Sing	3
@@ -7505,25 +7510,26 @@ v	v-d	Sa	Dt	ADP	Case=Acc	14	case	namen	Ncmsan	Sometn	NOUN	Animacy=Inan Case=Acc 
 ta	ta-z	Pd-msa	Zk-met	DET	Case=Acc Gender=Masc Number=Sing PronType=Dem	15	det	namen	Ncmsan	Sometn	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	16
 namen	namen-s	Ncmsan	Sometn	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	16	obl	uporabljati	Vmpr3p	Ggnstm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	17
 uporabljajo	uporabljati-g	Vmpr3p	Ggnstm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	17	root	_	_	_	_	_	0
-posebna	poseben-p	Agpnpa	Ppnsmt	ADJ	Case=Acc Degree=Pos Gender=Neut Number=Plur	18	amod	olje	Ncnpn	Sosmi	NOUN	Case=Nom Gender=Neut Number=Plur	20
-hidravlična	hidravličen-p	Agpnpn	Ppnsmi	ADJ	Case=Nom Degree=Pos Gender=Neut Number=Plur	19	amod	olje	Ncnpn	Sosmi	NOUN	Case=Nom Gender=Neut Number=Plur	20
-olja	olje-s	Ncnpn	Sosmi	NOUN	Case=Nom Gender=Neut Number=Plur	20	nsubj	uporabljati	Vmpr3p	Ggnstm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	17
+posebna	poseben-p	Agpnpa	Ppnsmt	ADJ	Case=Acc Degree=Pos Gender=Neut Number=Plur	18	amod	olje	Ncnpa	Sosmt	NOUN	Case=Acc Gender=Neut Number=Plur	20
+hidravlična	hidravličen-p	Agpnpa	Ppnsmt	ADJ	Case=Acc Degree=Pos Gender=Neut Number=Plur	19	amod	olje	Ncnpa	Sosmt	NOUN	Case=Acc Gender=Neut Number=Plur	20
+olja	olje-s	Ncnpa	Sosmt	NOUN	Case=Acc Gender=Neut Number=Plur	20	obj	uporabljati	Vmpr3p	Ggnstm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	17
 <g/>
-.	.-u	Z	U	PUNCT	_	21	punct	pojav	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	24
+.	.-u	Z	U	PUNCT	_	21	punct	uporabljati	Vmpr3p	Ggnstm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	17
+</s>
+<s>
+Kavitacija	kavitacija-s	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	1	nsubj	pojav	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	3
+je	biti-g	Va-r3s-n	Gp-ste-n	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	2	cop	pojav	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	3
+pojav	pojav-s	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	3	root	_	_	_	_	_	0
 <g/>
-Kavitacija	kavitacija-s	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	22	nsubj	pojav	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	24
-je	biti-g	Va-r3s-n	Gp-ste-n	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	23	cop	pojav	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	24
-pojav	pojav-s	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	24	parataxis	uporabljati	Vmpr3p	Ggnstm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	17
+,	,-u	Z	U	PUNCT	_	4	punct	nastajati	Vmpr3s	Ggnste	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
+ki	ki-v	Cs	Vd	SCONJ	_	5	mark	nastajati	Vmpr3s	Ggnste	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
+nastaja	nastajati-g	Vmpr3s	Ggnste	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6	acl	pojav	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	3
+pri	pri-d	Sl	Dm	ADP	Case=Loc	7	case	pretakanje	Ncnsl	Sosem	NOUN	Case=Loc Gender=Neut Number=Sing	9
+hitrem	hiter-p	Agpnsl	Ppnsem	ADJ	Case=Loc Degree=Pos Gender=Neut Number=Sing	8	amod	pretakanje	Ncnsl	Sosem	NOUN	Case=Loc Gender=Neut Number=Sing	9
+pretakanju	pretakanje-s	Ncnsl	Sosem	NOUN	Case=Loc Gender=Neut Number=Sing	9	obl	nastajati	Vmpr3s	Ggnste	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
+kapljevin	kapljevina-s	Ncfpg	Sozmr	NOUN	Case=Gen Gender=Fem Number=Plur	10	nmod	pretakanje	Ncnsl	Sosem	NOUN	Case=Loc Gender=Neut Number=Sing	9
 <g/>
-,	,-u	Z	U	PUNCT	_	25	punct	nastajati	Vmpr3s	Ggnste	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	27
-ki	ki-v	Cs	Vd	SCONJ	_	26	mark	nastajati	Vmpr3s	Ggnste	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	27
-nastaja	nastajati-g	Vmpr3s	Ggnste	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	27	acl	pojav	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	24
-pri	pri-d	Sl	Dm	ADP	Case=Loc	28	case	pretakanje	Ncnsl	Sosem	NOUN	Case=Loc Gender=Neut Number=Sing	30
-hitrem	hiter-p	Agpnsl	Ppnsem	ADJ	Case=Loc Degree=Pos Gender=Neut Number=Sing	29	amod	pretakanje	Ncnsl	Sosem	NOUN	Case=Loc Gender=Neut Number=Sing	30
-pretakanju	pretakanje-s	Ncnsl	Sosem	NOUN	Case=Loc Gender=Neut Number=Sing	30	obl	nastajati	Vmpr3s	Ggnste	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	27
-kapljevin	kapljevina-s	Ncfpg	Sozmr	NOUN	Case=Gen Gender=Fem Number=Plur	31	nmod	pretakanje	Ncnsl	Sosem	NOUN	Case=Loc Gender=Neut Number=Sing	30
-<g/>
-.	.-u	Z	U	PUNCT	_	32	punct	uporabljati	Vmpr3p	Ggnstm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	17
+.	.-u	Z	U	PUNCT	_	11	punct	pojav	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	3
 </s>
 <s>
 Tlak	tlak-s	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	1	nsubj	znižati	Vmer3s	Ggdste	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	8
@@ -7644,36 +7650,37 @@ kavitacijski	kavitacijski-p	Agpmpn	Ppnmmi	ADJ	Case=Nom Degree=Pos Gender=Masc Nu
 mehurčki	mehurček-s	Ncmpn	Sommi	NOUN	Case=Nom Gender=Masc Number=Plur	13	nsubj	odstraniti	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	15
 pa	pa-v	Cc	Vp	CCONJ	_	14	advmod	odstraniti	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	15
 odstranijo	odstraniti-g	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	15	parataxis	pospešiti	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	4
-tudi	tudi-l	Q	L	PART	_	16	advmod	umazanija	Ncfsa	Sozet	NOUN	Case=Acc Gender=Fem Number=Sing	19
+tudi	tudi-l	Q	L	PART	_	16	advmod	odstraniti	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	15
 najbolj	najbolj-r	Rgs	Rss	ADV	Degree=Sup	17	advmod	trdovraten	Agpfsa	Ppnzet	ADJ	Case=Acc Degree=Pos Gender=Fem Number=Sing	18
 trdovratno	trdovraten-p	Agpfsa	Ppnzet	ADJ	Case=Acc Degree=Pos Gender=Fem Number=Sing	18	amod	umazanija	Ncfsa	Sozet	NOUN	Case=Acc Gender=Fem Number=Sing	19
 umazanijo	umazanija-s	Ncfsa	Sozet	NOUN	Case=Acc Gender=Fem Number=Sing	19	obj	odstraniti	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	15
 <g/>
-.	.-u	Z	U	PUNCT	_	20	punct	odstraniti	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	15
+.	.-u	Z	U	PUNCT	_	20	punct	pospešiti	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	4
+</s>
+<s>
+V	v-d	Sl	Dm	ADP	Case=Loc	1	case	rezervoar	Ncmsl	Somem	NOUN	Case=Loc Gender=Masc Number=Sing	2
+rezervoarju	rezervoar-s	Ncmsl	Somem	NOUN	Case=Loc Gender=Masc Number=Sing	2	obl	pregret	Appfsn	Pdnzei	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing VerbForm=Part	6
+mehurčne	mehurčen-p	Agpfsg	Ppnzer	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Sing	3	amod	celica	Ncfsg	Sozer	NOUN	Case=Gen Gender=Fem Number=Sing	4
+celice	celica-s	Ncfsg	Sozer	NOUN	Case=Gen Gender=Fem Number=Sing	4	nmod	rezervoar	Ncmsl	Somem	NOUN	Case=Loc Gender=Masc Number=Sing	2
+je	biti-g	Va-r3s-n	Gp-ste-n	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	5	cop	pregret	Appfsn	Pdnzei	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing VerbForm=Part	6
+pregreta	pregret-p	Appfsn	Pdnzei	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing VerbForm=Part	6	root	_	_	_	_	_	0
+kapljevina	kapljevina-s	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	7	nsubj	pregret	Appfsn	Pdnzei	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing VerbForm=Part	6
+(	(-u	Z	U	PUNCT	_	8	punct	vodik	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	11
 <g/>
-V	v-d	Sl	Dm	ADP	Case=Loc	21	case	rezervoar	Ncmsl	Somem	NOUN	Case=Loc Gender=Masc Number=Sing	22
-rezervoarju	rezervoar-s	Ncmsl	Somem	NOUN	Case=Loc Gender=Masc Number=Sing	22	obl	pregret	Appfsn	Pdnzei	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing VerbForm=Part	26
-mehurčne	mehurčen-p	Agpfsg	Ppnzer	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Sing	23	amod	celica	Ncfsg	Sozer	NOUN	Case=Gen Gender=Fem Number=Sing	24
-celice	celica-s	Ncfsg	Sozer	NOUN	Case=Gen Gender=Fem Number=Sing	24	nmod	rezervoar	Ncmsl	Somem	NOUN	Case=Loc Gender=Masc Number=Sing	22
-je	biti-g	Va-r3s-n	Gp-ste-n	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	25	cop	pregret	Appfsn	Pdnzei	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing VerbForm=Part	26
-pregreta	pregret-p	Appfsn	Pdnzei	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing VerbForm=Part	26	parataxis	pospešiti	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	4
-kapljevina	kapljevina-s	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	27	nsubj	pregret	Appfsn	Pdnzei	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing VerbForm=Part	26
-(	(-u	Z	U	PUNCT	_	28	punct	vodik	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	31
+npr.	npr.-o	Y	O	X	Abbr=Yes	9	cc	vodik	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	11
+tekoči	tekoč-p	Appmsny	Pdnmeid	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing VerbForm=Part	10	amod	vodik	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	11
+vodik	vodik-s	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	11	appos	kapljevina	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	7
 <g/>
-npr.	npr.-o	Y	O	X	Abbr=Yes	29	cc	vodik	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	31
-tekoči	tekoč-p	Appmsny	Pdnmeid	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing VerbForm=Part	30	amod	vodik	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	31
-vodik	vodik-s	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	31	appos	kapljevina	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	27
+)	)-u	Z	U	PUNCT	_	12	punct	vodik	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	11
+v	v-d	Sl	Dm	ADP	Case=Loc	13	case	stanje	Ncnsl	Sosem	NOUN	Case=Loc Gender=Neut Number=Sing	15
+metastabilnem	metastabilen-p	Agpnsl	Ppnsem	ADJ	Case=Loc Degree=Pos Gender=Neut Number=Sing	14	amod	stanje	Ncnsl	Sosem	NOUN	Case=Loc Gender=Neut Number=Sing	15
+stanju	stanje-s	Ncnsl	Sosem	NOUN	Case=Loc Gender=Neut Number=Sing	15	nmod	kapljevina	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	7
+in	in-v	Cc	Vp	CCONJ	_	16	cc	tlak	Ncmsi	Someo	NOUN	Case=Ins Gender=Masc Number=Sing	19
+pod	pod-d	Si	Do	ADP	Case=Ins	17	case	tlak	Ncmsi	Someo	NOUN	Case=Ins Gender=Masc Number=Sing	19
+ustreznim	ustrezen-p	Agpmsi	Ppnmeo	ADJ	Case=Ins Degree=Pos Gender=Masc Number=Sing	18	amod	tlak	Ncmsi	Someo	NOUN	Case=Ins Gender=Masc Number=Sing	19
+tlakom	tlak-s	Ncmsi	Someo	NOUN	Case=Ins Gender=Masc Number=Sing	19	conj	stanje	Ncnsl	Sosem	NOUN	Case=Loc Gender=Neut Number=Sing	15
 <g/>
-)	)-u	Z	U	PUNCT	_	32	punct	vodik	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	31
-v	v-d	Sl	Dm	ADP	Case=Loc	33	case	stanje	Ncnsl	Sosem	NOUN	Case=Loc Gender=Neut Number=Sing	35
-metastabilnem	metastabilen-p	Agpnsl	Ppnsem	ADJ	Case=Loc Degree=Pos Gender=Neut Number=Sing	34	amod	stanje	Ncnsl	Sosem	NOUN	Case=Loc Gender=Neut Number=Sing	35
-stanju	stanje-s	Ncnsl	Sosem	NOUN	Case=Loc Gender=Neut Number=Sing	35	nmod	kapljevina	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	27
-in	in-v	Cc	Vp	CCONJ	_	36	cc	tlak	Ncmsi	Someo	NOUN	Case=Ins Gender=Masc Number=Sing	39
-pod	pod-d	Si	Do	ADP	Case=Ins	37	case	tlak	Ncmsi	Someo	NOUN	Case=Ins Gender=Masc Number=Sing	39
-ustreznim	ustrezen-p	Agpmsi	Ppnmeo	ADJ	Case=Ins Degree=Pos Gender=Masc Number=Sing	38	amod	tlak	Ncmsi	Someo	NOUN	Case=Ins Gender=Masc Number=Sing	39
-tlakom	tlak-s	Ncmsi	Someo	NOUN	Case=Ins Gender=Masc Number=Sing	39	conj	stanje	Ncnsl	Sosem	NOUN	Case=Loc Gender=Neut Number=Sing	35
-<g/>
-.	.-u	Z	U	PUNCT	_	40	punct	pospešiti	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	4
+.	.-u	Z	U	PUNCT	_	20	punct	pregret	Appfsn	Pdnzei	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing VerbForm=Part	6
 </s>
 <s>
 Njena	njen-z	Ps3fsnsf	Zstzeiez	DET	Case=Nom Gender=Fem Gender[psor]=Fem Number=Sing Number[psor]=Sing Person=3 Poss=Yes PronType=Prs	1	det	temperatura	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	2
@@ -7783,15 +7790,16 @@ določanju	določanje-s	Ncnsl	Sosem	NOUN	Case=Loc Gender=Neut Number=Sing	15	obl
 lastnosti	lastnost-s	Ncfpg	Sozmr	NOUN	Case=Gen Gender=Fem Number=Plur	16	nmod	določanje	Ncnsl	Sosem	NOUN	Case=Loc Gender=Neut Number=Sing	15
 delcev	delec-s	Ncmpg	Sommr	NOUN	Case=Gen Gender=Masc Number=Plur	17	nmod	lastnost	Ncfpg	Sozmr	NOUN	Case=Gen Gender=Fem Number=Plur	16
 <g/>
-.	.-u	Z	U	PUNCT	_	18	punct	pomagati	Vmbr3p	Ggvstm	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	13
+.	.-u	Z	U	PUNCT	_	18	punct	ukriviti	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	7
+</s>
+<s>
+Značilnost	značilnost-s	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	1	nsubj	viskoznost	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	5
+kapljevin	kapljevina-s	Ncfpg	Sozmr	NOUN	Case=Gen Gender=Fem Number=Plur	2	nmod	značilnost	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	1
+je	biti-g	Va-r3s-n	Gp-ste-n	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	3	cop	viskoznost	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	5
+njihova	njihov-z	Ps3fsnp	Zstzeim	DET	Case=Nom Gender=Fem Number=Sing Number[psor]=Plur Person=3 Poss=Yes PronType=Prs	4	det	viskoznost	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	5
+viskoznost	viskoznost-s	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	5	root	_	_	_	_	_	0
 <g/>
-Značilnost	značilnost-s	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	19	nsubj	viskoznost	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	23
-kapljevin	kapljevina-s	Ncfpg	Sozmr	NOUN	Case=Gen Gender=Fem Number=Plur	20	nmod	značilnost	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	19
-je	biti-g	Va-r3s-n	Gp-ste-n	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	21	cop	viskoznost	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	23
-njihova	njihov-z	Ps3fsnp	Zstzeim	DET	Case=Nom Gender=Fem Number=Sing Number[psor]=Plur Person=3 Poss=Yes PronType=Prs	22	det	viskoznost	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	23
-viskoznost	viskoznost-s	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	23	parataxis	ukriviti	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	7
-<g/>
-.	.-u	Z	U	PUNCT	_	24	punct	ukriviti	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	7
+.	.-u	Z	U	PUNCT	_	6	punct	viskoznost	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	5
 </s>
 <s>
 Ta	ta-z	Pd-fsn	Zk-zei	DET	Case=Nom Gender=Fem Number=Sing PronType=Dem	1	nsubj	majhen	Agpfsn	Ppnzei	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	5
@@ -7941,7 +7949,6 @@ pri	pri-d	Sl	Dm	ADP	Case=Loc	11	case	steklo	Ncnsl	Sosem	NOUN	Case=Loc Gender=Neu
 steklu	steklo-s	Ncnsl	Sosem	NOUN	Case=Loc Gender=Neut Number=Sing	12	obl	poznati	Vmpr1p	Ggnspm	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	9
 <g/>
 .	.-u	Z	U	PUNCT	_	13	punct	nastati	Vmer3p	Ggdstm	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	3
-<g/>
 </s>
 <s>
 Helij	helij-s	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	1	nsubj	postati	Vmer3s	Ggdste	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
@@ -7997,7 +8004,6 @@ prek	prek-d	Sg	Dr	ADP	Case=Gen	20	case	rob	Ncmsg	Somer	NOUN	Case=Gen Gender=Masc
 roba	rob-s	Ncmsg	Somer	NOUN	Case=Gen Gender=Masc Number=Sing	21	obl	steči	Vmer3s	Ggdste	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	19
 <g/>
 .	.-u	Z	U	PUNCT	_	22	punct	polzeti	Vmpr3s	Ggnste	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
-<g/>
 </s>
 <s>
 Avtor	avtor-s	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	1	root	_	_	_	_	_	0
@@ -8396,7 +8402,6 @@ tuje	tuj-p	Agpfpn	Ppnzmi	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	10	amod	
 oblasti	oblast-s	Ncfsg	Sozer	NOUN	Case=Gen Gender=Fem Number=Sing	11	nsubj	otresti	Vmep-pm	Ggdd-mm	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	9
 <g/>
 .	.-u	Z	U	PUNCT	_	12	punct	otresti	Vmep-pm	Ggdd-mm	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	9
-<g/>
 </s>
 <s>
 Po	po-d	Sl	Dm	ADP	Case=Loc	1	case	st.	Y	O	X	Abbr=Yes	3
@@ -8992,14 +8997,14 @@ rock	rock-s	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	2	root	_	_	_	_	_	0
 </headword>
 [	[-u	Z	U	PUNCT	_	3	punct	rók	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	5
 <g/>
-～	～-u	Z	U	PUNCT	_	4	punct	rók	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	5
+~	~-u	Z	U	PUNCT	_	4	punct	rók	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	5
 rók	rók-s	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	5	appos	rock	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	2
 <g/>
 ]	]-u	Z	U	PUNCT	_	6	punct	rók	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	5
 <g/>
 ,	,-u	Z	U	PUNCT	_	7	punct	smer	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	9
 slogovna	slogoven-p	Agpfsn	Ppnzei	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	8	amod	smer	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	9
-smer	smer-s	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	9	list	rock	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	2
+smer	smer-s	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	9	list	rók	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	5
 v	v-d	Sl	Dm	ADP	Case=Loc	10	case	glasba	Ncfsl	Sozem	NOUN	Case=Loc Gender=Fem Number=Sing	12
 rockovski	rockovski-p	Agpfsl	Ppnzem	ADJ	Case=Loc Degree=Pos Gender=Fem Number=Sing	11	amod	glasba	Ncfsl	Sozem	NOUN	Case=Loc Gender=Fem Number=Sing	12
 glasbi	glasba-s	Ncfsl	Sozem	NOUN	Case=Loc Gender=Fem Number=Sing	12	nmod	smer	Ncfsn	Sozei	NOUN	Case=Nom Gender=Fem Number=Sing	9
@@ -9007,7 +9012,7 @@ glasbi	glasba-s	Ncfsl	Sozem	NOUN	Case=Loc Gender=Fem Number=Sing	12	nmod	smer	Nc
 let	leto-s	Ncnpg	Sosmr	NOUN	Case=Gen Gender=Neut Number=Plur	14	nmod	glasba	Ncfsl	Sozem	NOUN	Case=Loc Gender=Fem Number=Sing	12
 <g/>
 ,	,-u	Z	U	PUNCT	_	15	punct	izhajajoč	Appfsn	Pdnzei	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing VerbForm=Part	16
-izhajajoča	izhajajoč-p	Appfsn	Pdnzei	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing VerbForm=Part	16	amod	rock	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	2
+izhajajoča	izhajajoč-p	Appfsn	Pdnzei	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing VerbForm=Part	16	amod	rók	Ncmsn	Somei	NOUN	Case=Nom Gender=Masc Number=Sing	5
 predvsem	predvsem-l	Q	L	PART	_	17	advmod	izkušnja	Ncfpg	Sozmr	NOUN	Case=Gen Gender=Fem Number=Plur	19
 iz	iz-d	Sg	Dr	ADP	Case=Gen	18	case	izkušnja	Ncfpg	Sozmr	NOUN	Case=Gen Gender=Fem Number=Plur	19
 izkušenj	izkušnja-s	Ncfpg	Sozmr	NOUN	Case=Gen Gender=Fem Number=Plur	19	obl	izhajajoč	Appfsn	Pdnzei	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing VerbForm=Part	16
