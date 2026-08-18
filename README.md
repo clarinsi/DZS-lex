@@ -21,8 +21,8 @@ into vertical encoding for CQP-based concordancers.
 The repository contains the following directories:
 
 * [Sample directory](Sample/) contains a sample of the source "KNAUR" lexicon in XML and all the files
-  derived from this sample, including the final TEI ([DZS-lex.sample.xml](Sample/DZS-lex.sample.xml) and
-  vertical file ([DZS-lex.sample.vert](Sample/DZS-lex.sample.vertDZS-lex.sample.vert)).
+  derived from this sample, including the final TEI ([DZS-lex-sample.xml](Sample/DZS-lex-sample.xml) and
+  vertical file ([DZS-lex-sample.vert](Sample/DZS-lex-sample.vert)).
 * [Scripts directory](Scripts/) contains the scripts used for processing the
   encyclopedia; note that the scripts assume a Linux operating system and that various prerequsites are installed.
   Most of the scripts are in XSLT and Perl, with a Makefile in the top directory containing the targets for conversion.
