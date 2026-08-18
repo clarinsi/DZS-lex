@@ -13,30 +13,16 @@
   <xsl:strip-space elements="TEI teiHeader text body entry sense figure floatingText"/>
   <xsl:preserve-space elements="form def gloss hi head distinct p oRef orth note"/>
   
-  <xsl:param name="authors-file"/>
-  
   <!--xsl:template match="/">
     <xsl:apply-templates select="//FOR"/>
   </xsl:template-->
   
   <xsl:template match="/">
-    <xsl:copy-of select="$xml-model"/>
-    <TEI xmlns="http://www.tei-c.org/ns/1.0">
-      <xsl:attribute name="xml:id" select="$id_prefix"/>
+    <body xmlns="http://www.tei-c.org/ns/1.0">
+      <xsl:attribute name="xml:id" select="concat($id_prefix, '.body')"/>
       <xsl:attribute name="xml:lang">sl</xsl:attribute>
-      <xsl:variable name="TEI-text">
-        <text>
-          <body>
-            <xsl:call-template name="run-passes"/>
-          </body>
-        </text>
-      </xsl:variable>
-      <!--xsl:copy-of select="$teiHeader"/-->
-      <xsl:apply-templates mode="header" select="$teiHeader">
-        <xsl:with-param name="TEI" select="$TEI-text"/>
-      </xsl:apply-templates>
-      <xsl:copy-of select="$TEI-text"/>
-    </TEI>
+      <xsl:call-template name="run-passes"/>
+    </body>
   </xsl:template>
 
   <!-- Process the document in several passes -->
@@ -59,92 +45,6 @@
     <xsl:apply-templates mode="pass6" select="$pass5"/>
   </xsl:template>
   
-  <!-- PASS "header": INTO teiHeader INSERT CURRENT DATE, EXTENT AND TAGUSAGE -->
-
-  <xsl:template mode="header" match="tei:idno[@subtype='handle']">
-    <idno type="URI" subtype="handle">
-      <xsl:value-of select="$handle"/>
-    </idno>
-  </xsl:template>
-  
-  <xsl:template mode="header" match="tei:titleStmt/tei:title">
-    <xsl:copy>
-      <xsl:apply-templates mode="header" select="@*"/>
-      <xsl:value-of select="concat(., ' [', $stamp, ']')"/>
-    </xsl:copy>
-  </xsl:template>
-  
-  <xsl:template mode="header" match="tei:titleStmt/tei:respStmt">
-    <xsl:copy-of select="document($authors-file)/tei:titleStmt/tei:respStmt"/>
-  </xsl:template>
-  
-  <xsl:template mode="header" match="tei:publicationStmt/tei:date">
-    <date when="{$today}">
-      <xsl:value-of select="$today"/>
-    </date>
-  </xsl:template>
-  
-  <xsl:template mode="header" match="tei:extent">
-    <xsl:param name="TEI"/>
-    <xsl:variable name="entries" select="count($TEI//tei:entry)"/>
-    <xsl:variable name="senses" select="$entries + count($TEI//tei:sense) "/>
-    <xsl:copy>
-      <measure unit="entries" quantity="{$entries}" xml:lang="sl">
-        <xsl:value-of select="$entries"/>
-        <xsl:text> vnosov</xsl:text>
-      </measure>
-      <measure unit="entries" quantity="{$entries}" xml:lang="sl">
-        <xsl:value-of select="$senses"/>
-        <xsl:text> pomenov</xsl:text>
-      </measure>
-    </xsl:copy>
-  </xsl:template>
-  
-  <xsl:template mode="header" match="tei:tagsDecl">
-    <xsl:param name="TEI"/>
-    <tagsDecl>
-      <namespace name="http://www.tei-c.org/ns/1.0">
-	<xsl:apply-templates mode="tagCount" select="$TEI"/>
-      </namespace>
-    </tagsDecl>
-  </xsl:template>
-  <xsl:template mode="tagCount" match="tei:*">
-    <xsl:variable name="self" select="name()"/>
-    <xsl:if test="not(following::*[name()=$self] or descendant::*[name()=$self] )">
-      <tagUsage gi="{$self}">
-	<xsl:attribute name="occurs">
-	  <xsl:number level="any" from="tei:group"/>
-	</xsl:attribute>
-      </tagUsage>
-    </xsl:if>
-    <xsl:apply-templates mode="tagCount"/>
-  </xsl:template>
-  <xsl:template mode="tagCount" match="text()"/>
-  
-  <xsl:template mode="header" match="tei:revisionDesc">
-    <xsl:copy>
-      <xsl:apply-templates mode="header" select="@*"/>
-      <change when="{$today}"><name>Tomaž Erjavec</name> Run conversion to TEI.</change>
-      <xsl:apply-templates mode="header"/>
-    </xsl:copy>
-  </xsl:template>
-  
-  <xsl:template mode="header" match="tei:*">
-    <xsl:param name="TEI"/>
-    <xsl:copy>
-      <xsl:apply-templates mode="header" select="@*"/>
-      <xsl:apply-templates mode="header" select="tei:*|text()">
-        <xsl:with-param name="TEI" select="$TEI"/>
-      </xsl:apply-templates>
-    </xsl:copy>
-  </xsl:template>
-  <xsl:template mode="header" match="@*">
-    <xsl:copy/>
-  </xsl:template>
-  <xsl:template mode="header" match="text()">
-    <xsl:value-of select="."/>
-  </xsl:template>
-
   <!-- PASS 1: RENAME DZS ELEMENT TO TEI ONES -->
   
   <xsl:template match="DZS">
@@ -163,22 +63,6 @@
             <xsl:when test="$head/DR">country</xsl:when>
           </xsl:choose>
         </xsl:attribute>
-        <!-- Too many exceptions to reliably determine! -->
-        <!--xsl:attribute name="subtype">
-          <xsl:variable name="hw" select="$head/*[1]/G[1]"/>
-          <xsl:choose>
-            <xsl:when test="matches($hw, '\.') and not(
-                            matches($hw, concat($roman-re, '\.[\p{P}\p{Z}]*$')) or 
-                            matches($hw, '[Inc\.|Co\.|Comp\.|Cie\.|S\. A.|Ltd\.|PLC|AG][\p{P}\p{Z}]*$')) or 
-                            matches($hw, ' sv\. ')) or 
-                            )">abbr</xsl:when>
-            <xsl:when test="matches($hw, '^''?\p{Lu}\p{Ll}')">name</xsl:when>
-            <xsl:when test="matches($hw, '^\p{Ll}')">regular</xsl:when>
-            <xsl:otherwise>
-              <xsl:text>regular</xsl:text>
-            </xsl:otherwise>
-          </xsl:choose>
-        </xsl:attribute-->
         <xsl:attribute name="xml:id" select="et:id(*[1]/N[1])"/>
         <xsl:attribute name="n" select="$head/*/name()"/>
         <xsl:apply-templates mode="head" select="$head/*"/>
