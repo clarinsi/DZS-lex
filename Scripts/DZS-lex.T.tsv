@@ -23,7 +23,7 @@ G1	pokrajina
 G2	upravna enota
 G3	mesto
 G4	kraj, ki ni naselje
-G40	???	
+G40	???
 G4H	hribovje
 G4O	otok
 G4R	reka
@@ -34,13 +34,13 @@ G4O	otok
 G4R	reka
 GD	država
 J	???
-L1-L1	organizacija	
+L1-L1	organizacija
 L1-L2	organizacija
 L1	organizacija
 L2-L1	organizacija
 L2-L2	organizacija
 L2	organizacija
-LZ	???	
+LZ	???
 N	???
 P1	???
 P2	???
