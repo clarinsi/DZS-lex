@@ -1,9 +1,9 @@
 BD	družina/skupina
-BG      predhodno biografsko geslo
-BGX     predhodno biografsko geslo
+BG	predhodno biografsko geslo
+BGX	predhodno biografsko geslo
 BM	mitična/svetopisemska oseba
 B	oseba
-E01     sopomenka
+E01	sopomenka
 E02	alternativni zapis imena
 E03	alternativna (stara) oblika imena
 E04	obrazložena kazalka
@@ -17,13 +17,13 @@ E11	latinsko ime (ozvezdij) kazalka
 E12	več kot ena kazalka
 E19	leksikografska okrajšava (nerazvezane okrajšave)
 ES	sinonimi
-EN      variante
+EN	variante
 G0	pokrajina, ki ni upravna enota	
 G1	pokrajina
-G2      upravna enota
+G2	upravna enota
 G3	mesto
 G4	kraj, ki ni naselje
-G40     ???	
+G40	???	
 G4H	hribovje
 G4O	otok
 G4R	reka
@@ -34,13 +34,13 @@ G4O	otok
 G4R	reka
 GD	država
 J	???
-L1-L1   organizacija	
+L1-L1	organizacija	
 L1-L2	organizacija
 L1	organizacija
 L2-L1	organizacija
 L2-L2	organizacija
 L2	organizacija
-LZ      ???	
+LZ	???	
 N	???
 P1	???
 P2	???
