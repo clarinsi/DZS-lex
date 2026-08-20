@@ -251,19 +251,6 @@
     <xsl:apply-templates/>
   </xsl:template>
 
-  <!-- Geographical info, e.g.
-       <FD> časovni pas	srednjeevropski čas + 1 ura površina	390.759 km ... </FD>
-  -->
-  <xsl:template match="FD">
-    <floatingText type="table" n="{name()}">
-      <body>
-	<p>
-          <xsl:apply-templates/>
-	</p>
-      </body>
-    </floatingText>
-  </xsl:template>
-  
   <!-- Rubric with title and text, always(?) inside OPI, e.g.
        <RUB><RUBN><I>Dela</I></RUBN><RUBT><I>Kmetje, funkcionarji in bombe</I>....
        N.B: can have more than one RUBN, hence head hence we have to have divs
@@ -299,14 +286,69 @@
     </p>
   </xsl:template>
   
-  <!-- <FT> is a table inside RUBT, with text (rows, columns) directly in it, sparated by TAB, e.g.
+  <!-- FD = Table for geo info ({crta} is ignore, {par} in LF, {tab} is tab):
+       <FD>{crta}{par}časovni pas{tab}srednjeevropski čas, poletni čas{crta}
+       FT = a table inside RUBT, with text (rows, columns) directly in it, sparated by TAB, e.g.
        <RUBT><FT><U>1</U>/<D>32</D>"	=	0,794 mm <U>1</U>/<D>16</D>"	=	1,588 mm...
-       This is marked on superordinate RUB, i.e. floatingText
   -->
-  <xsl:template match="FT">
-    <xsl:apply-templates/>
+  <xsl:template match="FD | FT">
+    <table n="{name()}">
+      <xsl:variable name="table1">
+        <xsl:apply-templates mode="table1"/>
+      </xsl:variable>
+      <xsl:call-template name="table2">
+        <xsl:with-param name="content" select="$table1"/>
+      </xsl:call-template>
+    </table>
   </xsl:template>
-
+  
+  <xsl:template mode="table1" match="*">
+    <xsl:apply-templates select="."/>
+  </xsl:template>
+  <xsl:template mode="table1" match="text()">
+    <xsl:call-template name="table1"/>
+  </xsl:template>
+  <xsl:template name="table1">
+    <xsl:param name="str" select="."/>
+    <xsl:choose>
+      <xsl:when test="contains($str, '&#10;')">
+        <xsl:call-template name="table1">
+          <xsl:with-param name="str" select="substring-before($str, '&#10;')"/>
+        </xsl:call-template>
+        <row/>
+        <xsl:call-template name="table1">
+          <xsl:with-param name="str" select="substring-after($str, '&#10;')"/>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="contains($str, '&#9;')">
+        <xsl:call-template name="table1">
+          <xsl:with-param name="str" select="substring-before($str, '&#9;')"/>
+        </xsl:call-template>
+        <cell/>
+        <xsl:call-template name="table1">
+          <xsl:with-param name="str" select="substring-after($str, '&#9;')"/>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="normalize-space($str)">
+        <xsl:value-of select="$str"/>
+      </xsl:when>
+    </xsl:choose>
+  </xsl:template>
+  <xsl:template name="table2">
+    <xsl:param name="content"/>
+    <xsl:for-each-group select="$content/node()" group-starting-with="tei:row">
+      <xsl:if test="current-group()/self::text()[. != '']">
+        <row>
+          <xsl:for-each-group select="current-group()[not(self::tei:row)]" group-starting-with="tei:cell">
+            <cell>
+              <xsl:copy-of select="current-group()[not(self::tei:cell)]"/>
+            </cell>
+          </xsl:for-each-group>
+        </row>
+      </xsl:if>
+    </xsl:for-each-group>
+  </xsl:template>
+  
   <!--  Domain e.g. <PODR><I>jezikoslovje:</I></PODR> -->
   <xsl:template match="PODR">
     <usg type="domain" n="{name()}">
@@ -914,7 +956,8 @@
 
   <!-- Write out pc after element, if appropriate -->
   <xsl:template mode="pass3" match="tei:entry//tei:*
-                                    [name() != 'body' and name() != 'div' and name() != 'head' and name() != 'p']">
+                                    [name() != 'body' and name() != 'div' and name() != 'head' and
+                                    name() != 'table' and name() != 'row' and name() != 'cell' and name() != 'p']">
     <xsl:copy>
       <xsl:apply-templates mode="pass3" select="@*"/>
       <xsl:apply-templates mode="pass3"/>
@@ -957,7 +1000,8 @@
   </xsl:template>
 
   <xsl:template mode="pass3" match="tei:entry//text()[normalize-space(.)]
-                                      [not(parent::tei:head or parent::tei:p)]">
+                                    [not(parent::tei:head or
+                                    parent::tei:table or parent::tei:row or parent::tei:cell or parent::tei:p)]">
     <xsl:choose>
       <!-- If there are no following siblings and text ends in end punctuation, remove it -->
       <xsl:when test="not(following-sibling::tei:*) and matches(., concat($endpunct-re, '\s*$'))">
