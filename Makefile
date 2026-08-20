@@ -1,4 +1,10 @@
+yyy:
+	$s -xsl:Scripts/dzs2tei.xsl Lexicon/KNAUR.xml > Lexicon/DZS-lex.body.xml
+
 ### Targets for testing scripts
+test:
+	$s -xsl:Scripts/test.xsl Sample/test.xml
+
 ##  Take existing lexicon and run test dzs2tei-next.xsl on it
 test-next:
 	$s -xsl:Scripts/dzs2tei-next.xsl Sample/DZS-lex-sample.xml > Sample/DZS-lex-sample.test.xml
@@ -10,8 +16,6 @@ test-next-large:
 test-classla:
 	${venv}; ${python} < Sample/test.txt
 
-test:
-	$s -xsl:Scripts/test.xsl Sample/test.xml
 
 #Dump text one word per line from original and TEI and comapre
 #There are legit differences between the two (lemma in senses, punctuation glue)
@@ -36,9 +40,9 @@ sample-tei2txt:
 	$s -xsl:Scripts/tei2txt.xsl Sample/DZS-lex-sample.body.xml > Sample/DZS-lex-sample.txt
 sample-dzs2tei:
 	$s -xsl:Scripts/dzs2tei.xsl Sample/KNAUR-sample.xml > Sample/DZS-lex-sample.body.xml
-	$s stamp="DZS-lex sample" authors-file=../Scripts/DZS-lex.authors.xml front-file=../Scripts/DZS-lex.front.xml \
+	$s stamp="DZS-lex sample" authors-file=../Docs/DZS-lex.authors.xml front-file=../Docs/DZS-lex.front.xml \
 	-xsl:Scripts/dzs2teiHeader.xsl Sample/DZS-lex-sample.body.xml > Sample/DZS-lex-sample.xml
-	cp Scripts/DZS-lex.front.xml Sample/
+	cp Docs/DZS-lex.front.xml Sample/
 	$s -xi -xsl:Scripts/ident.xsl Sample/DZS-lex-sample.xml > Sample/DZS-lex-sample.tei.xml
 	$j TEI/tei_dzslex.rng Sample/DZS-lex-sample.tei.xml
 
@@ -61,9 +65,9 @@ tei2txt:
 	$s -xsl:Scripts/tei2txt.xsl Lexicon/DZS-lex.body.xml > Lexicon/DZS-lex.txt
 dzs2tei:
 	$s -xsl:Scripts/dzs2tei.xsl Lexicon/KNAUR.xml > Lexicon/DZS-lex.body.xml
-	$s stamp="DZS-lex" authors-file=../Scripts/DZS-lex.authors.xml front-file=../Scripts/DZS-lex.front.xml \
+	$s stamp="DZS-lex" authors-file=../Docs/DZS-lex.authors.xml front-file=../Docs/DZS-lex.front.xml \
 	-xsl:Scripts/dzs2teiHeader.xsl Lexicon/DZS-lex.body.xml > Lexicon/DZS-lex.xml
-	cp Scripts/DZS-lex.front.xml Lexicon/
+	cp Docs/DZS-lex.front.xml Lexicon/
 	$s -xi -xsl:Scripts/ident.xsl Lexicon/DZS-lex.xml > Lexicon/DZS-lex.tei.xml
 	$j TEI/tei_dzslex.rng Lexicon/DZS-lex.tei.xml
 	$s -xsl:Scripts/check-links.xsl Lexicon/DZS-lex.tei.xml
@@ -76,11 +80,11 @@ sample:
 	grep -c '<XX>' Sample/KNAUR-sample.xml
 dzs2xml:
 	iconv -f CP1250 -t UTF-8 < Lexicon/KNAUR.648 > Lexicon/KNAUR.txt
-	Scripts/dzs2xml.pl Scripts/DZS-lex.chars.tsv < Lexicon/KNAUR.txt > Lexicon/KNAUR.xml
+	Scripts/dzs2xml.pl Docs/DZS-lex.chars.tsv < Lexicon/KNAUR.txt > Lexicon/KNAUR.xml
 
 ### Support scripts for analysing the source
 show-element:
-	$s element=T -xsl:Scripts/show-element.xsl Lexicon/KNAUR.xml | sort | uniq -c
+	$s element=KR -xsl:Scripts/show-element.xsl Lexicon/KNAUR.xml | sort | uniq -c
 
 
 ############################################
