@@ -654,16 +654,29 @@
        <DX>00348500+00+01</DX>
        <DXA>00348500+00+01A</DXA>
        Some have two DX, some have empty DXA
-
-       F0 is a pointer to externally stored equations and similar
   -->
-  <xsl:template match="DX | DXA | F0">
+  <xsl:template match="DX | DXA">
     <xsl:if test="normalize-space(.)">
       <note type="pointer" n="{name()}">
         <xsl:apply-templates/>
       </note>
     </xsl:if>
   </xsl:template>
+
+  <!-- F0 is a pointer to externally stored formulas -->
+  <xsl:template match="F0">
+    <xsl:if test="normalize-space(.)">
+      <xsl:if test="preceding-sibling::node()[1][self::text()]">
+        <xsl:if test="preceding-sibling::node()[1][self::text()][not(ends-with(., ' '))]">
+          <xsl:text>&#32;</xsl:text>
+        </xsl:if>
+      </xsl:if>
+      <graphic type="formula" n="{name()}">
+        <xsl:attribute name="url" select="concat($formulas_directory, '/', normalize-space(.), '.', $formulas_extension)"/>
+      </graphic>
+    </xsl:if>
+  </xsl:template>
+
 
   <!-- REMOVED ELEMENTS -->
   

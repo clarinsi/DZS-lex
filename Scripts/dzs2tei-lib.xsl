@@ -7,6 +7,8 @@
 		version="2.0">
 
   <xsl:param name="id_prefix">dzs</xsl:param>
+  <xsl:param name="formulas_directory">Formulas</xsl:param>
+  <xsl:param name="formulas_extension">tif</xsl:param>
   
   <!-- Punctuation that appears at start or end of element content and should be moved out of the element -->
   <xsl:variable name="puncts">
