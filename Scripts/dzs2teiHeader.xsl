@@ -46,6 +46,7 @@
         </titleStmt>
         <editionStmt>
           <edition>Version 1.0</edition>
+          <funder>ARIS raziskovalni program P6-0436: Digitalna humanistika: viri, orodja in metode</funder>
         </editionStmt>
         <extent/>
         <publicationStmt>
