@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Reduce the DZS lexicon in TEI by removing all admin inf and @n
+<!-- Reduce the DZS encyclopedia in TEI by removing all admin inf and @n
      and change no-break space to ordinary one 
 -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"

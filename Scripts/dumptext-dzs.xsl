@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Dump text from original DZS lexicon -->
+<!-- Dump text from original DZS encyclopedia -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:tei="http://www.tei-c.org/ns/1.0" 
 		xmlns:et="http://nl.ijs.si/et" 

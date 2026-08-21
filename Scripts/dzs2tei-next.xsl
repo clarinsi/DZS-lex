@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Conversion of DZS lexicon in XML to TEI Lex0 -->
+<!-- Conversion of DZS encyclopedia in XML to TEI Lex0 -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:tei="http://www.tei-c.org/ns/1.0" 
 		xmlns="http://www.tei-c.org/ns/1.0" 

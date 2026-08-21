@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Sample source DZS lexicon -->
+<!-- Sample source DZS encyclopedia -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:et="http://nl.ijs.si/et" 
 		exclude-result-prefixes="et"
@@ -13,9 +13,9 @@
 
   <xsl:template match="DZS">
     <xsl:comment>
-      <xsl:text> This sample of the DZS lexicon contain cca 1/</xsl:text>
+      <xsl:text> This sample of the DZS encyclopedia contain cca 1/</xsl:text>
       <xsl:value-of select="$ratio"/>
-      <xsl:text> of the complete lexicon </xsl:text>
+      <xsl:text> of the complete encyclopedia </xsl:text>
     </xsl:comment>
     <xsl:text>&#10;</xsl:text>
     <xsl:copy>

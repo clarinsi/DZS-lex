@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Construct root with teiHeader for DZS lexicon -->
+<!-- Construct root with teiHeader for DZS encyclopedia -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns="http://www.tei-c.org/ns/1.0" 
 		xmlns:tei="http://www.tei-c.org/ns/1.0" 
@@ -40,7 +40,7 @@
       <fileDesc>
         <titleStmt>
           <title xml:lang="sl">Veliki splošni leksikon DZS</title>
-          <title xml:lang="sl">Large General Lexicon DZS</title>
+          <title xml:lang="sl">Large General Encyclopedia DZS</title>
           <respStmt/>
         </titleStmt>
         <editionStmt>
