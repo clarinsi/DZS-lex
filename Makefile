@@ -49,7 +49,30 @@ sample-dzs2tei:
 ### Targets to run on complete source
 nohup:
 	nohup time make all > nohup.all &
-all:	prep sample-dzs2tei dzs2tei tei2txt ana conll 2vert cqp
+all:	prep sample-dzs2tei dzs2tei tei2txt ana conll 2vert cqp pack
+pack:
+	rm -fr Lexicon/Packed/*
+	mkdir Lexicon/Packed/DZS-lex.orig
+	cp Docs/README.orig.txt Lexicon/Packed/DZS-lex.orig/00README.txt
+	cp Lexicon/DZS-lex.front.pdf Lexicon/Packed/DZS-lex.orig/
+	cp Lexicon/KNAUR.648 Lexicon/Packed/DZS-lex.orig/
+	cp Lexicon/KNAUR.xml Lexicon/Packed/DZS-lex.orig/
+	cp Docs/DZS-lex.chars.tsv Lexicon/Packed/DZS-lex.orig/
+	cd Lexicon/Packed/; zip -r DZS-lex.orig.zip DZS-lex.orig
+	mkdir Lexicon/Packed/DZS-lex.TEI
+	cp Docs/README.tei.txt Lexicon/Packed/DZS-lex.TEI/00README.txt
+	cp Lexicon/DZS-lex.xml Lexicon/Packed/DZS-lex.TEI/
+	cp Lexicon/DZS-lex.front.xml Lexicon/Packed/DZS-lex.TEI/
+	cp Lexicon/DZS-lex.body.xml Lexicon/Packed/DZS-lex.TEI/
+	cp -r Lexicon/Formulas Lexicon/Packed/DZS-lex.TEI/Formulas
+	cd Lexicon/Packed/; zip -r DZS-lex.TEI.zip DZS-lex.TEI
+	mkdir Lexicon/Packed/DZS-lex.ana
+	cp Docs/README.ana.txt Lexicon/Packed/DZS-lex.ana/00README.txt
+	cp Lexicon/DZS-lex.conllu Lexicon/Packed/DZS-lex.ana/
+	cp Lexicon/DZS-lex.vert.gz Lexicon/Packed/DZS-lex.ana/
+	gunzip Lexicon/Packed/DZS-lex.ana/DZS-lex.vert.gz
+	cp /project/clarinsi-cqp/registry/dzslex Lexicon/Packed/DZS-lex.ana/dzslex.regi
+	cd Lexicon/Packed/; zip -r DZS-lex.ana.zip DZS-lex.ana
 cqp:
 	cd /project/clarinsi-cqp; make ske-beta CORPUS=dzslex
 2vert:
