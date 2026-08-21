@@ -88,7 +88,7 @@ tei2txt:
 	$s -xsl:Scripts/tei2txt.xsl Lexicon/DZS-lex.body.xml > Lexicon/DZS-lex.txt
 dzs2tei:
 	$s -xsl:Scripts/dzs2tei.xsl Lexicon/KNAUR.xml > Lexicon/DZS-lex.body.xml
-	$s stamp="DZS-lex" authors-file=../Docs/DZS-lex.authors.xml front-file=../Docs/DZS-lex.front.xml \
+	$s stamp="DZS-lex" authors=../Docs/DZS-lex.authors.xml source=../Docs/DZS-lex.source.xml front=../Docs/DZS-lex.front.xml \
 	-xsl:Scripts/dzs2teiHeader.xsl Lexicon/DZS-lex.body.xml > Lexicon/DZS-lex.xml
 	cp Docs/DZS-lex.front.xml Lexicon/
 	$s -xi -xsl:Scripts/ident.xsl Lexicon/DZS-lex.xml > Lexicon/DZS-lex.tei.xml
