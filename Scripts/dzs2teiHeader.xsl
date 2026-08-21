@@ -15,8 +15,9 @@
   
   <xsl:param name="stamp">DZS-lex</xsl:param>
   <xsl:param name="handle">http://hdl.handle.net/11356/2332</xsl:param>
-  <xsl:param name="authors-file"/>
-  <xsl:param name="front-file"/>
+  <xsl:param name="source"/>
+  <xsl:param name="authors"/>
+  <xsl:param name="front"/>
   <xsl:param name="today" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
   
   <xsl:variable name="xml-model">
@@ -48,7 +49,8 @@
         </editionStmt>
         <extent/>
         <publicationStmt>
-          <publisher>CLARIN.SI</publisher>
+          <publisher>Center za jezikovne vire in tehnologije, Univerza v Ljubljani</publisher>
+          <distributor>CLARIN.SI</distributor>
           <idno type="PID" subtype="handle"/>
           <availability>
             <p xml:lang="sl">Avtorske pravice za to izdajo ureja licenca
@@ -60,19 +62,7 @@
           </availability>
           <date/>
         </publicationStmt>
-        <sourceDesc>
-          <biblStruct>
-            <monogr>
-              <title>VELIKI splošni leksikon [Elektronski vir]</title>
-              <idno type="ISBN">978-961-6474-90-0</idno>
-              <idno type="COBISS.SI-ID">259150339</idno>
-              <imprint>
-                <publisher>Amebis, d.o.o.</publisher>
-                <date>2025</date>
-              </imprint>
-            </monogr>
-          </biblStruct>
-        </sourceDesc>
+        <sourceDesc/>
       </fileDesc>
       <encodingDesc>
         <projectDesc>
@@ -104,7 +94,7 @@
         <xsl:with-param name="TEI" select="/"/>
       </xsl:apply-templates>
       <text xml:lang="sl" xml:id="{concat($id_prefix, '.text')}">
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="{replace($front-file, '^.+/', '')}"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="{replace($front, '^.+/', '')}"/>
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="{replace(base-uri(),  '^.+/', '')}"/>
       </text>
     </TEI>
@@ -126,7 +116,7 @@
   </xsl:template>
   
   <xsl:template mode="header" match="tei:titleStmt/tei:respStmt">
-    <xsl:copy-of select="document($authors-file)/tei:titleStmt/tei:respStmt"/>
+    <xsl:copy-of select="document($authors)/tei:titleStmt/tei:respStmt"/>
   </xsl:template>
   
   <xsl:template mode="header" match="tei:publicationStmt/tei:date">
@@ -149,6 +139,10 @@
         <xsl:text> pomenov</xsl:text>
       </measure>
     </xsl:copy>
+  </xsl:template>
+  
+  <xsl:template mode="header" match="tei:sourceDesc">
+    <xsl:copy-of select="document($source)"/>
   </xsl:template>
   
   <xsl:template mode="header" match="tei:tagsDecl">

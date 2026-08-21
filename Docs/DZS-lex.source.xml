@@ -1,0 +1,136 @@
+<sourceDesc xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sl">
+  <biblFull>
+    <titleStmt>
+      <title>Veliki splošni leksikon: neobjavljena različica</title>
+      <editor>Pogačnik, Aleš</editor>
+    </titleStmt>
+    <publicationStmt>
+      <authority/>
+      <date>2010</date>
+      <idno type="filename">KNAUR.648</idno>
+    </publicationStmt>
+    <sourceDesc>
+      <biblFull>
+        <titleStmt>
+          <title>Veliki splošni leksikon: priročna izdaja v dvajsetih knjigah</title>
+          <editor>Pogačnik, Aleš</editor>
+          <editor>Podobnik, Klemen</editor>
+          <author>Bele, Ivan</author>
+          <author>Galič, Aleš</author>
+          <author>Grilc, Peter</author>
+          <author>Jakulin, Vid</author>
+          <author>Juhart, Miha</author>
+          <author>Kristan, Ivan</author>
+          <author>Polajnar-Pavčnik, Ada</author>
+          <author>Simič, Vladimir</author>
+          <respStmt>
+            <persName>Pogačnik, Aleš</persName> <resp>prireditelj</resp>
+          </respStmt>
+          <respStmt>
+            <persName>Zavrl, Irena</persName> <resp>prevajalec</resp>
+          </respStmt>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>DZS</publisher>
+          <pubPlace>Ljubljana</pubPlace>
+          <date>2006</date>
+          <idno type="COBISS.SI-ID">224226304</idno>
+          <idno type="ISBN">86-341-4129-2 ; 86-341-4130-6 ; 86-341-4131-4 ; 86-341-4132-2 ;
+          86-341-4133-0 ; 86-341-4134-9 ; 86-341-4135-7 ; 86-341-4136-5 ; 86-341-4137-3 ;
+          86-341-4138-1 ; 86-341-4139-X ; 86-341-4140-3 ; 86-341-4141-1 ; 86-341-4142-X ;
+          86-341-4143-8 ; 86-341-4144-6 ; 86-341-4145-4 ; 86-341-4146-2 ; 86-341-4147-0 ;
+          86-341-4148-9</idno>
+        </publicationStmt>
+        <sourceDesc>
+          <biblFull>
+            <titleStmt>
+              <title type="main">Veliki splošni leksikon</title>
+              <title type="sub">Elektronska izd. na plošči CD-rom</title>
+              <editor>Pogačnik, Aleš</editor>
+              <editor>Vidmar, Ksenija H.</editor>
+              <respStmt>
+                <persName>Topole Maja</persName> <resp>prevajalec</resp>
+              </respStmt>
+              <respStmt>
+                <persName>Pavšek, Miha</persName> <resp>fotograf</resp>
+              </respStmt>
+              <respStmt>
+                <persName>Pavšek, Miha</persName> <resp>prevajalec</resp>
+              </respStmt>
+              <respStmt>
+                <persName>Gabrovec, Matej</persName> <resp>prevajalec</resp>
+              </respStmt>
+              <respStmt>
+                <persName>Perko, Drago</persName> <resp>prireditelj</resp>
+              </respStmt>
+              <respStmt>
+                <persName>Urbanc, Mimi</persName> <resp>prireditelj</resp>
+              </respStmt>
+              <respStmt>
+                <persName>Repolusk, Peter</persName> <resp>prireditelj</resp>
+              </respStmt>
+              <respStmt>
+                <persName>Kladnik, Drago</persName> <resp>prireditelj</resp>
+              </respStmt>
+              <respStmt>
+                <persName>Pavšek, Miha</persName> <resp>prireditelj</resp>
+              </respStmt>
+              <respStmt>
+                <persName>Hrvatin, Mauro</persName> <resp>prireditelj</resp>
+              </respStmt>
+              <respStmt>
+                <persName>Stergar, Janez</persName> <resp>prevajalec, področni urednik, prireditelj</resp>
+              </respStmt>
+              <respStmt>
+                <persName>Jesih, Boris</persName> <resp>prevajalec</resp>
+              </respStmt>
+              <respStmt>
+                <persName>Vilhar, Nada</persName> <resp>prevajalec</resp>
+              </respStmt>
+              <respStmt>
+                <persName>Prpič, Marko</persName> <resp>prireditelj</resp>
+              </respStmt>
+            </titleStmt>
+            <publicationStmt>
+              <publisher>DZS</publisher>
+              <pubPlace>Ljubljana</pubPlace>
+              <date>2005</date>
+              <idno type="COBISS.SI-ID">218770944</idno>
+              <idno type="ISBN">86-341-3085-1</idno>
+            </publicationStmt>
+            <sourceDesc>
+              <biblFull>
+                <titleStmt>
+                  <title>Veliki splošni leksikon: v osmih knjigah</title>
+                  <editor>Javornik, Marija</editor>
+                </titleStmt>
+                <publicationStmt>
+                  <publisher>DZS</publisher>
+                  <pubPlace>Ljubljana</pubPlace>
+                  <date>1997-1998</date>
+                  <idno type="COBISS.SI-ID">16769373</idno>
+                  <idno type="ISBN">86-341-1284-5 ; 86-341-2029-5 ; 86-341-2030-9 ; 86-341-2031-7 ;
+                  86-341-2032-5 ; 86-341-2033-3 ; 86-341-2034-1 ; 86-341-2035-X</idno>
+                </publicationStmt>
+                <sourceDesc>
+                  <biblFull>
+                    <titleStmt>
+                      <title>Der Knaur: Universallexikon</title>
+                      <editor>Keienburg, Wolf et al.</editor>
+                    </titleStmt>
+                    <publicationStmt>
+                      <publisher>Lexikographisches Institut</publisher>
+                      <pubPlace>München</pubPlace>
+                      <date>1990-1992</date>
+                      <idno type="COBISS.SI-ID">4848717</idno>
+                    </publicationStmt>
+                  </biblFull>
+                </sourceDesc>
+              </biblFull>
+            </sourceDesc>
+          </biblFull>
+        </sourceDesc>
+      </biblFull>
+    </sourceDesc>
+  </biblFull>
+</sourceDesc>

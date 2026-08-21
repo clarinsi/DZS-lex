@@ -40,7 +40,7 @@ sample-tei2txt:
 	$s -xsl:Scripts/tei2txt.xsl Sample/DZS-lex-sample.body.xml > Sample/DZS-lex-sample.txt
 sample-dzs2tei:
 	$s -xsl:Scripts/dzs2tei.xsl Sample/KNAUR-sample.xml > Sample/DZS-lex-sample.body.xml
-	$s stamp="DZS-lex sample" authors-file=../Docs/DZS-lex.authors.xml front-file=../Docs/DZS-lex.front.xml \
+	$s stamp="DZS-lex sample" authors=../Docs/DZS-lex.authors.xml source=../Docs/DZS-lex.source.xml front=../Docs/DZS-lex.front.xml \
 	-xsl:Scripts/dzs2teiHeader.xsl Sample/DZS-lex-sample.body.xml > Sample/DZS-lex-sample.xml
 	cp Docs/DZS-lex.front.xml Sample/
 	$s -xi -xsl:Scripts/ident.xsl Sample/DZS-lex-sample.xml > Sample/DZS-lex-sample.tei.xml
