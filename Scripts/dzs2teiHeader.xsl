@@ -21,7 +21,7 @@
   <xsl:param name="today" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
   
   <xsl:variable name="xml-model">
-    <xsl:variable name="schema_url">../TEI/tei_dzslex.rng</xsl:variable>
+    <xsl:variable name="schema_url">Schema/tei_dzslex.rng</xsl:variable>
     <!--xsl:variable name="schema_url">TEILex0.rng</xsl:variable-->
     <xsl:variable name="namespace">http://relaxng.org/ns/structure/1.0</xsl:variable>
     <xsl:text>&#10;</xsl:text>
