@@ -65,6 +65,8 @@ pack:
 	cp Lexicon/DZS-lex.front.xml Lexicon/Packed/DZS-lex.TEI/
 	cp Lexicon/DZS-lex.body.xml Lexicon/Packed/DZS-lex.TEI/
 	cp -r Lexicon/Formulas Lexicon/Packed/DZS-lex.TEI/Formulas
+	mkdir Lexicon/Packed/DZS-lex.TEI/Schema
+	cp TEI/tei_dzslex.* Lexicon/Packed/DZS-lex.TEI/Schema
 	cd Lexicon/Packed/; zip -r DZS-lex.TEI.zip DZS-lex.TEI
 	mkdir Lexicon/Packed/DZS-lex.ana
 	cp Docs/README.ana.txt Lexicon/Packed/DZS-lex.ana/00README.txt
